@@ -33,7 +33,10 @@ def language_model():
     corpus_raw_text = brown.sents(categories='news')
     corpus_text = []
     gram_count = {}
+
     for sents in corpus_raw_text:
+        sents = ['<s>'] + sents + ['</s>']
+
         # remove string.punctuation
         for words in sents[::]:  # use [::] to remove the continuous ';' ';'
             if (words in ['\'\'', '``', ',', '--', ';', ':', '(', ')', '&', '\'', '!', '?', '.']):  sents.remove(words)
@@ -55,14 +58,17 @@ def language_model():
                     else:
                         gram_count[key] = 1
 
-    print(corpus_text)
+
 
 
 
 if __name__ == '__main__':
     # vocab, testdata = preprocessing()
 
-    language_model()
+    # language_model()
+
+
+
 
 
 
