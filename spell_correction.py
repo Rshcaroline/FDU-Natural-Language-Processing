@@ -6,6 +6,9 @@ from nltk.corpus import brown
 from nltk.corpus import reuters
 from collections import deque
 
+printpath = './print.txt'
+printfile = open(printpath, 'w')
+
 # preprocessing
 def preprocessing(ngram):
     # store the vocabulary to a list
@@ -83,7 +86,7 @@ def language_model(gram_count, V, data, ngram):   # given a sentence, predict th
             else:
                 pi = 1 / (V + 1)
 
-            print(keys + '/V=' + str(pi))
+            printfile.write(keys + '/V=' + str(pi) + '\n')
             p.append(np.log(pi))
     else:
         for i in range(ngram, len(data)):
@@ -96,7 +99,7 @@ def language_model(gram_count, V, data, ngram):   # given a sentence, predict th
             else:
                 pi = 1 / (V + 1)
 
-            print(keys + '/' + keym + '=' + str(pi))
+            printfile.write(keys + '/' + keym + '=' + str(pi) + '\n')
             p.append(np.log(pi))
 
     prob = sum(p)
@@ -115,7 +118,7 @@ def make_trie(words):
         t[END] = {}
     return trie
 
-def check_fuzzy(trie, word, path='', tol=1):
+def check_fuzzy(trie, word, path='', tol=1):  # cost about 650s
     if tol < 0:
         return set()
     elif word == '':
@@ -136,7 +139,7 @@ def check_fuzzy(trie, word, path='', tol=1):
                 ps |= check_fuzzy(trie[k], word[2]+word[1]+word[3:], path+k, tol1-1)
         return ps
 
-def check_iter(trie, word, tol=1):
+def check_iter(trie, word, tol=1):    # only cost 25s
     que = deque([(trie, word, '', tol)])
     while que:
         trie, word, path, tol = que.popleft()
@@ -183,12 +186,12 @@ def channel_model(vocab, testdata, gram_count, vocab_corpus, trie, ngram):
                 continue
                 # resultfile.write(data[int(item[0]) - 1])
             else:
-                print(item[0], item[1], words)
+                printfile.write(item[0] + ' ' + item[1] + ' ' + words + '\n')
                 if (list(check_fuzzy(trie, words, tol=1))):
                     candidate_list = list(check_fuzzy(trie, words, tol=1))
                 else:
                     candidate_list = list(check_fuzzy(trie, words, tol=2))
-                print(candidate_list)
+                printfile.write(' '.join(candidate_list) + '\n')
                 candi_proba = []
                 for candidate in candidate_list:
                     if(ngram == 0):
@@ -198,12 +201,12 @@ def channel_model(vocab, testdata, gram_count, vocab_corpus, trie, ngram):
                         word_index = item[2][1:-1].index(words)
                         phase = item[2][1:-1][(word_index - ngram): word_index] + [candidate]
                         # phase = ' '.join(phase)
-                        print(phase)
+                        printfile.write(' '.join(phase) + '\n')
                         candi_proba.append(
                             language_model(gram_count, len(vocab_corpus), phase, ngram))  # 0 = unigram, 1 = bigram
 
                 index = candi_proba.index(max(candi_proba))
-                print(words, candidate_list[index])
+                printfile.write(words + ' ' + candidate_list[index] + '\n')
                 data[int(item[0]) - 1] = data[int(item[0]) - 1].replace(words, candidate_list[index])
 
         resultfile.write(data[int(item[0]) - 1])
@@ -221,7 +224,7 @@ def eval():
         resultset = set(nltk.word_tokenize(resultline))
         if ansset == resultset:
             count += 1
-    print("Accuracy is : %.2f%%" % (count * 1.00 / 10))
+    printfile.write("Accuracy is : %.2f%%" % (count * 1.00 / 10) + '\n')
 
 if __name__ == '__main__':
     start = time.time()
@@ -235,7 +238,7 @@ if __name__ == '__main__':
 
     eval()
     stop = time.time()
-    print('time: ', stop - start)
+    printfile.write('time: ' + str(stop - start) + '\n')
 
 
 
