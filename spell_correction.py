@@ -231,14 +231,14 @@ if __name__ == '__main__':
     start = time.time()
 
     print('Doing preprocessing, computing things ... Please wait ...')
-    vocab, testdata, gram_count, vocab_corpus = preprocessing(0)
+    vocab, testdata, gram_count, vocab_corpus = preprocessing(2)
     trie = make_trie(vocab)
 
     stop = time.time()
     printfile.write('Preprocessing time: ' + str(stop - start) + '\n')
 
     print('Doing Spell Correcting ...')
-    channel_model(vocab, testdata, gram_count, vocab_corpus, trie, 0)
+    channel_model(vocab, testdata, gram_count, vocab_corpus, trie, 2)
 
     eval()
     stop = time.time()
