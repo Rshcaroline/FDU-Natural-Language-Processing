@@ -1,0 +1,6399 @@
+Accuracy is : 82.20%
+time: 126.66334891319275
+
+1 1 protectionst
+protectionist
+protectionist/V=0.00010981042885330024
+protectionst protectionist
+2 1 Tkyo
+Tokyo
+Tokyo/V=0.00018476040410237817
+Tkyo Tokyo
+3 1 retaiation
+retaliation
+retaliation/V=0.0001411848370971003
+retaiation retaliation
+4 1 tases
+cases bases vases gases Cases oases Vases takes tapes tales taxes tasks tastes
+cases/V=2.440231752295561e-05
+bases/V=5.229068040633345e-06
+vases/V=1.743022680211115e-06
+gases/V=6.97209072084446e-06
+Cases/V=1.743022680211115e-06
+oases/V=1.743022680211115e-06
+Vases/V=1.743022680211115e-06
+takes/V=2.9631385563588955e-05
+tapes/V=1.743022680211115e-06
+tales/V=1.743022680211115e-06
+taxes/V=0.00013246972369604474
+tasks/V=3.48604536042223e-06
+tastes/V=3.48604536042223e-06
+tases taxes
+5 1 busines
+businesss
+businesss/V=1.743022680211115e-06
+busines businesss
+7 1 Taawin
+Darwin Twain Train Twain Tanin Taiwan Tanin Tanin
+Darwin/V=1.743022680211115e-06
+Twain/V=1.743022680211115e-06
+Train/V=1.743022680211115e-06
+Twain/V=1.743022680211115e-06
+Tanin/V=1.743022680211115e-06
+Taiwan/V=0.00020916272162533378
+Tanin/V=1.743022680211115e-06
+Tanin/V=1.743022680211115e-06
+Taawin Taiwan
+8 1 seriousnyss
+seriousness
+seriousness/V=3.48604536042223e-06
+seriousnyss seriousness
+9 1 aganst
+against
+against/V=0.000848852045262813
+aganst against
+10 1 bililon
+billion
+billion/V=0.005514923760187968
+bililon billion
+11 1 sewll
+swell sell
+swell/V=3.48604536042223e-06
+sell/V=0.00012375461029498917
+sewll sell
+12 1 importsi
+imports
+imports/V=0.000606571892713468
+importsi imports
+13 1 Sheem
+Sheen Sheep Sheer
+Sheen/V=3.48604536042223e-06
+Sheep/V=1.743022680211115e-06
+Sheer/V=1.743022680211115e-06
+Sheem Sheen
+14 1 wsohe
+she shoe sole some sore soe swore whose whole whore whoe wrote whoe woke wore wove woe wohd
+she/V=3.48604536042223e-05
+shoe/V=8.715113401055575e-06
+sole/V=5.229068040633345e-06
+some/V=0.0005263928494237567
+sore/V=3.48604536042223e-06
+soe/V=1.743022680211115e-06
+swore/V=1.743022680211115e-06
+whose/V=4.3575567005277876e-05
+whole/V=4.880463504591122e-05
+whore/V=1.743022680211115e-06
+whoe/V=1.743022680211115e-06
+wrote/V=1.5687204121900034e-05
+whoe/V=1.743022680211115e-06
+woke/V=1.743022680211115e-06
+wore/V=1.743022680211115e-06
+wove/V=1.743022680211115e-06
+woe/V=1.743022680211115e-06
+wohd/V=1.743022680211115e-06
+wsohe some
+15 1 Koreva
+Korea
+Korea/V=0.0002004476082242782
+Koreva Korea
+16 1 Japn
+Jan Japs Japan
+Jan/V=0.0001533859958585781
+Japs/V=1.743022680211115e-06
+Japan/V=0.001336898395721925
+Japn Japan
+17 1 semicondctors
+semiconductors
+semiconductors/V=0.00010981042885330024
+semicondctors semiconductors
+18 1 advantagne
+advantage
+advantage/V=4.008952164485564e-05
+advantagne advantage
+19 1 Lawrenc
+Lawrencee
+Lawrencee/V=1.743022680211115e-06
+Lawrenc Lawrencee
+21 1 disadxantage
+disadvantage
+disadvantage/V=8.715113401055575e-06
+disadxantage disadvantage
+22 1 rxpoet
+Export export poet report
+Export/V=1.5687204121900034e-05
+export/V=0.00031200105975778955
+poet/V=1.743022680211115e-06
+report/V=0.0005333649401446012
+rxpoet report
+22 1 rxpoets
+Exports exports poets reports
+Exports/V=7.843602060950017e-05
+exports/V=0.0007041811628052904
+poets/V=1.743022680211115e-06
+reports/V=4.3575567005277876e-05
+rxpoets exports
+23 1 conceern
+concern concern
+concern/V=6.623486184802237e-05
+concern/V=6.623486184802237e-05
+conceern concern
+24 1 amtter
+matter
+matter/V=3.3117430924011184e-05
+amtter matter
+25 1 cenntred
+centred centred
+centred/V=8.715113401055575e-06
+centred/V=8.715113401055575e-06
+cenntred centred
+26 1 trad
+tradee Mrad Grad brad grad toad triad tread trap tray
+tradee/V=1.743022680211115e-06
+Mrad/V=1.743022680211115e-06
+Grad/V=1.743022680211115e-06
+brad/V=1.743022680211115e-06
+grad/V=1.743022680211115e-06
+toad/V=1.743022680211115e-06
+triad/V=1.743022680211115e-06
+tread/V=1.743022680211115e-06
+trap/V=1.743022680211115e-06
+tray/V=1.743022680211115e-06
+trad tradee
+27 1 Liberala
+Liberals Liberal
+Liberals/V=3.48604536042223e-06
+Liberal/V=2.091627216253338e-05
+Liberala Liberal
+28 1 inoclude
+include
+include/V=0.0004897893731393233
+inoclude include
+29 1 fcsial
+Musial filial finial fiscal facial facial facial
+Musial/V=1.743022680211115e-06
+filial/V=1.743022680211115e-06
+finial/V=1.743022680211115e-06
+fiscal/V=0.00051593471334249
+facial/V=1.743022680211115e-06
+facial/V=1.743022680211115e-06
+facial/V=1.743022680211115e-06
+fcsial fiscal
+30 1 Representetive
+Representative
+Representative/V=8.19220659699224e-05
+Representetive Representative
+31 1 ootput
+output
+output/V=0.0001272406556554114
+ootput output
+32 1 methids
+methods
+methods/V=1.9173249482322263e-05
+methids methods
+33 1 producton
+production
+production/V=0.000454928919535101
+producton production
+34 1 parep
+prep pare
+prep/V=1.743022680211115e-06
+pare/V=3.48604536042223e-06
+parep pare
+35 1 endergy
+energy
+energy/V=0.00013246972369604474
+endergy energy
+36 1 Japnese
+Japanese
+Japanese/V=0.0008017904328971128
+Japnese Japanese
+37 1 Agencay
+Agency
+Agency/V=2.440231752295561e-05
+Agencay Agency
+38 1 energyr
+energy
+energy/V=0.00013246972369604474
+energyr energy
+39 1 pfovided
+provided
+provided/V=4.3575567005277876e-05
+pfovided provided
+40 1 imhorts
+imports
+imports/V=0.000606571892713468
+imhorts imports
+41 1 incease
+increase incense
+increase/V=0.0007704160246533128
+incense/V=1.743022680211115e-06
+incease increase
+42 1 quartee
+quarter quartet
+quarter/V=0.0022345550760306493
+quartet/V=1.743022680211115e-06
+quartee quarter
+43 1 expanted
+expanded
+expanded/V=3.3117430924011184e-05
+expanted expanded
+44 1 Exeport
+Export
+Export/V=1.5687204121900034e-05
+Exeport Export
+45 1 clotcing
+clothing
+clothing/V=2.2659294842744493e-05
+clotcing clothing
+46 1 arnuod
+around argued
+around/V=0.0002457661979097672
+argued/V=8.715113401055575e-06
+arnuod around
+47 1 intehnational
+international
+international/V=0.000273654560793145
+intehnational international
+49 1 markats
+markets
+markets/V=0.0004374986927329898
+markats markets
+50 1 aiagnst
+against
+against/V=0.000848852045262813
+aiagnst against
+51 1 movament
+movement
+movement/V=1.5687204121900034e-05
+movament movement
+52 1 dotay
+stay iota Nogay Today Total Stay Somay Doaty botany foray Cotty hotly Rotary today total rotary stay Stay okay ditty duty data decay delay day dowry doan dots dots dot
+stay/V=2.2659294842744493e-05
+iota/V=1.743022680211115e-06
+Nogay/V=1.743022680211115e-06
+Today/V=3.3117430924011184e-05
+Total/V=9.238020205118909e-05
+Stay/V=1.743022680211115e-06
+Somay/V=1.743022680211115e-06
+Doaty/V=1.743022680211115e-06
+botany/V=1.743022680211115e-06
+foray/V=1.743022680211115e-06
+Cotty/V=1.743022680211115e-06
+hotly/V=3.48604536042223e-06
+Rotary/V=1.743022680211115e-06
+today/V=0.0004008952164485564
+total/V=0.0004218114886110898
+rotary/V=1.743022680211115e-06
+stay/V=2.2659294842744493e-05
+Stay/V=1.743022680211115e-06
+okay/V=3.48604536042223e-06
+ditty/V=1.743022680211115e-06
+duty/V=3.137440824380007e-05
+data/V=0.00019521854018364487
+decay/V=1.743022680211115e-06
+delay/V=2.9631385563588955e-05
+day/V=0.00015687204121900034
+dowry/V=1.743022680211115e-06
+doan/V=1.743022680211115e-06
+dots/V=1.743022680211115e-06
+dots/V=1.743022680211115e-06
+dot/V=1.743022680211115e-06
+dotay total
+53 1 racgo
+cargo cacao sago Targo Margo Draco Fargo facto Waco Cargo tango ago rangy range rang rancho ratio radio rags rage rag racks rack racy races raced race rack racy race
+cargo/V=1.394418144168892e-05
+cacao/V=1.743022680211115e-06
+sago/V=1.743022680211115e-06
+Targo/V=1.743022680211115e-06
+Margo/V=1.743022680211115e-06
+Draco/V=1.743022680211115e-06
+Fargo/V=6.97209072084446e-06
+facto/V=5.229068040633345e-06
+Waco/V=1.743022680211115e-06
+Cargo/V=5.229068040633345e-06
+tango/V=1.743022680211115e-06
+ago/V=0.0005054765772612233
+rangy/V=1.743022680211115e-06
+range/V=0.00012375461029498917
+rang/V=1.743022680211115e-06
+rancho/V=1.743022680211115e-06
+ratio/V=4.70616123657001e-05
+radio/V=6.97209072084446e-06
+rags/V=1.743022680211115e-06
+rage/V=1.743022680211115e-06
+rag/V=1.743022680211115e-06
+racks/V=1.743022680211115e-06
+rack/V=1.743022680211115e-06
+racy/V=1.743022680211115e-06
+races/V=1.743022680211115e-06
+raced/V=1.743022680211115e-06
+race/V=1.743022680211115e-06
+rack/V=1.743022680211115e-06
+racy/V=1.743022680211115e-06
+race/V=1.743022680211115e-06
+racgo ago
+54 1 Coincul
+Council Consul
+Council/V=7.146392988865572e-05
+Consul/V=1.743022680211115e-06
+Coincul Council
+56 1 affecced
+affected
+affected/V=9.238020205118909e-05
+affecced affected
+57 1 evfect
+effect
+effect/V=0.000212648766985756
+evfect effect
+58 1 tobacoc
+tobacco
+tobacco/V=1.9173249482322263e-05
+tobacoc tobacco
+59 1 rithee
+Either either wither withes writhe writhed writhe lithe lithe Lithe Lithe hither tithes thee rather richer riches rite rites rite
+Either/V=1.743022680211115e-06
+either/V=3.48604536042223e-05
+wither/V=1.743022680211115e-06
+withes/V=1.743022680211115e-06
+writhe/V=1.743022680211115e-06
+writhed/V=1.743022680211115e-06
+writhe/V=1.743022680211115e-06
+lithe/V=1.743022680211115e-06
+lithe/V=1.743022680211115e-06
+Lithe/V=1.743022680211115e-06
+Lithe/V=1.743022680211115e-06
+hither/V=1.743022680211115e-06
+tithes/V=1.743022680211115e-06
+thee/V=1.743022680211115e-06
+rather/V=7.843602060950017e-05
+richer/V=1.743022680211115e-06
+riches/V=1.743022680211115e-06
+rite/V=1.743022680211115e-06
+rites/V=1.743022680211115e-06
+rite/V=1.743022680211115e-06
+rithee rather
+60 1 beng
+Keng bang being beg bent bend
+Keng/V=1.743022680211115e-06
+bang/V=3.48604536042223e-06
+being/V=0.0002109057443055449
+beg/V=3.48604536042223e-06
+bent/V=1.743022680211115e-06
+bend/V=1.743022680211115e-06
+beng being
+61 1 rubbes
+rubies rubber rubbed
+rubies/V=1.743022680211115e-06
+rubber/V=1.2201158761477804e-05
+rubbed/V=1.743022680211115e-06
+rubbes rubber
+62 1 cautiousy
+cautiously cautious
+cautiously/V=8.715113401055575e-06
+cautious/V=8.715113401055575e-06
+cautiousy cautiously
+63 1 safly
+sadly safely
+sadly/V=1.743022680211115e-06
+safely/V=1.743022680211115e-06
+safly sadly
+64 1 Physicay
+Physical
+Physical/V=3.48604536042223e-06
+Physicay Physical
+66 1 Rtbusoa
+Robusta
+Robusta/V=1.743022680211115e-06
+Rtbusoa Robusta
+67 1 rubebr
+rubber
+rubber/V=1.2201158761477804e-05
+rubebr rubber
+68 1 afte
+afterr fate ante ate aft
+afterr/V=1.743022680211115e-06
+fate/V=3.48604536042223e-06
+ante/V=1.743022680211115e-06
+ate/V=1.743022680211115e-06
+aft/V=3.48604536042223e-06
+afte fate
+69 1 Salh
+Salk Salu Salt Saleh
+Salk/V=1.743022680211115e-06
+Salu/V=1.743022680211115e-06
+Salt/V=3.48604536042223e-06
+Saleh/V=1.743022680211115e-06
+Salh Salt
+70 1 Nannggolai
+Nainggolan
+Nainggolan/V=1.743022680211115e-06
+Nannggolai Nainggolan
+71 1 Amerrican
+American American
+American/V=0.0004322696246923565
+American/V=0.0004322696246923565
+Amerrican American
+72 1 althlugh
+although
+although/V=0.00010109531545224467
+althlugh although
+73 1 locayll
+locallyy locally local locale local locally
+locallyy/V=1.743022680211115e-06
+locally/V=5.229068040633345e-06
+local/V=7.494997524907794e-05
+locale/V=1.743022680211115e-06
+local/V=7.494997524907794e-05
+locally/V=5.229068040633345e-06
+locayll local
+74 1 bilion
+billion
+billion/V=0.005514923760187968
+bilion billion
+75 1 broers
+brokers
+brokers/V=2.2659294842744493e-05
+broers brokers
+76 1 shepment
+shipment
+shipment/V=1.045813608126669e-05
+shepment shipment
+77 1 ltuRA
+ltGRA
+ltGRA/V=1.743022680211115e-06
+ltuRA ltGRA
+78 1 Rivir
+River
+River/V=1.2201158761477804e-05
+Rivir River
+79 1 produc
+productt producee
+productt/V=1.743022680211115e-06
+producee/V=1.743022680211115e-06
+produc productt
+80 1 abouct
+about
+about/V=0.0013090100328385472
+abouct about
+81 1 lovans
+loans
+loans/V=0.00032245919583905627
+lovans loans
+82 1 Reutres
+Reuters
+Reuters/V=0.00018301738142216707
+Reutres Reuters
+83 1 inserview
+interview
+interview/V=6.797788452823348e-05
+inserview interview
+84 1 wihle
+while
+while/V=0.0004409847380934121
+wihle while
+85 1 cuiqkly
+quickly Quickly
+quickly/V=6.100579380738902e-05
+Quickly/V=1.743022680211115e-06
+cuiqkly quickly
+86 1 Somitumo
+Sumitomo
+Sumitomo/V=8.715113401055575e-06
+Somitumo Sumitomo
+87 1 conparable
+comparable
+comparable/V=5.403370308654456e-05
+conparable comparable
+88 1 agdeer
+deer agrees agreed agree
+deer/V=1.743022680211115e-06
+agrees/V=3.48604536042223e-06
+agreed/V=0.0002353080618285005
+agree/V=2.2659294842744493e-05
+agdeer agreed
+89 1 ovesreas
+overseas
+overseas/V=6.797788452823348e-05
+ovesreas overseas
+90 1 plae
+pale plea place plan plane plate play
+pale/V=1.743022680211115e-06
+plea/V=3.48604536042223e-06
+place/V=8.540811133034463e-05
+plan/V=0.00032245919583905627
+plane/V=8.715113401055575e-06
+plate/V=1.743022680211115e-06
+play/V=2.6145340203166722e-05
+plae plan
+91 1 Klieinwort
+Kleinwort
+Kleinwort/V=6.97209072084446e-06
+Klieinwort Kleinwort
+92 1 icrease
+crease increase
+crease/V=1.743022680211115e-06
+increase/V=0.0007704160246533128
+icrease increase
+93 1 Suoitomm
+Sumitomo
+Sumitomo/V=8.715113401055575e-06
+Suoitomm Sumitomo
+94 1 Kmatsu
+Komatsu
+Komatsu/V=3.48604536042223e-06
+Kmatsu Komatsu
+95 1 viraous
+Piraeus various vicious viscous virtuous virtuous virus
+Piraeus/V=1.743022680211115e-06
+various/V=4.183254432506676e-05
+vicious/V=6.97209072084446e-06
+viscous/V=1.743022680211115e-06
+virtuous/V=1.743022680211115e-06
+virtuous/V=1.743022680211115e-06
+virus/V=1.743022680211115e-06
+viraous various
+96 1 thtree
+three
+three/V=0.0011172775380153246
+thtree three
+97 1 recusities
+securities Securities
+securities/V=0.00019521854018364487
+Securities/V=0.00012375461029498917
+recusities securities
+98 1 aapJn
+Japan aspen
+Japan/V=0.001336898395721925
+aspen/V=1.743022680211115e-06
+aapJn Japan
+99 1 Kmatsu
+Komatsu
+Komatsu/V=3.48604536042223e-06
+Kmatsu Komatsu
+100 1 businiss
+business
+business/V=0.0004863033277789011
+businiss business
+101 1 tese
+these tense tease terse tee test
+these/V=0.00019696156286385597
+tense/V=1.743022680211115e-06
+tease/V=1.743022680211115e-06
+terse/V=1.743022680211115e-06
+tee/V=1.743022680211115e-06
+test/V=3.3117430924011184e-05
+tese these
+102 1 dereguolation
+deregulation
+deregulation/V=2.440231752295561e-05
+dereguolation deregulation
+103 1 Kotatsu
+Komatsu
+Komatsu/V=3.48604536042223e-06
+Kotatsu Komatsu
+104 1 businesz
+business
+business/V=0.0004863033277789011
+businesz business
+105 1 greant
+grant great
+grant/V=1.9173249482322263e-05
+great/V=3.48604536042223e-05
+greant great
+106 1 Komarsu
+Komatsu
+Komatsu/V=3.48604536042223e-06
+Komarsu Komatsu
+107 1 wasev
+cases cased case Ease Maser bases baser based base vases vase gases eased easel ease Basel Based Base Casey Cases Case oases Vases wiser wise weasel wakes waked wake waive wales waned water wares ware waves waver waved wave wages wager waged wage waded wade waxen waxed wave wasp wash washes washer washed waste wastes wasted waste wasp wash was waste
+cases/V=2.440231752295561e-05
+cased/V=1.743022680211115e-06
+case/V=7.146392988865572e-05
+Ease/V=1.743022680211115e-06
+Maser/V=1.743022680211115e-06
+bases/V=5.229068040633345e-06
+baser/V=1.743022680211115e-06
+based/V=0.00024053712986913387
+base/V=0.00010806740617308912
+vases/V=1.743022680211115e-06
+vase/V=1.743022680211115e-06
+gases/V=6.97209072084446e-06
+eased/V=2.6145340203166722e-05
+easel/V=1.743022680211115e-06
+ease/V=3.8346498964644526e-05
+Basel/V=1.743022680211115e-06
+Based/V=1.045813608126669e-05
+Base/V=1.743022680211115e-06
+Casey/V=1.743022680211115e-06
+Cases/V=1.743022680211115e-06
+Case/V=1.743022680211115e-06
+oases/V=1.743022680211115e-06
+Vases/V=1.743022680211115e-06
+wiser/V=1.743022680211115e-06
+wise/V=3.48604536042223e-06
+weasel/V=1.743022680211115e-06
+wakes/V=1.743022680211115e-06
+waked/V=1.743022680211115e-06
+wake/V=1.394418144168892e-05
+waive/V=6.97209072084446e-06
+wales/V=1.743022680211115e-06
+waned/V=1.743022680211115e-06
+water/V=1.743022680211115e-05
+wares/V=1.743022680211115e-06
+ware/V=1.743022680211115e-06
+waves/V=1.743022680211115e-06
+waver/V=5.229068040633345e-06
+waved/V=1.743022680211115e-06
+wave/V=1.2201158761477804e-05
+wages/V=2.091627216253338e-05
+wager/V=1.743022680211115e-06
+waged/V=1.743022680211115e-06
+wage/V=5.2290680406333444e-05
+waded/V=1.743022680211115e-06
+wade/V=1.743022680211115e-06
+waxen/V=1.743022680211115e-06
+waxed/V=1.743022680211115e-06
+wave/V=1.2201158761477804e-05
+wasp/V=1.743022680211115e-06
+wash/V=1.743022680211115e-06
+washes/V=1.743022680211115e-06
+washer/V=1.743022680211115e-06
+washed/V=1.743022680211115e-06
+waste/V=1.743022680211115e-05
+wastes/V=1.743022680211115e-06
+wasted/V=3.48604536042223e-06
+waste/V=1.743022680211115e-05
+wasp/V=1.743022680211115e-06
+wash/V=1.743022680211115e-06
+was/V=0.0025256398636259057
+waste/V=1.743022680211115e-05
+wasev was
+108 1 theee
+three thee these theme there thee thees thee
+three/V=0.0011172775380153246
+thee/V=1.743022680211115e-06
+these/V=0.00019696156286385597
+theme/V=1.743022680211115e-06
+there/V=0.00038172196696623415
+thee/V=1.743022680211115e-06
+thees/V=1.743022680211115e-06
+thee/V=1.743022680211115e-06
+theee three
+109 1 adned
+added
+added/V=0.0006013428246728346
+adned added
+110 1 Sumatomo
+Sumitomo
+Sumitomo/V=8.715113401055575e-06
+Sumatomo Sumitomo
+111 1 Sumitaomo
+Sumitomo
+Sumitomo/V=8.715113401055575e-06
+Sumitaomo Sumitomo
+112 1 aound
+sound Sound Mound bound pound wound Hound found mound hound Round round abound around
+sound/V=6.97209072084446e-06
+Sound/V=1.743022680211115e-06
+Mound/V=1.743022680211115e-06
+bound/V=3.48604536042223e-06
+pound/V=1.743022680211115e-05
+wound/V=1.743022680211115e-06
+Hound/V=1.743022680211115e-06
+found/V=4.5318589685488985e-05
+mound/V=1.743022680211115e-06
+hound/V=1.743022680211115e-06
+Round/V=1.394418144168892e-05
+round/V=0.00010283833813245579
+abound/V=1.743022680211115e-06
+around/V=0.0002457661979097672
+aound around
+113 1 bfore
+fore before bore
+fore/V=1.743022680211115e-06
+before/V=0.0004340126473725676
+bore/V=1.743022680211115e-06
+bfore before
+114 1 Indonsia
+Indonesia
+Indonesia/V=4.3575567005277876e-05
+Indonsia Indonesia
+115 1 etxension
+extension
+extension/V=1.2201158761477804e-05
+etxension extension
+116 1 unnecessahy
+unnecessary
+unnecessary/V=8.715113401055575e-06
+unnecessahy unnecessary
+117 1 sixdh
+sixth
+sixth/V=1.394418144168892e-05
+sixdh sixth
+118 1 liquididy
+liquidity
+liquidity/V=1.9173249482322263e-05
+liquididy liquidity
+120 1 lefrect
+defect perfect Perfect reflect erect effect
+defect/V=1.743022680211115e-06
+perfect/V=1.743022680211115e-06
+Perfect/V=1.743022680211115e-06
+reflect/V=0.00020916272162533378
+erect/V=3.48604536042223e-06
+effect/V=0.000212648766985756
+lefrect effect
+121 1 requireent
+requirement
+requirement/V=2.9631385563588955e-05
+requireent requirement
+122 1 plentny
+plenty
+plenty/V=1.743022680211115e-06
+plentny plenty
+123 1 iterest
+interest
+interest/V=0.0005629963257081901
+iterest interest
+125 1 dealeis
+dealers
+dealers/V=5.403370308654456e-05
+dealeis dealers
+126 1 tiggesb
+Digges biggest Biggest tigress
+Digges/V=1.743022680211115e-06
+biggest/V=5.403370308654456e-05
+Biggest/V=1.743022680211115e-06
+tigress/V=1.743022680211115e-06
+tiggesb biggest
+127 1 billon
+Dillon billion
+Dillon/V=1.743022680211115e-06
+billion/V=0.005514923760187968
+billon billion
+128 1 scarted
+carted smarted started scarred scared
+carted/V=1.743022680211115e-06
+smarted/V=1.743022680211115e-06
+started/V=6.797788452823348e-05
+scarred/V=1.743022680211115e-06
+scared/V=1.743022680211115e-06
+scarted started
+129 1 contimuing
+continuing
+continuing/V=0.00014989995049815587
+contimuing continuing
+130 1 redaip
+regain repair repaid remain retain retail reap
+regain/V=1.2201158761477804e-05
+repair/V=3.48604536042223e-06
+repaid/V=8.715113401055575e-06
+remain/V=0.00014467088245752254
+retain/V=2.440231752295561e-05
+retail/V=7.320695256886682e-05
+reap/V=1.743022680211115e-06
+redaip remain
+131 1 futher
+Luther father further
+Luther/V=1.743022680211115e-06
+father/V=1.743022680211115e-06
+further/V=0.00032245919583905627
+futher further
+132 1 ltBondr
+ltBond
+ltBond/V=1.743022680211115e-06
+ltBondr ltBond
+133 1 deytails
+details
+details/V=6.274881648760014e-05
+deytails details
+134 1 undergrduno
+underground
+underground/V=3.8346498964644526e-05
+undergrduno underground
+135 1 whle
+while whoe whole
+while/V=0.0004409847380934121
+whoe/V=1.743022680211115e-06
+whole/V=4.880463504591122e-05
+whle while
+136 1 quarteir
+quarter
+quarter/V=0.0022345550760306493
+quarteir quarter
+137 1 rurthef
+Further further
+Further/V=8.715113401055575e-06
+further/V=0.00032245919583905627
+rurthef further
+138 1 furter
+further
+further/V=0.00032245919583905627
+furter further
+140 1 Importt
+Import Imports Import
+Import/V=1.2201158761477804e-05
+Imports/V=5.2290680406333444e-05
+Import/V=1.2201158761477804e-05
+Importt Imports
+141 1 demend
+depend defend demand
+depend/V=2.9631385563588955e-05
+defend/V=6.97209072084446e-06
+demand/V=0.0003520905814026452
+demend demand
+142 1 Mtsuki
+Mutsuki
+Mutsuki/V=6.97209072084446e-06
+Mtsuki Mutsuki
+143 1 volum
+volumee
+volumee/V=1.743022680211115e-06
+volum volumee
+144 1 teir
+Meir weir heir their tear
+Meir/V=1.743022680211115e-06
+weir/V=1.743022680211115e-06
+heir/V=1.743022680211115e-06
+their/V=0.0005542812123071345
+tear/V=1.743022680211115e-06
+teir their
+145 1 giarn
+giantt Darn Diary barn darn diary earn yearn yarn warn Hearn learn liars liar Learn Darn barn darn earn yarn warn glare guard guar grain gears gear gain garb gain given gin gird girl giant giant
+giantt/V=1.743022680211115e-06
+Darn/V=1.743022680211115e-06
+Diary/V=1.743022680211115e-06
+barn/V=1.743022680211115e-06
+darn/V=1.743022680211115e-06
+diary/V=1.743022680211115e-06
+earn/V=5.577672576675568e-05
+yearn/V=1.743022680211115e-06
+yarn/V=8.715113401055575e-06
+warn/V=1.2201158761477804e-05
+Hearn/V=1.743022680211115e-06
+learn/V=5.229068040633345e-06
+liars/V=1.743022680211115e-06
+liar/V=1.743022680211115e-06
+Learn/V=1.743022680211115e-06
+Darn/V=1.743022680211115e-06
+barn/V=1.743022680211115e-06
+darn/V=1.743022680211115e-06
+earn/V=5.577672576675568e-05
+yarn/V=8.715113401055575e-06
+warn/V=1.2201158761477804e-05
+glare/V=1.743022680211115e-06
+guard/V=1.743022680211115e-06
+guar/V=1.743022680211115e-06
+grain/V=2.440231752295561e-05
+gears/V=3.48604536042223e-06
+gear/V=1.743022680211115e-06
+gain/V=0.0010597577895683579
+garb/V=1.743022680211115e-06
+gain/V=0.0010597577895683579
+given/V=0.00023007899378786717
+gin/V=1.743022680211115e-06
+gird/V=1.743022680211115e-06
+girl/V=1.743022680211115e-06
+giant/V=1.394418144168892e-05
+giant/V=1.394418144168892e-05
+giarn gain
+146 1 betweenu
+between
+between/V=0.0004427277607736232
+betweenu between
+147 1 quosat
+quest quotas quota quota
+quest/V=1.743022680211115e-06
+quotas/V=7.494997524907794e-05
+quota/V=3.3117430924011184e-05
+quota/V=3.3117430924011184e-05
+quosat quotas
+148 1 citruos
+citrus
+citrus/V=2.6145340203166722e-05
+citruos citrus
+149 1 Otheyr
+Other
+Other/V=8.366508865013352e-05
+Otheyr Other
+150 1 esports
+sports exports escorts
+sports/V=5.229068040633345e-06
+exports/V=0.0007041811628052904
+escorts/V=1.743022680211115e-06
+esports exports
+151 1 imperts
+imparts imports
+imparts/V=1.743022680211115e-06
+imports/V=0.000606571892713468
+imperts imports
+152 1 feedurain
+feedgrain
+feedgrain/V=3.48604536042223e-06
+feedurain feedgrain
+153 1 iidncation
+indication
+indication/V=1.9173249482322263e-05
+iidncation indication
+155 1 maeket
+market
+market/V=0.0008662822720649241
+maeket market
+156 1 othes
+other others
+other/V=0.0006588625731198015
+others/V=4.3575567005277876e-05
+othes other
+157 1 govmrneent
+government
+government/V=0.0007407846390897238
+govmrneent government
+159 1 dicussed
+discussed
+discussed/V=2.6145340203166722e-05
+dicussed discussed
+160 1 apfrove
+approve
+approve/V=4.70616123657001e-05
+apfrove approve
+161 1 sharues
+shares
+shares/V=0.0009063717937097798
+sharues shares
+162 1 whach
+which whack
+which/V=0.0016419273647588703
+whack/V=1.743022680211115e-06
+whach which
+163 1 lastest
+fastest latest
+fastest/V=1.743022680211115e-06
+latest/V=0.00010458136081266689
+lastest latest
+164 1 ermove
+remove
+remove/V=2.2659294842744493e-05
+ermove remove
+165 1 targeti
+targets target
+targets/V=2.6145340203166722e-05
+target/V=0.00010806740617308912
+targeti target
+166 1 transactins
+transactions
+transactions/V=4.008952164485564e-05
+transactins transactions
+167 1 ompirts
+imparts imports Imports empires omits
+imparts/V=1.743022680211115e-06
+imports/V=0.000606571892713468
+Imports/V=5.2290680406333444e-05
+empires/V=1.743022680211115e-06
+omits/V=3.48604536042223e-06
+ompirts imports
+168 1 perioid
+period
+period/V=0.0004863033277789011
+perioid period
+169 1 Soutch
+South
+South/V=0.000348604536042223
+Soutch South
+170 1 presure
+pressure presume
+pressure/V=0.00013769879173667807
+presume/V=1.743022680211115e-06
+presure pressure
+172 1 surplu
+surpluss
+surpluss/V=1.743022680211115e-06
+surplu surpluss
+173 1 acount
+count amount account
+count/V=1.743022680211115e-06
+amount/V=0.00012026856493456694
+account/V=0.0003154871051182118
+acount account
+174 1 growng
+growing grown
+growing/V=0.00012549763297520027
+grown/V=1.394418144168892e-05
+growng growing
+175 1 Koraea
+Korea
+Korea/V=0.0002004476082242782
+Koraea Korea
+176 1 defict
+depict defect deficit
+depict/V=5.229068040633345e-06
+defect/V=1.743022680211115e-06
+deficit/V=0.0007948183421762684
+defict deficit
+177 1 foreig
+foreignn
+foreignn/V=1.743022680211115e-06
+foreig foreignn
+179 1 economoy
+economy
+economy/V=0.0003259452411994785
+economoy economy
+180 1 plannnad
+plannned
+plannned/V=3.48604536042223e-06
+plannnad plannned
+181 1 excvssiee
+excessive
+excessive/V=2.091627216253338e-05
+excvssiee excessive
+182 1 ilfnation
+lunation inflation
+lunation/V=1.743022680211115e-06
+inflation/V=0.000318973150478634
+ilfnation inflation
+183 1 proepr
+proper
+proper/V=1.2201158761477804e-05
+proepr proper
+184 1 materias
+material materials
+material/V=4.70616123657001e-05
+materials/V=4.880463504591122e-05
+materias materials
+185 1 Corporaion
+Corporation
+Corporation/V=2.6145340203166722e-05
+Corporaion Corporation
+186 1 iperatong
+Operating operating
+Operating/V=0.00013421274637625584
+operating/V=0.0005525381896269234
+iperatong operating
+187 1 tonnres
+tonnes
+tonnes/V=0.0001394418144168892
+tonnres tonnes
+188 1 ddaed
+idled edged waded added added faded Added Added jaded died dyed deed dead damed dated dared dazed dad dined dived died dialed duped damed dated dared dazed dosed doped doled domed dozed dodged dried dread draped dyed deed dead died dyed deed dead damed dated dared dazed dad damed dated dared dazed
+idled/V=1.743022680211115e-06
+edged/V=6.97209072084446e-06
+waded/V=1.743022680211115e-06
+added/V=0.0006013428246728346
+added/V=0.0006013428246728346
+faded/V=1.743022680211115e-06
+Added/V=3.48604536042223e-06
+Added/V=3.48604536042223e-06
+jaded/V=1.743022680211115e-06
+died/V=5.229068040633345e-06
+dyed/V=1.743022680211115e-06
+deed/V=1.743022680211115e-06
+dead/V=1.743022680211115e-06
+damed/V=1.743022680211115e-06
+dated/V=5.229068040633345e-06
+dared/V=1.743022680211115e-06
+dazed/V=1.743022680211115e-06
+dad/V=1.743022680211115e-06
+dined/V=1.743022680211115e-06
+dived/V=1.743022680211115e-06
+died/V=5.229068040633345e-06
+dialed/V=1.743022680211115e-06
+duped/V=1.743022680211115e-06
+damed/V=1.743022680211115e-06
+dated/V=5.229068040633345e-06
+dared/V=1.743022680211115e-06
+dazed/V=1.743022680211115e-06
+dosed/V=1.743022680211115e-06
+doped/V=1.743022680211115e-06
+doled/V=1.743022680211115e-06
+domed/V=1.743022680211115e-06
+dozed/V=1.743022680211115e-06
+dodged/V=1.743022680211115e-06
+dried/V=1.045813608126669e-05
+dread/V=1.743022680211115e-06
+draped/V=1.743022680211115e-06
+dyed/V=1.743022680211115e-06
+deed/V=1.743022680211115e-06
+dead/V=1.743022680211115e-06
+died/V=5.229068040633345e-06
+dyed/V=1.743022680211115e-06
+deed/V=1.743022680211115e-06
+dead/V=1.743022680211115e-06
+damed/V=1.743022680211115e-06
+dated/V=5.229068040633345e-06
+dared/V=1.743022680211115e-06
+dazed/V=1.743022680211115e-06
+dad/V=1.743022680211115e-06
+damed/V=1.743022680211115e-06
+dated/V=5.229068040633345e-06
+dared/V=1.743022680211115e-06
+dazed/V=1.743022680211115e-06
+ddaed added
+189 1 vortual
+virtual
+virtual/V=1.045813608126669e-05
+vortual virtual
+190 1 turnovr
+turnover
+turnover/V=0.00019347551750343374
+turnovr turnover
+191 1 inestment
+investment
+investment/V=0.00042704055665172315
+inestment investment
+192 1 schedulehd
+scheduled
+scheduled/V=5.926277112717791e-05
+schedulehd scheduled
+193 1 desclose
+disclose
+disclose/V=1.394418144168892e-05
+desclose disclose
+194 1 ereCk
+creak creek Greek break wreck wreak Break freak Creek trek reek reek erect ere
+creak/V=1.743022680211115e-06
+creek/V=1.743022680211115e-06
+Greek/V=1.743022680211115e-06
+break/V=2.9631385563588955e-05
+wreck/V=1.743022680211115e-06
+wreak/V=1.743022680211115e-06
+Break/V=1.743022680211115e-06
+freak/V=1.743022680211115e-06
+Creek/V=1.394418144168892e-05
+trek/V=1.743022680211115e-06
+reek/V=1.743022680211115e-06
+reek/V=1.743022680211115e-06
+erect/V=3.48604536042223e-06
+ere/V=1.743022680211115e-06
+ereCk break
+195 1 combioned
+combined
+combined/V=4.5318589685488985e-05
+combioned combined
+196 1 undevelopesd
+undeveloped
+undeveloped/V=3.48604536042223e-06
+undevelopesd undeveloped
+197 1 wrkers
+workers
+workers/V=7.843602060950017e-05
+wrkers workers
+198 1 taen
+then teen ten taken tan
+then/V=7.843602060950017e-05
+teen/V=1.743022680211115e-06
+ten/V=4.3575567005277876e-05
+taken/V=0.00010981042885330024
+tan/V=1.743022680211115e-06
+taen taken
+199 1 falln
+falls fallen fall
+falls/V=2.440231752295561e-05
+fallen/V=3.48604536042223e-05
+fall/V=0.00029979990099631175
+falln fall
+200 1 searhs
+Tears Sears Mears beards bears gears deaths Fears years pearls pears wears Hearts learns Bears fears Years hearts hears tears earns ears scars sparks spares sharks shares shards swarms swears starts stares stars seers serfs seams seals seats seams seals seats seas search searches search sear search
+Tears/V=1.743022680211115e-06
+Sears/V=1.743022680211115e-06
+Mears/V=1.743022680211115e-06
+beards/V=1.743022680211115e-06
+bears/V=3.48604536042223e-06
+gears/V=3.48604536042223e-06
+deaths/V=1.743022680211115e-06
+Fears/V=1.743022680211115e-06
+years/V=0.0005089626226216456
+pearls/V=1.743022680211115e-06
+pears/V=1.743022680211115e-06
+wears/V=1.743022680211115e-06
+Hearts/V=1.743022680211115e-06
+learns/V=1.743022680211115e-06
+Bears/V=1.743022680211115e-06
+fears/V=2.6145340203166722e-05
+Years/V=1.743022680211115e-06
+hearts/V=1.743022680211115e-06
+hears/V=1.743022680211115e-06
+tears/V=1.743022680211115e-06
+earns/V=1.743022680211115e-06
+ears/V=1.743022680211115e-06
+scars/V=1.743022680211115e-06
+sparks/V=1.743022680211115e-06
+spares/V=3.48604536042223e-06
+sharks/V=1.743022680211115e-06
+shares/V=0.0009063717937097798
+shards/V=1.743022680211115e-06
+swarms/V=1.743022680211115e-06
+swears/V=1.743022680211115e-06
+starts/V=6.449183916781125e-05
+stares/V=1.743022680211115e-06
+stars/V=1.743022680211115e-06
+seers/V=1.743022680211115e-06
+serfs/V=1.743022680211115e-06
+seams/V=1.743022680211115e-06
+seals/V=1.743022680211115e-06
+seats/V=3.48604536042223e-06
+seams/V=1.743022680211115e-06
+seals/V=1.743022680211115e-06
+seats/V=3.48604536042223e-06
+seas/V=1.743022680211115e-06
+search/V=3.48604536042223e-06
+searches/V=1.743022680211115e-06
+search/V=3.48604536042223e-06
+sear/V=1.743022680211115e-06
+search/V=3.48604536042223e-06
+searhs shares
+201 1 protif
+erotic motif motif profit proof proof proton protein
+erotic/V=1.743022680211115e-06
+motif/V=1.743022680211115e-06
+motif/V=1.743022680211115e-06
+profit/V=0.004742764712854444
+proof/V=6.97209072084446e-06
+proof/V=6.97209072084446e-06
+proton/V=1.743022680211115e-06
+protein/V=1.743022680211115e-06
+protif profit
+202 1 opportunitiese
+opportunities
+opportunities/V=4.008952164485564e-05
+opportunitiese opportunities
+203 1 aipopnted
+appointed
+appointed/V=8.715113401055575e-06
+aipopnted appointed
+204 1 Bowatar
+Bowater
+Bowater/V=8.715113401055575e-06
+Bowatar Bowater
+205 1 Euroe
+Europe
+Europe/V=0.0001394418144168892
+Euroe Europe
+206 1 subsidoaries
+subsidiaries
+subsidiaries/V=5.0547657726122334e-05
+subsidoaries subsidiaries
+207 1 sinec
+since sine
+since/V=0.00028759874223483394
+sine/V=1.743022680211115e-06
+sinec since
+208 1 earkmts
+Markets markets
+Markets/V=1.743022680211115e-05
+markets/V=0.0004374986927329898
+earkmts markets
+209 1 barler
+barber barley
+barber/V=1.743022680211115e-06
+barley/V=1.743022680211115e-06
+barler barber
+210 1 insdead
+instead
+instead/V=5.751974844696679e-05
+insdead instead
+211 1 rifining
+refining
+refining/V=3.8346498964644526e-05
+rifining refining
+212 1 wtich
+which witch
+which/V=0.0016419273647588703
+witch/V=1.743022680211115e-06
+wtich which
+213 1 memberes
+members
+members/V=7.146392988865572e-05
+memberes members
+214 1 yetsterday
+yesterday
+yesterday/V=0.00013769879173667807
+yetsterday yesterday
+215 1 yecterday
+yesterday
+yesterday/V=0.00013769879173667807
+yecterday yesterday
+216 1 extenson
+extension
+extension/V=1.2201158761477804e-05
+extenson extension
+217 1 mocmon
+common cocoon Mormon Common motion moon
+common/V=0.0004741021690174233
+cocoon/V=1.743022680211115e-06
+Mormon/V=1.743022680211115e-06
+Common/V=5.229068040633345e-06
+motion/V=6.97209072084446e-06
+moon/V=1.743022680211115e-06
+mocmon common
+218 1 Affaigs
+Affairs
+Affairs/V=3.660347628443341e-05
+Affaigs Affairs
+219 1 extorps
+exports extras
+exports/V=0.0007041811628052904
+extras/V=1.743022680211115e-06
+extorps exports
+220 1 Thede
+These There Thee
+These/V=5.751974844696679e-05
+There/V=0.000151642973178367
+Thee/V=1.743022680211115e-06
+Thede There
+221 1 prttecoionist
+protectionist
+protectionist/V=0.00010981042885330024
+prttecoionist protectionist
+222 1 stlocks
+stocks
+stocks/V=0.00011503949689393359
+stlocks stocks
+223 1 includd
+include included
+include/V=0.0004897893731393233
+included/V=0.00018301738142216707
+includd include
+224 1 expordet
+exporter exported export
+exporter/V=1.2201158761477804e-05
+exported/V=1.9173249482322263e-05
+export/V=0.00031200105975778955
+expordet export
+225 1 aroudn
+around
+around/V=0.0002457661979097672
+aroudn around
+226 1 rebrates
+rebates
+rebates/V=3.48604536042223e-06
+rebrates rebates
+227 1 todav
+today
+today/V=0.0004008952164485564
+todav today
+228 1 Governmaent
+Government
+Government/V=5.0547657726122334e-05
+Governmaent Government
+229 1 cisdlose
+disclose
+disclose/V=1.394418144168892e-05
+cisdlose disclose
+230 1 sharei
+shares shared share
+shares/V=0.0009063717937097798
+shared/V=3.48604536042223e-06
+share/V=0.0028986467171910842
+sharei share
+230 1 shareis
+sharers shares
+sharers/V=1.743022680211115e-06
+shares/V=0.0009063717937097798
+shareis shares
+231 1 shaes
+shies shoes shakes shapes shams shames shares shades
+shies/V=1.743022680211115e-06
+shoes/V=3.48604536042223e-06
+shakes/V=1.743022680211115e-06
+shapes/V=1.743022680211115e-06
+shams/V=1.743022680211115e-06
+shames/V=1.743022680211115e-06
+shares/V=0.0009063717937097798
+shades/V=1.743022680211115e-06
+shaes shares
+232 1 aompcny
+company Company
+company/V=0.0028271827873024282
+Company/V=0.0002771406061535673
+aompcny company
+233 1 spokesan
+spokesman
+spokesman/V=0.0002684254927525117
+spokesan spokesman
+234 1 hhicw
+chick chic which Which Chico thick hick hick
+chick/V=1.743022680211115e-06
+chic/V=1.743022680211115e-06
+which/V=0.0016419273647588703
+Which/V=8.715113401055575e-06
+Chico/V=1.743022680211115e-06
+thick/V=3.48604536042223e-06
+hick/V=1.743022680211115e-06
+hick/V=1.743022680211115e-06
+hhicw which
+235 1 tekrms
+terms
+terms/V=0.00017255924534090037
+tekrms terms
+236 1 mawket
+market
+market/V=0.0008662822720649241
+mawket market
+237 1 marketsr
+marketer markets
+marketer/V=3.48604536042223e-06
+markets/V=0.0004374986927329898
+marketsr markets
+238 1 obnds
+bonds
+bonds/V=3.660347628443341e-05
+obnds bonds
+239 1 invesment
+investment
+investment/V=0.00042704055665172315
+invesment investment
+240 1 sloshinge
+sloshing
+sloshing/V=1.743022680211115e-06
+sloshinge sloshing
+241 1 ecaonomist
+economist
+economist/V=7.843602060950017e-05
+ecaonomist economist
+242 1 qualicy
+qualify quality
+qualify/V=1.045813608126669e-05
+quality/V=4.5318589685488985e-05
+qualicy quality
+243 1 whemre
+wheare where
+wheare/V=1.743022680211115e-06
+where/V=0.00010458136081266689
+whemre where
+244 1 takgni
+taken taking takin takin
+taken/V=0.00010981042885330024
+taking/V=7.320695256886682e-05
+takin/V=1.743022680211115e-06
+takin/V=1.743022680211115e-06
+takgni taken
+245 1 economost
+economist
+economist/V=7.843602060950017e-05
+economost economist
+246 1 encry
+entry
+entry/V=1.045813608126669e-05
+encry entry
+247 1 govetrnment
+government
+government/V=0.0007407846390897238
+govetrnment government
+248 1 ivestors
+investors
+investors/V=7.320695256886682e-05
+ivestors investors
+249 1 ratus
+rates rats
+rates/V=0.0002823696741942006
+rats/V=1.743022680211115e-06
+ratus rates
+250 1 moneye
+moneyedd moneys money
+moneyedd/V=1.743022680211115e-06
+moneys/V=1.743022680211115e-06
+money/V=0.00010981042885330024
+moneye money
+251 1 mght
+might maht
+might/V=0.00012375461029498917
+maht/V=1.743022680211115e-06
+mght might
+252 1 billoin
+billion
+billion/V=0.005514923760187968
+billoin billion
+253 1 Buttrohse
+Buttrose
+Buttrose/V=6.97209072084446e-06
+Buttrohse Buttrose
+254 1 invetors
+investors inventors
+investors/V=7.320695256886682e-05
+inventors/V=1.743022680211115e-06
+invetors investors
+255 1 gaainst
+against
+against/V=0.000848852045262813
+gaainst against
+256 1 witnih
+witch within witch with
+witch/V=1.743022680211115e-06
+within/V=0.0001307267010158336
+witch/V=1.743022680211115e-06
+with/V=0.0028289258099826395
+witnih with
+257 1 weiks
+weeks weirs
+weeks/V=0.00010981042885330024
+weirs/V=1.743022680211115e-06
+weiks weeks
+258 1 Ausfralian
+Australian
+Australian/V=7.494997524907794e-05
+Ausfralian Australian
+259 1 followeg
+follower followed
+follower/V=1.743022680211115e-06
+followed/V=3.8346498964644526e-05
+followeg followed
+260 1 aboce
+above abode
+above/V=0.00012375461029498917
+abode/V=1.743022680211115e-06
+aboce above
+261 1 cmpanies
+companies
+companies/V=0.0002928278102754673
+cmpanies companies
+262 1 Japaneseh
+Japanese
+Japanese/V=0.0008017904328971128
+Japaneseh Japanese
+263 1 ctpiaal
+capital
+capital/V=0.00042704055665172315
+ctpiaal capital
+264 1 slaccens
+slackens
+slackens/V=3.48604536042223e-06
+slaccens slackens
+265 1 etsimate
+estimate
+estimate/V=8.017904328971129e-05
+etsimate estimate
+267 1 tcaivity
+activity Activity cavity
+activity/V=5.0547657726122334e-05
+Activity/V=3.48604536042223e-06
+cavity/V=1.743022680211115e-06
+tcaivity activity
+269 1 rhase
+chase phase Phase Chase
+chase/V=3.48604536042223e-06
+phase/V=1.743022680211115e-05
+Phase/V=1.743022680211115e-06
+Chase/V=1.743022680211115e-05
+rhase phase
+270 1 cretid
+fetid fetid retied critic crested created credit creed creed
+fetid/V=1.743022680211115e-06
+fetid/V=1.743022680211115e-06
+retied/V=1.743022680211115e-06
+critic/V=1.743022680211115e-06
+crested/V=1.743022680211115e-06
+created/V=2.9631385563588955e-05
+credit/V=0.000409610329849612
+creed/V=1.743022680211115e-06
+creed/V=1.743022680211115e-06
+cretid credit
+271 1 indviduals
+individuals
+individuals/V=6.97209072084446e-06
+indviduals individuals
+272 1 estimatted
+estimated estimated
+estimated/V=0.00024053712986913387
+estimated/V=0.00024053712986913387
+estimatted estimated
+273 1 govurnment
+government
+government/V=0.0007407846390897238
+govurnment government
+274 1 creit
+crept crest credit
+crept/V=1.743022680211115e-06
+crest/V=1.743022680211115e-06
+credit/V=0.000409610329849612
+creit credit
+275 1 deposrtois
+depositors
+depositors/V=3.48604536042223e-06
+deposrtois depositors
+276 1 bapnkers
+bankers
+bankers/V=3.48604536042223e-05
+bapnkers bankers
+277 1 cpacity
+capacity
+capacity/V=8.889415669076685e-05
+cpacity capacity
+278 1 operatins
+operations operating
+operations/V=0.0009534334060754798
+operating/V=0.0005525381896269234
+operatins operations
+279 1 preduct
+product predict
+product/V=0.00020741969894512267
+predict/V=2.2659294842744493e-05
+preduct product
+280 1 reboundn
+rebound
+rebound/V=1.5687204121900034e-05
+reboundn rebound
+281 1 Oher
+wher ther Over Oder Other
+wher/V=1.743022680211115e-06
+ther/V=1.743022680211115e-06
+Over/V=1.743022680211115e-05
+Oder/V=1.743022680211115e-06
+Other/V=8.366508865013352e-05
+Oher Other
+282 1 accnounts
+accounts
+accounts/V=8.715113401055575e-05
+accnounts accounts
+283 1 abot
+Cabot abbot about
+Cabot/V=1.743022680211115e-06
+abbot/V=1.743022680211115e-06
+about/V=0.0013090100328385472
+abot about
+284 1 enogh
+enough
+enough/V=7.669299792928905e-05
+enogh enough
+285 1 nomunal
+nominal
+nominal/V=6.623486184802237e-05
+nomunal nominal
+286 1 officail
+official
+official/V=0.00036952080820475635
+officail official
+287 1 eary
+Mary Gary Geary nary vary wary weary Weary Leary easy ears earl early earn ear
+Mary/V=3.48604536042223e-06
+Gary/V=1.743022680211115e-06
+Geary/V=1.743022680211115e-06
+nary/V=1.743022680211115e-06
+vary/V=1.743022680211115e-06
+wary/V=5.229068040633345e-06
+weary/V=1.743022680211115e-06
+Weary/V=1.743022680211115e-06
+Leary/V=1.743022680211115e-06
+easy/V=8.715113401055575e-06
+ears/V=1.743022680211115e-06
+earl/V=1.743022680211115e-06
+early/V=0.0002701685154327228
+earn/V=5.577672576675568e-05
+ear/V=1.743022680211115e-06
+eary early
+288 1 depnds
+depends
+depends/V=2.2659294842744493e-05
+depnds depends
+289 1 impowrtant
+important
+important/V=9.935229277203355e-05
+impowrtant important
+290 1 Affirs
+Affairs
+Affairs/V=3.660347628443341e-05
+Affirs Affairs
+291 1 ehtse
+chase chose Those These phase whose Whose Phase Chase those these hose esse else ease eats erase esse else ease etes
+chase/V=3.48604536042223e-06
+chose/V=3.48604536042223e-06
+Those/V=1.2201158761477804e-05
+These/V=5.751974844696679e-05
+phase/V=1.743022680211115e-05
+whose/V=4.3575567005277876e-05
+Whose/V=1.743022680211115e-06
+Phase/V=1.743022680211115e-06
+Chase/V=1.743022680211115e-05
+those/V=0.0002213638803868116
+these/V=0.00019696156286385597
+hose/V=1.743022680211115e-06
+esse/V=1.743022680211115e-06
+else/V=1.9173249482322263e-05
+ease/V=3.8346498964644526e-05
+eats/V=1.743022680211115e-06
+erase/V=3.48604536042223e-06
+esse/V=1.743022680211115e-06
+else/V=1.9173249482322263e-05
+ease/V=3.8346498964644526e-05
+etes/V=1.743022680211115e-06
+ehtse those
+292 1 cearh
+search sear Near Tears Search Sears Sear Mears Geary Gear near Death Dear beach bears beard bear gears gear death dearth dear Fears Fear yeah years yearn yeard year peach pears pearl pear weary wears wear Hearn Heart Heard Hear leach leash learn Beach Bears Beard Bear fears feare fear Weary Leary Learn Lear Yeah Years Year Peach Pearl hears heare heart hearth heard hear Rear teach tears tear reach rear each ears earl earn earth ear charm chart char clash clears clear coach crash cash cars care cart card car cease
+search/V=3.48604536042223e-06
+sear/V=1.743022680211115e-06
+Near/V=1.743022680211115e-06
+Tears/V=1.743022680211115e-06
+Search/V=1.743022680211115e-06
+Sears/V=1.743022680211115e-06
+Sear/V=1.743022680211115e-06
+Mears/V=1.743022680211115e-06
+Geary/V=1.743022680211115e-06
+Gear/V=1.743022680211115e-06
+near/V=9.41232247314002e-05
+Death/V=1.743022680211115e-06
+Dear/V=1.743022680211115e-06
+beach/V=1.743022680211115e-06
+bears/V=3.48604536042223e-06
+beard/V=1.743022680211115e-06
+bear/V=2.091627216253338e-05
+gears/V=3.48604536042223e-06
+gear/V=1.743022680211115e-06
+death/V=3.48604536042223e-06
+dearth/V=1.743022680211115e-06
+dear/V=1.743022680211115e-06
+Fears/V=1.743022680211115e-06
+Fear/V=3.48604536042223e-06
+yeah/V=1.743022680211115e-06
+years/V=0.0005089626226216456
+yearn/V=1.743022680211115e-06
+yeard/V=1.743022680211115e-06
+year/V=0.0054992365560660676
+peach/V=1.743022680211115e-06
+pears/V=1.743022680211115e-06
+pearl/V=1.743022680211115e-06
+pear/V=1.743022680211115e-06
+weary/V=1.743022680211115e-06
+wears/V=1.743022680211115e-06
+wear/V=3.48604536042223e-06
+Hearn/V=1.743022680211115e-06
+Heart/V=3.48604536042223e-06
+Heard/V=1.743022680211115e-06
+Hear/V=1.743022680211115e-06
+leach/V=8.715113401055575e-06
+leash/V=1.743022680211115e-06
+learn/V=5.229068040633345e-06
+Beach/V=1.743022680211115e-06
+Bears/V=1.743022680211115e-06
+Beard/V=1.743022680211115e-06
+Bear/V=1.045813608126669e-05
+fears/V=2.6145340203166722e-05
+feare/V=1.743022680211115e-06
+fear/V=1.394418144168892e-05
+Weary/V=1.743022680211115e-06
+Leary/V=1.743022680211115e-06
+Learn/V=1.743022680211115e-06
+Lear/V=1.743022680211115e-06
+Yeah/V=1.743022680211115e-06
+Years/V=1.743022680211115e-06
+Year/V=0.0011399368328580692
+Peach/V=1.743022680211115e-06
+Pearl/V=1.743022680211115e-06
+hears/V=1.743022680211115e-06
+heare/V=1.743022680211115e-06
+heart/V=1.394418144168892e-05
+hearth/V=1.743022680211115e-06
+heard/V=5.229068040633345e-06
+hear/V=3.48604536042223e-06
+Rear/V=1.743022680211115e-06
+teach/V=1.743022680211115e-06
+tears/V=1.743022680211115e-06
+tear/V=1.743022680211115e-06
+reach/V=7.494997524907794e-05
+rear/V=1.743022680211115e-06
+each/V=0.0001655871546200559
+ears/V=1.743022680211115e-06
+earl/V=1.743022680211115e-06
+earn/V=5.577672576675568e-05
+earth/V=5.229068040633345e-06
+ear/V=1.743022680211115e-06
+charm/V=1.743022680211115e-06
+chart/V=5.229068040633345e-06
+char/V=1.743022680211115e-06
+clash/V=1.743022680211115e-06
+clears/V=1.743022680211115e-06
+clear/V=5.577672576675568e-05
+coach/V=1.743022680211115e-06
+crash/V=1.045813608126669e-05
+cash/V=0.0003398894226411674
+cars/V=4.3575567005277876e-05
+care/V=1.394418144168892e-05
+cart/V=1.743022680211115e-06
+card/V=6.97209072084446e-06
+car/V=7.146392988865572e-05
+cease/V=3.48604536042223e-06
+cearh year
+293 1 groers
+grocers growers
+grocers/V=1.743022680211115e-06
+growers/V=1.743022680211115e-06
+groers grocers
+294 1 coul
+couldd soul foul coil coal cool coup
+couldd/V=1.743022680211115e-06
+soul/V=1.743022680211115e-06
+foul/V=1.743022680211115e-06
+coil/V=1.743022680211115e-06
+coal/V=5.577672576675568e-05
+cool/V=5.229068040633345e-06
+coup/V=1.743022680211115e-06
+coul coal
+296 1 etpecx
+expect
+expect/V=0.00013595576905646697
+etpecx expect
+297 1 outptu
+output
+output/V=0.0001272406556554114
+outptu output
+298 1 tonnas
+tonnes
+tonnes/V=0.0001394418144168892
+tonnas tonnes
+299 1 additiodn
+addition
+addition/V=0.0001307267010158336
+additiodn addition
+300 1 peakc
+peaky peaks peak
+peaky/V=1.743022680211115e-06
+peaks/V=5.229068040633345e-06
+peak/V=1.9173249482322263e-05
+peakc peak
+301 1 yiars
+liars years
+liars/V=1.743022680211115e-06
+years/V=0.0005089626226216456
+yiars years
+302 1 breief
+brief
+brief/V=5.229068040633345e-06
+breief brief
+303 1 theire
+theare there their
+theare/V=1.743022680211115e-06
+there/V=0.00038172196696623415
+their/V=0.0005542812123071345
+theire their
+304 1 sharese
+shares
+shares/V=0.0009063717937097798
+sharese shares
+305 1 wolrd
+word world wold
+word/V=1.5687204121900034e-05
+world/V=0.00043575567005277874
+wold/V=1.743022680211115e-06
+wolrd world
+306 1 dwnturn
+downturn
+downturn/V=2.6145340203166722e-05
+dwnturn downturn
+307 1 enkded
+ended
+ended/V=0.0007320695256886683
+enkded ended
+308 1 finst
+first fist finest fins
+first/V=0.001274149579234325
+fist/V=1.743022680211115e-06
+finest/V=1.743022680211115e-06
+fins/V=1.743022680211115e-06
+finst first
+309 1 impuse
+impose impulse impute
+impose/V=9.760927009182244e-05
+impulse/V=1.743022680211115e-06
+impute/V=1.743022680211115e-06
+impuse impose
+310 1 prposals
+proposals
+proposals/V=7.669299792928905e-05
+prposals proposals
+311 1 bryefcase
+briefcase
+briefcase/V=3.48604536042223e-06
+bryefcase briefcase
+312 1 poer
+pier peer per poker pour power poor pore poem poet
+pier/V=1.743022680211115e-06
+peer/V=1.743022680211115e-06
+per/V=0.001577435525591059
+poker/V=1.743022680211115e-06
+pour/V=1.743022680211115e-06
+power/V=0.000106324383492878
+poor/V=4.183254432506676e-05
+pore/V=1.743022680211115e-06
+poem/V=1.743022680211115e-06
+poet/V=1.743022680211115e-06
+poer per
+313 1 excesvise
+excessive
+excessive/V=2.091627216253338e-05
+excesvise excessive
+314 1 cxeess
+excess chess chess cheeks cheers cheese caress creeks creeps creeds chess
+excess/V=4.183254432506676e-05
+chess/V=1.743022680211115e-06
+chess/V=1.743022680211115e-06
+cheeks/V=1.743022680211115e-06
+cheers/V=1.743022680211115e-06
+cheese/V=3.48604536042223e-06
+caress/V=1.743022680211115e-06
+creeks/V=1.743022680211115e-06
+creeps/V=1.743022680211115e-06
+creeds/V=1.743022680211115e-06
+chess/V=1.743022680211115e-06
+cxeess excess
+315 1 blema
+bleatt bleakk Selma Elena gleam Flea Flem edema plea alma Plea Cleva Alma beam blame bless blest blew blend bleak bleat bled blebs bleed blew bled bleak bleat
+bleatt/V=1.743022680211115e-06
+bleakk/V=1.743022680211115e-06
+Selma/V=1.743022680211115e-06
+Elena/V=1.743022680211115e-06
+gleam/V=1.743022680211115e-06
+Flea/V=1.743022680211115e-06
+Flem/V=1.743022680211115e-06
+edema/V=1.743022680211115e-06
+plea/V=3.48604536042223e-06
+alma/V=1.743022680211115e-06
+Plea/V=1.743022680211115e-06
+Cleva/V=1.743022680211115e-06
+Alma/V=1.743022680211115e-06
+beam/V=1.743022680211115e-06
+blame/V=8.715113401055575e-06
+bless/V=1.743022680211115e-06
+blest/V=1.743022680211115e-06
+blew/V=1.743022680211115e-06
+blend/V=1.743022680211115e-06
+bleak/V=1.743022680211115e-06
+bleat/V=1.743022680211115e-06
+bled/V=1.743022680211115e-06
+blebs/V=1.743022680211115e-06
+bleed/V=1.743022680211115e-06
+blew/V=1.743022680211115e-06
+bled/V=1.743022680211115e-06
+bleak/V=1.743022680211115e-06
+bleat/V=1.743022680211115e-06
+blema blame
+316 1 fsila
+Leila Lila Asia Lila silk sill silo fails fail foil fella film fill file
+Leila/V=1.743022680211115e-06
+Lila/V=1.743022680211115e-06
+Asia/V=4.880463504591122e-05
+Lila/V=1.743022680211115e-06
+silk/V=1.743022680211115e-06
+sill/V=1.743022680211115e-06
+silo/V=1.743022680211115e-06
+fails/V=3.48604536042223e-06
+fail/V=1.045813608126669e-05
+foil/V=1.743022680211115e-06
+fella/V=1.743022680211115e-06
+film/V=1.743022680211115e-05
+fill/V=1.045813608126669e-05
+file/V=1.5687204121900034e-05
+fsila Asia
+317 1 dela
+delayy Bela deja deal dell del
+delayy/V=1.743022680211115e-06
+Bela/V=1.743022680211115e-06
+deja/V=1.743022680211115e-06
+deal/V=9.586624741161132e-05
+dell/V=3.48604536042223e-06
+del/V=2.788836288337784e-05
+dela deal
+318 1 Resteru
+nester pester western Hester Bester Western Lester esters Reuters Reuter
+nester/V=1.743022680211115e-06
+pester/V=1.743022680211115e-06
+western/V=3.3117430924011184e-05
+Hester/V=1.743022680211115e-06
+Bester/V=1.743022680211115e-06
+Western/V=9.935229277203355e-05
+Lester/V=1.743022680211115e-06
+esters/V=1.743022680211115e-06
+Reuters/V=0.00018301738142216707
+Reuter/V=2.2659294842744493e-05
+Resteru Reuters
+319 1 previouslyl
+previously
+previously/V=0.00029979990099631175
+previouslyl previously
+320 1 declilned
+declined
+declined/V=0.00017081622266068927
+declilned declined
+321 1 hSimbun
+Shimbun
+Shimbun/V=5.229068040633345e-06
+hSimbun Shimbun
+322 1 namd
+name named
+name/V=0.0003520905814026452
+named/V=5.577672576675568e-05
+namd name
+323 1 requenst
+request
+request/V=2.091627216253338e-05
+requenst request
+324 1 Steei
+Steel
+Steel/V=2.6145340203166722e-05
+Steei Steel
+325 1 planse
+plane planes plans
+plane/V=8.715113401055575e-06
+planes/V=1.5687204121900034e-05
+plans/V=0.00027539758347335614
+planse plans
+326 1 capacigy
+capacity
+capacity/V=8.889415669076685e-05
+capacigy capacity
+327 1 expamded
+expanded
+expanded/V=3.3117430924011184e-05
+expamded expanded
+328 1 tday
+day today tray
+day/V=0.00015687204121900034
+today/V=0.0004008952164485564
+tray/V=1.743022680211115e-06
+tday today
+329 1 porposal
+proposal
+proposal/V=0.00012375461029498917
+porposal proposal
+330 1 shaeres
+shares
+shares/V=0.0009063717937097798
+shaeres shares
+331 1 shraes
+shares
+shares/V=0.0009063717937097798
+shraes shares
+332 1 mebraced
+embraced
+embraced/V=5.229068040633345e-06
+mebraced embraced
+333 1 Jaan
+Juan Joan Jean Jan Japan Jagan Jan Jana
+Juan/V=3.48604536042223e-06
+Joan/V=1.743022680211115e-06
+Jean/V=6.97209072084446e-06
+Jan/V=0.0001533859958585781
+Japan/V=0.001336898395721925
+Jagan/V=1.743022680211115e-06
+Jan/V=0.0001533859958585781
+Jana/V=1.743022680211115e-06
+Jaan Japan
+333 1 Jaanese
+Japanese
+Japanese/V=0.0008017904328971128
+Jaanese Japanese
+334 1 Hspeo
+aspen sped Hopes Hopei Hope
+aspen/V=1.743022680211115e-06
+sped/V=1.743022680211115e-06
+Hopes/V=5.229068040633345e-06
+Hopei/V=1.743022680211115e-06
+Hope/V=5.229068040633345e-06
+Hspeo Hopes
+335 1 existm
+exists exist
+exists/V=3.48604536042223e-06
+exist/V=1.045813608126669e-05
+existm exist
+336 1 aktions
+actions
+actions/V=5.0547657726122334e-05
+aktions actions
+336 1 aktion
+action
+action/V=0.00024750922058997834
+aktion action
+337 1 erpssure
+pressure Pressure reassure exposure
+pressure/V=0.00013769879173667807
+Pressure/V=8.715113401055575e-06
+reassure/V=5.229068040633345e-06
+exposure/V=3.660347628443341e-05
+erpssure pressure
+338 1 gaods
+goods gods
+goods/V=0.0004130963752100342
+gods/V=1.743022680211115e-06
+gaods goods
+339 1 yesterdoy
+yesterday
+yesterday/V=0.00013769879173667807
+yesterdoy yesterday
+340 1 whiceh
+which
+which/V=0.0016419273647588703
+whiceh which
+341 1 threi
+thei threw three
+thei/V=1.743022680211115e-06
+threw/V=1.743022680211115e-06
+three/V=0.0011172775380153246
+threi three
+342 1 Apri
+Aprill
+Aprill/V=1.743022680211115e-06
+Apri Aprill
+343 1 Cocout
+Coconut
+Coconut/V=1.743022680211115e-06
+Cocout Coconut
+344 1 Cojuoangco
+Cojuangco
+Cojuangco/V=1.743022680211115e-06
+Cojuoangco Cojuangco
+345 1 berach
+breach beach
+breach/V=6.97209072084446e-06
+beach/V=1.743022680211115e-06
+berach breach
+346 1 compano
+Pompano company
+Pompano/V=1.743022680211115e-06
+company/V=0.0028271827873024282
+compano company
+347 1 minoridy
+minority
+minority/V=2.788836288337784e-05
+minoridy minority
+348 1 Apri
+Aprill
+Aprill/V=1.743022680211115e-06
+Apri Aprill
+349 1 pess
+Jess Tess Hess less Bess Less mess piss pass press pecs pews pens peas pets pegs peso pesos pest pests
+Jess/V=1.743022680211115e-06
+Tess/V=1.743022680211115e-06
+Hess/V=1.743022680211115e-06
+less/V=0.00020741969894512267
+Bess/V=1.743022680211115e-06
+Less/V=3.48604536042223e-06
+mess/V=1.743022680211115e-06
+piss/V=1.743022680211115e-06
+pass/V=2.9631385563588955e-05
+press/V=8.017904328971129e-05
+pecs/V=1.743022680211115e-06
+pews/V=1.743022680211115e-06
+pens/V=1.743022680211115e-06
+peas/V=1.743022680211115e-06
+pets/V=1.743022680211115e-06
+pegs/V=1.743022680211115e-06
+peso/V=5.229068040633345e-06
+pesos/V=3.3117430924011184e-05
+pest/V=1.743022680211115e-06
+pests/V=1.743022680211115e-06
+pess less
+350 1 agreemaent
+agreement
+agreement/V=0.0003869510350068675
+agreemaent agreement
+351 1 obost
+boost oboist
+boost/V=9.760927009182244e-05
+oboist/V=1.743022680211115e-06
+obost boost
+352 1 dirsctore
+directors directory director
+directors/V=7.843602060950017e-05
+directory/V=1.743022680211115e-06
+director/V=9.063717937097797e-05
+dirsctore director
+353 1 sharis
+sharks shares shards
+sharks/V=1.743022680211115e-06
+shares/V=0.0009063717937097798
+shards/V=1.743022680211115e-06
+sharis shares
+354 1 aagin
+agin agin again
+agin/V=1.743022680211115e-06
+agin/V=1.743022680211115e-06
+again/V=6.97209072084446e-05
+aagin again
+355 1 ropert
+ropers
+ropers/V=1.743022680211115e-06
+ropert ropers
+356 1 complte
+compute compote compete complete
+compute/V=3.48604536042223e-06
+compote/V=1.743022680211115e-06
+compete/V=2.9631385563588955e-05
+complete/V=4.70616123657001e-05
+complte complete
+358 1 Cujuangco
+Cojuangco
+Cojuangco/V=1.743022680211115e-06
+Cujuangco Cojuangco
+359 1 wich
+bich Rich rich which wish with witch wick
+bich/V=1.743022680211115e-06
+Rich/V=1.743022680211115e-06
+rich/V=1.5687204121900034e-05
+which/V=0.0016419273647588703
+wish/V=1.2201158761477804e-05
+with/V=0.0028289258099826395
+witch/V=1.743022680211115e-06
+wick/V=1.743022680211115e-06
+wich with
+360 1 owted
+opted owned owed
+opted/V=1.743022680211115e-06
+owned/V=0.00024402317522955608
+owed/V=1.394418144168892e-05
+owted owned
+361 1 amgno
+amino
+amino/V=1.743022680211115e-06
+amgno amino
+362 1 Neptuna
+Neptune Neptunia
+Neptune/V=1.743022680211115e-06
+Neptunia/V=1.743022680211115e-06
+Neptuna Neptune
+363 1 buyeras
+buyers
+buyers/V=1.394418144168892e-05
+buyeras buyers
+364 1 sequestedred
+sequestered
+sequestered/V=1.743022680211115e-06
+sequestedred sequestered
+365 1 aojuCngco
+Cojuangco
+Cojuangco/V=1.743022680211115e-06
+aojuCngco Cojuangco
+366 1 stokc
+stock
+stock/V=0.0012985518967572806
+stokc stock
+367 1 Reusert
+Desert dessert desert Reuters Reuter
+Desert/V=1.743022680211115e-06
+dessert/V=3.48604536042223e-06
+desert/V=1.743022680211115e-06
+Reuters/V=0.00018301738142216707
+Reuter/V=2.2659294842744493e-05
+Reusert Reuters
+368 1 everythirng
+everything
+everything/V=1.394418144168892e-05
+everythirng everything
+369 1 stockholderd
+stockholders stockholder
+stockholders/V=6.274881648760014e-05
+stockholder/V=8.715113401055575e-06
+stockholderd stockholders
+370 1 rekported
+reported
+reported/V=0.0007041811628052904
+rekported reported
+371 1 aboat
+boat about
+boat/V=5.229068040633345e-06
+about/V=0.0013090100328385472
+aboat about
+372 1 repaorted
+reported
+reported/V=0.0007041811628052904
+repaorted reported
+373 1 treih
+Fresh fresh rein their thei teeth truth trash train trait trail tryin trip trim trio tries tried trek trench trend trench tread treat trees tree trek tree
+Fresh/V=3.48604536042223e-06
+fresh/V=3.137440824380007e-05
+rein/V=5.229068040633345e-06
+their/V=0.0005542812123071345
+thei/V=1.743022680211115e-06
+teeth/V=5.229068040633345e-06
+truth/V=1.743022680211115e-06
+trash/V=3.48604536042223e-06
+train/V=1.743022680211115e-06
+trait/V=1.743022680211115e-06
+trail/V=1.743022680211115e-06
+tryin/V=1.743022680211115e-06
+trip/V=2.9631385563588955e-05
+trim/V=8.715113401055575e-06
+trio/V=1.743022680211115e-06
+tries/V=3.48604536042223e-06
+tried/V=1.394418144168892e-05
+trek/V=1.743022680211115e-06
+trench/V=1.743022680211115e-06
+trend/V=5.926277112717791e-05
+trench/V=1.743022680211115e-06
+tread/V=1.743022680211115e-06
+treat/V=3.48604536042223e-06
+trees/V=1.743022680211115e-06
+tree/V=3.48604536042223e-06
+trek/V=1.743022680211115e-06
+tree/V=3.48604536042223e-06
+treih their
+374 1 thero
+hero there ther
+hero/V=1.743022680211115e-06
+there/V=0.00038172196696623415
+ther/V=1.743022680211115e-06
+thero there
+375 1 erly
+Orly rely early
+Orly/V=1.743022680211115e-06
+rely/V=1.045813608126669e-05
+early/V=0.0002701685154327228
+erly early
+376 1 sothern
+southern
+southern/V=3.48604536042223e-06
+sothern southern
+377 1 probablye
+probable probably
+probable/V=2.440231752295561e-05
+probably/V=9.238020205118909e-05
+probablye probably
+378 1 norvally
+normally
+normally/V=1.394418144168892e-05
+norvally normally
+379 1 maximusm
+maximum maximums
+maximum/V=1.2201158761477804e-05
+maximums/V=1.743022680211115e-06
+maximusm maximum
+380 1 piaclng
+placing pacing
+placing/V=1.394418144168892e-05
+pacing/V=1.743022680211115e-06
+piaclng placing
+381 1 louwd
+loud
+loud/V=1.743022680211115e-06
+louwd loud
+382 1 preofit
+profit
+profit/V=0.004742764712854444
+preofit profit
+383 1 premiaums
+premiums
+premiums/V=2.788836288337784e-05
+premiaums premiums
+384 1 fnancial
+financial
+financial/V=0.0003730068535651786
+fnancial financial
+385 1 inckel
+nickel
+nickel/V=6.97209072084446e-06
+inckel nickel
+386 1 increaces
+increases
+increases/V=0.0001272406556554114
+increaces increases
+387 1 woruld
+would world
+would/V=0.00207942605749186
+world/V=0.00043575567005277874
+woruld would
+388 1 fitst
+first fist fits
+first/V=0.001274149579234325
+fist/V=1.743022680211115e-06
+fits/V=3.48604536042223e-06
+fitst first
+389 1 compaved
+compared
+compared/V=0.0006640916411604348
+compaved compared
+390 1 doulw
+could souls soul Soule Gould would foul Would mould Could ould duly dull doble dolls doll doll dole dough dour dourly doubt doubly double dour
+could/V=0.0005577672576675568
+souls/V=1.743022680211115e-06
+soul/V=1.743022680211115e-06
+Soule/V=1.743022680211115e-06
+Gould/V=3.48604536042223e-06
+would/V=0.00207942605749186
+foul/V=1.743022680211115e-06
+Would/V=1.743022680211115e-05
+mould/V=1.743022680211115e-06
+Could/V=6.97209072084446e-06
+ould/V=1.743022680211115e-06
+duly/V=1.743022680211115e-06
+dull/V=1.743022680211115e-06
+doble/V=1.743022680211115e-06
+dolls/V=1.743022680211115e-06
+doll/V=3.48604536042223e-06
+doll/V=3.48604536042223e-06
+dole/V=1.743022680211115e-06
+dough/V=1.743022680211115e-06
+dour/V=1.743022680211115e-06
+dourly/V=1.743022680211115e-06
+doubt/V=2.788836288337784e-05
+doubly/V=1.743022680211115e-06
+double/V=5.2290680406333444e-05
+dour/V=1.743022680211115e-06
+doulw would
+391 1 redsults
+results
+results/V=0.0007721590473335239
+redsults results
+393 1 orute
+brute route orate
+brute/V=1.743022680211115e-06
+route/V=1.045813608126669e-05
+orate/V=1.743022680211115e-06
+orute route
+394 1 stneps
+steps
+steps/V=5.2290680406333444e-05
+stneps steps
+395 1 growti
+growth
+growth/V=0.0007268404576480349
+growti growth
+396 1 Grman
+German Graan Gran
+German/V=0.00012549763297520027
+Graan/V=1.743022680211115e-06
+Gran/V=1.743022680211115e-06
+Grman German
+397 1 ibpact
+impact
+impact/V=0.00017255924534090037
+ibpact impact
+398 1 Pleho
+altho Piero Poehl Plato Pleas Plea Plea
+altho/V=1.743022680211115e-06
+Piero/V=1.743022680211115e-06
+Poehl/V=1.394418144168892e-05
+Plato/V=1.743022680211115e-06
+Pleas/V=1.743022680211115e-06
+Plea/V=1.743022680211115e-06
+Plea/V=1.743022680211115e-06
+Pleho Poehl
+399 1 obstaclet
+obstacles obstacle
+obstacles/V=1.2201158761477804e-05
+obstacle/V=3.48604536042223e-06
+obstaclet obstacles
+400 1 idcluning
+including
+including/V=0.00029805687831610067
+idcluning including
+401 1 miledma
+dilemma
+dilemma/V=3.48604536042223e-06
+miledma dilemma
+402 1 excahnge
+exchange
+exchange/V=0.00032420221851926735
+excahnge exchange
+403 1 fscuo
+facto focus
+facto/V=5.229068040633345e-06
+focus/V=3.8346498964644526e-05
+fscuo focus
+404 1 caferul
+careful
+careful/V=8.715113401055575e-06
+caferul careful
+405 1 affecte
+affectedd effecte affects affect
+affectedd/V=1.743022680211115e-06
+effecte/V=1.743022680211115e-06
+affects/V=1.045813608126669e-05
+affect/V=6.274881648760014e-05
+affecte affect
+406 1 countris
+countries
+countries/V=0.0006222590968353681
+countris countries
+407 1 aout
+bout gout pout tout out about
+bout/V=1.743022680211115e-06
+gout/V=1.743022680211115e-06
+pout/V=1.743022680211115e-06
+tout/V=1.743022680211115e-06
+out/V=0.00031025803707757847
+about/V=0.0013090100328385472
+aout about
+408 1 nmericaA
+Americas American America numerical
+Americas/V=3.48604536042223e-06
+American/V=0.0004322696246923565
+America/V=9.760927009182244e-05
+numerical/V=3.48604536042223e-06
+nmericaA American
+409 1 therel
+there
+there/V=0.00038172196696623415
+therel there
+410 1 coypanm
+company
+company/V=0.0028271827873024282
+coypanm company
+412 1 irtes
+rites
+rites/V=1.743022680211115e-06
+irtes rites
+413 1 conmmercial
+commercial
+commercial/V=0.00010109531545224467
+conmmercial commercial
+414 1 trhee
+thee three tree
+thee/V=1.743022680211115e-06
+three/V=0.0011172775380153246
+tree/V=3.48604536042223e-06
+trhee three
+415 1 fcsial
+Musial filial finial fiscal facial facial facial
+Musial/V=1.743022680211115e-06
+filial/V=1.743022680211115e-06
+finial/V=1.743022680211115e-06
+fiscal/V=0.00051593471334249
+facial/V=1.743022680211115e-06
+facial/V=1.743022680211115e-06
+facial/V=1.743022680211115e-06
+fcsial fiscal
+416 1 Februoary
+February
+February/V=0.0010266403586443467
+Februoary February
+417 1 nted
+noted need
+noted/V=0.00016907319998047814
+need/V=0.00016210110925963367
+nted noted
+418 1 numbir
+number
+number/V=0.0001638441319398448
+numbir number
+419 1 Ueilevnr
+Unilever
+Unilever/V=3.48604536042223e-05
+Ueilevnr Unilever
+420 1 rcaket
+racket
+racket/V=1.743022680211115e-06
+rcaket racket
+421 1 availabale
+available
+available/V=0.00016210110925963367
+availabale available
+422 1 Septerbem
+September
+September/V=0.00023705108450871164
+Septerbem September
+423 1 benfit
+benefit
+benefit/V=0.00010109531545224467
+benfit benefit
+424 1 ressult
+result result
+result/V=0.00031723012779842294
+result/V=0.00031723012779842294
+ressult result
+425 1 fuethrr
+further
+further/V=0.00032245919583905627
+fuethrr further
+426 1 beforeb
+before
+before/V=0.0004340126473725676
+beforeb before
+427 1 infromation
+information
+information/V=4.3575567005277876e-05
+infromation information
+428 1 proudcer
+producer prouder
+producer/V=2.788836288337784e-05
+prouder/V=1.743022680211115e-06
+proudcer producer
+429 1 shaer
+sheer shear shaker share
+sheer/V=1.743022680211115e-06
+shear/V=1.743022680211115e-06
+shaker/V=1.743022680211115e-06
+share/V=0.0028986467171910842
+shaer share
+430 1 ootstanding
+outstanding
+outstanding/V=0.00020393365358470044
+ootstanding outstanding
+431 1 pureec
+purees
+purees/V=3.48604536042223e-06
+pureec purees
+432 1 sarplus
+surplus
+surplus/V=0.0007355555710490905
+sarplus surplus
+433 1 Aprl
+April
+April/V=0.0019016377441103264
+Aprl April
+434 1 prevnted
+prevented
+prevented/V=5.229068040633345e-06
+prevnted prevented
+435 1 duspite
+despite
+despite/V=0.00014815692781794477
+duspite despite
+437 1 calledi
+called
+called/V=0.00015512901853878924
+calledi called
+438 1 agenad
+agenda
+agenda/V=3.48604536042223e-06
+agenad agenda
+439 1 proposas
+proposes proposal proposals
+proposes/V=8.715113401055575e-06
+proposal/V=0.00012375461029498917
+proposals/V=7.669299792928905e-05
+proposas proposal
+440 1 interom
+interim
+interim/V=3.3117430924011184e-05
+interom interim
+441 1 conplicated
+complicated
+complicated/V=3.48604536042223e-06
+conplicated complicated
+442 1 larest
+barest latest largest
+barest/V=1.743022680211115e-06
+latest/V=0.00010458136081266689
+largest/V=0.0001865034267825893
+larest largest
+443 1 writte
+writtenn write writhe write
+writtenn/V=1.743022680211115e-06
+write/V=9.760927009182244e-05
+writhe/V=1.743022680211115e-06
+write/V=9.760927009182244e-05
+writte write
+444 1 whilen
+while
+while/V=0.0004409847380934121
+whilen while
+445 1 thre
+threww threee tire tore thee there the ther thru
+threww/V=1.743022680211115e-06
+threee/V=1.743022680211115e-06
+tire/V=5.229068040633345e-06
+tore/V=1.743022680211115e-06
+thee/V=1.743022680211115e-06
+there/V=0.00038172196696623415
+the/V=0.02634404478871079
+ther/V=1.743022680211115e-06
+thru/V=1.743022680211115e-06
+thre the
+446 1 bringsi
+brings
+brings/V=1.743022680211115e-05
+bringsi brings
+447 1 Todaay
+Today Today
+Today/V=3.3117430924011184e-05
+Today/V=3.3117430924011184e-05
+Todaay Today
+448 1 praetax
+pretax
+pretax/V=0.0002353080618285005
+praetax pretax
+449 1 figeure
+figure
+figure/V=0.0001743022680211115
+figeure figure
+450 1 peniod
+period
+period/V=0.0004863033277789011
+peniod period
+451 1 emtisates
+estimates
+estimates/V=0.00012201158761477804
+emtisates estimates
+452 1 rifst
+rift
+rift/V=1.743022680211115e-06
+rifst rift
+453 1 ealss
+class calls salts sales seals seals Tales Sales Mass Glass bass balks balls bales glass gauss galls gals gals dales deals deals Falls False pass palms pales pals palsy pals peals peals walks walls wales Halls Hals Hals lass Bales falls false Walls Wales Walsh Lass Pass Palsy mass males meals meals Class Calls halls halts halos talks tales realms lass ass alas also elms else eats eats earns ears ears eagles eats ears easy ease east
+class/V=7.843602060950017e-05
+calls/V=4.008952164485564e-05
+salts/V=1.743022680211115e-06
+sales/V=0.0008906845895878797
+seals/V=1.743022680211115e-06
+seals/V=1.743022680211115e-06
+Tales/V=1.743022680211115e-06
+Sales/V=0.0014501948699356475
+Mass/V=1.743022680211115e-06
+Glass/V=1.2201158761477804e-05
+bass/V=1.743022680211115e-06
+balks/V=1.743022680211115e-06
+balls/V=1.743022680211115e-06
+bales/V=1.743022680211115e-06
+glass/V=1.045813608126669e-05
+gauss/V=1.743022680211115e-06
+galls/V=1.743022680211115e-06
+gals/V=1.743022680211115e-06
+gals/V=1.743022680211115e-06
+dales/V=1.743022680211115e-06
+deals/V=2.440231752295561e-05
+deals/V=2.440231752295561e-05
+Falls/V=8.715113401055575e-06
+False/V=1.743022680211115e-06
+pass/V=2.9631385563588955e-05
+palms/V=1.743022680211115e-06
+pales/V=1.743022680211115e-06
+pals/V=1.743022680211115e-06
+palsy/V=1.743022680211115e-06
+pals/V=1.743022680211115e-06
+peals/V=1.743022680211115e-06
+peals/V=1.743022680211115e-06
+walks/V=1.743022680211115e-06
+walls/V=3.48604536042223e-06
+wales/V=1.743022680211115e-06
+Halls/V=1.743022680211115e-06
+Hals/V=1.743022680211115e-06
+Hals/V=1.743022680211115e-06
+lass/V=1.743022680211115e-06
+Bales/V=1.743022680211115e-06
+falls/V=2.440231752295561e-05
+false/V=1.045813608126669e-05
+Walls/V=1.743022680211115e-06
+Wales/V=5.229068040633345e-06
+Walsh/V=1.394418144168892e-05
+Lass/V=1.743022680211115e-06
+Pass/V=1.743022680211115e-06
+Palsy/V=1.743022680211115e-06
+mass/V=8.715113401055575e-06
+males/V=1.743022680211115e-06
+meals/V=1.743022680211115e-06
+meals/V=1.743022680211115e-06
+Class/V=7.843602060950017e-05
+Calls/V=5.229068040633345e-06
+halls/V=1.743022680211115e-06
+halts/V=1.743022680211115e-06
+halos/V=1.743022680211115e-06
+talks/V=0.0002910847875952562
+tales/V=1.743022680211115e-06
+realms/V=1.743022680211115e-06
+lass/V=1.743022680211115e-06
+ass/V=1.743022680211115e-06
+alas/V=1.743022680211115e-06
+also/V=0.0013142391008791807
+elms/V=1.743022680211115e-06
+else/V=1.9173249482322263e-05
+eats/V=1.743022680211115e-06
+eats/V=1.743022680211115e-06
+earns/V=1.743022680211115e-06
+ears/V=1.743022680211115e-06
+ears/V=1.743022680211115e-06
+eagles/V=1.743022680211115e-06
+eats/V=1.743022680211115e-06
+ears/V=1.743022680211115e-06
+easy/V=8.715113401055575e-06
+ease/V=3.8346498964644526e-05
+east/V=2.788836288337784e-05
+ealss Sales
+454 1 Cawion
+Canion
+Canion/V=5.229068040633345e-06
+Cawion Canion
+455 1 demad
+dead demand
+dead/V=1.743022680211115e-06
+demand/V=0.0003520905814026452
+demad demand
+456 1 INTERNATsONAL
+INTERNATIONAL
+INTERNATIONAL/V=0.00016035808657942257
+INTERNATsONAL INTERNATIONAL
+457 1 Inteanrtional
+International
+International/V=0.0002614534020316672
+Inteanrtional International
+458 1 dieclossd
+disclosed
+disclosed/V=2.440231752295561e-05
+dieclossd disclosed
+459 1 executiocn
+execution
+execution/V=1.743022680211115e-06
+executiocn execution
+460 1 Internatinal
+International
+International/V=0.0002614534020316672
+Internatinal International
+461 1 Hawaian
+Hawaiian
+Hawaiian/V=3.48604536042223e-06
+Hawaian Hawaiian
+461 1 Hawai
+Hawaiii
+Hawaiii/V=1.743022680211115e-06
+Hawai Hawaiii
+462 1 iesidnr
+insider
+insider/V=5.229068040633345e-06
+iesidnr insider
+463 1 proerly
+properly
+properly/V=1.743022680211115e-06
+proerly properly
+464 1 Excoange
+Exchange
+Exchange/V=0.00010981042885330024
+Excoange Exchange
+465 1 rquirement
+requirement
+requirement/V=2.9631385563588955e-05
+rquirement requirement
+466 1 rpevent
+prevent
+prevent/V=4.5318589685488985e-05
+rpevent prevent
+467 1 tnder
+Under under tinder tender
+Under/V=6.97209072084446e-05
+under/V=0.0003608056948037008
+tinder/V=1.743022680211115e-06
+tender/V=2.788836288337784e-05
+tnder under
+468 1 aquiring
+acquiring
+acquiring/V=1.2201158761477804e-05
+aquiring acquiring
+469 1 Proexmire
+Proxmire
+Proxmire/V=1.743022680211115e-06
+Proexmire Proxmire
+470 1 takeovrs
+takeovers
+takeovers/V=5.229068040633345e-06
+takeovrs takeovers
+471 1 raixe
+raise
+raise/V=0.00013421274637625584
+raixe raise
+473 1 uowld
+could cold sold Told Mold Gould Gold bold bowed bowls bowl vowed gold Fold would world wold Hold Howl lowly Bold Bowl fold fowl Would World mould mold mowed Could Cold hold howls howled howl jowls jowl told towed rowed wold ould old owed owls owl ould unwed
+could/V=0.0005577672576675568
+cold/V=1.5687204121900034e-05
+sold/V=0.00017081622266068927
+Told/V=1.743022680211115e-06
+Mold/V=1.743022680211115e-06
+Gould/V=3.48604536042223e-06
+Gold/V=0.00010283833813245579
+bold/V=5.229068040633345e-06
+bowed/V=1.743022680211115e-06
+bowls/V=1.743022680211115e-06
+bowl/V=1.743022680211115e-06
+vowed/V=3.48604536042223e-06
+gold/V=0.0007094102308459238
+Fold/V=1.743022680211115e-06
+would/V=0.00207942605749186
+world/V=0.00043575567005277874
+wold/V=1.743022680211115e-06
+Hold/V=1.743022680211115e-06
+Howl/V=1.743022680211115e-06
+lowly/V=1.743022680211115e-06
+Bold/V=1.743022680211115e-06
+Bowl/V=1.743022680211115e-06
+fold/V=5.229068040633345e-06
+fowl/V=1.743022680211115e-06
+Would/V=1.743022680211115e-05
+World/V=0.00011503949689393359
+mould/V=1.743022680211115e-06
+mold/V=1.743022680211115e-06
+mowed/V=1.743022680211115e-06
+Could/V=6.97209072084446e-06
+Cold/V=1.743022680211115e-06
+hold/V=8.017904328971129e-05
+howls/V=1.743022680211115e-06
+howled/V=1.743022680211115e-06
+howl/V=1.743022680211115e-06
+jowls/V=1.743022680211115e-06
+jowl/V=1.743022680211115e-06
+told/V=0.0007198683669271905
+towed/V=1.743022680211115e-06
+rowed/V=1.743022680211115e-06
+wold/V=1.743022680211115e-06
+ould/V=1.743022680211115e-06
+old/V=2.9631385563588955e-05
+owed/V=1.394418144168892e-05
+owls/V=1.743022680211115e-06
+owl/V=1.743022680211115e-06
+ould/V=1.743022680211115e-06
+unwed/V=1.743022680211115e-06
+uowld would
+474 1 Pichens
+Pickens
+Pickens/V=6.97209072084446e-06
+Pichens Pickens
+475 1 treatmen
+treatmentt
+treatmentt/V=1.743022680211115e-06
+treatmen treatmentt
+476 1 defenseve
+defensive
+defensive/V=3.48604536042223e-06
+defenseve defensive
+477 1 Proxnire
+Proxmire
+Proxmire/V=1.743022680211115e-06
+Proxnire Proxmire
+478 1 Cengress
+Congress
+Congress/V=0.00019696156286385597
+Cengress Congress
+479 1 Februcary
+February
+February/V=0.0010266403586443467
+Februcary February
+480 1 reqriue
+rewrite require
+rewrite/V=1.743022680211115e-06
+require/V=4.3575567005277876e-05
+reqriue require
+481 1 woul
+wouldd soul foul wool
+wouldd/V=1.743022680211115e-06
+soul/V=1.743022680211115e-06
+foul/V=1.743022680211115e-06
+wool/V=1.743022680211115e-06
+woul wouldd
+482 1 rTust
+Trust rust
+Trust/V=0.00014815692781794477
+rust/V=1.743022680211115e-06
+rTust Trust
+483 1 matureis
+matures
+matures/V=5.229068040633345e-06
+matureis matures
+484 1 SGAR
+SUGAR
+SUGAR/V=3.48604536042223e-06
+SGAR SUGAR
+485 1 Stoltinberg
+Stoltenberg
+Stoltenberg/V=3.48604536042223e-06
+Stoltinberg Stoltenberg
+486 1 measiures
+measures
+measures/V=0.0001760452907013226
+measiures measures
+487 1 importanice
+importance
+importance/V=1.9173249482322263e-05
+importanice importance
+488 1 Worlt
+Worst World
+Worst/V=1.743022680211115e-06
+World/V=0.00011503949689393359
+Worlt World
+489 1 raPis
+rakishh radishh raisee Janis Nazis Iraqis Satis Kravis Mavis Maris Mais Davis basis gratis dais Paris mais tapis taxis axis racks races rapes rapid ramps rains raids rails rasps ranks rafts rates rats ratio ratios rabid rages rags rays rads radii radius radio radios rats rags rays rads rain rains raid raids rail rails rains raids rails
+rakishh/V=1.743022680211115e-06
+radishh/V=1.743022680211115e-06
+raisee/V=1.743022680211115e-06
+Janis/V=1.743022680211115e-06
+Nazis/V=1.743022680211115e-06
+Iraqis/V=1.743022680211115e-06
+Satis/V=1.743022680211115e-06
+Kravis/V=8.715113401055575e-06
+Mavis/V=1.743022680211115e-06
+Maris/V=1.743022680211115e-06
+Mais/V=1.743022680211115e-06
+Davis/V=6.97209072084446e-06
+basis/V=0.00020393365358470044
+gratis/V=1.743022680211115e-06
+dais/V=1.743022680211115e-06
+Paris/V=8.540811133034463e-05
+mais/V=1.743022680211115e-06
+tapis/V=1.743022680211115e-06
+taxis/V=1.743022680211115e-06
+axis/V=1.743022680211115e-06
+racks/V=1.743022680211115e-06
+races/V=1.743022680211115e-06
+rapes/V=1.743022680211115e-06
+rapid/V=2.2659294842744493e-05
+ramps/V=1.743022680211115e-06
+rains/V=1.743022680211115e-06
+raids/V=1.743022680211115e-06
+rails/V=5.229068040633345e-06
+rasps/V=1.743022680211115e-06
+ranks/V=1.743022680211115e-06
+rafts/V=1.743022680211115e-06
+rates/V=0.0002823696741942006
+rats/V=1.743022680211115e-06
+ratio/V=4.70616123657001e-05
+ratios/V=6.97209072084446e-06
+rabid/V=1.743022680211115e-06
+rages/V=1.743022680211115e-06
+rags/V=1.743022680211115e-06
+rays/V=3.48604536042223e-06
+rads/V=1.743022680211115e-06
+radii/V=1.743022680211115e-06
+radius/V=1.743022680211115e-06
+radio/V=6.97209072084446e-06
+radios/V=6.97209072084446e-06
+rats/V=1.743022680211115e-06
+rags/V=1.743022680211115e-06
+rays/V=3.48604536042223e-06
+rads/V=1.743022680211115e-06
+rain/V=1.2201158761477804e-05
+rains/V=1.743022680211115e-06
+raid/V=1.743022680211115e-06
+raids/V=1.743022680211115e-06
+rail/V=1.743022680211115e-06
+rails/V=5.229068040633345e-06
+rains/V=1.743022680211115e-06
+raids/V=1.743022680211115e-06
+rails/V=5.229068040633345e-06
+raPis rates
+490 1 dsicuss
+discuss
+discuss/V=5.2290680406333444e-05
+dsicuss discuss
+491 1 agaenst
+against
+against/V=0.000848852045262813
+agaenst against
+492 1 spport
+support sport sport
+support/V=0.00010806740617308912
+sport/V=6.97209072084446e-06
+sport/V=6.97209072084446e-06
+spport support
+493 1 maerket
+market
+market/V=0.0008662822720649241
+maerket market
+495 1 Jaan
+Juan Joan Jean Jan Japan Jagan Jan Jana
+Juan/V=3.48604536042223e-06
+Joan/V=1.743022680211115e-06
+Jean/V=6.97209072084446e-06
+Jan/V=0.0001533859958585781
+Japan/V=0.001336898395721925
+Jagan/V=1.743022680211115e-06
+Jan/V=0.0001533859958585781
+Jana/V=1.743022680211115e-06
+Jaan Japan
+496 1 throegh
+through
+through/V=0.0002701685154327228
+throegh through
+497 1 nyarle
+Tearle nearly
+Tearle/V=1.743022680211115e-06
+nearly/V=8.366508865013352e-05
+nyarle nearly
+499 1 Europeatn
+European
+European/V=0.0002544813113108228
+Europeatn European
+500 1 INTERVNTION
+INTERVENTION
+INTERVENTION/V=1.743022680211115e-06
+INTERVNTION INTERVENTION
+501 1 oBard
+Board
+Board/V=5.926277112717791e-05
+oBard Board
+502 1 traeders
+traders
+traders/V=8.19220659699224e-05
+traeders traders
+503 1 Denmarc
+Denmark
+Denmark/V=8.715113401055575e-06
+Denmarc Denmark
+504 1 tonces
+tonnes tones
+tonnes/V=0.0001394418144168892
+tones/V=1.743022680211115e-06
+tonces tonnes
+505 1 tradeis
+traders trades
+traders/V=8.19220659699224e-05
+trades/V=2.091627216253338e-05
+tradeis traders
+506 1 authorisatcions
+authorisations
+authorisations/V=1.743022680211115e-06
+authorisatcions authorisations
+507 1 hwites
+whites
+whites/V=3.48604536042223e-06
+hwites whites
+508 1 bdes
+des bodes bees beds
+des/V=1.2201158761477804e-05
+bodes/V=3.48604536042223e-06
+bees/V=1.743022680211115e-06
+beds/V=1.743022680211115e-06
+bdes des
+509 1 reporteda
+reported
+reported/V=0.0007041811628052904
+reporteda reported
+510 1 compoany
+company
+company/V=0.0028271827873024282
+compoany company
+511 1 oberations
+operations
+operations/V=0.0009534334060754798
+oberations operations
+512 1 Robelts
+Roberts
+Roberts/V=1.2201158761477804e-05
+Robelts Roberts
+513 1 prosuctd
+produced products product
+produced/V=6.797788452823348e-05
+products/V=0.0005211637813831234
+product/V=0.00020741969894512267
+prosuctd products
+514 1 aocted
+acted
+acted/V=1.2201158761477804e-05
+aocted acted
+515 1 Tetrms
+Terms
+Terms/V=8.715113401055575e-06
+Tetrms Terms
+516 1 Opnershiw
+Ownership
+Ownership/V=1.743022680211115e-06
+Opnershiw Ownership
+517 1 compny
+comply company
+comply/V=1.743022680211115e-05
+company/V=0.0028271827873024282
+compny company
+518 1 Asadeum
+Amadeus
+Amadeus/V=3.48604536042223e-06
+Asadeum Amadeus
+519 1 diveo
+dives diver dived dive
+dives/V=1.743022680211115e-06
+diver/V=1.743022680211115e-06
+dived/V=1.743022680211115e-06
+dive/V=1.743022680211115e-06
+diveo dives
+520 1 WOLWORTH
+WOOLWORTH
+WOOLWORTH/V=1.743022680211115e-05
+WOLWORTH WOOLWORTH
+521 1 HKES
+HIKES
+HIKES/V=3.660347628443341e-05
+HKES HIKES
+522 1 DVIIDEND
+DIVIDEND
+DIVIDEND/V=0.0005072195999414345
+DVIIDEND DIVIDEND
+523 1 spokesamn
+spokesman
+spokesman/V=0.0002684254927525117
+spokesamn spokesman
+524 1 earlya
+early
+early/V=0.0002701685154327228
+earlya early
+525 1 sudstantially
+substantially
+substantially/V=7.320695256886682e-05
+sudstantially substantially
+526 1 quot
+quotee quotaa quit quok quo
+quotee/V=1.743022680211115e-06
+quotaa/V=1.743022680211115e-06
+quit/V=3.48604536042223e-06
+quok/V=1.743022680211115e-06
+quo/V=3.48604536042223e-06
+quot quit
+526 1 non-quot
+non-quotaa
+non-quotaa/V=1.743022680211115e-06
+non-quot non-quotaa
+527 1 farmerse
+farmers
+farmers/V=3.48604536042223e-05
+farmerse farmers
+528 1 prvent
+prevent
+prevent/V=4.5318589685488985e-05
+prvent prevent
+529 1 Denmerk
+Denmark
+Denmark/V=8.715113401055575e-06
+Denmerk Denmark
+530 1 spokesmam
+spokesman
+spokesman/V=0.0002684254927525117
+spokesmam spokesman
+531 1 afterwaads
+afterwards
+afterwards/V=3.48604536042223e-06
+afterwaads afterwards
+532 1 tehir
+their
+their/V=0.0005542812123071345
+tehir their
+533 1 fgiure
+figure
+figure/V=0.0001743022680211115
+fgiure figure
+534 1 plopose
+propose
+propose/V=3.3117430924011184e-05
+plopose propose
+536 1 pioposal
+proposal
+proposal/V=0.00012375461029498917
+pioposal proposal
+537 1 suorprise
+surprise
+surprise/V=1.2201158761477804e-05
+suorprise surprise
+538 1 mainetain
+maintain
+maintain/V=0.00010109531545224467
+mainetain maintain
+540 1 aoprpximately
+approximately
+approximately/V=4.5318589685488985e-05
+aoprpximately approximately
+541 1 heatlh
+health
+health/V=5.2290680406333444e-05
+heatlh health
+542 1 earliuer
+earlier
+earlier/V=0.0006100579380738903
+earliuer earlier
+543 1 calitap
+capital capita
+capital/V=0.00042704055665172315
+capita/V=5.229068040633345e-06
+calitap capital
+544 1 stockhouders
+stockholders
+stockholders/V=6.274881648760014e-05
+stockhouders stockholders
+545 1 sercive
+coercive coercive derive perceive survive strive service servile serve
+coercive/V=3.48604536042223e-06
+coercive/V=3.48604536042223e-06
+derive/V=5.229068040633345e-06
+perceive/V=1.743022680211115e-06
+survive/V=3.48604536042223e-06
+strive/V=3.48604536042223e-06
+service/V=9.41232247314002e-05
+servile/V=1.743022680211115e-06
+serve/V=1.9173249482322263e-05
+sercive service
+546 1 Caltel
+Cartel
+Cartel/V=1.743022680211115e-06
+Caltel Cartel
+547 1 Fago
+sago ago Fargo
+sago/V=1.743022680211115e-06
+ago/V=0.0005054765772612233
+Fargo/V=6.97209072084446e-06
+Fago ago
+548 1 saple
+Maple maple staple sample sable sale
+Maple/V=8.715113401055575e-06
+maple/V=1.743022680211115e-06
+staple/V=8.715113401055575e-06
+sample/V=1.743022680211115e-06
+sable/V=1.743022680211115e-06
+sale/V=0.0005873986432311457
+saple sale
+549 1 Presidenti
+Presidents President
+Presidents/V=1.743022680211115e-06
+President/V=0.0002004476082242782
+Presidenti President
+550 1 peacticr
+practice
+practice/V=2.6145340203166722e-05
+peacticr practice
+551 1 leevls
+levels
+levels/V=0.0001655871546200559
+leevls levels
+552 1 governemnt
+government
+government/V=0.0007407846390897238
+governemnt government
+553 1 plce
+pace place
+pace/V=2.9631385563588955e-05
+place/V=8.540811133034463e-05
+plce place
+555 1 whcih
+which
+which/V=0.0016419273647588703
+whcih which
+556 1 damge
+damage dame
+damage/V=1.743022680211115e-05
+dame/V=1.743022680211115e-06
+damge damage
+557 1 suenoB
+Buenos Bueno
+Buenos/V=1.743022680211115e-06
+Bueno/V=1.743022680211115e-06
+suenoB Buenos
+558 1 rainwfall
+rainfall
+rainfall/V=1.743022680211115e-06
+rainwfall rainfall
+559 1 soybaan
+soybean
+soybean/V=2.091627216253338e-05
+soybaan soybean
+560 1 betwen
+between
+between/V=0.0004427277607736232
+betwen between
+561 1 yiild
+yield
+yield/V=2.440231752295561e-05
+yiild yield
+562 1 seasom
+season
+season/V=2.6145340203166722e-05
+seasom season
+563 1 belowo
+below
+below/V=0.00017953133606174484
+belowo below
+564 1 harveesting
+harvesting harvesting
+harvesting/V=1.743022680211115e-06
+harvesting/V=1.743022680211115e-06
+harveesting harvesting
+565 1 sontheru
+southern
+southern/V=3.48604536042223e-06
+sontheru southern
+566 1 setimates
+estimates
+estimates/V=0.00012201158761477804
+setimates estimates
+567 1 fisgure
+figure
+figure/V=0.0001743022680211115
+fisgure figure
+568 1 hectres
+hectares
+hectares/V=8.715113401055575e-06
+hectres hectares
+569 1 Sorghmu
+Sorghum
+Sorghum/V=1.743022680211115e-06
+Sorghmu Sorghum
+570 1 stert
+start stern
+start/V=0.00014641390513773364
+stern/V=3.48604536042223e-06
+stert start
+571 1 totla
+total
+total/V=0.0004218114886110898
+totla total
+572 1 comared
+compared
+compared/V=0.0006640916411604348
+comared compared
+573 1 oeassn
+season Reason reason
+season/V=2.6145340203166722e-05
+Reason/V=1.743022680211115e-06
+reason/V=6.623486184802237e-05
+oeassn reason
+574 1 seeson
+season
+season/V=2.6145340203166722e-05
+seeson season
+575 1 aseas
+seas areas
+seas/V=1.743022680211115e-06
+areas/V=0.00010806740617308912
+aseas areas
+576 1 aretas
+arenas areas
+arenas/V=1.743022680211115e-06
+areas/V=0.00010806740617308912
+aretas areas
+577 1 Preparatin
+Preparation
+Preparation/V=1.743022680211115e-06
+Preparatin Preparation
+578 1 fingure
+figure
+figure/V=0.0001743022680211115
+fingure figure
+579 1 wnmeo
+Cameo Romeo women
+Cameo/V=1.743022680211115e-06
+Romeo/V=1.743022680211115e-06
+women/V=5.229068040633345e-06
+wnmeo women
+580 1 unemploymnt
+unemployment
+unemployment/V=5.2290680406333444e-05
+unemploymnt unemployment
+581 1 figurer
+figures figured figure
+figures/V=0.0005490521442665012
+figured/V=3.48604536042223e-06
+figure/V=0.0001743022680211115
+figurer figures
+582 1 siguref
+Figures Figure figures figured figure sigue
+Figures/V=1.5687204121900034e-05
+Figure/V=1.743022680211115e-06
+figures/V=0.0005490521442665012
+figured/V=3.48604536042223e-06
+figure/V=0.0001743022680211115
+sigue/V=1.743022680211115e-06
+siguref figures
+583 1 imcrease
+increase
+increase/V=0.0007704160246533128
+imcrease increase
+584 1 vacamcies
+vacancies
+vacancies/V=1.743022680211115e-06
+vacamcies vacancies
+585 1 figeru
+Niger Tigers Tiger niger tiger finer fingers finger fibers fiber fixers fiery figure figger
+Niger/V=1.743022680211115e-06
+Tigers/V=1.743022680211115e-06
+Tiger/V=1.743022680211115e-06
+niger/V=1.743022680211115e-06
+tiger/V=1.743022680211115e-06
+finer/V=1.743022680211115e-06
+fingers/V=1.743022680211115e-06
+finger/V=3.48604536042223e-06
+fibers/V=1.743022680211115e-06
+fiber/V=2.2659294842744493e-05
+fixers/V=1.743022680211115e-06
+fiery/V=1.743022680211115e-06
+figure/V=0.0001743022680211115
+figger/V=1.743022680211115e-06
+figeru figure
+586 1 Jucqaes
+Jacques
+Jacques/V=2.2659294842744493e-05
+Jucqaes Jacques
+587 1 Miyauzawa
+Miyazawa
+Miyazawa/V=1.2201158761477804e-05
+Miyauzawa Miyazawa
+588 1 Canadiaen
+Canadian
+Canadian/V=0.00028585571955462287
+Canadiaen Canadian
+589 1 issied
+issued
+issued/V=0.00010283833813245579
+issied issued
+590 1 Bakem
+Baker Bake
+Baker/V=8.889415669076685e-05
+Bake/V=1.743022680211115e-06
+Bakem Baker
+591 1 Gonia
+Goria
+Goria/V=1.743022680211115e-06
+Gonia Goria
+592 1 billiono
+billions billion
+billions/V=1.743022680211115e-06
+billion/V=0.005514923760187968
+billiono billion
+593 1 prrssuees
+pressures
+pressures/V=5.0547657726122334e-05
+prrssuees pressures
+594 1 yesterdy
+yesterday
+yesterday/V=0.00013769879173667807
+yesterdy yesterday
+595 1 liscdosed
+disclosed
+disclosed/V=2.440231752295561e-05
+liscdosed disclosed
+596 1 profyt
+profit profet
+profit/V=0.004742764712854444
+profet/V=1.743022680211115e-06
+profyt profit
+597 1 divdend
+dividend
+dividend/V=0.0011329647421372247
+divdend dividend
+597 1 divdends
+dividends
+dividends/V=0.0001987045855440671
+divdends dividends
+598 1 sebject
+subject
+subject/V=0.00010806740617308912
+sebject subject
+599 1 commol
+common
+common/V=0.0004741021690174233
+commol common
+600 1 addad
+added
+added/V=0.0006013428246728346
+addad added
+601 1 quartr
+quarts quarter quartz quart
+quarts/V=1.743022680211115e-06
+quarter/V=0.0022345550760306493
+quartz/V=3.48604536042223e-06
+quart/V=1.743022680211115e-06
+quartr quarter
+602 1 sevred
+served severed
+served/V=8.715113401055575e-06
+severed/V=1.743022680211115e-06
+sevred served
+603 1 tircumscances
+circumstances Circumstances
+circumstances/V=1.9173249482322263e-05
+Circumstances/V=1.743022680211115e-06
+tircumscances circumstances
+604 1 withomut
+without
+without/V=0.0001289836783356225
+withomut without
+605 1 assetc
+assets asset
+assets/V=0.00029631385563588954
+asset/V=6.97209072084446e-05
+assetc assets
+606 1 indeustry
+industry
+industry/V=0.00036777778552454527
+indeustry industry
+607 1 cemical
+chemical
+chemical/V=7.843602060950017e-05
+cemical chemical
+607 1 petrocemical
+petrochemical
+petrochemical/V=2.440231752295561e-05
+petrocemical petrochemical
+608 1 marketr
+marker markets marketer market
+marker/V=1.743022680211115e-06
+markets/V=0.0004374986927329898
+marketer/V=3.48604536042223e-06
+market/V=0.0008662822720649241
+marketr market
+609 1 cpacity
+capacity
+capacity/V=8.889415669076685e-05
+cpacity capacity
+610 1 producds
+produces products
+produces/V=2.091627216253338e-05
+products/V=0.0005211637813831234
+producds products
+611 1 auiomobtle
+automobile
+automobile/V=1.394418144168892e-05
+auiomobtle automobile
+612 1 pices
+spices vices paces prices pipes piles pines pieces pies picks
+spices/V=3.48604536042223e-06
+vices/V=1.743022680211115e-06
+paces/V=1.743022680211115e-06
+prices/V=0.0007948183421762684
+pipes/V=3.48604536042223e-06
+piles/V=1.743022680211115e-06
+pines/V=1.743022680211115e-06
+pieces/V=3.48604536042223e-06
+pies/V=1.743022680211115e-06
+picks/V=3.48604536042223e-06
+pices prices
+613 1 couldn
+coudn coulda could
+coudn/V=1.743022680211115e-06
+coulda/V=1.743022680211115e-06
+could/V=0.0005577672576675568
+couldn could
+614 1 chemial
+chemical
+chemical/V=7.843602060950017e-05
+chemial chemical
+615 1 dollr
+dolls dollar doll
+dolls/V=1.743022680211115e-06
+dollar/V=0.000545566098906079
+doll/V=3.48604536042223e-06
+dollr dollar
+616 1 industiry
+industry
+industry/V=0.00036777778552454527
+industiry industry
+617 1 isduntry
+industry
+industry/V=0.00036777778552454527
+isduntry industry
+618 1 eorned
+horned earned
+horned/V=1.743022680211115e-06
+earned/V=0.00020916272162533378
+eorned earned
+619 1 bruoght
+brought
+brought/V=5.0547657726122334e-05
+bruoght brought
+622 1 produacers
+producers
+producers/V=9.063717937097797e-05
+produacers producers
+623 1 bssineuses
+businesses
+businesses/V=0.0001394418144168892
+bssineuses businesses
+624 1 sertructuring
+restructuring structuring
+restructuring/V=0.00025099526595040054
+structuring/V=1.743022680211115e-06
+sertructuring restructuring
+625 1 Unio
+Unionn Uno Unit
+Unionn/V=1.743022680211115e-06
+Uno/V=1.743022680211115e-06
+Unit/V=3.8346498964644526e-05
+Unio Unit
+626 1 powerhowuse
+powerhouse
+powerhouse/V=3.48604536042223e-06
+powerhowuse powerhouse
+627 1 terning
+turning terming
+turning/V=1.9173249482322263e-05
+terming/V=1.743022680211115e-06
+terning turning
+628 1 businesse
+businessess business
+businessess/V=1.743022680211115e-06
+business/V=0.0004863033277789011
+businesse business
+629 1 eventally
+evenutally eventually
+evenutally/V=1.743022680211115e-06
+eventually/V=2.091627216253338e-05
+eventally eventually
+630 1 noncerc
+concern concert Concern Concert nonce
+concern/V=6.623486184802237e-05
+concert/V=1.743022680211115e-06
+Concern/V=6.97209072084446e-06
+Concert/V=1.743022680211115e-06
+nonce/V=1.743022680211115e-06
+noncerc concern
+631 1 induscry
+industry
+industry/V=0.00036777778552454527
+induscry industry
+632 1 comnodity
+commodity
+commodity/V=5.751974844696679e-05
+comnodity commodity
+633 1 Spenialty
+Specialty
+Specialty/V=6.97209072084446e-06
+Spenialty Specialty
+634 1 generata
+generate
+generate/V=2.6145340203166722e-05
+generata generate
+635 1 chermical
+chemical
+chemical/V=7.843602060950017e-05
+chermical chemical
+635 1 petrochermical
+petrochemical
+petrochemical/V=2.440231752295561e-05
+petrochermical petrochemical
+637 1 exeectpd
+expected
+expected/V=0.0007303265030084572
+exeectpd expected
+638 1 anlyst
+analyst
+analyst/V=0.00014641390513773364
+anlyst analyst
+639 1 estimuted
+estimated
+estimated/V=0.00024053712986913387
+estimuted estimated
+640 1 bsinesses
+businesses
+businesses/V=0.0001394418144168892
+bsinesses businesses
+641 1 produtc
+product
+product/V=0.00020741969894512267
+produtc product
+642 1 creidts
+credits
+credits/V=0.00027191153811293394
+creidts credits
+643 1 incoludes
+includes
+includes/V=0.0012392891256301026
+incoludes includes
+644 1 tugusA
+august August
+august/V=3.48604536042223e-06
+August/V=0.00016035808657942257
+tugusA August
+645 1 Aprial
+April
+April/V=0.0019016377441103264
+Aprial April
+646 1 shera
+sera shea shear
+sera/V=1.743022680211115e-06
+shea/V=1.743022680211115e-06
+shear/V=1.743022680211115e-06
+shera sera
+647 1 eRuters
+Reuters
+Reuters/V=0.00018301738142216707
+eRuters Reuters
+648 1 interisted
+interested
+interested/V=3.660347628443341e-05
+interisted interested
+649 1 rebort
+resort report retort reborn
+resort/V=1.5687204121900034e-05
+report/V=0.0005333649401446012
+retort/V=1.743022680211115e-06
+reborn/V=1.743022680211115e-06
+rebort report
+650 1 unaveilable
+unavailable
+unavailable/V=1.394418144168892e-05
+unaveilable unavailable
+651 1 Avoneald
+Avondale
+Avondale/V=1.743022680211115e-06
+Avoneald Avondale
+652 1 textil
+textilee
+textilee/V=1.743022680211115e-06
+textil textilee
+653 1 mkaing
+making
+making/V=0.00024402317522955608
+mkaing making
+654 1 operatinga
+operating
+operating/V=0.0005525381896269234
+operatinga operating
+655 1 diversefy
+diversify
+diversify/V=1.045813608126669e-05
+diversefy diversify
+656 1 offsetm
+offset
+offset/V=0.0001167825195741447
+offsetm offset
+657 1 billon
+Dillon billion
+Dillon/V=1.743022680211115e-06
+billion/V=0.005514923760187968
+billon billion
+658 1 backlod
+backlog
+backlog/V=3.3117430924011184e-05
+backlod backlog
+659 1 ibllion
+billion
+billion/V=0.005514923760187968
+ibllion billion
+660 1 pretac
+pretax
+pretax/V=0.0002353080618285005
+pretac pretax
+661 1 markeot
+market
+market/V=0.0008662822720649241
+markeot market
+662 1 bffer
+Offer offer buffer
+Offer/V=1.743022680211115e-06
+offer/V=0.0001638441319398448
+buffer/V=1.743022680211115e-06
+bffer offer
+663 1 Londno
+London
+London/V=8.017904328971129e-05
+Londno London
+664 1 Prics
+Prick Price Prices
+Prick/V=1.743022680211115e-06
+Price/V=2.2659294842744493e-05
+Prices/V=3.48604536042223e-05
+Prics Prices
+665 1 sglline
+skyline saline saline selling saline
+skyline/V=1.743022680211115e-06
+saline/V=1.743022680211115e-06
+saline/V=1.743022680211115e-06
+selling/V=0.000106324383492878
+saline/V=1.743022680211115e-06
+sglline selling
+666 1 repesenting
+representing
+representing/V=2.091627216253338e-05
+repesenting representing
+667 1 sslea
+isle Isles Isle Flea plea Plea Flea plea Plea shea sea shea sales sale soles sole shea sea
+isle/V=1.743022680211115e-06
+Isles/V=1.743022680211115e-06
+Isle/V=1.743022680211115e-06
+Flea/V=1.743022680211115e-06
+plea/V=3.48604536042223e-06
+Plea/V=1.743022680211115e-06
+Flea/V=1.743022680211115e-06
+plea/V=3.48604536042223e-06
+Plea/V=1.743022680211115e-06
+shea/V=1.743022680211115e-06
+sea/V=6.97209072084446e-06
+shea/V=1.743022680211115e-06
+sales/V=0.0008906845895878797
+sale/V=0.0005873986432311457
+soles/V=1.743022680211115e-06
+sole/V=5.229068040633345e-06
+shea/V=1.743022680211115e-06
+sea/V=6.97209072084446e-06
+sslea sales
+668 1 nubmer
+number
+number/V=0.0001638441319398448
+nubmer number
+669 1 marnetikg
+marketing
+marketing/V=9.935229277203355e-05
+marnetikg marketing
+670 1 Ivery
+Every every Avery very Ivory
+Every/V=3.48604536042223e-06
+every/V=5.0547657726122334e-05
+Avery/V=1.394418144168892e-05
+very/V=0.0002353080618285005
+Ivory/V=1.743022680211115e-06
+Ivery very
+671 1 meetingn
+meetings meeting
+meetings/V=6.100579380738902e-05
+meeting/V=0.0004741021690174233
+meetingn meeting
+672 1 sufply
+supply
+supply/V=8.017904328971129e-05
+sufply supply
+673 1 Honduas
+Honduras
+Honduras/V=1.743022680211115e-06
+Honduas Honduras
+674 1 maximm
+maxim maximum maxim
+maxim/V=1.743022680211115e-06
+maximum/V=1.2201158761477804e-05
+maxim/V=1.743022680211115e-06
+maximm maximum
+675 1 proten
+proven proton protein
+proven/V=3.48604536042223e-05
+proton/V=1.743022680211115e-06
+protein/V=1.743022680211115e-06
+proten proven
+676 1 inclde
+include
+include/V=0.0004897893731393233
+inclde include
+677 1 laydsya
+laydays
+laydays/V=1.743022680211115e-06
+laydsya laydays
+678 1 Offsre
+Office Offers Offer Offer Offshore
+Office/V=6.97209072084446e-05
+Offers/V=1.743022680211115e-06
+Offer/V=1.743022680211115e-06
+Offer/V=1.743022680211115e-06
+Offshore/V=1.743022680211115e-06
+Offsre Office
+679 1 decisuon
+decision
+decision/V=0.00014292785977731143
+decisuon decision
+680 1 repiorted
+reported
+reported/V=0.0007041811628052904
+repiorted reported
+681 1 becausel
+because
+because/V=0.0004863033277789011
+becausel because
+683 1 eariler
+earlier
+earlier/V=0.0006100579380738903
+eariler earlier
+684 1 Foreigm
+Foreign
+Foreign/V=0.00010109531545224467
+Foreigm Foreign
+686 1 diely
+dimly diety
+dimly/V=1.743022680211115e-06
+diety/V=1.743022680211115e-06
+diely dimly
+687 1 weich
+Reich which weigh
+Reich/V=1.743022680211115e-06
+which/V=0.0016419273647588703
+weigh/V=3.48604536042223e-06
+weich which
+688 1 irazBl
+brazil Brazil
+brazil/V=1.743022680211115e-06
+Brazil/V=0.00022659294842744494
+irazBl Brazil
+689 1 Afer
+fer After
+fer/V=1.743022680211115e-06
+After/V=4.880463504591122e-05
+Afer After
+690 1 ehret
+egretss sheet shred secret Threat Three Secret Karet gret fret ferret Ahmet thet threat threw three regret gret fret here exert eared erred erect ere
+egretss/V=1.743022680211115e-06
+sheet/V=6.623486184802237e-05
+shred/V=1.743022680211115e-06
+secret/V=6.97209072084446e-06
+Threat/V=5.229068040633345e-06
+Three/V=4.880463504591122e-05
+Secret/V=1.743022680211115e-06
+Karet/V=1.743022680211115e-06
+gret/V=1.743022680211115e-06
+fret/V=1.743022680211115e-06
+ferret/V=1.743022680211115e-06
+Ahmet/V=1.743022680211115e-06
+thet/V=1.743022680211115e-06
+threat/V=3.48604536042223e-05
+threw/V=1.743022680211115e-06
+three/V=0.0011172775380153246
+regret/V=1.2201158761477804e-05
+gret/V=1.743022680211115e-06
+fret/V=1.743022680211115e-06
+here/V=0.00016907319998047814
+exert/V=1.743022680211115e-06
+eared/V=1.743022680211115e-06
+erred/V=1.743022680211115e-06
+erect/V=3.48604536042223e-06
+ere/V=1.743022680211115e-06
+ehret three
+691 1 Exacluding
+Excluding
+Excluding/V=1.5687204121900034e-05
+Exacluding Excluding
+692 1 increae
+increase
+increase/V=0.0007704160246533128
+increae increase
+693 1 Leonaerdo
+Leonardo
+Leonardo/V=1.743022680211115e-06
+Leonaerdo Leonardo
+694 1 harvsting
+harvesting
+harvesting/V=1.743022680211115e-06
+harvsting harvesting
+695 1 sufficienti
+sufficient
+sufficient/V=2.091627216253338e-05
+sufficienti sufficient
+696 1 Brio
+Trio trio Brito
+Trio/V=1.743022680211115e-06
+trio/V=1.743022680211115e-06
+Brito/V=1.743022680211115e-06
+Brio Trio
+697 1 betwein
+between
+between/V=0.0004427277607736232
+betwein between
+698 1 wheer
+cheer sheer Sheer Cheer wher wher where wheel
+cheer/V=1.743022680211115e-06
+sheer/V=1.743022680211115e-06
+Sheer/V=1.743022680211115e-06
+Cheer/V=1.743022680211115e-06
+wher/V=1.743022680211115e-06
+wher/V=1.743022680211115e-06
+where/V=0.00010458136081266689
+wheel/V=1.743022680211115e-06
+wheer where
+699 1 grnias
+genius genial grains grips grins grits grinds grins
+genius/V=1.743022680211115e-06
+genial/V=1.743022680211115e-06
+grains/V=1.743022680211115e-05
+grips/V=1.743022680211115e-06
+grins/V=1.743022680211115e-06
+grits/V=1.743022680211115e-06
+grinds/V=1.743022680211115e-06
+grins/V=1.743022680211115e-06
+grnias grains
+700 1 dastribution
+distribution
+distribution/V=0.0002109057443055449
+dastribution distribution
+701 1 transpot
+transport
+transport/V=1.2201158761477804e-05
+transpot transport
+702 1 qusuee
+Musee queues queued
+Musee/V=1.743022680211115e-06
+queues/V=1.743022680211115e-06
+queued/V=1.743022680211115e-06
+qusuee Musee
+703 1 meetinge
+meetings meeting
+meetings/V=6.100579380738902e-05
+meeting/V=0.0004741021690174233
+meetinge meeting
+704 1 Finanical
+Financial
+Financial/V=8.715113401055575e-05
+Finanical Financial
+705 1 serlicing
+servicing
+servicing/V=1.743022680211115e-05
+serlicing servicing
+706 1 conplete
+complete
+complete/V=4.70616123657001e-05
+conplete complete
+707 1 othe
+otherr the oathe
+otherr/V=1.743022680211115e-06
+the/V=0.02634404478871079
+oathe/V=1.743022680211115e-06
+othe the
+708 1 restrictioms
+restrictions
+restrictions/V=8.366508865013352e-05
+restrictioms restrictions
+709 1 businesseu
+businesses
+businesses/V=0.0001394418144168892
+businesseu businesses
+710 1 laberalisation
+liberalisation
+liberalisation/V=2.091627216253338e-05
+laberalisation liberalisation
+711 1 elcxuded
+excluded exuded eluded
+excluded/V=3.8346498964644526e-05
+exuded/V=1.743022680211115e-06
+eluded/V=1.743022680211115e-06
+elcxuded excluded
+712 1 comimunities
+communities
+communities/V=6.97209072084446e-06
+comimunities communities
+713 1 preveous
+previous
+previous/V=0.0002492522432701894
+preveous previous
+714 1 shaer
+sheer shear shaker share
+sheer/V=1.743022680211115e-06
+shear/V=1.743022680211115e-06
+shaker/V=1.743022680211115e-06
+share/V=0.0028986467171910842
+shaer share
+715 1 annal
+annalss annual
+annalss/V=1.743022680211115e-06
+annual/V=0.0004531858968548899
+annal annual
+716 1 disclsoed
+disclosed
+disclosed/V=2.440231752295561e-05
+disclsoed disclosed
+717 1 preset
+pre-set present
+pre-set/V=1.743022680211115e-06
+present/V=9.238020205118909e-05
+preset present
+718 1 quoses
+quotes
+quotes/V=3.48604536042223e-06
+quoses quotes
+719 1 yuesdaT
+Tuesday
+Tuesday/V=2.2659294842744493e-05
+yuesdaT Tuesday
+720 1 Metat
+Metal Meta
+Metal/V=5.229068040633345e-06
+Meta/V=3.48604536042223e-06
+Metat Metal
+721 1 spaokesman
+spokesman
+spokesman/V=0.0002684254927525117
+spaokesman spokesman
+722 1 deivery
+delivery
+delivery/V=4.5318589685488985e-05
+deivery delivery
+723 1 Whcite
+White
+White/V=6.797788452823348e-05
+Whcite White
+724 1 Aftyr
+After
+After/V=4.880463504591122e-05
+Aftyr After
+725 1 splat
+slat spat split
+slat/V=1.743022680211115e-06
+spat/V=1.743022680211115e-06
+split/V=0.0007006951174448682
+splat split
+726 1 Agrimonc
+Agrimont
+Agrimont/V=1.2201158761477804e-05
+Agrimonc Agrimont
+727 1 owneed
+owned owned
+owned/V=0.00024402317522955608
+owned/V=0.00024402317522955608
+owneed owned
+728 1 divisiodn
+division
+division/V=0.00011155345153351135
+divisiodn division
+729 1 mointained
+maintained
+maintained/V=2.9631385563588955e-05
+mointained maintained
+730 1 Mnotedison
+Montedison
+Montedison/V=1.743022680211115e-05
+Mnotedison Montedison
+731 1 directoris
+directors
+directors/V=7.843602060950017e-05
+directoris directors
+732 1 Momtedison
+Montedison
+Montedison/V=1.743022680211115e-05
+Momtedison Montedison
+733 1 Datro
+Datronn
+Datronn/V=1.743022680211115e-06
+Datro Datronn
+734 1 totali
+totals total
+totals/V=5.229068040633345e-06
+total/V=0.0004218114886110898
+totali total
+735 1 officors
+officers
+officers/V=1.743022680211115e-05
+officors officers
+736 1 Detron
+Datron
+Datron/V=5.229068040633345e-06
+Detron Datron
+737 1 complected
+compleated completed
+compleated/V=1.743022680211115e-06
+completed/V=9.586624741161132e-05
+complected completed
+738 1 appicable
+applicable
+applicable/V=8.715113401055575e-06
+appicable applicable
+739 1 adout
+about adopt
+about/V=0.0013090100328385472
+adopt/V=1.5687204121900034e-05
+adout about
+740 1 rech
+Tech rich reach retch
+Tech/V=3.48604536042223e-06
+rich/V=1.5687204121900034e-05
+reach/V=7.494997524907794e-05
+retch/V=1.743022680211115e-06
+rech reach
+741 1 tenred
+tensed tended
+tensed/V=1.743022680211115e-06
+tended/V=8.715113401055575e-06
+tenred tended
+742 1 wteat
+wheat
+wheat/V=2.440231752295561e-05
+wteat wheat
+743 1 amoun
+amountt
+amountt/V=1.743022680211115e-06
+amoun amountt
+744 1 refect
+defect reject reflect
+defect/V=1.743022680211115e-06
+reject/V=6.97209072084446e-06
+reflect/V=0.00020916272162533378
+refect reflect
+745 1 liscdosed
+disclosed
+disclosed/V=2.440231752295561e-05
+liscdosed disclosed
+746 1 Eritions
+Editions
+Editions/V=1.743022680211115e-06
+Eritions Editions
+747 1 contyol
+control
+control/V=9.063717937097797e-05
+contyol control
+748 1 Canadivan
+Canadian
+Canadian/V=0.00028585571955462287
+Canadivan Canadian
+749 1 tadoy
+sadly Savoy Maroy Daddy badly daddy lady Badly Lady madly Caddy Cady tidy today teddy toy tasty talky tally tansy tangy tawny tawdry taffy tarry tardy tardy taboo tardy
+sadly/V=1.743022680211115e-06
+Savoy/V=1.743022680211115e-06
+Maroy/V=1.743022680211115e-06
+Daddy/V=1.743022680211115e-06
+badly/V=1.2201158761477804e-05
+daddy/V=1.743022680211115e-06
+lady/V=1.743022680211115e-06
+Badly/V=1.743022680211115e-06
+Lady/V=1.743022680211115e-06
+madly/V=1.743022680211115e-06
+Caddy/V=1.743022680211115e-06
+Cady/V=1.743022680211115e-06
+tidy/V=1.743022680211115e-06
+today/V=0.0004008952164485564
+teddy/V=1.743022680211115e-06
+toy/V=6.97209072084446e-06
+tasty/V=1.743022680211115e-06
+talky/V=1.743022680211115e-06
+tally/V=6.97209072084446e-06
+tansy/V=1.743022680211115e-06
+tangy/V=1.743022680211115e-06
+tawny/V=1.743022680211115e-06
+tawdry/V=1.743022680211115e-06
+taffy/V=1.743022680211115e-06
+tarry/V=1.743022680211115e-06
+tardy/V=1.743022680211115e-06
+tardy/V=1.743022680211115e-06
+taboo/V=1.743022680211115e-06
+tardy/V=1.743022680211115e-06
+tadoy today
+750 1 publishedn
+published
+published/V=2.6145340203166722e-05
+publishedn published
+751 1 wauld
+would
+would/V=0.00207942605749186
+wauld would
+752 1 Burlingtonl
+Burlington
+Burlington/V=3.48604536042223e-06
+Burlingtonl Burlington
+753 1 Striet
+Street Strict
+Street/V=2.6145340203166722e-05
+Strict/V=1.743022680211115e-06
+Striet Street
+754 1 addd
+add add adds added add
+add/V=3.660347628443341e-05
+add/V=3.660347628443341e-05
+adds/V=1.743022680211115e-06
+added/V=0.0006013428246728346
+add/V=3.660347628443341e-05
+addd added
+755 1 aqcuisition
+acquisition aquisition
+acquisition/V=0.00019347551750343374
+aquisition/V=1.743022680211115e-06
+aqcuisition acquisition
+756 1 gegotiatinn
+negotiation negotiating
+negotiation/V=8.715113401055575e-06
+negotiating/V=3.660347628443341e-05
+gegotiatinn negotiating
+757 1 acquicitions
+acquisitions
+acquisitions/V=0.00014292785977731143
+acquicitions acquisitions
+758 1 housecleening
+housecleaning
+housecleaning/V=1.743022680211115e-06
+housecleening housecleaning
+759 1 Burliangton
+Burlington
+Burlington/V=3.48604536042223e-06
+Burliangton Burlington
+760 1 focusen
+focuses focused
+focuses/V=1.743022680211115e-06
+focused/V=1.045813608126669e-05
+focusen focused
+761 1 marketir
+marketer
+marketer/V=3.48604536042223e-06
+marketir marketer
+762 1 boughtt
+bought bought
+bought/V=7.146392988865572e-05
+bought/V=7.146392988865572e-05
+boughtt bought
+763 1 supplees
+supplies
+supplies/V=4.008952164485564e-05
+supplees supplies
+764 1 nveer
+veer never
+veer/V=1.743022680211115e-06
+never/V=2.440231752295561e-05
+nveer never
+765 1 recorb
+record
+record/V=0.0008052764782575351
+recorb record
+766 1 enraings
+earnings earrings engravings endings endings
+earnings/V=0.001321211191600025
+earrings/V=1.743022680211115e-06
+engravings/V=1.743022680211115e-06
+endings/V=1.743022680211115e-06
+endings/V=1.743022680211115e-06
+enraings earnings
+767 1 Buelington
+Burlington
+Burlington/V=3.48604536042223e-06
+Buelington Burlington
+768 1 Redbok
+Redbook
+Redbook/V=1.743022680211115e-06
+Redbok Redbook
+770 1 valseu
+valeurr False false vases vase values valued value valley valves valve value valet
+valeurr/V=1.743022680211115e-06
+False/V=1.743022680211115e-06
+false/V=1.045813608126669e-05
+vases/V=1.743022680211115e-06
+vase/V=1.743022680211115e-06
+values/V=2.788836288337784e-05
+valued/V=2.9631385563588955e-05
+value/V=0.0003311743092401118
+valley/V=1.743022680211115e-06
+valves/V=5.229068040633345e-06
+valve/V=1.743022680211115e-06
+value/V=0.0003311743092401118
+valet/V=1.743022680211115e-06
+valseu value
+771 1 arbitragbr
+arbitrager
+arbitrager/V=1.743022680211115e-06
+arbitragbr arbitrager
+772 1 taret
+Karet target tart
+Karet/V=1.743022680211115e-06
+target/V=0.00010806740617308912
+tart/V=1.743022680211115e-06
+taret target
+773 1 Frueauf
+Fruehauf
+Fruehauf/V=8.715113401055575e-06
+Frueauf Fruehauf
+774 1 buyign
+buying
+buying/V=7.320695256886682e-05
+buyign buying
+775 1 textie
+textile
+textile/V=6.100579380738902e-05
+textie textile
+776 1 clmbed
+combed climbed
+combed/V=1.743022680211115e-06
+climbed/V=2.091627216253338e-05
+clmbed climbed
+777 1 lnWPM
+ltWPM
+ltWPM/V=1.743022680211115e-06
+lnWPM ltWPM
+778 1 Smaart
+Smart Smart
+Smart/V=1.2201158761477804e-05
+Smart/V=1.2201158761477804e-05
+Smaart Smart
+779 1 effct
+effect
+effect/V=0.000212648766985756
+effct effect
+780 1 imposde
+impose imposed
+impose/V=9.760927009182244e-05
+imposed/V=7.843602060950017e-05
+imposde impose
+781 1 woruld
+would world
+would/V=0.00207942605749186
+world/V=0.00043575567005277874
+woruld would
+782 1 aftir
+after
+after/V=0.001197456581305036
+aftir after
+783 1 commiltted
+committed
+committed/V=2.2659294842744493e-05
+commiltted committed
+785 1 enacy
+enact
+enact/V=3.48604536042223e-06
+enacy enact
+786 1 defici
+deficitt
+deficitt/V=1.743022680211115e-06
+defici deficitt
+787 1 recet
+recit recent
+recit/V=1.743022680211115e-06
+recent/V=0.00025099526595040054
+recet recent
+788 1 explanaton
+explanation
+explanation/V=1.2201158761477804e-05
+explanaton explanation
+789 1 Reaan
+Reagan
+Reagan/V=0.00033291733192032294
+Reaan Reagan
+790 1 excessiv
+excessivee
+excessivee/V=1.743022680211115e-06
+excessiv excessivee
+791 1 wich
+bich Rich rich which wish with witch wick
+bich/V=1.743022680211115e-06
+Rich/V=1.743022680211115e-06
+rich/V=1.5687204121900034e-05
+which/V=0.0016419273647588703
+wish/V=1.2201158761477804e-05
+with/V=0.0028289258099826395
+witch/V=1.743022680211115e-06
+wick/V=1.743022680211115e-06
+wich with
+792 1 vggressiae
+aggressive
+aggressive/V=2.9631385563588955e-05
+vggressiae aggressive
+793 1 priecs
+prices
+prices/V=0.0007948183421762684
+priecs prices
+794 1 dessribec
+describes described describe
+describes/V=3.48604536042223e-06
+described/V=2.6145340203166722e-05
+describe/V=1.743022680211115e-06
+dessribec described
+795 1 manufactruing
+manufacturing
+manufacturing/V=0.00010981042885330024
+manufactruing manufacturing
+796 1 Amercan
+American
+American/V=0.0004322696246923565
+Amercan American
+797 1 fier
+fieryy pier flier faier fer finer fiber fir fire
+fieryy/V=1.743022680211115e-06
+pier/V=1.743022680211115e-06
+flier/V=1.743022680211115e-06
+faier/V=1.743022680211115e-06
+fer/V=1.743022680211115e-06
+finer/V=1.743022680211115e-06
+fiber/V=2.2659294842744493e-05
+fir/V=1.743022680211115e-06
+fire/V=2.2659294842744493e-05
+fier fiber
+798 1 erthei
+Werther thei either ether
+Werther/V=1.743022680211115e-06
+thei/V=1.743022680211115e-06
+either/V=3.48604536042223e-05
+ether/V=5.229068040633345e-06
+erthei either
+799 1 poliyc
+policy
+policy/V=0.00021962085770660047
+poliyc policy
+800 1 shre
+shredd sure sore share shoe shore she
+shredd/V=1.743022680211115e-06
+sure/V=4.880463504591122e-05
+sore/V=3.48604536042223e-06
+share/V=0.0028986467171910842
+shoe/V=8.715113401055575e-06
+shore/V=1.743022680211115e-06
+she/V=3.48604536042223e-05
+shre share
+801 1 truckigg
+trucking
+trucking/V=8.715113401055575e-06
+truckigg trucking
+803 1 indicatians
+indications
+indications/V=1.5687204121900034e-05
+indicatians indications
+804 1 appgyinl
+applying
+applying/V=8.715113401055575e-06
+appgyinl applying
+805 1 explaniing
+explaining
+explaining/V=1.394418144168892e-05
+explaniing explaining
+806 1 nted
+noted need
+noted/V=0.00016907319998047814
+need/V=0.00016210110925963367
+nted noted
+807 1 depnosit
+deposit
+deposit/V=6.100579380738902e-05
+depnosit deposit
+808 1 stlbiaity
+stability
+stability/V=4.5318589685488985e-05
+stlbiaity stability
+809 1 aftea
+after
+after/V=0.001197456581305036
+aftea after
+810 1 markte
+market
+market/V=0.0008662822720649241
+markte market
+811 1 inculdes
+includes
+includes/V=0.0012392891256301026
+inculdes includes
+812 1 inclubes
+includes
+includes/V=0.0012392891256301026
+inclubes includes
+813 1 petax
+pretax
+pretax/V=0.0002353080618285005
+petax pretax
+815 1 aftew
+after
+after/V=0.001197456581305036
+aftew after
+816 1 shrae
+share
+share/V=0.0028986467171910842
+shrae share
+817 1 saler
+saner safer saber saver sales sale
+saner/V=1.743022680211115e-06
+safer/V=1.743022680211115e-06
+saber/V=1.743022680211115e-06
+saver/V=1.743022680211115e-06
+sales/V=0.0008906845895878797
+sale/V=0.0005873986432311457
+saler sales
+818 1 lsoses
+loses losses
+loses/V=1.743022680211115e-06
+losses/V=0.0004793312370580566
+lsoses losses
+819 1 stakce
+stance stake
+stance/V=1.9173249482322263e-05
+stake/V=0.00010806740617308912
+stakce stake
+821 1 Spaish
+Spanish
+Spanish/V=2.6145340203166722e-05
+Spaish Spanish
+822 1 Scmaik
+Schaik
+Schaik/V=6.97209072084446e-06
+Scmaik Schaik
+823 1 Girman
+German Gilman
+German/V=0.00012549763297520027
+Gilman/V=1.743022680211115e-06
+Girman German
+824 1 whil
+whilee Phil wail wil whip whim whit whir whirl whiz
+whilee/V=1.743022680211115e-06
+Phil/V=3.48604536042223e-06
+wail/V=1.743022680211115e-06
+wil/V=5.229068040633345e-06
+whip/V=5.229068040633345e-06
+whim/V=1.743022680211115e-06
+whit/V=1.743022680211115e-06
+whir/V=1.743022680211115e-06
+whirl/V=1.743022680211115e-06
+whiz/V=1.743022680211115e-06
+whil wil
+825 1 Hennekei
+Heineken
+Heineken/V=2.788836288337784e-05
+Hennekei Heineken
+826 1 currenceies
+currencies
+currencies/V=9.238020205118909e-05
+currenceies currencies
+827 1 limiteb
+limited
+limited/V=9.238020205118909e-05
+limiteb limited
+828 1 impoorts
+imports imports
+imports/V=0.000606571892713468
+imports/V=0.000606571892713468
+impoorts imports
+829 1 lookingn
+looking
+looking/V=6.97209072084446e-05
+lookingn looking
+830 1 cssto
+customm castorr gusto cito canto casts caste cast costs coste cost cysts cito
+customm/V=1.743022680211115e-06
+castorr/V=1.743022680211115e-06
+gusto/V=1.743022680211115e-06
+cito/V=1.743022680211115e-06
+canto/V=1.743022680211115e-06
+casts/V=1.743022680211115e-06
+caste/V=1.743022680211115e-06
+cast/V=8.715113401055575e-06
+costs/V=0.0005124486679820678
+coste/V=1.743022680211115e-06
+cost/V=0.00032071617315884514
+cysts/V=1.743022680211115e-06
+cito/V=1.743022680211115e-06
+cssto costs
+831 1 traditcional
+traditional
+traditional/V=5.2290680406333444e-05
+traditcional traditional
+832 1 poscibly
+possibly
+possibly/V=2.6145340203166722e-05
+poscibly possibly
+833 1 seevn
+seven seen
+seven/V=0.0004793312370580566
+seen/V=6.623486184802237e-05
+seevn seven
+834 1 ptential
+potential
+potential/V=0.00010283833813245579
+ptential potential
+835 1 seevn
+seven seen
+seven/V=0.0004793312370580566
+seen/V=6.623486184802237e-05
+seevn seven
+836 1 Insitute
+Institute
+Institute/V=7.843602060950017e-05
+Insitute Institute
+837 1 Natonal
+National
+National/V=0.0001882464494628004
+Natonal National
+838 1 statementa
+statements statement
+statements/V=3.660347628443341e-05
+statement/V=0.000348604536042223
+statementa statement
+839 1 statemant
+statement
+statement/V=0.000348604536042223
+statemant statement
+840 1 repeytedla
+repeatedly
+repeatedly/V=1.9173249482322263e-05
+repeytedla repeatedly
+841 1 ananounced
+announced
+announced/V=0.00030502896903694514
+ananounced announced
+842 1 avirted
+averted
+averted/V=6.97209072084446e-06
+avirted averted
+843 1 histodric
+historic
+historic/V=5.229068040633345e-06
+histodric historic
+845 1 conetnts
+contents
+contents/V=6.97209072084446e-06
+conetnts contents
+846 1 deails
+devils details deals
+devils/V=1.743022680211115e-06
+details/V=6.274881648760014e-05
+deals/V=2.440231752295561e-05
+deails details
+847 1 Committebe
+Committee
+Committee/V=0.00010806740617308912
+Committebe Committee
+848 1 prirce
+prince price
+prince/V=1.743022680211115e-06
+price/V=0.0005229068040633344
+prirce price
+849 1 cmmittee
+committee
+committee/V=9.238020205118909e-05
+cmmittee committee
+850 1 eliminati
+eliminate
+eliminate/V=2.9631385563588955e-05
+eliminati eliminate
+851 1 daliry
+dairy
+dairy/V=2.2659294842744493e-05
+daliry dairy
+852 1 Agricluture
+Agriculture
+Agriculture/V=8.017904328971129e-05
+Agricluture Agriculture
+853 1 Commiteet
+Committee Committees Committee
+Committee/V=0.00010806740617308912
+Committees/V=5.229068040633345e-06
+Committee/V=0.00010806740617308912
+Commiteet Committee
+854 1 aanCda
+Canada
+Canada/V=0.0003015429236765229
+aanCda Canada
+855 1 emArica
+America
+America/V=9.760927009182244e-05
+emArica America
+856 1 expedtec
+expected
+expected/V=0.0007303265030084572
+expedtec expected
+857 1 officrs
+offices officers
+offices/V=2.440231752295561e-05
+officers/V=1.743022680211115e-05
+officrs offices
+858 1 sutotanding
+Outstanding outstanding
+Outstanding/V=5.229068040633345e-06
+outstanding/V=0.00020393365358470044
+sutotanding outstanding
+859 1 corercts
+corrects
+corrects/V=1.9173249482322263e-05
+corercts corrects
+860 1 aftere
+after
+after/V=0.001197456581305036
+aftere after
+862 1 Morgn
+Morgan
+Morgan/V=8.19220659699224e-05
+Morgn Morgan
+863 1 grwth
+growth
+growth/V=0.0007268404576480349
+grwth growth
+864 1 consaquence
+consequence
+consequence/V=6.97209072084446e-06
+consaquence consequence
+865 1 comyanp
+company command
+company/V=0.0028271827873024282
+command/V=1.743022680211115e-06
+comyanp company
+866 1 shabre
+sabre share
+sabre/V=1.743022680211115e-06
+share/V=0.0028986467171910842
+shabre share
+867 1 Wallen
+Fallen fallen Wallin Walle
+Fallen/V=1.743022680211115e-06
+fallen/V=3.48604536042223e-05
+Wallin/V=1.394418144168892e-05
+Walle/V=1.743022680211115e-06
+Wallen fallen
+868 1 shar
+sharpp sharee char thar scar star sear shear sham shag
+sharpp/V=1.743022680211115e-06
+sharee/V=1.743022680211115e-06
+char/V=1.743022680211115e-06
+thar/V=1.743022680211115e-06
+scar/V=1.743022680211115e-06
+star/V=1.743022680211115e-06
+sear/V=1.743022680211115e-06
+shear/V=1.743022680211115e-06
+sham/V=1.743022680211115e-06
+shag/V=1.743022680211115e-06
+shar sharpp
+869 1 copany
+company
+company/V=0.0028271827873024282
+copany company
+871 1 maket
+maget market maker makes make
+maget/V=1.743022680211115e-06
+market/V=0.0008662822720649241
+maker/V=3.3117430924011184e-05
+makes/V=4.183254432506676e-05
+make/V=0.00027539758347335614
+maket market
+872 1 ihwch
+which Which hitch inch itch inch itch
+which/V=0.0016419273647588703
+Which/V=8.715113401055575e-06
+hitch/V=1.743022680211115e-06
+inch/V=3.48604536042223e-06
+itch/V=1.743022680211115e-06
+inch/V=3.48604536042223e-06
+itch/V=1.743022680211115e-06
+ihwch which
+873 1 marketsi
+markets
+markets/V=0.0004374986927329898
+marketsi markets
+874 1 paecemakers
+pacemakers
+pacemakers/V=1.2201158761477804e-05
+paecemakers pacemakers
+875 1 critixized
+criticized
+criticized/V=1.394418144168892e-05
+critixized criticized
+877 1 cempany
+company
+company/V=0.0028271827873024282
+cempany company
+878 1 presidelnt
+president
+president/V=0.0002213638803868116
+presidelnt president
+879 1 Watllin
+Wallin
+Wallin/V=1.394418144168892e-05
+Watllin Wallin
+880 1 plovisions
+provisions
+provisions/V=0.0001743022680211115
+plovisions provisions
+881 1 responsivve
+responsive responsive
+responsive/V=1.045813608126669e-05
+responsive/V=1.045813608126669e-05
+responsivve responsive
+882 1 phyaicsl
+physical physics
+physical/V=1.2201158761477804e-05
+physics/V=1.743022680211115e-06
+phyaicsl physical
+883 1 companye
+company
+company/V=0.0028271827873024282
+companye company
+884 1 statenemt
+statement
+statement/V=0.000348604536042223
+statenemt statement
+885 1 Febraury
+February
+February/V=0.0010266403586443467
+Febraury February
+886 1 datails
+details
+details/V=6.274881648760014e-05
+datails details
+887 1 shodlu
+should shoals shoddy shod
+should/V=0.0004619010102559455
+shoals/V=1.743022680211115e-06
+shoddy/V=1.743022680211115e-06
+shod/V=1.743022680211115e-06
+shodlu should
+888 1 udertook
+undertook
+undertook/V=3.48604536042223e-06
+udertook undertook
+889 1 deilare
+declare
+declare/V=1.394418144168892e-05
+deilare declare
+890 1 meetinl
+meeting
+meeting/V=0.0004741021690174233
+meetinl meeting
+891 1 delegartes
+delegates
+delegates/V=1.743022680211115e-05
+delegartes delegates
+892 1 Cntral
+Central
+Central/V=5.751974844696679e-05
+Cntral Central
+893 1 Baluchp
+Baluch
+Baluch/V=1.743022680211115e-06
+Baluchp Baluch
+894 1 Morlin
+Marlin
+Marlin/V=1.5687204121900034e-05
+Morlin Marlin
+895 1 posiiton
+position
+position/V=0.00012375461029498917
+posiiton position
+896 1 aded
+waded faded jaded aided abed aged awed added add
+waded/V=1.743022680211115e-06
+faded/V=1.743022680211115e-06
+jaded/V=1.743022680211115e-06
+aided/V=1.5687204121900034e-05
+abed/V=1.743022680211115e-06
+aged/V=3.48604536042223e-06
+awed/V=1.743022680211115e-06
+added/V=0.0006013428246728346
+add/V=3.660347628443341e-05
+aded added
+897 1 Bowlinq
+Bowling
+Bowling/V=3.48604536042223e-06
+Bowlinq Bowling
+898 1 leels
+peels Heels feels heels Reels levels
+peels/V=1.743022680211115e-06
+Heels/V=1.743022680211115e-06
+feels/V=1.2201158761477804e-05
+heels/V=1.743022680211115e-06
+Reels/V=1.743022680211115e-06
+levels/V=0.0001655871546200559
+leels levels
+899 1 quaarter
+quarter quarter
+quarter/V=0.0022345550760306493
+quarter/V=0.0022345550760306493
+quaarter quarter
+900 1 fiscsal
+fiscal
+fiscal/V=0.00051593471334249
+fiscsal fiscal
+901 2 Alantic
+Atlantic
+Atlantic/V=2.9631385563588955e-05
+Alantic Atlantic
+901 2 dirextly
+directly
+directly/V=2.091627216253338e-05
+dirextly directly
+902 2 Showtboat
+Showboat
+Showboat/V=1.5687204121900034e-05
+Showtboat Showboat
+903 2 qlarteruy
+quarterly
+quarterly/V=0.00024228015254934497
+qlarteruy quarterly
+903 2 repoarted
+reported
+reported/V=0.0007041811628052904
+repoarted reported
+904 3 hodding
+Nodding nodding Rodding rodding holding
+Nodding/V=1.743022680211115e-06
+nodding/V=1.743022680211115e-06
+Rodding/V=1.743022680211115e-06
+rodding/V=1.743022680211115e-06
+holding/V=7.843602060950017e-05
+hodding holding
+904 3 companya
+company
+company/V=0.0028271827873024282
+companya company
+904 3 zraBil
+Trail Grail brazil Frail Brazil frail trail rail
+Trail/V=1.743022680211115e-06
+Grail/V=1.743022680211115e-06
+brazil/V=1.743022680211115e-06
+Frail/V=1.743022680211115e-06
+Brazil/V=0.00022659294842744494
+frail/V=1.743022680211115e-06
+trail/V=1.743022680211115e-06
+rail/V=1.743022680211115e-06
+zraBil Brazil
+905 2 inaterest
+interest
+interest/V=0.0005629963257081901
+inaterest interest
+905 2 biluion
+billion
+billion/V=0.005514923760187968
+biluion billion
+906 3 whic
+whichh chic whip whim whit whir whiz
+whichh/V=1.743022680211115e-06
+chic/V=1.743022680211115e-06
+whip/V=5.229068040633345e-06
+whim/V=1.743022680211115e-06
+whit/V=1.743022680211115e-06
+whir/V=1.743022680211115e-06
+whiz/V=1.743022680211115e-06
+whic whip
+906 3 interst
+interest
+interest/V=0.0005629963257081901
+interst interest
+906 3 Fibruary
+February
+February/V=0.0010266403586443467
+Fibruary February
+907 3 Mirch
+birch Birch March Mitch
+birch/V=1.743022680211115e-06
+Birch/V=1.743022680211115e-06
+March/V=0.0013839600080876252
+Mitch/V=1.743022680211115e-06
+Mirch March
+907 3 Ecuadr
+Ecuador
+Ecuador/V=4.183254432506676e-05
+Ecuadr Ecuador
+907 3 countr
+countryy counts county counter count
+countryy/V=1.743022680211115e-06
+counts/V=1.743022680211115e-06
+county/V=1.743022680211115e-06
+counter/V=1.394418144168892e-05
+count/V=1.743022680211115e-06
+countr counter
+908 3 Securitye
+Security
+Security/V=1.743022680211115e-05
+Securitye Security
+908 3 enterist
+centrist interest Interest entrust enters entering
+centrist/V=1.743022680211115e-06
+interest/V=0.0005629963257081901
+Interest/V=5.403370308654456e-05
+entrust/V=1.743022680211115e-06
+enters/V=1.743022680211115e-06
+entering/V=1.394418144168892e-05
+enterist interest
+908 3 receiverd
+received receivers receiver
+received/V=9.760927009182244e-05
+receivers/V=3.48604536042223e-06
+receiver/V=1.743022680211115e-06
+receiverd received
+909 2 Brzil
+Brazil Broil
+Brazil/V=0.00022659294842744494
+Broil/V=1.743022680211115e-06
+Brzil Brazil
+909 2 ratel
+rates rated rate
+rates/V=0.0002823696741942006
+rated/V=5.229068040633345e-06
+rate/V=0.0005664823710686123
+ratel rate
+910 3 negotiativons
+negotiations
+negotiations/V=0.0001533859958585781
+negotiativons negotiations
+910 3 resme
+Oresme resume
+Oresme/V=1.743022680211115e-06
+resume/V=2.440231752295561e-05
+resme resume
+910 3 bilion
+billion
+billion/V=0.005514923760187968
+bilion billion
+911 3 significantr
+significant
+significant/V=0.00013246972369604474
+significantr significant
+911 3 continuingn
+continuing
+continuing/V=0.00014989995049815587
+continuingn continuing
+911 3 advace
+advice advance
+advice/V=3.48604536042223e-06
+advance/V=1.2201158761477804e-05
+advace advance
+912 3 foilefd
+foiled
+foiled/V=1.743022680211115e-06
+foilefd foiled
+912 3 divisoins
+divisions
+divisions/V=2.091627216253338e-05
+divisoins divisions
+913 3 hilicopter
+helicopter
+helicopter/V=1.743022680211115e-06
+hilicopter helicopter
+913 3 gnships
+gunships
+gunships/V=1.743022680211115e-06
+gnships gunships
+913 3 artirlely
+artillery
+artillery/V=1.743022680211115e-06
+artirlely artillery
+914 3 advnance
+advance
+advance/V=1.2201158761477804e-05
+advnance advance
+914 3 occupiede
+occupied
+occupied/V=1.743022680211115e-06
+occupiede occupied
+914 3 nraIians
+Iranians Arabians
+Iranians/V=3.48604536042223e-06
+Arabians/V=1.743022680211115e-06
+nraIians Iranians
+915 3 wouded
+wooded worded wounded
+wooded/V=1.743022680211115e-06
+worded/V=1.743022680211115e-06
+wounded/V=1.743022680211115e-06
+wouded wooded
+915 3 theirf
+their
+their/V=0.0005542812123071345
+theirf their
+915 3 posoitions
+positions
+positions/V=2.440231752295561e-05
+posoitions positions
+916 2 seuthwestorn
+southwestern
+southwestern/V=1.743022680211115e-06
+seuthwestorn southwestern
+916 2 druing
+during drying
+during/V=0.00030502896903694514
+drying/V=5.229068040633345e-06
+druing during
+917 2 denmied
+denied
+denied/V=2.9631385563588955e-05
+denmied denied
+917 2 reporn
+reborn report
+reborn/V=1.743022680211115e-06
+report/V=0.0005333649401446012
+reporn report
+918 2 vanal
+banal Canal
+banal/V=1.743022680211115e-06
+Canal/V=3.48604536042223e-06
+vanal Canal
+918 2 tornhern
+Northern northern
+Northern/V=1.743022680211115e-05
+northern/V=2.788836288337784e-05
+tornhern northern
+919 3 Iriqi
+Iraqi
+Iraqi/V=5.229068040633345e-06
+Iriqi Iraqi
+919 3 unitsx
+units
+units/V=0.0002231069030670227
+unitsx units
+919 3 attmpting
+attempting
+attempting/V=1.2201158761477804e-05
+attmpting attempting
+920 2 Chancelilor
+Chancellor
+Chancellor/V=1.394418144168892e-05
+Chancelilor Chancellor
+920 2 meeing
+seeing Seeing geeing meeting
+seeing/V=8.715113401055575e-06
+Seeing/V=1.743022680211115e-06
+geeing/V=1.743022680211115e-06
+meeting/V=0.0004741021690174233
+meeing meeting
+921 3 rinistems
+Ministers ministers
+Ministers/V=1.9173249482322263e-05
+ministers/V=0.0001760452907013226
+rinistems ministers
+921 3 Sevin
+Levin hevin Seven
+Levin/V=1.743022680211115e-06
+hevin/V=1.743022680211115e-06
+Seven/V=4.183254432506676e-05
+Sevin Seven
+921 3 gatheru
+gathers gather
+gathers/V=1.743022680211115e-06
+gather/V=3.48604536042223e-06
+gatheru gather
+922 2 pmoposed
+proposed
+proposed/V=0.0001411848370971003
+pmoposed proposed
+922 2 woubd
+wound would
+wound/V=1.743022680211115e-06
+would/V=0.00207942605749186
+woubd would
+923 3 phades
+shades Shades phases
+shades/V=1.743022680211115e-06
+Shades/V=1.743022680211115e-06
+phases/V=1.743022680211115e-06
+phades shades
+923 3 disuptions
+disruptions
+disruptions/V=8.715113401055575e-06
+disuptions disruptions
+923 3 hardsihp
+hardship
+hardship/V=6.97209072084446e-06
+hardsihp hardship
+924 3 Uniron
+Union
+Union/V=0.00013246972369604474
+Uniron Union
+924 3 replaed
+replied replaced
+replied/V=2.6145340203166722e-05
+replaced/V=1.2201158761477804e-05
+replaed replied
+924 3 ccaount
+account account count count
+account/V=0.0003154871051182118
+account/V=0.0003154871051182118
+count/V=1.743022680211115e-06
+count/V=1.743022680211115e-06
+ccaount account
+925 3 Texis
+Texas Texts
+Texas/V=0.00012375461029498917
+Texts/V=1.743022680211115e-06
+Texis Texas
+925 3 daseb
+cases cased case Ease Maser bases baser based base vases vase gases eased easel ease Basel Based Base Caleb Casey Cases Case oases Vases doses dosed dose damed dame damsel daises dales dates dated date dares dared dare dazed dash dashes dashed dash das
+cases/V=2.440231752295561e-05
+cased/V=1.743022680211115e-06
+case/V=7.146392988865572e-05
+Ease/V=1.743022680211115e-06
+Maser/V=1.743022680211115e-06
+bases/V=5.229068040633345e-06
+baser/V=1.743022680211115e-06
+based/V=0.00024053712986913387
+base/V=0.00010806740617308912
+vases/V=1.743022680211115e-06
+vase/V=1.743022680211115e-06
+gases/V=6.97209072084446e-06
+eased/V=2.6145340203166722e-05
+easel/V=1.743022680211115e-06
+ease/V=3.8346498964644526e-05
+Basel/V=1.743022680211115e-06
+Based/V=1.045813608126669e-05
+Base/V=1.743022680211115e-06
+Caleb/V=1.743022680211115e-06
+Casey/V=1.743022680211115e-06
+Cases/V=1.743022680211115e-06
+Case/V=1.743022680211115e-06
+oases/V=1.743022680211115e-06
+Vases/V=1.743022680211115e-06
+doses/V=1.743022680211115e-06
+dosed/V=1.743022680211115e-06
+dose/V=1.743022680211115e-06
+damed/V=1.743022680211115e-06
+dame/V=1.743022680211115e-06
+damsel/V=1.743022680211115e-06
+daises/V=1.743022680211115e-06
+dales/V=1.743022680211115e-06
+dates/V=1.5687204121900034e-05
+dated/V=5.229068040633345e-06
+date/V=0.00011503949689393359
+dares/V=1.743022680211115e-06
+dared/V=1.743022680211115e-06
+dare/V=1.743022680211115e-06
+dazed/V=1.743022680211115e-06
+dash/V=1.743022680211115e-06
+dashes/V=1.743022680211115e-06
+dashed/V=3.48604536042223e-06
+dash/V=1.743022680211115e-06
+das/V=1.743022680211115e-06
+daseb based
+925 3 oned
+zoned owed owned ones one
+zoned/V=1.743022680211115e-06
+owed/V=1.394418144168892e-05
+owned/V=0.00024402317522955608
+ones/V=1.2201158761477804e-05
+one/V=0.001760452907013226
+oned one
+926 3 cosmpany
+company
+company/V=0.0028271827873024282
+cosmpany company
+926 3 compareb
+compares compared compare
+compares/V=3.8346498964644526e-05
+compared/V=0.0006640916411604348
+compare/V=6.97209072084446e-06
+compareb compared
+926 3 pryfits
+profits
+profits/V=0.0005438230762258679
+pryfits profits
+927 3 Unon
+non Upon Union Uno
+non/V=0.00032943128655990074
+Upon/V=1.743022680211115e-06
+Union/V=0.00013246972369604474
+Uno/V=1.743022680211115e-06
+Unon non
+927 3 receiied
+received
+received/V=9.760927009182244e-05
+receiied received
+927 3 internatiomal
+international
+international/V=0.000273654560793145
+internatiomal international
+928 2 companyl
+company
+company/V=0.0028271827873024282
+companyl company
+928 2 enerogy
+energy
+energy/V=0.00013246972369604474
+enerogy energy
+929 2 Texast
+Texas
+Texas/V=0.00012375461029498917
+Texast Texas
+929 2 Deltia
+Delia Delta
+Delia/V=1.743022680211115e-06
+Delta/V=5.229068040633345e-06
+Deltia Delta
+930 2 Althouh
+Although
+Although/V=5.577672576675568e-05
+Althouh Although
+930 2 reserevs
+reserves
+reserves/V=0.000303285946356734
+reserevs reserves
+931 3 pnanled
+snarled gnarled enabled nailed planned planted planed paled panted paneled paneled
+snarled/V=1.743022680211115e-06
+gnarled/V=1.743022680211115e-06
+enabled/V=1.5687204121900034e-05
+nailed/V=1.743022680211115e-06
+planned/V=0.00012201158761477804
+planted/V=1.743022680211115e-06
+planed/V=1.743022680211115e-06
+paled/V=1.743022680211115e-06
+panted/V=1.743022680211115e-06
+paneled/V=1.743022680211115e-06
+paneled/V=1.743022680211115e-06
+pnanled planned
+931 3 yearc
+years yearn yeard year
+years/V=0.0005089626226216456
+yearn/V=1.743022680211115e-06
+yeard/V=1.743022680211115e-06
+year/V=0.0054992365560660676
+yearc year
+931 3 Islanod
+Island
+Island/V=2.2659294842744493e-05
+Islanod Island
+932 3 spennidg
+spinning spanning spending
+spinning/V=1.743022680211115e-06
+spanning/V=1.743022680211115e-06
+spending/V=0.0001865034267825893
+spennidg spending
+932 3 amouont
+amount
+amount/V=0.00012026856493456694
+amouont amount
+933 3 inUon
+Sinton Union union Hinton anion Anson Anton onion Vinson noon neon non iron iron ion inborn into inn
+Sinton/V=1.743022680211115e-06
+Union/V=0.00013246972369604474
+union/V=3.660347628443341e-05
+Hinton/V=1.743022680211115e-06
+anion/V=1.743022680211115e-06
+Anson/V=1.743022680211115e-06
+Anton/V=1.743022680211115e-06
+onion/V=1.743022680211115e-06
+Vinson/V=1.743022680211115e-06
+noon/V=5.229068040633345e-06
+neon/V=1.743022680211115e-06
+non/V=0.00032943128655990074
+iron/V=2.440231752295561e-05
+iron/V=2.440231752295561e-05
+ion/V=1.743022680211115e-06
+inborn/V=1.743022680211115e-06
+into/V=0.00039915219376834534
+inn/V=1.743022680211115e-06
+inUon into
+933 3 wouldr
+woulda would
+woulda/V=1.743022680211115e-06
+would/V=0.00207942605749186
+wouldr would
+934 3 clarifidcation
+clarification
+clarification/V=1.743022680211115e-06
+clarifidcation clarification
+934 3 chcnae
+china chance change
+china/V=5.229068040633345e-06
+chance/V=5.403370308654456e-05
+change/V=0.0002614534020316672
+chcnae change
+934 3 statemeunt
+statement
+statement/V=0.000348604536042223
+statemeunt statement
+935 2 pisotl
+pistol
+pistol/V=1.743022680211115e-06
+pisotl pistol
+935 2 offred
+offered
+offered/V=4.008952164485564e-05
+offred offered
+936 2 specuration
+speculation
+speculation/V=1.2201158761477804e-05
+specuration speculation
+936 2 weesk
+week weeks
+week/V=0.00039915219376834534
+weeks/V=0.00010981042885330024
+weesk week
+937 3 estaae
+estate
+estate/V=0.00010109531545224467
+estaae estate
+937 3 Trumep
+Trump
+Trump/V=1.5687204121900034e-05
+Trumep Trump
+937 3 stocsk
+stock stocks
+stock/V=0.0012985518967572806
+stocks/V=0.00011503949689393359
+stocsk stock
+938 3 indicwted
+indicated indicted
+indicated/V=2.9631385563588955e-05
+indicted/V=1.743022680211115e-06
+indicwted indicated
+938 3 posintion
+position
+position/V=0.00012375461029498917
+posintion position
+938 3 investemnt
+investment
+investment/V=0.00042704055665172315
+investemnt investment
+939 2 circulaed
+circulated
+circulated/V=1.743022680211115e-06
+circulaed circulated
+939 2 Conisnton
+Coniston
+Coniston/V=1.743022680211115e-06
+Conisnton Coniston
+940 3 juped
+duped jumped
+duped/V=1.743022680211115e-06
+jumped/V=3.137440824380007e-05
+juped jumped
+940 3 velumo
+volume vellum
+volume/V=0.00013421274637625584
+vellum/V=1.743022680211115e-06
+velumo volume
+940 3 shaes
+shies shoes shakes shapes shams shames shares shades
+shies/V=1.743022680211115e-06
+shoes/V=3.48604536042223e-06
+shakes/V=1.743022680211115e-06
+shapes/V=1.743022680211115e-06
+shams/V=1.743022680211115e-06
+shames/V=1.743022680211115e-06
+shares/V=0.0009063717937097798
+shades/V=1.743022680211115e-06
+shaes shares
+941 3 Unites
+unites Units United
+unites/V=1.743022680211115e-06
+Units/V=3.48604536042223e-06
+United/V=0.0005629963257081901
+Unites United
+941 3 cnsider
+insider consider
+insider/V=5.229068040633345e-06
+consider/V=7.320695256886682e-05
+cnsider consider
+941 3 prlposao
+proposal
+proposal/V=0.00012375461029498917
+prlposao proposal
+942 3 tink
+sink stink Fink pink wink link Pink mink Rink ink think tank tick tint tiny tin
+sink/V=1.743022680211115e-06
+stink/V=1.743022680211115e-06
+Fink/V=1.743022680211115e-06
+pink/V=1.743022680211115e-06
+wink/V=1.743022680211115e-06
+link/V=5.229068040633345e-06
+Pink/V=1.743022680211115e-06
+mink/V=1.743022680211115e-06
+Rink/V=1.743022680211115e-06
+ink/V=5.229068040633345e-06
+think/V=0.00013421274637625584
+tank/V=5.229068040633345e-06
+tick/V=1.743022680211115e-06
+tint/V=1.743022680211115e-06
+tiny/V=3.48604536042223e-06
+tin/V=1.045813608126669e-05
+tink think
+942 3 proposel
+proposal proposes proposed propose
+proposal/V=0.00012375461029498917
+proposes/V=8.715113401055575e-06
+proposed/V=0.0001411848370971003
+propose/V=3.3117430924011184e-05
+proposel proposed
+942 3 reilistic
+realistic
+realistic/V=1.394418144168892e-05
+reilistic realistic
+943 2 manogement
+management
+management/V=0.000151642973178367
+manogement management
+943 2 Steans
+Stans Stearns
+Stans/V=1.743022680211115e-06
+Stearns/V=1.743022680211115e-05
+Steans Stearns
+944 3 Anlysts
+Analysts
+Analysts/V=0.00010109531545224467
+Anlysts Analysts
+944 3 vulnerabel
+vulnerable
+vulnerable/V=1.743022680211115e-05
+vulnerabel vulnerable
+944 3 atcatk
+attack
+attack/V=1.045813608126669e-05
+atcatk attack
+945 3 adted
+dated acted added
+dated/V=5.229068040633345e-06
+acted/V=1.2201158761477804e-05
+added/V=0.0006013428246728346
+adted added
+945 3 servilce
+service servile
+service/V=9.41232247314002e-05
+servile/V=1.743022680211115e-06
+servilce service
+945 3 mocpany
+company Company
+company/V=0.0028271827873024282
+Company/V=0.0002771406061535673
+mocpany company
+946 2 eoncerncd
+concerned
+concerned/V=4.5318589685488985e-05
+eoncerncd concerned
+947 3 stootd
+stood
+stood/V=5.926277112717791e-05
+stootd stood
+947 3 styategr
+strategy
+strategy/V=4.3575567005277876e-05
+styategr strategy
+947 3 boginning
+beginning
+beginning/V=8.017904328971129e-05
+boginning beginning
+948 3 emphasizin
+emphasizingg
+emphasizingg/V=1.743022680211115e-06
+emphasizin emphasizingg
+948 3 cganginh
+changing
+changing/V=1.9173249482322263e-05
+cganginh changing
+948 3 Allegits
+Allegis
+Allegis/V=1.743022680211115e-06
+Allegits Allegis
+949 3 takeevor
+takeover
+takeover/V=6.100579380738902e-05
+takeevor takeover
+949 3 eslacated
+escalated
+escalated/V=5.229068040633345e-06
+eslacated escalated
+949 3 valies
+Yalies varies values valves
+Yalies/V=1.743022680211115e-06
+varies/V=3.48604536042223e-06
+values/V=2.788836288337784e-05
+valves/V=5.229068040633345e-06
+valies values
+950 3 todayl
+today
+today/V=0.0004008952164485564
+todayl today
+950 3 yubing
+tubing
+tubing/V=1.743022680211115e-06
+yubing tubing
+950 3 belive
+relive believe
+relive/V=1.743022680211115e-06
+believe/V=7.843602060950017e-05
+belive believe
+951 4 attractsed
+attracted
+attracted/V=1.045813608126669e-05
+attractsed attracted
+951 4 sotck
+stock sock
+stock/V=0.0012985518967572806
+sock/V=1.743022680211115e-06
+sotck stock
+951 4 actsed
+acted
+acted/V=1.2201158761477804e-05
+actsed acted
+951 4 anoteer
+another
+another/V=0.00016907319998047814
+anoteer another
+952 3 firset
+first
+first/V=0.001274149579234325
+firset first
+952 3 investhor
+investor
+investor/V=1.5687204121900034e-05
+investhor investor
+952 3 staae
+stake stale state stare stave stage
+stake/V=0.00010806740617308912
+stale/V=1.743022680211115e-06
+state/V=0.0001655871546200559
+stare/V=1.743022680211115e-06
+stave/V=3.48604536042223e-06
+stage/V=3.137440824380007e-05
+staae state
+953 2 sedonc
+second sedans sedan
+second/V=0.00036603476284433414
+sedans/V=1.743022680211115e-06
+sedan/V=1.743022680211115e-06
+sedonc second
+953 2 uninon
+unison union
+unison/V=1.743022680211115e-06
+union/V=3.660347628443341e-05
+uninon union
+954 2 attituode
+attitude
+attitude/V=6.97209072084446e-06
+attituode attitude
+954 2 airlinee
+airline airlines airline
+airline/V=4.008952164485564e-05
+airlines/V=8.715113401055575e-06
+airline/V=4.008952164485564e-05
+airlinee airline
+955 3 intersting
+interesting
+interesting/V=8.715113401055575e-06
+intersting interesting
+955 3 valies
+Yalies varies values valves
+Yalies/V=1.743022680211115e-06
+varies/V=3.48604536042223e-06
+values/V=2.788836288337784e-05
+valves/V=5.229068040633345e-06
+valies values
+956 2 somethilng
+something
+something/V=3.137440824380007e-05
+somethilng something
+957 2 reterated
+reiterated retreated
+reiterated/V=2.440231752295561e-05
+retreated/V=5.229068040633345e-06
+reterated reiterated
+957 2 earningc
+earnings earning
+earnings/V=0.001321211191600025
+earning/V=1.394418144168892e-05
+earningc earnings
+958 3 fitscal
+fiscal
+fiscal/V=0.00051593471334249
+fitscal fiscal
+958 3 Harmarx
+Hartmarx
+Hartmarx/V=8.715113401055575e-06
+Harmarx Hartmarx
+958 3 eannirgs
+earnings
+earnings/V=0.001321211191600025
+eannirgs earnings
+959 2 manuacturer
+manufacturer
+manufacturer/V=1.743022680211115e-05
+manuacturer manufacturer
+959 2 recenylt
+recently recent
+recently/V=9.935229277203355e-05
+recent/V=0.00025099526595040054
+recenylt recent
+960 2 Meinerot
+Meinert
+Meinert/V=8.715113401055575e-06
+Meinerot Meinert
+960 2 diveisions
+divisions diversions
+divisions/V=2.091627216253338e-05
+diversions/V=1.743022680211115e-06
+diveisions divisions
+961 2 adedd
+added
+added/V=0.0006013428246728346
+adedd added
+961 2 acquisictions
+acquisitions
+acquisitions/V=0.00014292785977731143
+acquisictions acquisitions
+962 2 Atlana
+Atlanta
+Atlanta/V=5.229068040633345e-06
+Atlana Atlanta
+962 2 Washngton
+Washington
+Washington/V=0.0003154871051182118
+Washngton Washington
+963 3 continuoes
+continues continuous
+continues/V=6.274881648760014e-05
+continuous/V=8.715113401055575e-06
+continuoes continues
+963 3 aartmHrx
+Hartmarx
+Hartmarx/V=8.715113401055575e-06
+aartmHrx Hartmarx
+963 3 etors
+torsoo stirs stars stops storm storms story store stores sectors Stars Stops Story Store Stores Moors Motors Motors Doors boors vectors doors debtors detours actors alors atoms actors Peters moors motors motors meters meteors Alors Odors hors odors tutors tutors tenors retort hors toss tours tons togs toys toes tops torn tore tenors tears esters enters editors ears eaters errors errs errors ears errs ethos ethers ethers ethos etes etes ethos
+torsoo/V=1.743022680211115e-06
+stirs/V=1.743022680211115e-06
+stars/V=1.743022680211115e-06
+stops/V=3.48604536042223e-06
+storm/V=3.48604536042223e-06
+storms/V=1.743022680211115e-06
+story/V=8.715113401055575e-06
+store/V=5.0547657726122334e-05
+stores/V=7.843602060950017e-05
+sectors/V=6.623486184802237e-05
+Stars/V=1.743022680211115e-06
+Stops/V=1.743022680211115e-06
+Story/V=1.743022680211115e-06
+Store/V=6.97209072084446e-06
+Stores/V=2.6145340203166722e-05
+Moors/V=1.743022680211115e-06
+Motors/V=3.48604536042223e-05
+Motors/V=3.48604536042223e-05
+Doors/V=1.743022680211115e-06
+boors/V=1.743022680211115e-06
+vectors/V=1.743022680211115e-06
+doors/V=5.229068040633345e-06
+debtors/V=1.2201158761477804e-05
+detours/V=1.743022680211115e-06
+actors/V=1.743022680211115e-06
+alors/V=1.743022680211115e-06
+atoms/V=1.743022680211115e-06
+actors/V=1.743022680211115e-06
+Peters/V=1.743022680211115e-06
+moors/V=1.743022680211115e-06
+motors/V=1.743022680211115e-06
+motors/V=1.743022680211115e-06
+meters/V=6.97209072084446e-06
+meteors/V=1.743022680211115e-06
+Alors/V=1.743022680211115e-06
+Odors/V=1.743022680211115e-06
+hors/V=1.743022680211115e-06
+odors/V=1.743022680211115e-06
+tutors/V=1.743022680211115e-06
+tutors/V=1.743022680211115e-06
+tenors/V=1.743022680211115e-06
+retort/V=1.743022680211115e-06
+hors/V=1.743022680211115e-06
+toss/V=1.743022680211115e-06
+tours/V=1.743022680211115e-06
+tons/V=0.00011852554225435582
+togs/V=1.743022680211115e-06
+toys/V=6.97209072084446e-06
+toes/V=1.743022680211115e-06
+tops/V=3.48604536042223e-06
+torn/V=1.743022680211115e-06
+tore/V=1.743022680211115e-06
+tenors/V=1.743022680211115e-06
+tears/V=1.743022680211115e-06
+esters/V=1.743022680211115e-06
+enters/V=1.743022680211115e-06
+editors/V=1.743022680211115e-06
+ears/V=1.743022680211115e-06
+eaters/V=1.743022680211115e-06
+errors/V=3.48604536042223e-06
+errs/V=1.743022680211115e-06
+errors/V=3.48604536042223e-06
+ears/V=1.743022680211115e-06
+errs/V=1.743022680211115e-06
+ethos/V=1.743022680211115e-06
+ethers/V=1.743022680211115e-06
+ethers/V=1.743022680211115e-06
+ethos/V=1.743022680211115e-06
+etes/V=1.743022680211115e-06
+etes/V=1.743022680211115e-06
+ethos/V=1.743022680211115e-06
+etors tons
+964 2 iranIan
+Iranian
+Iranian/V=5.229068040633345e-06
+iranIan Iranian
+964 2 Fnreigo
+Foreign
+Foreign/V=0.00010109531545224467
+Fnreigo Foreign
+965 2 agreeent
+agreement
+agreement/V=0.0003869510350068675
+agreeent agreement
+965 2 productioin
+production
+production/V=0.000454928919535101
+productioin production
+966 3 developmenat
+development
+development/V=0.000212648766985756
+developmenat development
+966 3 delivry
+delivery delivre
+delivery/V=4.5318589685488985e-05
+delivre/V=1.743022680211115e-06
+delivry delivery
+966 3 Ornge
+Orange
+Orange/V=3.48604536042223e-06
+Ornge Orange
+967 2 inflatihon
+inflation
+inflation/V=0.000318973150478634
+inflatihon inflation
+967 2 largelyh
+largely
+largely/V=8.715113401055575e-05
+largelyh largely
+968 2 aonetmry
+Monetary monetary
+Monetary/V=3.48604536042223e-05
+monetary/V=6.797788452823348e-05
+aonetmry monetary
+968 2 modaest
+modest
+modest/V=5.577672576675568e-05
+modaest modest
+969 2 tfaer
+faeryy safer Daer Baer after afar After Offer Rafer offer Daer Baer fer fear faker fair faier far fare titer tiger ther thar taper toner tower truer trader tear ther tear taper tar taper
+faeryy/V=1.743022680211115e-06
+safer/V=1.743022680211115e-06
+Daer/V=1.743022680211115e-06
+Baer/V=1.743022680211115e-06
+after/V=0.001197456581305036
+afar/V=1.743022680211115e-06
+After/V=4.880463504591122e-05
+Offer/V=1.743022680211115e-06
+Rafer/V=1.743022680211115e-06
+offer/V=0.0001638441319398448
+Daer/V=1.743022680211115e-06
+Baer/V=1.743022680211115e-06
+fer/V=1.743022680211115e-06
+fear/V=1.394418144168892e-05
+faker/V=1.743022680211115e-06
+fair/V=4.3575567005277876e-05
+faier/V=1.743022680211115e-06
+far/V=9.935229277203355e-05
+fare/V=1.743022680211115e-06
+titer/V=1.743022680211115e-06
+tiger/V=1.743022680211115e-06
+ther/V=1.743022680211115e-06
+thar/V=1.743022680211115e-06
+taper/V=6.97209072084446e-06
+toner/V=1.743022680211115e-06
+tower/V=1.743022680211115e-06
+truer/V=1.743022680211115e-06
+trader/V=1.743022680211115e-05
+tear/V=1.743022680211115e-06
+ther/V=1.743022680211115e-06
+tear/V=1.743022680211115e-06
+taper/V=6.97209072084446e-06
+tar/V=1.743022680211115e-06
+taper/V=6.97209072084446e-06
+tfaer after
+970 3 aggrekgates
+aggregates
+aggregates/V=1.743022680211115e-06
+aggrekgates aggregates
+970 3 rathetr
+rather
+rather/V=7.843602060950017e-05
+rathetr rather
+970 3 iurdng
+curing During during luring
+curing/V=1.743022680211115e-06
+During/V=3.137440824380007e-05
+during/V=0.00030502896903694514
+luring/V=1.743022680211115e-06
+iurdng during
+971 2 Hrllee
+Vallee Hillel Holley Heller
+Vallee/V=1.743022680211115e-06
+Hillel/V=1.743022680211115e-06
+Holley/V=1.743022680211115e-06
+Heller/V=6.97209072084446e-06
+Hrllee Heller
+971 2 thedre
+Phedre theare there
+Phedre/V=1.743022680211115e-06
+theare/V=1.743022680211115e-06
+there/V=0.00038172196696623415
+thedre there
+972 2 produhcers
+producers
+producers/V=9.063717937097797e-05
+produhcers producers
+972 2 futcre
+future
+future/V=0.0002248499257472338
+futcre future
+973 2 inflanionary
+inflationary
+inflationary/V=3.8346498964644526e-05
+inflanionary inflationary
+973 2 sectr
+sects sector sect
+sects/V=1.743022680211115e-06
+sector/V=0.0001865034267825893
+sect/V=1.743022680211115e-06
+sectr sector
+974 3 returun
+return
+return/V=0.0001638441319398448
+returun return
+974 3 stagflatiion
+stagflation stagflation
+stagflation/V=1.743022680211115e-06
+stagflation/V=1.743022680211115e-06
+stagflatiion stagflation
+974 3 resalt
+result resale
+result/V=0.00031723012779842294
+resale/V=1.743022680211115e-06
+resalt result
+975 2 disciplinaed
+disciplined
+disciplined/V=1.743022680211115e-06
+disciplinaed disciplined
+975 2 conducl
+conduct
+conduct/V=1.2201158761477804e-05
+conducl conduct
+976 3 spendimg
+spending
+spending/V=0.0001865034267825893
+spendimg spending
+976 3 rafther
+rather
+rather/V=7.843602060950017e-05
+rafther rather
+976 3 tarxes
+taxes
+taxes/V=0.00013246972369604474
+tarxes taxes
+977 2 nmpositioi
+imposition
+imposition/V=1.394418144168892e-05
+nmpositioi imposition
+977 2 ceratainly
+certainly
+certainly/V=2.6145340203166722e-05
+ceratainly certainly
+978 2 didea
+idea
+idea/V=2.2659294842744493e-05
+didea idea
+978 2 expoats
+exports
+exports/V=0.0007041811628052904
+expoats exports
+979 3 trad
+tradee Mrad Grad brad grad toad triad tread trap tray
+tradee/V=1.743022680211115e-06
+Mrad/V=1.743022680211115e-06
+Grad/V=1.743022680211115e-06
+brad/V=1.743022680211115e-06
+grad/V=1.743022680211115e-06
+toad/V=1.743022680211115e-06
+triad/V=1.743022680211115e-06
+tread/V=1.743022680211115e-06
+trap/V=1.743022680211115e-06
+tray/V=1.743022680211115e-06
+trad tradee
+979 3 excledingey
+exceedingly
+exceedingly/V=1.743022680211115e-06
+excledingey exceedingly
+979 3 counrty
+county country
+county/V=1.743022680211115e-06
+country/V=0.0002231069030670227
+counrty country
+980 3 properoties
+properties
+properties/V=0.00011852554225435582
+properoties properties
+980 3 quartr
+quarts quarter quartz quart
+quarts/V=1.743022680211115e-06
+quarter/V=0.0022345550760306493
+quartz/V=3.48604536042223e-06
+quart/V=1.743022680211115e-06
+quartr quarter
+981 3 Eneergy
+Energy Energy
+Energy/V=8.540811133034463e-05
+Energy/V=8.540811133034463e-05
+Eneergy Energy
+981 3 limoited
+limited
+limited/V=9.238020205118909e-05
+limoited limited
+981 3 partnersahip
+partnership
+partnership/V=5.751974844696679e-05
+partnersahip partnership
+982 3 ervenues
+revenues
+revenues/V=0.00035731964944327855
+ervenues revenues
+982 3 totalfed
+totalled totaled
+totalled/V=8.017904328971129e-05
+totaled/V=6.274881648760014e-05
+totalfed totalled
+982 3 companay
+company
+company/V=0.0028271827873024282
+companay company
+983 3 porved
+proved pored
+proved/V=1.5687204121900034e-05
+pored/V=1.743022680211115e-06
+porved proved
+983 3 barels
+barrels barely
+barrels/V=0.00015512901853878924
+barely/V=5.229068040633345e-06
+barels barrels
+983 3 cubi
+cubicc cube
+cubicc/V=1.743022680211115e-06
+cube/V=1.743022680211115e-06
+cubi cubicc
+984 2 enreting
+exerting erecting enacting entering
+exerting/V=1.743022680211115e-06
+erecting/V=1.743022680211115e-06
+enacting/V=1.743022680211115e-06
+entering/V=1.394418144168892e-05
+enreting entering
+984 2 ministeros
+ministers
+ministers/V=0.0001760452907013226
+ministeros ministers
+985 3 satisfaed
+satisfied
+satisfied/V=1.743022680211115e-05
+satisfaed satisfied
+985 3 Japanesi
+Japanese
+Japanese/V=0.0008017904328971128
+Japanesi Japanese
+985 3 Wilsonu
+Wilson
+Wilson/V=5.229068040633345e-06
+Wilsonu Wilson
+986 3 Mrnistei
+Minister
+Minister/V=0.00023879410718892274
+Mrnistei Minister
+986 3 Baelladur
+Balladur
+Balladur/V=1.5687204121900034e-05
+Baelladur Balladur
+986 3 mnetieg
+meeting metier
+meeting/V=0.0004741021690174233
+metier/V=1.743022680211115e-06
+mnetieg meeting
+987 3 censral
+central
+central/V=8.715113401055575e-05
+censral central
+987 3 FRace
+Race Face FRance
+Race/V=1.743022680211115e-06
+Face/V=3.48604536042223e-06
+FRance/V=1.743022680211115e-06
+FRace Face
+987 3 returnin
+returningg
+returningg/V=1.743022680211115e-06
+returnin returningg
+988 2 arounda
+around
+around/V=0.0002457661979097672
+arounda around
+989 3 Thare
+share Share hare There
+share/V=0.0028986467171910842
+Share/V=0.00017081622266068927
+hare/V=1.743022680211115e-06
+There/V=0.000151642973178367
+Thare share
+989 3 whwose
+whose
+whose/V=4.3575567005277876e-05
+whwose whose
+989 3 Chsirtian
+Christian
+Christian/V=8.715113401055575e-06
+Chsirtian Christian
+990 2 mnetary
+monetary
+monetary/V=6.797788452823348e-05
+mnetary monetary
+990 2 buildingk
+buildings building
+buildings/V=6.97209072084446e-06
+building/V=5.577672576675568e-05
+buildingk building
+991 2 bdown
+down blown brown
+down/V=0.0004165824205704565
+blown/V=1.743022680211115e-06
+brown/V=3.48604536042223e-06
+bdown down
+991 2 orpgress
+progress Progress ogress
+progress/V=0.00010981042885330024
+Progress/V=1.743022680211115e-06
+ogress/V=1.743022680211115e-06
+orpgress progress
+992 3 tremd
+trend tread
+trend/V=5.926277112717791e-05
+tread/V=1.743022680211115e-06
+tremd trend
+992 3 corrupat
+corrupt
+corrupt/V=1.743022680211115e-06
+corrupat corrupt
+992 3 toay
+tray today toy toad
+tray/V=1.743022680211115e-06
+today/V=0.0004008952164485564
+toy/V=6.97209072084446e-06
+toad/V=1.743022680211115e-06
+toay today
+993 2 cogsumer
+consumer
+consumer/V=0.0002248499257472338
+cogsumer consumer
+993 2 Commumity
+Community
+Community/V=0.0001882464494628004
+Commumity Community
+994 2 Conpany
+Company
+Company/V=0.0002771406061535673
+Conpany Company
+994 2 hearimg
+hearing
+hearing/V=2.440231752295561e-05
+hearimg hearing
+995 2 disclaose
+disclose
+disclose/V=1.394418144168892e-05
+disclaose disclose
+995 2 oemdnstrating
+Demonstrating demonstrating
+Demonstrating/V=1.743022680211115e-06
+demonstrating/V=1.743022680211115e-06
+oemdnstrating Demonstrating
+996 3 Morritson
+Morrison
+Morrison/V=3.48604536042223e-06
+Morritson Morrison
+996 3 troug
+troughh troup trout
+troughh/V=1.743022680211115e-06
+troup/V=1.743022680211115e-06
+trout/V=1.743022680211115e-06
+troug troughh
+996 3 planb
+plank plans plant plane plan
+plank/V=1.743022680211115e-06
+plans/V=0.00027539758347335614
+plant/V=0.00012375461029498917
+plane/V=8.715113401055575e-06
+plan/V=0.00032245919583905627
+planb plan
+997 2 adminiustrator
+administrator
+administrator/V=1.743022680211115e-06
+adminiustrator administrator
+997 2 prograem
+program
+program/V=0.00015687204121900034
+prograem program
+997 2 prograems
+programs
+programs/V=5.0547657726122334e-05
+prograems programs
+998 3 edtimates
+estimates
+estimates/V=0.00012201158761477804
+edtimates estimates
+998 3 chicnek
+chimney chines chicken chick
+chimney/V=1.743022680211115e-06
+chines/V=1.743022680211115e-06
+chicken/V=1.743022680211115e-06
+chick/V=1.743022680211115e-06
+chicnek chimney
+998 3 terkeys
+turkeys
+turkeys/V=1.743022680211115e-06
+terkeys turkeys
+999 2 inspectieon
+inspection
+inspection/V=5.229068040633345e-06
+inspectieon inspection
+999 2 uopltry
+poultry Poultry
+poultry/V=3.48604536042223e-06
+Poultry/V=3.48604536042223e-06
+uopltry poultry
+1000 3 eventuall
+eventuallyy eventual eventual
+eventuallyy/V=1.743022680211115e-06
+eventual/V=5.229068040633345e-06
+eventual/V=5.229068040633345e-06
+eventuall eventual
+1000 3 coul
+couldd soul foul coil coal cool coup
+couldd/V=1.743022680211115e-06
+soul/V=1.743022680211115e-06
+foul/V=1.743022680211115e-06
+coil/V=1.743022680211115e-06
+coal/V=5.577672576675568e-05
+cool/V=5.229068040633345e-06
+coup/V=1.743022680211115e-06
+coul coal
+1000 3 miney
+money mines miner mined mine
+money/V=0.00010981042885330024
+mines/V=3.8346498964644526e-05
+miner/V=5.229068040633345e-06
+mined/V=1.5687204121900034e-05
+mine/V=0.0001987045855440671
+miney mine

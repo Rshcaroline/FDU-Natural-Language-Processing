@@ -1,3 +1,5 @@
+Accuracy is : 81.10%
+
 1 1 protectionst
 protectionist
 protectionist/V=1.022087306697738e-05
@@ -6270,4 +6272,4 @@ mines/V=4.088349226790952e-05
 miner/V=1.022087306697738e-05
 mined/V=2.044174613395476e-05
 miney money
-Accuracy is : 81.10%
+

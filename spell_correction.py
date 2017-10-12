@@ -37,8 +37,9 @@ def preprocessing(ngram):
         testdata.append(item)
 
     # preprocessing the corpus and generate the count-file of n-gram
-    corpus_raw_text = brown.sents(categories=['news'])   # 'editorial', 'reviews'
-    # corpus_raw_text = reuters.sents()
+    # corpus_raw_text = brown.sents(categories=['news'])   # 'editorial', 'reviews'
+    corpus_raw_text = reuters.sents(categories=['cpi', 'earn', 'fuel', 'gas', 'housing', 'income',
+                                                'trade', 'retail', 'jobs', 'instal-debt', 'interest'])
     corpus_text = []
     gram_count = {}
     vocab_corpus = []
@@ -86,7 +87,7 @@ def language_model(gram_count, V, data, ngram):   # given a sentence, predict th
             else:
                 pi = 1 / (V + 1)
 
-            printfile.write(keys + '/V=' + str(pi) + '\n')
+            printfile.write(keys + '/V=' + str(np.log(pi)) + '\n')
             p.append(np.log(pi))
     else:
         for i in range(ngram, len(data)):
@@ -99,7 +100,7 @@ def language_model(gram_count, V, data, ngram):   # given a sentence, predict th
             else:
                 pi = 1 / (V + 1)
 
-            printfile.write(keys + '/' + keym + '=' + str(pi) + '\n')
+            printfile.write(keys + '/' + keym + '=' + str(np.log(pi)) + '\n')
             p.append(np.log(pi))
 
     prob = sum(p)
@@ -230,15 +231,18 @@ if __name__ == '__main__':
     start = time.time()
 
     print('Doing preprocessing, computing things ... Please wait ...')
-    vocab, testdata, gram_count, vocab_corpus = preprocessing(0)  # bigram
+    vocab, testdata, gram_count, vocab_corpus = preprocessing(0)
     trie = make_trie(vocab)
+
+    stop = time.time()
+    printfile.write('Preprocessing time: ' + str(stop - start) + '\n')
 
     print('Doing Spell Correcting ...')
     channel_model(vocab, testdata, gram_count, vocab_corpus, trie, 0)
 
     eval()
     stop = time.time()
-    printfile.write('time: ' + str(stop - start) + '\n')
+    printfile.write('Spell Correcting time: ' + str(stop - start) + '\n')
 
 
 
