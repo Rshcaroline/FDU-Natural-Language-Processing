@@ -1,8 +1,12 @@
 import numpy as np
 import time
 import nltk
+from string import ascii_lowercase
 from nltk.corpus import brown
+from nltk.corpus import reuters
+from collections import deque
 
+# preprocessing
 def preprocessing(ngram):
     # store the vocabulary to a list
     vocabpath = './vocab.txt'
@@ -10,7 +14,7 @@ def preprocessing(ngram):
     vocab_list = []
     for line in vocabfile:
         vocab_list.append(line[:-1])  # subtract the '\n'
-    vocab = {}.fromkeys(vocab_list).keys()  # use dict
+    # vocab = {}.fromkeys(vocab_list).keys()  # use dict
 
     # read testdata and preprocessing it, store it to a list
     testpath = './testdata.txt'
@@ -30,7 +34,8 @@ def preprocessing(ngram):
         testdata.append(item)
 
     # preprocessing the corpus and generate the count-file of n-gram
-    corpus_raw_text = brown.sents(categories=['news'])   # , 'editorial', 'reviews'
+    corpus_raw_text = brown.sents(categories=['news'])   # 'editorial', 'reviews'
+    # corpus_raw_text = reuters.sents()
     corpus_text = []
     gram_count = {}
     vocab_corpus = []
@@ -63,7 +68,7 @@ def preprocessing(ngram):
     # vocab_corpus = {}.fromkeys(vocab_corpus).keys()  # the vocabulary of corpus
     # print(len(vocab_corpus))
 
-    return vocab, testdata, gram_count, vocab_corpus
+    return vocab_list, testdata, gram_count, vocab_corpus
 
 def language_model(gram_count, V, data, ngram):   # given a sentence, predict the probability
     # compute probability
@@ -78,7 +83,7 @@ def language_model(gram_count, V, data, ngram):   # given a sentence, predict th
             else:
                 pi = 1 / (V + 1)
 
-            # print(keys + '/V=' + str(pi))
+            print(keys + '/V=' + str(pi))
             p.append(np.log(pi))
     else:
         for i in range(ngram, len(data)):
@@ -91,28 +96,144 @@ def language_model(gram_count, V, data, ngram):   # given a sentence, predict th
             else:
                 pi = 1 / (V + 1)
 
-            # print(keys + '/' + keym + '=' + str(pi))
+            print(keys + '/' + keym + '=' + str(pi))
             p.append(np.log(pi))
 
     prob = sum(p)
     return prob
 
+# edit distance
+END = '$'
+
+def make_trie(words):
+    trie = {}
+    for word in words:
+        t = trie
+        for c in word:
+            if c not in t: t[c] = {}
+            t = t[c]
+        t[END] = {}
+    return trie
+
+def check_fuzzy(trie, word, path='', tol=1):
+    if tol < 0:
+        return set()
+    elif word == '':
+        return {path} if END in trie else set()
+    else:
+        ps = set()
+        for k in trie:
+            tol1 = tol - 1 if k != word[0] else tol
+            ps |= check_fuzzy(trie[k], word[1:], path+k, tol1)
+            # 增加字母
+            for c in ascii_lowercase:
+                ps |= check_fuzzy(trie[k], c+word[1:], path+k, tol1-1)
+            # 删减字母
+            if len(word) > 1:
+                ps |= check_fuzzy(trie[k], word[2:], path+k, tol1-1)
+            # 交换字母
+            if len(word) > 2:
+                ps |= check_fuzzy(trie[k], word[2]+word[1]+word[3:], path+k, tol1-1)
+        return ps
+
+def check_iter(trie, word, tol=1):
+    que = deque([(trie, word, '', tol)])
+    while que:
+        trie, word, path, tol = que.popleft()
+        if word == '':
+            if END in trie:
+                yield path
+            # 词尾增加字母
+            if tol > 0:
+                que.extendleft((trie, k, path+k, tol-1)
+                               for k in trie.keys() if k != END)
+        else:
+            if word[0] in trie:
+                # 首字母匹配成功
+                que.appendleft((trie[word[0]], word[1:], path+word[0], tol))
+            # 无论首字母是否匹配成功，都如下处理
+            if tol > 0:
+                tol -= 1
+                for k in trie.keys() - {word[0], END}:
+                    # 用k替换余词首字母，进入trie[k]
+                    que.append((trie[k], word[1:], path+k, tol))
+                    # 用k作为增加的首字母，进入trie[k]
+                    que.append((trie[k], word, path+k, tol))
+                # 删除目标词首字母，保持所处结点位置trie
+                que.append((trie, word[1:], path, tol))
+                # 交换目标词前两个字母，保持所处结点位置trie
+                if len(word) > 1:
+                    que.append((trie, word[1]+word[0]+word[2:], path, tol))
+
+def channel_model(vocab, testdata, gram_count, vocab_corpus, trie, ngram):
+    testpath = './testdata.txt'
+    testfile = open(testpath, 'r')
+    data = []
+    for line in testfile:
+        item = line.split('\t')
+        del item[1]
+        data.append('\t'.join(item))
+
+    resultpath = './result.txt'
+    resultfile = open(resultpath, 'w')
+
+    for item in testdata:
+        for words in item[2][1:-1]:  # use [1:-1] to skip <s> and </s>
+            if (words in vocab):
+                continue
+                # resultfile.write(data[int(item[0]) - 1])
+            else:
+                print(item[0], item[1], words)
+                if (list(check_fuzzy(trie, words, tol=1))):
+                    candidate_list = list(check_fuzzy(trie, words, tol=1))
+                else:
+                    candidate_list = list(check_fuzzy(trie, words, tol=2))
+                print(candidate_list)
+                candi_proba = []
+                for candidate in candidate_list:
+                    if(ngram == 0):
+                        candi_proba.append(
+                            language_model(gram_count, len(vocab_corpus), [candidate], ngram))  # 0 = unigram, 1 = bigram
+                    else:
+                        word_index = item[2][1:-1].index(words)
+                        phase = item[2][1:-1][(word_index - ngram): word_index] + [candidate]
+                        # phase = ' '.join(phase)
+                        print(phase)
+                        candi_proba.append(
+                            language_model(gram_count, len(vocab_corpus), phase, ngram))  # 0 = unigram, 1 = bigram
+
+                index = candi_proba.index(max(candi_proba))
+                print(words, candidate_list[index])
+                data[int(item[0]) - 1] = data[int(item[0]) - 1].replace(words, candidate_list[index])
+
+        resultfile.write(data[int(item[0]) - 1])
+
+def eval():
+    anspath = './ans.txt'
+    resultpath = './result.txt'
+    ansfile = open(anspath, 'r')
+    resultfile = open(resultpath, 'r')
+    count = 0
+    for i in range(1000):
+        ansline = ansfile.readline().split('\t')[1]
+        ansset = set(nltk.word_tokenize(ansline))
+        resultline = resultfile.readline().split('\t')[1]
+        resultset = set(nltk.word_tokenize(resultline))
+        if ansset == resultset:
+            count += 1
+    print("Accuracy is : %.2f%%" % (count * 1.00 / 10))
 
 if __name__ == '__main__':
     start = time.time()
-    vocab, testdata, gram_count, vocab_corpus = preprocessing(0)
 
-    # for item in testdata:
-    #    print(language_model(gram_count, len(vocab_corpus), item[2], 0))  # 0 = unigram, 1 = bigram
+    print('Doing preprocessing, computing things ... Please wait ...')
+    vocab, testdata, gram_count, vocab_corpus = preprocessing(0)  # bigram
+    trie = make_trie(vocab)
 
-    for item in testdata:
-        count = 0
-        for words in item[2][1:-1]:    # use [1:-1] to skip <s> and </s>
-            if(words in vocab): continue
-            else:
-                print(item[0], item[1], words)
-                count = count + 1
+    print('Doing Spell Correcting ...')
+    channel_model(vocab, testdata, gram_count, vocab_corpus, trie, 0)
 
+    eval()
     stop = time.time()
     print('time: ', stop - start)
 
