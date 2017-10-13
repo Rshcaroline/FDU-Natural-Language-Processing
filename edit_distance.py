@@ -1,4 +1,5 @@
 from collections import deque
+from string import ascii_lowercase
 
 END = '$'
 
@@ -21,6 +22,27 @@ def make_trie(words):
             t = t[c]
         t[END] = {}
     return trie
+
+def check_fuzzy(trie, word, path='', tol=1):
+    if tol < 0:
+        return set()
+    elif word == '':
+        return {path} if END in trie else set()
+    else:
+        ps = set()
+        for k in trie:
+            tol1 = tol - 1 if k != word[0] else tol
+            ps |= check_fuzzy(trie[k], word[1:], path+k, tol1)
+            # 增加字母
+            for c in ascii_lowercase:
+                ps |= check_fuzzy(trie[k], c+word[1:], path+k, tol1-1)
+            # 删减字母
+            if len(word) > 1:
+                ps |= check_fuzzy(trie[k], word[2:], path+k, tol1-1)
+            # 交换字母
+            if len(word) > 2:
+                ps |= check_fuzzy(trie[k], word[2]+word[1]+word[3:], path+k, tol1-1)
+        return ps
 
 def check_iter(trie, word, tol=1):
     que = deque([(trie, word, '', tol)])
@@ -80,4 +102,4 @@ def check_head_fixed(trie, word, tol=1):
 if __name__ == '__main__':
     trie = make_trie(preprocessing())
 
-    print(list(check_iter(trie, 'coul', tol=1)))
+    print(list(check_iter(trie, 'miney', tol=2)))

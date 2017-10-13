@@ -1,6 +1,6 @@
-Preprocessing time: 147.09556198120117
+Preprocessing time: 144.15859818458557
 Accuracy is : 85.20%
-Spell Correcting time: 810.4733800888062
+Spell Correcting time: 804.9529850482941
 
 1 1 protectionst
 protectionist
@@ -15,32 +15,32 @@ retaliation
 retaliation/V=-8.99351938366
 retaiation retaliation
 4 1 tases
-taxes vases gases tasks Cases tastes cases takes bases tales oases Vases tapes
-taxes/V=-8.95715173949
-vases/V=-13.3879685383
-gases/V=-12.0016741772
-tasks/V=-12.6948213578
-Cases/V=-13.3879685383
-tastes/V=-12.6948213578
+cases Cases bases gases takes taxes oases tastes tales Vases tasks tapes vases
 cases/V=-10.7489112087
-takes/V=-10.0921316723
+Cases/V=-13.3879685383
 bases/V=-12.2893562497
-tales/V=-13.3879685383
+gases/V=-12.0016741772
+takes/V=-10.0921316723
+taxes/V=-8.95715173949
 oases/V=-13.3879685383
+tastes/V=-12.6948213578
+tales/V=-13.3879685383
 Vases/V=-13.3879685383
+tasks/V=-12.6948213578
 tapes/V=-13.3879685383
+vases/V=-13.3879685383
 tases taxes
 5 1 busines
 business
 business/V=-7.69087505183
 busines business
 7 1 Taawin
-Taiwan Train Twain Tanin Darwin
-Taiwan/V=-8.56768697273
+Train Tanin Taiwan Darwin Twain
 Train/V=-13.3879685383
-Twain/V=-13.3879685383
 Tanin/V=-13.3879685383
+Taiwan/V=-8.56768697273
 Darwin/V=-13.3879685383
+Twain/V=-13.3879685383
 Taawin Taiwan
 8 1 seriousnyss
 seriousness
@@ -55,9 +55,9 @@ billion
 billion/V=-5.21919871466
 bililon billion
 11 1 sewll
-swell sell
-swell/V=-12.2893562497
+sell swell
 sell/V=-9.09750909719
+swell/V=-12.2893562497
 sewll sell
 12 1 importsi
 imports
@@ -70,27 +70,27 @@ Sheen/V=-12.6948213578
 Sheep/V=-13.3879685383
 Sheem Sheen
 14 1 wsohe
-wrote woe whole whoe wohd whose woke whore wove wore
-wrote/V=-11.0853834453
-woe/V=-13.3879685383
+whole whoe woe wove woke wore wohd whose wrote whore
 whole/V=-9.83262047685
 whoe/V=-13.3879685383
+woe/V=-13.3879685383
+wove/V=-13.3879685383
+woke/V=-13.3879685383
+wore/V=-13.3879685383
 wohd/V=-13.3879685383
 whose/V=-10.0206727083
-woke/V=-13.3879685383
+wrote/V=-11.0853834453
 whore/V=-13.3879685383
-wove/V=-13.3879685383
-wore/V=-13.3879685383
 wsohe whole
 15 1 Koreva
 Korea
 Korea/V=-8.63437834723
 Koreva Korea
 16 1 Japn
-Japs Jan Japan
-Japs/V=-13.3879685383
-Jan/V=-8.93362124208
+Japan Jan Japs
 Japan/V=-6.64273218885
+Jan/V=-8.93362124208
+Japs/V=-13.3879685383
 Japn Japan
 17 1 semicondctors
 semiconductors
@@ -109,9 +109,9 @@ disadvantage
 disadvantage/V=-11.7785306259
 disadxantage disadvantage
 22 1 rxpoet
-export report Export
-export/V=-8.15685992148
+report export Export
 report/V=-7.63857555243
+export/V=-8.15685992148
 Export/V=-11.0853834453
 rxpoet report
 22 1 rxpoets
@@ -125,77 +125,77 @@ concern
 concern/V=-9.29362397611
 conceern concern
 24 1 amtter
-Matter Letter Ritter titter letter hotter sitter putter Butter Setter amber alter Better batter after utter gutter cutter Wetter bitter matter mutter Latter fatter litter otter butter hitter Bitter Potter cotter amateur patter latter Witter better
-Matter/V=-13.3879685383
-Letter/V=-13.3879685383
-Ritter/V=-13.3879685383
-titter/V=-13.3879685383
-letter/V=-10.1298720003
-hotter/V=-13.3879685383
-sitter/V=-13.3879685383
-putter/V=-13.3879685383
-Butter/V=-13.3879685383
-Setter/V=-13.3879685383
-amber/V=-13.3879685383
-alter/V=-11.7785306259
+Better cotter amateur mutter sitter butter Bitter hotter Potter putter alter Letter better Matter Ritter latter litter batter otter patter Latter Butter cutter fatter titter utter hitter after bitter Setter amber gutter matter letter Wetter Witter
 Better/V=-12.6948213578
-batter/V=-12.6948213578
-after/V=-6.68232944348
-utter/V=-13.3879685383
-gutter/V=-13.3879685383
-cutter/V=-13.3879685383
-Wetter/V=-13.3879685383
-bitter/V=-11.7785306259
-matter/V=-10.296926085
-mutter/V=-13.3879685383
-Latter/V=-13.3879685383
-fatter/V=-13.3879685383
-litter/V=-13.3879685383
-otter/V=-13.3879685383
-butter/V=-13.3879685383
-hitter/V=-13.3879685383
-Bitter/V=-13.3879685383
-Potter/V=-13.3879685383
 cotter/V=-13.3879685383
 amateur/V=-13.3879685383
-patter/V=-13.3879685383
-latter/V=-11.5962090691
-Witter/V=-10.8230191809
+mutter/V=-13.3879685383
+sitter/V=-13.3879685383
+butter/V=-13.3879685383
+Bitter/V=-13.3879685383
+hotter/V=-13.3879685383
+Potter/V=-13.3879685383
+putter/V=-13.3879685383
+alter/V=-11.7785306259
+Letter/V=-13.3879685383
 better/V=-8.7928486882
+Matter/V=-13.3879685383
+Ritter/V=-13.3879685383
+latter/V=-11.5962090691
+litter/V=-13.3879685383
+batter/V=-12.6948213578
+otter/V=-13.3879685383
+patter/V=-13.3879685383
+Latter/V=-13.3879685383
+Butter/V=-13.3879685383
+cutter/V=-13.3879685383
+fatter/V=-13.3879685383
+titter/V=-13.3879685383
+utter/V=-13.3879685383
+hitter/V=-13.3879685383
+after/V=-6.68232944348
+bitter/V=-11.7785306259
+Setter/V=-13.3879685383
+amber/V=-13.3879685383
+gutter/V=-13.3879685383
+matter/V=-10.296926085
+letter/V=-10.1298720003
+Wetter/V=-13.3879685383
+Witter/V=-10.8230191809
 amtter after
 25 1 cenntred
 centred
 centred/V=-11.7785306259
 cenntred centred
 26 1 trad
-trap trade Mrad toad brad triad grad tread Grad tray
-trap/V=-13.3879685383
-trade/V=-6.00896041071
-Mrad/V=-13.3879685383
-toad/V=-13.3879685383
-brad/V=-13.3879685383
-triad/V=-13.3879685383
-grad/V=-13.3879685383
+tread brad grad Grad trade triad trap toad Mrad tray
 tread/V=-13.3879685383
+brad/V=-13.3879685383
+grad/V=-13.3879685383
 Grad/V=-13.3879685383
+trade/V=-6.00896041071
+triad/V=-13.3879685383
+trap/V=-13.3879685383
+toad/V=-13.3879685383
+Mrad/V=-13.3879685383
 tray/V=-13.3879685383
 trad trade
 27 1 Liberala
-Liberals Liberal
-Liberals/V=-12.6948213578
+Liberal Liberals
 Liberal/V=-10.9030618885
+Liberals/V=-12.6948213578
 Liberala Liberal
 28 1 inoclude
 include
 include/V=-7.73197672752
 inoclude include
 29 1 fcsial
-finial fiscal filial Musial facial
+finial fiscal filial facial Musial
 finial/V=-13.3879685383
 fiscal/V=-7.58283356942
 filial/V=-13.3879685383
-Musial/V=-13.3879685383
 facial/V=-13.3879685383
+Musial/V=-13.3879685383
 fcsial fiscal
 30 1 Representetive
 Representative
@@ -214,9 +214,9 @@ production
 production/V=-8.03611040486
 producton production
 34 1 parep
-prep pare
-prep/V=-13.3879685383
+pare prep
 pare/V=-12.6948213578
+prep/V=-13.3879685383
 parep pare
 35 1 endergy
 energy
@@ -243,14 +243,14 @@ imports
 imports/V=-7.51585074886
 imhorts imports
 41 1 incease
-increase incense
-increase/V=-7.13030095045
+incense increase
 incense/V=-13.3879685383
+increase/V=-7.13030095045
 incease increase
 42 1 quartee
-quarter quartet
-quarter/V=-6.1683264982
+quartet quarter
 quartet/V=-13.3879685383
+quarter/V=-6.1683264982
 quartee quarter
 43 1 expanted
 expanded
@@ -265,9 +265,9 @@ clothing
 clothing/V=-10.6799183372
 clotcing clothing
 46 1 arnuod
-argued around
-argued/V=-11.3085269967
+around argued
 around/V=-7.90317160484
+argued/V=-11.3085269967
 arnuod around
 47 1 intehnational
 international
@@ -286,59 +286,59 @@ movement
 movement/V=-10.9030618885
 movament movement
 52 1 dotay
-data Nogay ditty Today hotly Cotty stay Somay iota Doaty rotary Stay botany today Rotary dots Total delay duty decay dowry foray total doan
-data/V=-8.37733324424
-Nogay/V=-13.3879685383
-ditty/V=-13.3879685383
-Today/V=-9.86160801372
+total Rotary delay hotly duty today foray Total Stay decay Somay stay botany data dowry Today ditty Doaty rotary Nogay doan dots iota Cotty
+total/V=-7.66438343638
+Rotary/V=-13.3879685383
+delay/V=-10.3434461006
 hotly/V=-12.6948213578
-Cotty/V=-13.3879685383
-stay/V=-10.4435295592
+duty/V=-10.4975967804
+today/V=-7.33587936941
+foray/V=-13.3879685383
+Total/V=-9.49614824022
+Stay/V=-13.3879685383
+decay/V=-13.3879685383
 Somay/V=-13.3879685383
-iota/V=-13.3879685383
+stay/V=-10.4435295592
+botany/V=-13.3879685383
+data/V=-8.37733324424
+dowry/V=-13.3879685383
+Today/V=-9.86160801372
+ditty/V=-13.3879685383
 Doaty/V=-13.3879685383
 rotary/V=-13.3879685383
-Stay/V=-13.3879685383
-botany/V=-13.3879685383
-today/V=-7.33587936941
-Rotary/V=-13.3879685383
-dots/V=-13.3879685383
-Total/V=-9.49614824022
-delay/V=-10.3434461006
-duty/V=-10.4975967804
-decay/V=-13.3879685383
-dowry/V=-13.3879685383
-foray/V=-13.3879685383
-total/V=-7.66438343638
+Nogay/V=-13.3879685383
 doan/V=-13.3879685383
+dots/V=-13.3879685383
+iota/V=-13.3879685383
+Cotty/V=-13.3879685383
 dotay today
 53 1 racgo
-racy tango cacao sago Margo racks Fargo Waco ratio Targo radio rancho rag races Cargo rang rangy facto race rags rage raced rack cargo range
-racy/V=-13.3879685383
-tango/V=-13.3879685383
-cacao/V=-13.3879685383
-sago/V=-13.3879685383
-Margo/V=-13.3879685383
-racks/V=-13.3879685383
-Fargo/V=-11.190743961
-Waco/V=-13.3879685383
-ratio/V=-10.1298720003
-Targo/V=-13.3879685383
-radio/V=-11.7785306259
-rancho/V=-13.3879685383
-rag/V=-13.3879685383
-races/V=-13.3879685383
-Cargo/V=-12.2893562497
-rang/V=-13.3879685383
-rangy/V=-13.3879685383
-facto/V=-12.2893562497
-race/V=-13.3879685383
-rags/V=-13.3879685383
-rage/V=-13.3879685383
-raced/V=-13.3879685383
-rack/V=-13.3879685383
-cargo/V=-11.3085269967
+range rack rage cacao Targo tango sago radio Cargo racy races facto Waco rags rangy Margo Fargo cargo rancho ratio rang raced rag race racks
 range/V=-8.80300105966
+rack/V=-13.3879685383
+rage/V=-13.3879685383
+cacao/V=-13.3879685383
+Targo/V=-13.3879685383
+tango/V=-13.3879685383
+sago/V=-13.3879685383
+radio/V=-11.7785306259
+Cargo/V=-12.2893562497
+racy/V=-13.3879685383
+races/V=-13.3879685383
+facto/V=-12.2893562497
+Waco/V=-13.3879685383
+rags/V=-13.3879685383
+rangy/V=-13.3879685383
+Margo/V=-13.3879685383
+Fargo/V=-11.190743961
+cargo/V=-11.3085269967
+rancho/V=-13.3879685383
+ratio/V=-10.1298720003
+rang/V=-13.3879685383
+raced/V=-13.3879685383
+rag/V=-13.3879685383
+race/V=-13.3879685383
+racks/V=-13.3879685383
 racgo range
 54 1 Coincul
 Consul Council
@@ -358,35 +358,35 @@ tobacco
 tobacco/V=-10.9030618885
 tobacoc tobacco
 59 1 rithee
-either rites rather withes Either rite wither tithes richer lithe hither riches Lithe
-either/V=-9.98677115667
-rites/V=-13.3879685383
-rather/V=-9.15386203374
-withes/V=-13.3879685383
-Either/V=-13.3879685383
-rite/V=-13.3879685383
-wither/V=-13.3879685383
-tithes/V=-13.3879685383
+richer rites rite rather tithes Either either lithe hither withes Lithe wither riches
 richer/V=-13.3879685383
+rites/V=-13.3879685383
+rite/V=-13.3879685383
+rather/V=-9.15386203374
+tithes/V=-13.3879685383
+Either/V=-13.3879685383
+either/V=-9.98677115667
 lithe/V=-13.3879685383
 hither/V=-13.3879685383
-riches/V=-13.3879685383
+withes/V=-13.3879685383
 Lithe/V=-13.3879685383
+wither/V=-13.3879685383
+riches/V=-13.3879685383
 rithee rather
 60 1 beng
-bent bend being Keng beg bang
+bent being Keng bend beg bang
 bent/V=-13.3879685383
-bend/V=-13.3879685383
 being/V=-8.42512390808
 Keng/V=-13.3879685383
+bend/V=-13.3879685383
 beg/V=-12.6948213578
 bang/V=-12.6948213578
 beng being
 61 1 rubbes
-rubbed rubber rubies
+rubbed rubies rubber
 rubbed/V=-13.3879685383
-rubber/V=-11.3085269967
 rubies/V=-13.3879685383
+rubber/V=-11.3085269967
 rubbes rubber
 62 1 cautiousy
 cautiously cautious
@@ -394,9 +394,9 @@ cautiously/V=-11.5962090691
 cautious/V=-10.4975967804
 cautiousy cautious
 63 1 safly
-sadly safely
-sadly/V=-13.3879685383
+safely sadly
 safely/V=-12.6948213578
+sadly/V=-13.3879685383
 safly safely
 64 1 Physicay
 Physical
@@ -411,10 +411,10 @@ rubber
 rubber/V=-11.3085269967
 rubebr rubber
 68 1 afte
-after aft ate ante
+after ate aft ante
 after/V=-6.68232944348
-aft/V=-12.6948213578
 ate/V=-13.3879685383
+aft/V=-12.6948213578
 ante/V=-13.3879685383
 afte after
 69 1 Salh
@@ -463,9 +463,9 @@ River
 River/V=-12.2893562497
 Rivir River
 79 1 produc
-product produce
-product/V=-8.54378145188
+produce product
 produce/V=-9.72440689221
+product/V=-8.54378145188
 produc product
 80 1 abouct
 about
@@ -488,9 +488,9 @@ while
 while/V=-7.72848632258
 wihle while
 85 1 cuiqkly
-Quickly quickly
-Quickly/V=-13.3879685383
+quickly Quickly
 quickly/V=-9.47594553291
+Quickly/V=-13.3879685383
 cuiqkly quickly
 86 1 Somitumo
 Sumitomo
@@ -501,24 +501,24 @@ comparable
 comparable/V=-9.89146097687
 conparable comparable
 88 1 agdeer
-agree agrees agreed
-agree/V=-10.296926085
+agrees agreed agree
 agrees/V=-12.6948213578
 agreed/V=-8.3003722031
+agree/V=-10.296926085
 agdeer agreed
 89 1 ovesreas
 overseas
 overseas/V=-9.58130604856
 ovesreas overseas
 90 1 plae
-plan plate plane place pale plea play
-plan/V=-8.05043045863
+plate plane play plea plan pale place
 plate/V=-13.3879685383
 plane/V=-11.7785306259
-place/V=-9.41767662478
-pale/V=-13.3879685383
-plea/V=-12.6948213578
 play/V=-10.7489112087
+plea/V=-12.6948213578
+plan/V=-8.05043045863
+pale/V=-13.3879685383
+place/V=-9.41767662478
 plae plan
 91 1 Klieinwort
 Kleinwort
@@ -537,12 +537,12 @@ Komatsu
 Komatsu/V=-12.6948213578
 Kmatsu Komatsu
 95 1 viraous
-viscous various Piraeus virtuous vicious
-viscous/V=-13.3879685383
-various/V=-10.0921316723
+vicious Piraeus virtuous viscous various
+vicious/V=-12.0016741772
 Piraeus/V=-13.3879685383
 virtuous/V=-13.3879685383
-vicious/V=-12.0016741772
+viscous/V=-13.3879685383
+various/V=-10.0921316723
 viraous various
 96 1 thtree
 three
@@ -554,9 +554,9 @@ securities/V=-8.15685992148
 Securities/V=-8.86617996129
 recusities securities
 98 1 aapJn
-aspen Japan
-aspen/V=-13.3879685383
+Japan aspen
 Japan/V=-6.64273218885
+aspen/V=-13.3879685383
 aapJn Japan
 99 1 Kmatsu
 Komatsu
@@ -567,13 +567,13 @@ business
 business/V=-7.69087505183
 businiss business
 101 1 tese
-tense terse tease these test tee
-tense/V=-13.3879685383
-terse/V=-13.3879685383
+tee tease terse these test tense
+tee/V=-13.3879685383
 tease/V=-13.3879685383
+terse/V=-13.3879685383
 these/V=-8.46071485318
 test/V=-10.0206727083
-tee/V=-13.3879685383
+tense/V=-13.3879685383
 tese these
 102 1 dereguolation
 deregulation
@@ -588,80 +588,80 @@ business
 business/V=-7.69087505183
 businesz business
 105 1 greant
-great grant
-great/V=-10.0557640282
+grant great
 grant/V=-10.9900732655
+great/V=-10.0557640282
 greant great
 106 1 Komarsu
 Komatsu
 Komatsu/V=-12.6948213578
 Komarsu Komatsu
 107 1 wasev
-waxen gases waxed Cases wave cases eased wage waked wake Maser wash waned waves wade vases wares waver weasel wales easel vase waved wiser Based bases wakes wasted water Ease based case washed base baser waded wager wasp ease waged Base Case waste washer ware Casey Basel washes wise waive oases Vases cased wages wastes
+case waxen gases waded waned wake wasp cased vase wastes wise waxed Casey Basel eased wiser waves wager cases waged wash washed Based wade base wages Vases wakes vases waver waved washer waive wales washes Ease oases wares weasel wage Maser waked baser Base ware easel wave waste water Cases bases wasted based ease Case
+case/V=-9.51676752743
 waxen/V=-13.3879685383
 gases/V=-12.0016741772
-waxed/V=-13.3879685383
-Cases/V=-13.3879685383
-wave/V=-10.9900732655
-cases/V=-10.7489112087
-eased/V=-10.2524743224
-wage/V=-9.83262047685
-waked/V=-13.3879685383
-wake/V=-11.0853834453
-Maser/V=-13.3879685383
-wash/V=-13.3879685383
-waned/V=-13.3879685383
-waves/V=-13.3879685383
-wade/V=-13.3879685383
-vases/V=-13.3879685383
-wares/V=-13.3879685383
-waver/V=-13.3879685383
-weasel/V=-13.3879685383
-wales/V=-13.3879685383
-easel/V=-13.3879685383
-vase/V=-13.3879685383
-waved/V=-13.3879685383
-wiser/V=-13.3879685383
-Based/V=-10.9030618885
-bases/V=-12.2893562497
-wakes/V=-13.3879685383
-wasted/V=-12.6948213578
-water/V=-11.3085269967
-Ease/V=-13.3879685383
-based/V=-8.41123479591
-case/V=-9.51676752743
-washed/V=-13.3879685383
-base/V=-8.43214148073
-baser/V=-13.3879685383
 waded/V=-13.3879685383
-wager/V=-13.3879685383
+waned/V=-13.3879685383
+wake/V=-11.0853834453
 wasp/V=-13.3879685383
-ease/V=-9.55932714185
-waged/V=-13.3879685383
-Base/V=-10.4975967804
-Case/V=-13.3879685383
-waste/V=-11.0853834453
-washer/V=-13.3879685383
-ware/V=-13.3879685383
+cased/V=-13.3879685383
+vase/V=-13.3879685383
+wastes/V=-13.3879685383
+wise/V=-12.6948213578
+waxed/V=-13.3879685383
 Casey/V=-13.3879685383
 Basel/V=-13.3879685383
-washes/V=-13.3879685383
-wise/V=-12.6948213578
-waive/V=-12.0016741772
-oases/V=-13.3879685383
-Vases/V=-13.3879685383
-cased/V=-13.3879685383
+eased/V=-10.2524743224
+wiser/V=-13.3879685383
+waves/V=-13.3879685383
+wager/V=-13.3879685383
+cases/V=-10.7489112087
+waged/V=-13.3879685383
+wash/V=-13.3879685383
+washed/V=-13.3879685383
+Based/V=-10.9030618885
+wade/V=-13.3879685383
+base/V=-8.43214148073
 wages/V=-10.8230191809
-wastes/V=-13.3879685383
+Vases/V=-13.3879685383
+wakes/V=-13.3879685383
+vases/V=-13.3879685383
+waver/V=-13.3879685383
+waved/V=-13.3879685383
+washer/V=-13.3879685383
+waive/V=-12.0016741772
+wales/V=-13.3879685383
+washes/V=-13.3879685383
+Ease/V=-13.3879685383
+oases/V=-13.3879685383
+wares/V=-13.3879685383
+weasel/V=-13.3879685383
+wage/V=-9.83262047685
+Maser/V=-13.3879685383
+waked/V=-13.3879685383
+baser/V=-13.3879685383
+Base/V=-10.4975967804
+ware/V=-13.3879685383
+easel/V=-13.3879685383
+wave/V=-10.9900732655
+waste/V=-11.0853834453
+water/V=-11.3085269967
+Cases/V=-13.3879685383
+bases/V=-12.2893562497
+wasted/V=-12.6948213578
+based/V=-8.41123479591
+ease/V=-9.55932714185
+Case/V=-13.3879685383
 wasev based
 108 1 theee
-there thees thee these theme three
+three theme there thee these thees
+three/V=-6.76523221439
+theme/V=-12.6948213578
 there/V=-7.71121473607
-thees/V=-13.3879685383
 thee/V=-13.3879685383
 these/V=-8.46071485318
-theme/V=-12.6948213578
-three/V=-6.76523221439
+thees/V=-13.3879685383
 theee three
 109 1 adned
 added
@@ -676,26 +676,26 @@ Sumitomo
 Sumitomo/V=-11.3085269967
 Sumitaomo Sumitomo
 112 1 aound
-Round mound Hound pound hound wound found Sound Mound around bound round abound sound
+Round Mound abound hound Hound around round wound bound sound pound found mound Sound
 Round/V=-11.3085269967
-mound/V=-13.3879685383
-Hound/V=-13.3879685383
-pound/V=-9.69908908422
-hound/V=-13.3879685383
-wound/V=-13.3879685383
-found/V=-10.3434461006
-Sound/V=-13.3879685383
 Mound/V=-13.3879685383
-around/V=-7.90317160484
-bound/V=-12.0016741772
-round/V=-9.03125971165
 abound/V=-13.3879685383
+hound/V=-13.3879685383
+Hound/V=-13.3879685383
+around/V=-7.90317160484
+round/V=-9.03125971165
+wound/V=-13.3879685383
+bound/V=-12.0016741772
 sound/V=-11.190743961
+pound/V=-9.69908908422
+found/V=-10.3434461006
+mound/V=-13.3879685383
+Sound/V=-13.3879685383
 aound around
 113 1 bfore
-before bore
-before/V=-7.65786875536
+bore before
 bore/V=-13.3879685383
+before/V=-7.65786875536
 bfore before
 114 1 Indonsia
 Indonesia
@@ -718,11 +718,11 @@ liquidity
 liquidity/V=-8.8993321686
 liquididy liquidity
 120 1 lefrect
-perfect reflect Perfect defect
-perfect/V=-12.6948213578
-reflect/V=-8.50516661575
+Perfect defect perfect reflect
 Perfect/V=-13.3879685383
 defect/V=-13.3879685383
+perfect/V=-12.6948213578
+reflect/V=-8.50516661575
 lefrect reflect
 121 1 requireent
 requirement
@@ -741,11 +741,11 @@ dealers
 dealers/V=-8.61728391387
 dealeis dealers
 126 1 tiggesb
-Biggest biggest Digges tigress
+tigress Digges Biggest biggest
+tigress/V=-13.3879685383
+Digges/V=-13.3879685383
 Biggest/V=-13.3879685383
 biggest/V=-9.83262047685
-Digges/V=-13.3879685383
-tigress/V=-13.3879685383
 tiggesb biggest
 127 1 billon
 Dillon billion
@@ -753,31 +753,31 @@ Dillon/V=-13.3879685383
 billion/V=-5.21919871466
 billon billion
 128 1 scarted
-smarted started scared scarred
+scarred scared smarted started
+scarred/V=-13.3879685383
+scared/V=-13.3879685383
 smarted/V=-13.3879685383
 started/V=-9.62676842264
-scared/V=-13.3879685383
-scarred/V=-13.3879685383
 scarted started
 129 1 contimuing
 continuing
 continuing/V=-8.87710903182
 contimuing continuing
 130 1 redaip
-retain remain regain reap repaid retail repair
-retain/V=-10.6799183372
-remain/V=-8.72452944422
-regain/V=-11.4420583893
+retail reap repaid repair retain regain remain
+retail/V=-9.04416311648
 reap/V=-13.3879685383
 repaid/V=-12.0016741772
-retail/V=-9.04416311648
 repair/V=-12.6948213578
+retain/V=-10.6799183372
+regain/V=-11.4420583893
+remain/V=-8.72452944422
 redaip remain
 131 1 futher
-further Luther father
+further father Luther
 further/V=-7.64817562616
-Luther/V=-13.3879685383
 father/V=-13.3879685383
+Luther/V=-13.3879685383
 futher further
 132 1 ltBondr
 ltBond
@@ -792,10 +792,10 @@ underground
 underground/V=-12.6948213578
 undergrduno underground
 135 1 whle
-whole while whoe
+whole whoe while
 whole/V=-9.83262047685
-while/V=-7.72848632258
 whoe/V=-13.3879685383
+while/V=-7.72848632258
 whle while
 136 1 quarteir
 quarter
@@ -811,15 +811,15 @@ further
 further/V=-7.64817562616
 furter further
 140 1 Importt
-Import Imports
-Import/V=-11.4420583893
+Imports Import
 Imports/V=-9.95398133385
+Import/V=-11.4420583893
 Importt Imports
 141 1 demend
-defend depend demand
-defend/V=-11.0853834453
+depend demand defend
 depend/V=-10.296926085
 demand/V=-7.92838302419
+defend/V=-11.0853834453
 demend demand
 142 1 Mtsuki
 Mutsuki
@@ -830,51 +830,51 @@ volume
 volume/V=-8.92206041968
 volum volume
 144 1 teir
-their Meir heir tear weir
-their/V=-7.40403225765
+Meir heir their weir tear
 Meir/V=-13.3879685383
 heir/V=-13.3879685383
-tear/V=-13.3879685383
+their/V=-7.40403225765
 weir/V=-13.3879685383
+tear/V=-13.3879685383
 teir their
 145 1 giarn
-giant learn liar warn yarn gird yearn grain gear earn Diary darn gain guar gears glare Darn Learn guard liars girl diary Hearn given barn garb
-giant/V=-11.3085269967
-learn/V=-12.2893562497
-liar/V=-13.3879685383
-warn/V=-11.4420583893
-yarn/V=-11.7785306259
-gird/V=-13.3879685383
-yearn/V=-13.3879685383
-grain/V=-10.9030618885
-gear/V=-13.3879685383
-earn/V=-10.0557640282
-Diary/V=-13.3879685383
-darn/V=-13.3879685383
-gain/V=-6.94542837187
-guar/V=-13.3879685383
-gears/V=-12.2893562497
-glare/V=-13.3879685383
+Darn darn gird given guar grain diary Hearn warn giant Diary learn glare girl garb liar barn liars gear earn guard yearn yarn gears gain Learn
 Darn/V=-13.3879685383
-Learn/V=-13.3879685383
-guard/V=-13.3879685383
-liars/V=-13.3879685383
-girl/V=-13.3879685383
+darn/V=-13.3879685383
+gird/V=-13.3879685383
+given/V=-8.37068870152
+guar/V=-13.3879685383
+grain/V=-10.9030618885
 diary/V=-13.3879685383
 Hearn/V=-13.3879685383
-given/V=-8.37068870152
-barn/V=-13.3879685383
+warn/V=-11.4420583893
+giant/V=-11.3085269967
+Diary/V=-13.3879685383
+learn/V=-12.2893562497
+glare/V=-13.3879685383
+girl/V=-13.3879685383
 garb/V=-13.3879685383
+liar/V=-13.3879685383
+barn/V=-13.3879685383
+liars/V=-13.3879685383
+gear/V=-13.3879685383
+earn/V=-10.0557640282
+guard/V=-13.3879685383
+yearn/V=-13.3879685383
+yarn/V=-11.7785306259
+gears/V=-12.2893562497
+gain/V=-6.94542837187
+Learn/V=-13.3879685383
 giarn gain
 146 1 betweenu
 between
 between/V=-7.63222632475
 betweenu between
 147 1 quosat
-quota quest quotas
-quota/V=-10.296926085
+quest quotas quota
 quest/V=-13.3879685383
 quotas/V=-9.58130604856
+quota/V=-10.296926085
 quosat quotas
 148 1 citruos
 citrus
@@ -890,9 +890,9 @@ escorts/V=-13.3879685383
 exports/V=-7.36937532384
 esports exports
 151 1 imperts
-imparts imports
-imparts/V=-13.3879685383
+imports imparts
 imports/V=-7.51585074886
+imparts/V=-13.3879685383
 imperts imports
 152 1 feedurain
 feedgrain
@@ -933,18 +933,18 @@ which/V=-6.39771203784
 whack/V=-13.3879685383
 whach which
 163 1 lastest
-latest fastest
-latest/V=-8.80300105966
+fastest latest
 fastest/V=-12.6948213578
+latest/V=-8.80300105966
 lastest latest
 164 1 ermove
-drove remove Remove grove prove Grove groove
-drove/V=-12.0016741772
-remove/V=-10.6153798161
-Remove/V=-13.3879685383
-grove/V=-13.3879685383
+prove Grove drove remove grove Remove groove
 prove/V=-10.9900732655
 Grove/V=-13.3879685383
+drove/V=-12.0016741772
+remove/V=-10.6153798161
+grove/V=-13.3879685383
+Remove/V=-13.3879685383
 groove/V=-12.6948213578
 ermove remove
 165 1 targeti
@@ -957,12 +957,12 @@ transactions
 transactions/V=-9.80444959988
 transactins transactions
 167 1 ompirts
-empires imparts imports omits Imports
+omits imports Imports empires imparts
+omits/V=-12.6948213578
+imports/V=-7.51585074886
+Imports/V=-9.95398133385
 empires/V=-13.3879685383
 imparts/V=-13.3879685383
-imports/V=-7.51585074886
-omits/V=-12.6948213578
-Imports/V=-9.95398133385
 ompirts imports
 168 1 perioid
 period
@@ -973,9 +973,9 @@ South
 South/V=-8.22318256441
 Soutch South
 170 1 presure
-pressure presume
-pressure/V=-8.5839474936
+presume pressure
 presume/V=-13.3879685383
+pressure/V=-8.5839474936
 presure pressure
 172 1 surplu
 surplus
@@ -996,10 +996,10 @@ Korea
 Korea/V=-8.63437834723
 Koraea Korea
 176 1 defict
-deficit depict defect
-deficit/V=-7.16143186905
-depict/V=-12.2893562497
+defect depict deficit
 defect/V=-13.3879685383
+depict/V=-12.2893562497
+deficit/V=-7.16143186905
 defict deficit
 177 1 foreig
 foreign
@@ -1026,54 +1026,54 @@ proper
 proper/V=-11.4420583893
 proepr proper
 184 1 materias
-material materials
-material/V=-10.296926085
+materials material
 materials/V=-10.1298720003
+material/V=-10.296926085
 materias materials
 185 1 Corporaion
 Corporation
 Corporation/V=-10.4975967804
 Corporaion Corporation
 186 1 iperatong
-Operating operating
-Operating/V=-9.05723519805
+operating Operating
 operating/V=-7.64496535053
+Operating/V=-9.05723519805
 iperatong operating
 187 1 tonnres
 tonnes
 tonnes/V=-9.60377890442
 tonnres tonnes
 188 1 ddaed
-dated dried dead dared dozed died jaded dived dialed doled deed dread dined dyed Added dosed waded doped domed dazed dodged idled duped draped damed dad edged added faded
-dated/V=-11.4420583893
-dried/V=-11.7785306259
+dead edged idled waded dared dad died jaded added dazed dated dodged doped damed Added dialed draped faded dined doled deed dread duped dried dosed dozed dyed dived domed
 dead/V=-12.2893562497
+edged/V=-11.190743961
+idled/V=-13.3879685383
+waded/V=-13.3879685383
 dared/V=-13.3879685383
-dozed/V=-13.3879685383
+dad/V=-13.3879685383
 died/V=-13.3879685383
 jaded/V=-13.3879685383
-dived/V=-13.3879685383
+added/V=-7.38161537873
+dazed/V=-13.3879685383
+dated/V=-11.4420583893
+dodged/V=-13.3879685383
+doped/V=-13.3879685383
+damed/V=-13.3879685383
+Added/V=-12.6948213578
 dialed/V=-13.3879685383
+draped/V=-13.3879685383
+faded/V=-13.3879685383
+dined/V=-13.3879685383
 doled/V=-13.3879685383
 deed/V=-13.3879685383
 dread/V=-13.3879685383
-dined/V=-13.3879685383
-dyed/V=-13.3879685383
-Added/V=-12.6948213578
-dosed/V=-13.3879685383
-waded/V=-13.3879685383
-doped/V=-13.3879685383
-domed/V=-13.3879685383
-dazed/V=-13.3879685383
-dodged/V=-13.3879685383
-idled/V=-13.3879685383
 duped/V=-13.3879685383
-draped/V=-13.3879685383
-damed/V=-13.3879685383
-dad/V=-13.3879685383
-edged/V=-11.190743961
-added/V=-7.38161537873
-faded/V=-13.3879685383
+dried/V=-11.7785306259
+dosed/V=-13.3879685383
+dozed/V=-13.3879685383
+dyed/V=-13.3879685383
+dived/V=-13.3879685383
+domed/V=-13.3879685383
 ddaed added
 189 1 vortual
 virtual
@@ -1096,18 +1096,18 @@ disclose
 disclose/V=-11.3085269967
 desclose disclose
 194 1 ereCk
-trek Greek Creek freak Break creak break erect creek wreak wreck
+Break wreck wreak creek trek erect freak Greek Creek break creak
+Break/V=-13.3879685383
+wreck/V=-13.3879685383
+wreak/V=-13.3879685383
+creek/V=-13.3879685383
 trek/V=-13.3879685383
+erect/V=-12.6948213578
+freak/V=-13.3879685383
 Greek/V=-13.3879685383
 Creek/V=-13.3879685383
-freak/V=-13.3879685383
-Break/V=-13.3879685383
-creak/V=-13.3879685383
 break/V=-10.2524743224
-erect/V=-12.6948213578
-creek/V=-13.3879685383
-wreak/V=-13.3879685383
-wreck/V=-13.3879685383
+creak/V=-13.3879685383
 ereCk break
 195 1 combioned
 combined
@@ -1122,68 +1122,68 @@ workers
 workers/V=-9.69908908422
 wrkers workers
 198 1 taen
-teen tan taken then ten
+teen tan ten then taken
 teen/V=-13.3879685383
 tan/V=-13.3879685383
-taken/V=-9.08390344513
-then/V=-9.21358126844
 ten/V=-10.1690927135
+then/V=-9.21358126844
+taken/V=-9.08390344513
 taen taken
 199 1 falln
-fall fallen falls
+falls fall fallen
+falls/V=-10.0557640282
 fall/V=-7.85457904961
 fallen/V=-9.98677115667
-falls/V=-10.0557640282
 falln fall
 200 1 searhs
-sharks fears shares hearts Bears learns spares Tears serfs seers scars seals stars sparks seams wears starts Hearts beards Fears Years deaths hears search pearls Mears Sears gears pears swears years seats swarms tears stares bears shards searches
-sharks/V=-13.3879685383
-fears/V=-10.296926085
-shares/V=-7.15159894813
-hearts/V=-13.3879685383
-Bears/V=-13.3879685383
+learns shards hears serfs shares search stars seats stares swears seals years sharks gears Fears seers Bears scars tears Years spares pearls seams Sears starts Tears hearts searches deaths Hearts wears sparks beards Mears bears fears swarms pears
 learns/V=-13.3879685383
-spares/V=-12.6948213578
-Tears/V=-13.3879685383
-serfs/V=-13.3879685383
-seers/V=-13.3879685383
-scars/V=-13.3879685383
-seals/V=-13.3879685383
-stars/V=-13.3879685383
-sparks/V=-13.3879685383
-seams/V=-13.3879685383
-wears/V=-13.3879685383
-starts/V=-9.77705062569
-Hearts/V=-13.3879685383
-beards/V=-13.3879685383
-Fears/V=-12.6948213578
-Years/V=-13.3879685383
-deaths/V=-13.3879685383
-hears/V=-13.3879685383
-search/V=-12.6948213578
-pearls/V=-13.3879685383
-Mears/V=-13.3879685383
-Sears/V=-11.7785306259
-gears/V=-12.2893562497
-pears/V=-13.3879685383
-swears/V=-13.3879685383
-years/V=-7.64817562616
-seats/V=-12.6948213578
-swarms/V=-13.3879685383
-tears/V=-13.3879685383
-stares/V=-13.3879685383
-bears/V=-12.6948213578
 shards/V=-13.3879685383
+hears/V=-13.3879685383
+serfs/V=-13.3879685383
+shares/V=-7.15159894813
+search/V=-12.6948213578
+stars/V=-13.3879685383
+seats/V=-12.6948213578
+stares/V=-13.3879685383
+swears/V=-13.3879685383
+seals/V=-13.3879685383
+years/V=-7.64817562616
+sharks/V=-13.3879685383
+gears/V=-12.2893562497
+Fears/V=-12.6948213578
+seers/V=-13.3879685383
+Bears/V=-13.3879685383
+scars/V=-13.3879685383
+tears/V=-13.3879685383
+Years/V=-13.3879685383
+spares/V=-12.6948213578
+pearls/V=-13.3879685383
+seams/V=-13.3879685383
+Sears/V=-11.7785306259
+starts/V=-9.77705062569
+Tears/V=-13.3879685383
+hearts/V=-13.3879685383
 searches/V=-13.3879685383
+deaths/V=-13.3879685383
+Hearts/V=-13.3879685383
+wears/V=-13.3879685383
+sparks/V=-13.3879685383
+beards/V=-13.3879685383
+Mears/V=-13.3879685383
+bears/V=-12.6948213578
+fears/V=-10.296926085
+swarms/V=-13.3879685383
+pears/V=-13.3879685383
 searhs shares
 201 1 protif
-profit motif protein proton proof erotic
-profit/V=-5.47958137904
-motif/V=-13.3879685383
-protein/V=-13.3879685383
-proton/V=-13.3879685383
+proof protein motif proton erotic profit
 proof/V=-12.0016741772
+protein/V=-13.3879685383
+motif/V=-13.3879685383
+proton/V=-13.3879685383
 erotic/V=-13.3879685383
+profit/V=-5.47958137904
 protif profit
 202 1 opportunitiese
 opportunities
@@ -1229,9 +1229,9 @@ refining
 refining/V=-10.3434461006
 rifining refining
 212 1 wtich
-which witch
-which/V=-6.39771203784
+witch which
 witch/V=-13.3879685383
+which/V=-6.39771203784
 wtich which
 213 1 memberes
 members
@@ -1250,26 +1250,26 @@ extension
 extension/V=-11.3085269967
 extenson extension
 217 1 mocmon
-Common Mormon cocoon common motion
+motion Common Mormon common cocoon
+motion/V=-12.0016741772
 Common/V=-12.2893562497
 Mormon/V=-13.3879685383
-cocoon/V=-13.3879685383
 common/V=-7.77484043195
-motion/V=-12.0016741772
+cocoon/V=-13.3879685383
 mocmon common
 218 1 Affaigs
 Affairs
 Affairs/V=-10.1690927135
 Affaigs Affairs
 219 1 extorps
-exports extras
-exports/V=-7.36937532384
+extras exports
 extras/V=-13.3879685383
+exports/V=-7.36937532384
 extorps exports
 220 1 Thede
-These Thee There
-These/V=-9.60377890442
+Thee These There
 Thee/V=-13.3879685383
+These/V=-9.60377890442
 There/V=-8.62579460354
 Thede There
 221 1 prttecoionist
@@ -1317,39 +1317,39 @@ share/V=-5.97339565698
 shared/V=-12.2893562497
 sharei share
 230 1 shareis
-sharers shares
-sharers/V=-13.3879685383
+shares sharers
 shares/V=-7.15159894813
+sharers/V=-13.3879685383
 shareis shares
 231 1 shaes
-shoes shares shames shakes shapes shies shams shades
-shoes/V=-12.6948213578
-shares/V=-7.15159894813
+shames shapes shares shoes shakes shies shades shams
 shames/V=-13.3879685383
-shakes/V=-13.3879685383
 shapes/V=-13.3879685383
+shares/V=-7.15159894813
+shoes/V=-12.6948213578
+shakes/V=-13.3879685383
 shies/V=-13.3879685383
-shams/V=-13.3879685383
 shades/V=-13.3879685383
+shams/V=-13.3879685383
 shaes shares
 232 1 aompcny
-company Company
-company/V=-6.0380948336
+Company company
 Company/V=-8.33172273299
+company/V=-6.0380948336
 aompcny company
 233 1 spokesan
 spokesman
 spokesman/V=-8.1098538791
 spokesan spokesman
 234 1 hhicw
-chic hick Which thick which Chico chick
-chic/V=-13.3879685383
-hick/V=-13.3879685383
-Which/V=-11.7785306259
+Chico thick which chic hick chick Which
+Chico/V=-13.3879685383
 thick/V=-13.3879685383
 which/V=-6.39771203784
-Chico/V=-13.3879685383
+chic/V=-13.3879685383
+hick/V=-13.3879685383
 chick/V=-13.3879685383
+Which/V=-11.7785306259
 hhicw which
 235 1 tekrms
 terms
@@ -1360,40 +1360,40 @@ market
 market/V=-6.55601497277
 mawket market
 237 1 marketsr
-markets marketer
-markets/V=-7.53864375839
+marketer markets
 marketer/V=-12.6948213578
+markets/V=-7.53864375839
 marketsr markets
 238 1 obnds
-bands lends Sands Funds finds ends ponds ones obeys sends minds lands onus Hands hands Fonds Lands sands binds owns tends bonds kinds bends Winds funds odds winds
+finds Lands lands bands lends ends owns sends ponds sands odds obeys funds Hands winds kinds hands onus bends tends minds Fonds bonds Winds ones Funds Sands binds
+finds/V=-12.0016741772
+Lands/V=-13.3879685383
+lands/V=-13.3879685383
 bands/V=-12.0016741772
 lends/V=-13.3879685383
-Sands/V=-13.3879685383
-Funds/V=-11.5962090691
-finds/V=-12.0016741772
 ends/V=-9.53782093662
-ponds/V=-13.3879685383
-ones/V=-11.4420583893
-obeys/V=-13.3879685383
-sends/V=-13.3879685383
-minds/V=-13.3879685383
-lands/V=-13.3879685383
-onus/V=-13.3879685383
-Hands/V=-13.3879685383
-hands/V=-10.2524743224
-Fonds/V=-13.3879685383
-Lands/V=-13.3879685383
-sands/V=-13.3879685383
-binds/V=-13.3879685383
 owns/V=-10.7489112087
-tends/V=-12.6948213578
-bonds/V=-9.18327591894
-kinds/V=-11.4420583893
-bends/V=-13.3879685383
-Winds/V=-13.3879685383
-funds/V=-7.94123116667
+sends/V=-13.3879685383
+ponds/V=-13.3879685383
+sands/V=-13.3879685383
 odds/V=-11.7785306259
+obeys/V=-13.3879685383
+funds/V=-7.94123116667
+Hands/V=-13.3879685383
 winds/V=-12.0016741772
+kinds/V=-11.4420583893
+hands/V=-10.2524743224
+onus/V=-13.3879685383
+bends/V=-13.3879685383
+tends/V=-12.6948213578
+minds/V=-13.3879685383
+Fonds/V=-13.3879685383
+bonds/V=-9.18327591894
+Winds/V=-13.3879685383
+ones/V=-11.4420583893
+Funds/V=-11.5962090691
+Sands/V=-13.3879685383
+binds/V=-13.3879685383
 obnds funds
 239 1 invesment
 investment
@@ -1413,15 +1413,15 @@ quality/V=-9.98677115667
 qualify/V=-11.5962090691
 qualicy quality
 243 1 whemre
-where wheare
-where/V=-9.0704804248
+wheare where
 wheare/V=-13.3879685383
+where/V=-9.0704804248
 whemre where
 244 1 takgni
-takin taking taken
+taken takin taking
+taken/V=-9.08390344513
 takin/V=-13.3879685383
 taking/V=-9.45614290561
-taken/V=-9.08390344513
 takgni taken
 245 1 economost
 economist
@@ -1469,16 +1469,16 @@ inventors/V=-13.3879685383
 investors/V=-9.3806353531
 invetors investors
 255 1 gaainst
-grains Against against gains
-grains/V=-11.3085269967
-Against/V=-12.6948213578
-against/V=-7.04408810421
+gains against Against grains
 gains/V=-7.89903081218
+against/V=-7.04408810421
+Against/V=-12.6948213578
+grains/V=-11.3085269967
 gaainst against
 256 1 witnih
-within witch
-within/V=-8.80300105966
+witch within
 witch/V=-13.3879685383
+within/V=-8.80300105966
 witnih within
 257 1 weiks
 weirs weeks
@@ -1490,14 +1490,14 @@ Australian
 Australian/V=-9.39898449177
 Ausfralian Australian
 259 1 followeg
-follower followed
-follower/V=-13.3879685383
+followed follower
 followed/V=-9.51676752743
+follower/V=-13.3879685383
 followeg followed
 260 1 aboce
-abode above
-abode/V=-13.3879685383
+above abode
 above/V=-8.60884504522
+abode/V=-13.3879685383
 aboce above
 261 1 cmpanies
 companies
@@ -1520,25 +1520,25 @@ estimate
 estimate/V=-9.21358126844
 etsimate estimate
 267 1 tcaivity
-activity Activity
-activity/V=-9.47594553291
+Activity activity
 Activity/V=-12.6948213578
+activity/V=-9.47594553291
 tcaivity activity
 269 1 rhase
-phase Chase chase Phase
-phase/V=-10.9900732655
-Chase/V=-10.1298720003
+chase Phase Chase phase
 chase/V=-12.6948213578
 Phase/V=-13.3879685383
+Chase/V=-10.1298720003
+phase/V=-10.9900732655
 rhase Chase
 270 1 cretid
-crested fetid created credit creed critic
-crested/V=-13.3879685383
-fetid/V=-13.3879685383
-created/V=-10.4435295592
+credit created crested critic fetid creed
 credit/V=-7.57085737837
-creed/V=-13.3879685383
+created/V=-10.4435295592
+crested/V=-13.3879685383
 critic/V=-13.3879685383
+fetid/V=-13.3879685383
+creed/V=-13.3879685383
 cretid credit
 271 1 indviduals
 individuals
@@ -1553,10 +1553,10 @@ government
 government/V=-7.01294371851
 govurnment government
 274 1 creit
-credit crept crest
-credit/V=-7.57085737837
+crept crest credit
 crept/V=-13.3879685383
 crest/V=-13.3879685383
+credit/V=-7.57085737837
 creit credit
 275 1 deposrtois
 depositors
@@ -1585,21 +1585,21 @@ rebound
 rebound/V=-11.0853834453
 reboundn rebound
 281 1 Oher
-Over ther wher Oder Other
-Over/V=-10.6153798161
-ther/V=-13.3879685383
+wher Over Oder Other ther
 wher/V=-13.3879685383
+Over/V=-10.6153798161
 Oder/V=-13.3879685383
 Other/V=-9.29362397611
+ther/V=-13.3879685383
 Oher Other
 282 1 accnounts
 accounts
 accounts/V=-9.18327591894
 accnounts accounts
 283 1 abot
-about abbot
-about/V=-6.7121453167
+abbot about
 abbot/V=-13.3879685383
+about/V=-6.7121453167
 abot about
 284 1 enogh
 enough
@@ -1614,18 +1614,18 @@ official
 official/V=-7.73547935807
 officail official
 287 1 eary
-earl early wary nary Mary ears earn Gary ear easy vary
-earl/V=-13.3879685383
-early/V=-7.99434099198
-wary/V=-12.2893562497
-nary/V=-13.3879685383
-Mary/V=-12.6948213578
-ears/V=-13.3879685383
-earn/V=-10.0557640282
+Gary early nary earl earn easy Mary vary ears wary ear
 Gary/V=-13.3879685383
-ear/V=-13.3879685383
+early/V=-7.99434099198
+nary/V=-13.3879685383
+earl/V=-13.3879685383
+earn/V=-10.0557640282
 easy/V=-11.4420583893
+Mary/V=-12.6948213578
 vary/V=-12.6948213578
+ears/V=-13.3879685383
+wary/V=-12.2893562497
+ear/V=-13.3879685383
 eary early
 288 1 depnds
 depends
@@ -1640,128 +1640,128 @@ Affairs
 Affairs/V=-10.1690927135
 Affirs Affairs
 291 1 ehtse
-Chase else Those chose Phase etes Whose eats These these whose chase esse phase ease those erase
-Chase/V=-10.1298720003
-else/V=-10.8230191809
-Those/V=-11.190743961
-chose/V=-12.6948213578
+Phase Chase Those else chase those these ease esse erase etes chose whose eats Whose phase These
 Phase/V=-13.3879685383
-etes/V=-13.3879685383
-Whose/V=-13.3879685383
-eats/V=-13.3879685383
-These/V=-9.60377890442
-these/V=-8.46071485318
-whose/V=-10.0206727083
+Chase/V=-10.1298720003
+Those/V=-11.190743961
+else/V=-10.8230191809
 chase/V=-12.6948213578
-esse/V=-13.3879685383
-phase/V=-10.9900732655
-ease/V=-9.55932714185
 those/V=-8.39753595156
+these/V=-8.46071485318
+ease/V=-9.55932714185
+esse/V=-13.3879685383
 erase/V=-12.6948213578
+etes/V=-13.3879685383
+chose/V=-12.6948213578
+whose/V=-10.0206727083
+eats/V=-13.3879685383
+Whose/V=-13.3879685383
+phase/V=-10.9900732655
+These/V=-9.60377890442
 ehtse those
 292 1 cearh
-Pearl fears Death crash wear Bears heard yearn Tears clear feare Bear heart Lear teach weary sear yeard fear Near Fears dear cash clears cars leach search charm Year beard rear Search Mears Hear coach dearth Leary gears pears tears pear leash beach reach bears char Gear bear death gear clash peach Weary Hearn chart heare wears Beard hear cease year car Years learn Beach Heard hears tear Heart Yeah cart Rear care Fear card Sears near years Learn Dear Peach hearth pearl Geary yeah Sear
-Pearl/V=-13.3879685383
-fears/V=-10.296926085
+death hears car Rear Search search pearl chart clears fear Death card yeard pear gears Fears rear Learn heart wear Gear Lear Heard yeah care dear cease clear Tears Weary learn heard yearn coach year Bear Mears bears heare feare leash Hear cart Year char weary Sear sear clash Pearl Fear years bear beard Leary Heart crash cars beach tear Bears hearth Dear Peach tears Years Yeah Beach Beard Sears leach Hearn Near charm near hear cash wears gear fears dearth Geary teach pears peach reach
+death/V=-12.6948213578
+hears/V=-13.3879685383
+car/V=-9.62676842264
+Rear/V=-13.3879685383
+Search/V=-13.3879685383
+search/V=-12.6948213578
+pearl/V=-13.3879685383
+chart/V=-10.9900732655
+clears/V=-12.6948213578
+fear/V=-10.6799183372
 Death/V=-13.3879685383
-crash/V=-11.4420583893
+card/V=-10.1690927135
+yeard/V=-13.3879685383
+pear/V=-13.3879685383
+gears/V=-12.2893562497
+Fears/V=-12.6948213578
+rear/V=-13.3879685383
+Learn/V=-13.3879685383
+heart/V=-11.190743961
 wear/V=-12.2893562497
-Bears/V=-13.3879685383
+Gear/V=-13.3879685383
+Lear/V=-13.3879685383
+Heard/V=-13.3879685383
+yeah/V=-13.3879685383
+care/V=-11.190743961
+dear/V=-13.3879685383
+cease/V=-12.2893562497
+clear/V=-9.53782093662
+Tears/V=-13.3879685383
+Weary/V=-13.3879685383
+learn/V=-12.2893562497
 heard/V=-12.2893562497
 yearn/V=-13.3879685383
-Tears/V=-13.3879685383
-clear/V=-9.53782093662
-feare/V=-13.3879685383
-Bear/V=-11.0853834453
-heart/V=-11.190743961
-Lear/V=-13.3879685383
-teach/V=-13.3879685383
-weary/V=-13.3879685383
-sear/V=-13.3879685383
-yeard/V=-13.3879685383
-fear/V=-10.6799183372
-Near/V=-13.3879685383
-Fears/V=-12.6948213578
-dear/V=-13.3879685383
-cash/V=-8.0649585592
-clears/V=-12.6948213578
-cars/V=-10.0921316723
-leach/V=-12.6948213578
-search/V=-12.6948213578
-charm/V=-13.3879685383
-Year/V=-6.90180774939
-beard/V=-13.3879685383
-rear/V=-13.3879685383
-Search/V=-13.3879685383
-Mears/V=-13.3879685383
-Hear/V=-13.3879685383
 coach/V=-13.3879685383
-dearth/V=-13.3879685383
-Leary/V=-13.3879685383
-gears/V=-12.2893562497
-pears/V=-13.3879685383
-tears/V=-13.3879685383
-pear/V=-13.3879685383
-leash/V=-13.3879685383
-beach/V=-13.3879685383
-reach/V=-9.60377890442
-bears/V=-12.6948213578
-char/V=-13.3879685383
-Gear/V=-13.3879685383
-bear/V=-10.8230191809
-death/V=-12.6948213578
-gear/V=-13.3879685383
-clash/V=-12.6948213578
-peach/V=-13.3879685383
-Weary/V=-13.3879685383
-Hearn/V=-13.3879685383
-chart/V=-10.9900732655
-heare/V=-13.3879685383
-wears/V=-13.3879685383
-Beard/V=-13.3879685383
-hear/V=-12.6948213578
-cease/V=-12.2893562497
 year/V=-5.27454189839
-car/V=-9.62676842264
-Years/V=-13.3879685383
-learn/V=-12.2893562497
-Beach/V=-13.3879685383
-Heard/V=-13.3879685383
-hears/V=-13.3879685383
-tear/V=-13.3879685383
-Heart/V=-12.6948213578
-Yeah/V=-13.3879685383
+Bear/V=-11.0853834453
+Mears/V=-13.3879685383
+bears/V=-12.6948213578
+heare/V=-13.3879685383
+feare/V=-13.3879685383
+leash/V=-13.3879685383
+Hear/V=-13.3879685383
 cart/V=-13.3879685383
-Rear/V=-13.3879685383
-care/V=-11.190743961
+Year/V=-6.90180774939
+char/V=-13.3879685383
+weary/V=-13.3879685383
+Sear/V=-13.3879685383
+sear/V=-13.3879685383
+clash/V=-12.6948213578
+Pearl/V=-13.3879685383
 Fear/V=-12.6948213578
-card/V=-10.1690927135
-Sears/V=-11.7785306259
-near/V=-9.24483381194
 years/V=-7.64817562616
-Learn/V=-13.3879685383
+bear/V=-10.8230191809
+beard/V=-13.3879685383
+Leary/V=-13.3879685383
+Heart/V=-12.6948213578
+crash/V=-11.4420583893
+cars/V=-10.0921316723
+beach/V=-13.3879685383
+tear/V=-13.3879685383
+Bears/V=-13.3879685383
+hearth/V=-13.3879685383
 Dear/V=-13.3879685383
 Peach/V=-13.3879685383
-hearth/V=-13.3879685383
-pearl/V=-13.3879685383
+tears/V=-13.3879685383
+Years/V=-13.3879685383
+Yeah/V=-13.3879685383
+Beach/V=-13.3879685383
+Beard/V=-13.3879685383
+Sears/V=-11.7785306259
+leach/V=-12.6948213578
+Hearn/V=-13.3879685383
+Near/V=-13.3879685383
+charm/V=-13.3879685383
+near/V=-9.24483381194
+hear/V=-12.6948213578
+cash/V=-8.0649585592
+wears/V=-13.3879685383
+gear/V=-13.3879685383
+fears/V=-10.296926085
+dearth/V=-13.3879685383
 Geary/V=-13.3879685383
-yeah/V=-13.3879685383
-Sear/V=-13.3879685383
+teach/V=-13.3879685383
+pears/V=-13.3879685383
+peach/V=-13.3879685383
+reach/V=-9.60377890442
 cearh year
 293 1 groers
-grocers growers
-grocers/V=-13.3879685383
+growers grocers
 growers/V=-13.3879685383
-groers grocers
+grocers/V=-13.3879685383
+groers growers
 294 1 coul
-cool coal soul coup coil could foul
+cool foul coil coup coal soul could
 cool/V=-12.0016741772
+foul/V=-13.3879685383
+coil/V=-13.3879685383
+coup/V=-13.3879685383
 coal/V=-10.0557640282
 soul/V=-13.3879685383
-coup/V=-13.3879685383
-coil/V=-13.3879685383
 could/V=-7.34059635929
-foul/V=-13.3879685383
 coul could
 296 1 etpecx
 expect
@@ -1780,10 +1780,10 @@ addition
 addition/V=-8.888158868
 additiodn addition
 300 1 peakc
-peaks peak peaky
+peaky peaks peak
+peaky/V=-13.3879685383
 peaks/V=-12.2893562497
 peak/V=-10.5547551943
-peaky/V=-13.3879685383
 peakc peak
 301 1 yiars
 liars years
@@ -1805,9 +1805,9 @@ shares
 shares/V=-7.15159894813
 sharese shares
 305 1 wolrd
-word wold world
-word/V=-11.190743961
+wold word world
 wold/V=-13.3879685383
+word/V=-11.190743961
 world/V=-7.80823871235
 wolrd world
 306 1 dwnturn
@@ -1819,17 +1819,17 @@ ended
 ended/V=-7.29439876829
 enkded ended
 308 1 finst
-fins finest fist first
-fins/V=-13.3879685383
-finest/V=-13.3879685383
-fist/V=-13.3879685383
+first fins fist finest
 first/V=-6.71088507709
+fins/V=-13.3879685383
+fist/V=-13.3879685383
+finest/V=-13.3879685383
 finst first
 309 1 impuse
-impulse impute impose
-impulse/V=-13.3879685383
+impute impose impulse
 impute/V=-13.3879685383
 impose/V=-9.39898449177
+impulse/V=-13.3879685383
 impuse impose
 310 1 prposals
 proposals
@@ -1840,92 +1840,92 @@ briefcase
 briefcase/V=-12.6948213578
 bryefcase briefcase
 312 1 poer
-poker poor pier per pour poet peer poem power pore
-poker/V=-13.3879685383
-poor/V=-10.1690927135
-pier/V=-13.3879685383
+per poem pier pour peer poet pore poor power poker
 per/V=-6.67622814328
-pour/V=-13.3879685383
-poet/V=-13.3879685383
-peer/V=-13.3879685383
 poem/V=-13.3879685383
-power/V=-9.22908545498
+pier/V=-13.3879685383
+pour/V=-13.3879685383
+peer/V=-13.3879685383
+poet/V=-13.3879685383
 pore/V=-13.3879685383
+poor/V=-10.1690927135
+power/V=-9.22908545498
+poker/V=-13.3879685383
 poer per
 313 1 excesvise
 excessive
 excessive/V=-10.6153798161
 excesvise excessive
 314 1 cxeess
-cheers cheese chess creeds cheeks creeps caress excess creeks
-cheers/V=-13.3879685383
-cheese/V=-12.6948213578
-chess/V=-13.3879685383
-creeds/V=-13.3879685383
-cheeks/V=-13.3879685383
-creeps/V=-13.3879685383
-caress/V=-13.3879685383
-excess/V=-9.98677115667
+creeks cheers creeps chess cheeks creeds caress cheese excess
 creeks/V=-13.3879685383
+cheers/V=-13.3879685383
+creeps/V=-13.3879685383
+chess/V=-13.3879685383
+cheeks/V=-13.3879685383
+creeds/V=-13.3879685383
+caress/V=-13.3879685383
+cheese/V=-12.6948213578
+excess/V=-9.98677115667
 cxeess excess
 315 1 blema
-Elena bleak Flem Flea Selma blebs blend blame gleam Cleva beam bleat alma blew Plea plea bleed Alma blest bless edema bled
+Elena Flem Flea Plea bleed blest Cleva blend Alma blew edema alma blame gleam bleak bless plea blebs Selma bled beam bleat
 Elena/V=-13.3879685383
-bleak/V=-12.6948213578
 Flem/V=-13.3879685383
 Flea/V=-13.3879685383
-Selma/V=-13.3879685383
-blebs/V=-13.3879685383
+Plea/V=-13.3879685383
+bleed/V=-13.3879685383
+blest/V=-13.3879685383
+Cleva/V=-13.3879685383
 blend/V=-13.3879685383
+Alma/V=-13.3879685383
+blew/V=-13.3879685383
+edema/V=-13.3879685383
+alma/V=-13.3879685383
 blame/V=-11.5962090691
 gleam/V=-13.3879685383
-Cleva/V=-13.3879685383
+bleak/V=-12.6948213578
+bless/V=-13.3879685383
+plea/V=-12.6948213578
+blebs/V=-13.3879685383
+Selma/V=-13.3879685383
+bled/V=-13.3879685383
 beam/V=-13.3879685383
 bleat/V=-13.3879685383
-alma/V=-13.3879685383
-blew/V=-13.3879685383
-Plea/V=-13.3879685383
-plea/V=-12.6948213578
-bleed/V=-13.3879685383
-Alma/V=-13.3879685383
-blest/V=-13.3879685383
-bless/V=-13.3879685383
-edema/V=-13.3879685383
-bled/V=-13.3879685383
 blema blame
 316 1 fsila
-Lila fails Asia fella fill fail foil Leila file film
-Lila/V=-13.3879685383
+fails file fill Asia fail fella Lila foil film Leila
 fails/V=-12.6948213578
-Asia/V=-10.0921316723
-fella/V=-13.3879685383
-fill/V=-11.4420583893
-fail/V=-11.5962090691
-foil/V=-13.3879685383
-Leila/V=-13.3879685383
 file/V=-11.190743961
+fill/V=-11.4420583893
+Asia/V=-10.0921316723
+fail/V=-11.5962090691
+fella/V=-13.3879685383
+Lila/V=-13.3879685383
+foil/V=-13.3879685383
 film/V=-11.0853834453
+Leila/V=-13.3879685383
 fsila Asia
 317 1 dela
-Bela deja dell delay del deal
-Bela/V=-13.3879685383
-deja/V=-13.3879685383
-dell/V=-12.6948213578
-delay/V=-10.3434461006
-del/V=-10.6153798161
+deal del delay dell deja Bela
 deal/V=-9.29362397611
+del/V=-10.6153798161
+delay/V=-10.3434461006
+dell/V=-12.6948213578
+deja/V=-13.3879685383
+Bela/V=-13.3879685383
 dela deal
 318 1 Resteru
-Western Reuter nester pester Reuters Hester Bester Lester western
-Western/V=-9.39898449177
-Reuter/V=-10.8230191809
-nester/V=-13.3879685383
+pester Reuters Bester Western western nester Lester Reuter Hester
 pester/V=-13.3879685383
 Reuters/V=-8.59217799274
-Hester/V=-13.3879685383
 Bester/V=-13.3879685383
-Lester/V=-13.3879685383
+Western/V=-9.39898449177
 western/V=-10.4435295592
+nester/V=-13.3879685383
+Lester/V=-13.3879685383
+Reuter/V=-10.8230191809
+Hester/V=-13.3879685383
 Resteru Reuters
 319 1 previouslyl
 previously
@@ -1940,9 +1940,9 @@ Shimbun
 Shimbun/V=-12.2893562497
 hSimbun Shimbun
 322 1 namd
-name named
-name/V=-8.08965117179
+named name
 named/V=-9.89146097687
+name/V=-8.08965117179
 namd name
 323 1 requenst
 request
@@ -1953,10 +1953,10 @@ Steel
 Steel/V=-10.6153798161
 Steei Steel
 325 1 planse
-plans planes plane
+plans plane planes
 plans/V=-8.30656417335
-planes/V=-11.190743961
 plane/V=-11.7785306259
+planes/V=-11.190743961
 planse plans
 326 1 capacigy
 capacity
@@ -1967,9 +1967,9 @@ expanded
 expanded/V=-10.3922362648
 expamded expanded
 328 1 tday
-today tray
-today/V=-7.33587936941
+tray today
 tray/V=-13.3879685383
+today/V=-7.33587936941
 tday today
 329 1 porposal
 proposal
@@ -1991,30 +1991,30 @@ menaced/V=-13.3879685383
 retraced/V=-13.3879685383
 mebraced embraced
 333 1 Jaan
-Jana Juan Jan Joan Japan Jagan Jean
-Jana/V=-13.3879685383
-Juan/V=-12.6948213578
+Jan Jean Jana Japan Juan Jagan Joan
 Jan/V=-8.93362124208
-Joan/V=-13.3879685383
-Japan/V=-6.64273218885
-Jagan/V=-13.3879685383
 Jean/V=-12.0016741772
+Jana/V=-13.3879685383
+Japan/V=-6.64273218885
+Juan/V=-12.6948213578
+Jagan/V=-13.3879685383
+Joan/V=-13.3879685383
 Jaan Japan
 333 1 Jaanese
 Japanese
 Japanese/V=-7.2038196474
 Jaanese Japanese
 334 1 Hspeo
-Hopes Hopei aspen Hope
+Hopes Hopei Hope aspen
 Hopes/V=-12.2893562497
 Hopei/V=-13.3879685383
-aspen/V=-13.3879685383
 Hope/V=-13.3879685383
+aspen/V=-13.3879685383
 Hspeo Hopes
 335 1 existm
-exists exist
-exists/V=-12.6948213578
+exist exists
 exist/V=-11.5962090691
+exists/V=-12.6948213578
 existm exist
 336 1 aktions
 actions
@@ -2025,10 +2025,10 @@ action
 action/V=-8.31906433611
 aktion action
 337 1 erpssure
-pressure Pressure exposure
-pressure/V=-8.5839474936
-Pressure/V=-11.5962090691
+exposure Pressure pressure
 exposure/V=-10.0921316723
+Pressure/V=-11.5962090691
+pressure/V=-8.5839474936
 erpssure pressure
 338 1 gaods
 goods gods
@@ -2044,9 +2044,9 @@ which
 which/V=-6.39771203784
 whiceh which
 341 1 threi
-threw three thei
-threw/V=-13.3879685383
+three threw thei
 three/V=-6.76523221439
+threw/V=-13.3879685383
 thei/V=-13.3879685383
 threi three
 342 1 Apri
@@ -2062,14 +2062,14 @@ Cojuangco
 Cojuangco/V=-13.3879685383
 Cojuoangco Cojuangco
 345 1 berach
-breach beach
-breach/V=-12.0016741772
+beach breach
 beach/V=-13.3879685383
+breach/V=-12.0016741772
 berach breach
 346 1 compano
-company Pompano
-company/V=-6.0380948336
+Pompano company
 Pompano/V=-13.3879685383
+company/V=-6.0380948336
 compano company
 347 1 minoridy
 minority
@@ -2080,27 +2080,27 @@ April
 April/V=-6.32921038582
 Apri April
 349 1 pess
-Jess Bess mess pests piss less Less pets pecs peso Hess pass Tess pens pesos pews press peas pest pegs
-Jess/V=-13.3879685383
-Bess/V=-13.3879685383
-mess/V=-13.3879685383
-pests/V=-13.3879685383
-piss/V=-13.3879685383
-less/V=-8.43920864796
-Less/V=-11.7785306259
-pets/V=-13.3879685383
-pecs/V=-13.3879685383
-peso/V=-12.2893562497
-Hess/V=-13.3879685383
-pass/V=-10.209914708
+Tess Less peas Hess pegs pest pecs pens pews press Jess less pets pests piss peso pass mess Bess pesos
 Tess/V=-13.3879685383
+Less/V=-11.7785306259
+peas/V=-13.3879685383
+Hess/V=-13.3879685383
+pegs/V=-13.3879685383
+pest/V=-13.3879685383
+pecs/V=-13.3879685383
 pens/V=-13.3879685383
-pesos/V=-10.2524743224
 pews/V=-13.3879685383
 press/V=-9.3449172705
-peas/V=-13.3879685383
-pest/V=-13.3879685383
-pegs/V=-13.3879685383
+Jess/V=-13.3879685383
+less/V=-8.43920864796
+pets/V=-13.3879685383
+pests/V=-13.3879685383
+piss/V=-13.3879685383
+peso/V=-12.2893562497
+pass/V=-10.209914708
+mess/V=-13.3879685383
+Bess/V=-13.3879685383
+pesos/V=-10.2524743224
 pess less
 350 1 agreemaent
 agreement
@@ -2111,10 +2111,10 @@ oboist
 oboist/V=-13.3879685383
 obost oboist
 352 1 dirsctore
-directory director directors
+directors directory director
+directors/V=-9.58130604856
 directory/V=-13.3879685383
 director/V=-9.3806353531
-directors/V=-9.58130604856
 dirsctore director
 353 1 sharis
 sharks shares shards
@@ -2123,9 +2123,9 @@ shares/V=-7.15159894813
 shards/V=-13.3879685383
 sharis shares
 354 1 aagin
-again agin
-again/V=-9.24483381194
+agin again
 agin/V=-13.3879685383
+again/V=-9.24483381194
 aagin again
 355 1 ropert
 ropers
@@ -2143,15 +2143,15 @@ Cojuangco
 Cojuangco/V=-13.3879685383
 Cujuangco Cojuangco
 359 1 wich
-Rich rich with wish which bich wick witch
-Rich/V=-13.3879685383
-rich/V=-11.3085269967
-with/V=-5.82788807331
+witch wish which Rich rich bich with wick
+witch/V=-13.3879685383
 wish/V=-11.0853834453
 which/V=-6.39771203784
+Rich/V=-13.3879685383
+rich/V=-11.3085269967
 bich/V=-13.3879685383
+with/V=-5.82788807331
 wick/V=-13.3879685383
-witch/V=-13.3879685383
 wich with
 360 1 owted
 owed owned opted
@@ -2185,12 +2185,12 @@ stock
 stock/V=-6.71340714652
 stokc stock
 367 1 Reusert
-desert Reuter Reuters dessert Desert
-desert/V=-13.3879685383
-Reuter/V=-10.8230191809
+Reuters Desert desert dessert Reuter
 Reuters/V=-8.59217799274
-dessert/V=-12.6948213578
 Desert/V=-13.3879685383
+desert/V=-13.3879685383
+dessert/V=-12.6948213578
+Reuter/V=-10.8230191809
 Reusert Reuters
 368 1 everythirng
 everything
@@ -2214,63 +2214,63 @@ reported
 reported/V=-7.37425338229
 repaorted reported
 373 1 treih
-train trench trip trail thei tryin treat trio teeth truth fresh trash tried tree trim trees trend trait their trek tread tries Fresh
-train/V=-13.3879685383
-trench/V=-13.3879685383
-trip/V=-10.4975967804
-trail/V=-13.3879685383
-thei/V=-13.3879685383
-tryin/V=-13.3879685383
-treat/V=-12.6948213578
-trio/V=-13.3879685383
-teeth/V=-12.2893562497
-truth/V=-13.3879685383
-fresh/V=-10.296926085
-trash/V=-12.6948213578
-tried/V=-11.0853834453
-tree/V=-12.6948213578
-trim/V=-11.5962090691
-trees/V=-13.3879685383
-trend/V=-9.31043109443
-trait/V=-13.3879685383
-their/V=-7.40403225765
-trek/V=-13.3879685383
+tread tree trend Fresh trim trash tryin train trek treat tries trip trio their trench teeth trail truth tried trees thei fresh trait
 tread/V=-13.3879685383
-tries/V=-12.6948213578
+tree/V=-12.6948213578
+trend/V=-9.31043109443
 Fresh/V=-12.6948213578
+trim/V=-11.5962090691
+trash/V=-12.6948213578
+tryin/V=-13.3879685383
+train/V=-13.3879685383
+trek/V=-13.3879685383
+treat/V=-12.6948213578
+tries/V=-12.6948213578
+trip/V=-10.4975967804
+trio/V=-13.3879685383
+their/V=-7.40403225765
+trench/V=-13.3879685383
+teeth/V=-12.2893562497
+trail/V=-13.3879685383
+truth/V=-13.3879685383
+tried/V=-11.0853834453
+trees/V=-13.3879685383
+thei/V=-13.3879685383
+fresh/V=-10.296926085
+trait/V=-13.3879685383
 treih their
 374 1 thero
-ther there
-ther/V=-13.3879685383
+there ther
 there/V=-7.71121473607
+ther/V=-13.3879685383
 thero there
 375 1 erly
-early Orly
-early/V=-7.99434099198
+Orly early
 Orly/V=-13.3879685383
+early/V=-7.99434099198
 erly early
 376 1 sothern
 southern
 southern/V=-12.6948213578
 sothern southern
 377 1 probablye
-probably probable
-probably/V=-9.01852068587
+probable probably
 probable/V=-11.5962090691
+probably/V=-9.01852068587
 probablye probably
 378 1 norvally
 normally
 normally/V=-10.8230191809
 norvally normally
 379 1 maximusm
-maximums maximum
-maximums/V=-13.3879685383
+maximum maximums
 maximum/V=-11.3085269967
+maximums/V=-13.3879685383
 maximusm maximum
 380 1 piaclng
-placing pacing
-placing/V=-11.190743961
+pacing placing
 pacing/V=-13.3879685383
+placing/V=-11.190743961
 piaclng placing
 381 1 louwd
 loud
@@ -2289,12 +2289,12 @@ financial
 financial/V=-7.78216647204
 fnancial financial
 385 1 inckel
-inches nickel Unckle inched Ancel
+inches Unckle inched Ancel nickel
 inches/V=-13.3879685383
-nickel/V=-12.6948213578
 Unckle/V=-13.3879685383
 inched/V=-13.3879685383
 Ancel/V=-13.3879685383
+nickel/V=-12.6948213578
 inckel nickel
 386 1 increaces
 increases
@@ -2306,39 +2306,39 @@ would/V=-6.11974551718
 world/V=-7.80823871235
 woruld would
 388 1 fitst
-first fits fist
+first fist fits
 first/V=-6.71088507709
-fits/V=-12.6948213578
 fist/V=-13.3879685383
+fits/V=-12.6948213578
 fitst first
 389 1 compaved
 compared
 compared/V=-7.29665865626
 compaved compared
 390 1 doulw
-dourly doubly doll duly Soule double Could mould dolls dough could doble Gould dole dull dour soul would Would foul souls doubt
-dourly/V=-13.3879685383
-doubly/V=-13.3879685383
-doll/V=-12.6948213578
-duly/V=-13.3879685383
-Soule/V=-13.3879685383
-double/V=-9.95398133385
-Could/V=-12.0016741772
+mould Soule foul doubly dourly Gould doubt double duly souls would dough dull dour dolls dole doll doble soul Could Would could
 mould/V=-12.6948213578
-dolls/V=-13.3879685383
-dough/V=-13.3879685383
-could/V=-7.34059635929
-doble/V=-13.3879685383
+Soule/V=-13.3879685383
+foul/V=-13.3879685383
+doubly/V=-13.3879685383
+dourly/V=-13.3879685383
 Gould/V=-12.6948213578
-dole/V=-13.3879685383
+doubt/V=-10.3434461006
+double/V=-9.95398133385
+duly/V=-13.3879685383
+souls/V=-13.3879685383
+would/V=-6.11974551718
+dough/V=-13.3879685383
 dull/V=-12.6948213578
 dour/V=-13.3879685383
+dolls/V=-13.3879685383
+dole/V=-13.3879685383
+doll/V=-12.6948213578
+doble/V=-13.3879685383
 soul/V=-13.3879685383
-would/V=-6.11974551718
+Could/V=-12.0016741772
 Would/V=-10.9900732655
-foul/V=-13.3879685383
-souls/V=-13.3879685383
-doubt/V=-10.3434461006
+could/V=-7.34059635929
 doulw would
 391 1 redsults
 results
@@ -2358,28 +2358,28 @@ growth
 growth/V=-7.06720024408
 growti growth
 396 1 Grman
-German Gran Graan
-German/V=-8.35753061694
+Gran Graan German
 Gran/V=-13.3879685383
 Graan/V=-13.3879685383
+German/V=-8.35753061694
 Grman German
 397 1 ibpact
 impact
 impact/V=-8.56768697273
 ibpact impact
 398 1 Pleho
-Plato Piero altho Pleas Poehl Plea
+Plato altho Pleas Plea Poehl Piero
 Plato/V=-13.3879685383
-Piero/V=-13.3879685383
 altho/V=-13.3879685383
 Pleas/V=-13.3879685383
-Poehl/V=-9.27709467416
 Plea/V=-13.3879685383
+Poehl/V=-9.27709467416
+Piero/V=-13.3879685383
 Pleho Poehl
 399 1 obstaclet
-obstacle obstacles
-obstacle/V=-12.0016741772
+obstacles obstacle
 obstacles/V=-11.4420583893
+obstacle/V=-12.0016741772
 obstaclet obstacles
 400 1 idcluning
 including
@@ -2403,30 +2403,30 @@ careful
 careful/V=-11.5962090691
 caferul careful
 405 1 affecte
-affects affect affected effecte
-affects/V=-11.4420583893
-affect/V=-9.62676842264
-affected/V=-9.39898449177
+effecte affect affects affected
 effecte/V=-13.3879685383
+affect/V=-9.62676842264
+affects/V=-11.4420583893
+affected/V=-9.39898449177
 affecte affected
 406 1 countris
 countries
 countries/V=-7.39650399123
 countris countries
 407 1 aout
-gout pout bout tout about
-gout/V=-13.3879685383
+pout gout about bout tout
 pout/V=-13.3879685383
+gout/V=-13.3879685383
+about/V=-6.7121453167
 bout/V=-12.6948213578
 tout/V=-13.3879685383
-about/V=-6.7121453167
 aout about
 408 1 nmericaA
-American America Americas numerical
+American numerical Americas America
 American/V=-7.89080031304
-America/V=-9.39898449177
-Americas/V=-12.6948213578
 numerical/V=-12.6948213578
+Americas/V=-12.6948213578
+America/V=-9.39898449177
 nmericaA American
 409 1 therel
 there
@@ -2437,69 +2437,69 @@ company
 company/V=-6.0380948336
 coypanm company
 412 1 irtes
-cries bites etes Arte dites inter irate crates rites items sites ores Estes arts votes its writes irons mates urges frees Trees Writes cites Bates ire fetes gates trees item Gates notes hartes Notes Cites hates Arts Rates fates Ares tries dries dates rates
-cries/V=-13.3879685383
-bites/V=-13.3879685383
-etes/V=-13.3879685383
+Arte Bates ores ire dites item Arts Trees hates its urges crates dates sites irons fetes Rates items etes notes irate writes Estes rates cries inter rites tries mates fates Writes Notes dries Ares votes bites arts Cites Gates gates cites trees hartes frees
 Arte/V=-13.3879685383
-dites/V=-13.3879685383
-inter/V=-12.2893562497
-irate/V=-13.3879685383
-crates/V=-13.3879685383
-rites/V=-13.3879685383
-items/V=-8.82362034687
-sites/V=-13.3879685383
-ores/V=-12.0016741772
-Estes/V=-13.3879685383
-arts/V=-13.3879685383
-votes/V=-11.3085269967
-its/V=-5.53981545214
-writes/V=-13.3879685383
-irons/V=-13.3879685383
-mates/V=-13.3879685383
-urges/V=-12.0016741772
-frees/V=-13.3879685383
-Trees/V=-13.3879685383
-Writes/V=-13.3879685383
-cites/V=-12.6948213578
 Bates/V=-13.3879685383
+ores/V=-12.0016741772
 ire/V=-13.3879685383
-fetes/V=-13.3879685383
-gates/V=-13.3879685383
-trees/V=-13.3879685383
+dites/V=-13.3879685383
 item/V=-9.92223263554
-Gates/V=-13.3879685383
-notes/V=-9.62676842264
-hartes/V=-13.3879685383
-Notes/V=-11.7785306259
-Cites/V=-13.3879685383
-hates/V=-13.3879685383
 Arts/V=-13.3879685383
-Rates/V=-11.4420583893
-fates/V=-13.3879685383
-Ares/V=-13.3879685383
-tries/V=-12.6948213578
-dries/V=-13.3879685383
+Trees/V=-13.3879685383
+hates/V=-13.3879685383
+its/V=-5.53981545214
+urges/V=-12.0016741772
+crates/V=-13.3879685383
 dates/V=-10.9030618885
+sites/V=-13.3879685383
+irons/V=-13.3879685383
+fetes/V=-13.3879685383
+Rates/V=-11.4420583893
+items/V=-8.82362034687
+etes/V=-13.3879685383
+notes/V=-9.62676842264
+irate/V=-13.3879685383
+writes/V=-13.3879685383
+Estes/V=-13.3879685383
 rates/V=-6.69093429067
+cries/V=-13.3879685383
+inter/V=-12.2893562497
+rites/V=-13.3879685383
+tries/V=-12.6948213578
+mates/V=-13.3879685383
+fates/V=-13.3879685383
+Writes/V=-13.3879685383
+Notes/V=-11.7785306259
+dries/V=-13.3879685383
+Ares/V=-13.3879685383
+votes/V=-11.3085269967
+bites/V=-13.3879685383
+arts/V=-13.3879685383
+Cites/V=-13.3879685383
+Gates/V=-13.3879685383
+gates/V=-13.3879685383
+cites/V=-12.6948213578
+trees/V=-13.3879685383
+hartes/V=-13.3879685383
+frees/V=-13.3879685383
 irtes its
 413 1 conmmercial
 commercial
 commercial/V=-9.00594190366
 conmmercial commercial
 414 1 trhee
-thee three tree
+thee tree three
 thee/V=-13.3879685383
-three/V=-6.76523221439
 tree/V=-12.6948213578
+three/V=-6.76523221439
 trhee three
 415 1 fcsial
-finial fiscal filial Musial facial
+finial fiscal filial facial Musial
 finial/V=-13.3879685383
 fiscal/V=-7.58283356942
 filial/V=-13.3879685383
-Musial/V=-13.3879685383
 facial/V=-13.3879685383
+Musial/V=-13.3879685383
 fcsial fiscal
 416 1 Februoary
 February
@@ -2556,11 +2556,11 @@ prouder/V=-13.3879685383
 producer/V=-10.4975967804
 proudcer producer
 429 1 shaer
-shaker share sheer shear
+shear shaker share sheer
+shear/V=-13.3879685383
 shaker/V=-13.3879685383
 share/V=-5.97339565698
 sheer/V=-13.3879685383
-shear/V=-13.3879685383
 shaer share
 430 1 ootstanding
 outstanding
@@ -2595,10 +2595,10 @@ agenda
 agenda/V=-12.0016741772
 agenad agenda
 439 1 proposas
-proposals proposes proposal
+proposals proposal proposes
 proposals/V=-9.3449172705
-proposes/V=-11.7785306259
 proposal/V=-8.98124929107
+proposes/V=-11.7785306259
 proposas proposal
 440 1 interom
 interim
@@ -2609,32 +2609,32 @@ complicated
 complicated/V=-12.2893562497
 conplicated complicated
 442 1 larest
-barest latest largest
+largest barest latest
+largest/V=-8.66946966704
 barest/V=-13.3879685383
 latest/V=-8.80300105966
-largest/V=-8.66946966704
 larest largest
 443 1 writte
-written write writhe
+writhe written write
+writhe/V=-13.3879685383
 written/V=-10.4975967804
 write/V=-9.3449172705
-writhe/V=-13.3879685383
 writte write
 444 1 whilen
 while
 while/V=-7.72848632258
 whilen while
 445 1 thre
-thru tore the tire three there thee ther threw
-thru/V=-13.3879685383
-tore/V=-13.3879685383
-the/V=-3.55313462912
-tire/V=-12.2893562497
+three tire thru threw the tore ther there thee
 three/V=-6.76523221439
+tire/V=-12.2893562497
+thru/V=-13.3879685383
+threw/V=-13.3879685383
+the/V=-3.55313462912
+tore/V=-13.3879685383
+ther/V=-13.3879685383
 there/V=-7.71121473607
 thee/V=-13.3879685383
-ther/V=-13.3879685383
-threw/V=-13.3879685383
 thre the
 446 1 bringsi
 brings
@@ -2665,64 +2665,64 @@ rift
 rift/V=-12.6948213578
 rifst rift
 453 1 ealss
-earns else salts Hals dales east pals Sales Tales calls eagles walks Lass Walls galls sales males glass Falls talks wales Glass Palsy balls Walsh gals easy gauss palms halos falls False lass Class Halls Calls eats elms halts palsy walls Wales class ease ears false Bales bales mass pass pales Pass bass balks tales Mass halls
-earns/V=-13.3879685383
-else/V=-10.8230191809
+balks falls Wales Class walls halos salts tales calls Walsh Calls halts dales Hals Mass bass mass galls ears halls east else pales Walls elms lass balls sales earns eagles pass talks gals class glass wales palms gauss Falls Lass easy Glass males Halls Pass Tales false False walks Bales ease pals Sales palsy eats Palsy bales
+balks/V=-13.3879685383
+falls/V=-10.0557640282
+Wales/V=-12.6948213578
+Class/V=-9.58130604856
+walls/V=-12.6948213578
+halos/V=-13.3879685383
 salts/V=-13.3879685383
-Hals/V=-13.3879685383
+tales/V=-13.3879685383
+calls/V=-10.1690927135
+Walsh/V=-11.3085269967
+Calls/V=-12.0016741772
+halts/V=-13.3879685383
 dales/V=-13.3879685383
+Hals/V=-13.3879685383
+Mass/V=-13.3879685383
+bass/V=-13.3879685383
+mass/V=-11.7785306259
+galls/V=-13.3879685383
+ears/V=-13.3879685383
+halls/V=-13.3879685383
 east/V=-12.0016741772
+else/V=-10.8230191809
+pales/V=-13.3879685383
+Walls/V=-13.3879685383
+elms/V=-13.3879685383
+lass/V=-13.3879685383
+balls/V=-13.3879685383
+sales/V=-6.94861816723
+earns/V=-13.3879685383
+eagles/V=-13.3879685383
+pass/V=-10.209914708
+talks/V=-8.22891323912
+gals/V=-13.3879685383
+class/V=-9.55932714185
+glass/V=-11.5962090691
+wales/V=-13.3879685383
+palms/V=-13.3879685383
+gauss/V=-13.3879685383
+Falls/V=-13.3879685383
+Lass/V=-13.3879685383
+easy/V=-11.4420583893
+Glass/V=-11.4420583893
+males/V=-13.3879685383
+Halls/V=-13.3879685383
+Pass/V=-13.3879685383
+Tales/V=-13.3879685383
+false/V=-11.3085269967
+False/V=-13.3879685383
+walks/V=-13.3879685383
+Bales/V=-13.3879685383
+ease/V=-9.55932714185
 pals/V=-13.3879685383
 Sales/V=-6.65695043785
-Tales/V=-13.3879685383
-calls/V=-10.1690927135
-eagles/V=-13.3879685383
-walks/V=-13.3879685383
-Lass/V=-13.3879685383
-Walls/V=-13.3879685383
-galls/V=-13.3879685383
-sales/V=-6.94861816723
-males/V=-13.3879685383
-glass/V=-11.5962090691
-Falls/V=-13.3879685383
-talks/V=-8.22891323912
-wales/V=-13.3879685383
-Glass/V=-11.4420583893
-Palsy/V=-13.3879685383
-balls/V=-13.3879685383
-Walsh/V=-11.3085269967
-gals/V=-13.3879685383
-easy/V=-11.4420583893
-gauss/V=-13.3879685383
-palms/V=-13.3879685383
-halos/V=-13.3879685383
-falls/V=-10.0557640282
-False/V=-13.3879685383
-lass/V=-13.3879685383
-Class/V=-9.58130604856
-Halls/V=-13.3879685383
-Calls/V=-12.0016741772
-eats/V=-13.3879685383
-elms/V=-13.3879685383
-halts/V=-13.3879685383
 palsy/V=-13.3879685383
-walls/V=-12.6948213578
-Wales/V=-12.6948213578
-class/V=-9.55932714185
-ease/V=-9.55932714185
-ears/V=-13.3879685383
-false/V=-11.3085269967
-Bales/V=-13.3879685383
+eats/V=-13.3879685383
+Palsy/V=-13.3879685383
 bales/V=-13.3879685383
-mass/V=-11.7785306259
-pass/V=-10.209914708
-pales/V=-13.3879685383
-Pass/V=-13.3879685383
-bass/V=-13.3879685383
-balks/V=-13.3879685383
-tales/V=-13.3879685383
-Mass/V=-13.3879685383
-halls/V=-13.3879685383
 ealss Sales
 454 1 Cawion
 Canion
@@ -2778,19 +2778,19 @@ requirement
 requirement/V=-9.77705062569
 rquirement requirement
 466 1 rpevent
-repent prevent revert recent resent
-repent/V=-13.3879685383
+prevent resent recent repent revert
 prevent/V=-9.69908908422
-revert/V=-13.3879685383
-recent/V=-8.02667637263
 resent/V=-13.3879685383
+recent/V=-8.02667637263
+repent/V=-13.3879685383
+revert/V=-13.3879685383
 rpevent recent
 467 1 tnder
-tender under Under tinder
+tender under tinder Under
 tender/V=-9.11130241932
 under/V=-7.87453979217
-Under/V=-9.62676842264
 tinder/V=-13.3879685383
+Under/V=-9.62676842264
 tnder under
 468 1 aquiring
 acquiring
@@ -2809,48 +2809,48 @@ raise
 raise/V=-8.84467375607
 raixe raise
 473 1 uowld
-fold lowly Bold mold Gold Hold jowls howls Howl Could Cold mould bowed jowl could Mold Bowl sold told cold fowl vowed hold bowl World gold Gould bold Fold rowed bowls wold towed howl mowed world howled would Told Would unwed
-fold/V=-12.0016741772
-lowly/V=-13.3879685383
-Bold/V=-13.3879685383
-mold/V=-13.3879685383
-Gold/V=-10.8230191809
-Hold/V=-13.3879685383
-jowls/V=-13.3879685383
-howls/V=-13.3879685383
-Howl/V=-13.3879685383
-Could/V=-12.0016741772
-Cold/V=-13.3879685383
+mould world fold bowl bowed told Howl mold Gould towed bold jowls howl unwed Hold cold sold Mold gold Bowl jowl mowed vowed howls rowed would lowly Fold howled Cold bowls fowl Bold Could Gold Would World wold hold Told could
 mould/V=-12.6948213578
-bowed/V=-13.3879685383
-jowl/V=-13.3879685383
-could/V=-7.34059635929
-Mold/V=-13.3879685383
-Bowl/V=-13.3879685383
-sold/V=-8.75323955011
-told/V=-7.24163928067
-cold/V=-10.8230191809
-fowl/V=-13.3879685383
-vowed/V=-12.6948213578
-hold/V=-9.22908545498
-bowl/V=-13.3879685383
-World/V=-8.94531728184
-gold/V=-10.1298720003
-Gould/V=-12.6948213578
-bold/V=-12.2893562497
-Fold/V=-13.3879685383
-rowed/V=-13.3879685383
-bowls/V=-13.3879685383
-wold/V=-13.3879685383
-towed/V=-13.3879685383
-howl/V=-13.3879685383
-mowed/V=-13.3879685383
 world/V=-7.80823871235
-howled/V=-13.3879685383
-would/V=-6.11974551718
-Told/V=-13.3879685383
-Would/V=-10.9900732655
+fold/V=-12.0016741772
+bowl/V=-13.3879685383
+bowed/V=-13.3879685383
+told/V=-7.24163928067
+Howl/V=-13.3879685383
+mold/V=-13.3879685383
+Gould/V=-12.6948213578
+towed/V=-13.3879685383
+bold/V=-12.2893562497
+jowls/V=-13.3879685383
+howl/V=-13.3879685383
 unwed/V=-13.3879685383
+Hold/V=-13.3879685383
+cold/V=-10.8230191809
+sold/V=-8.75323955011
+Mold/V=-13.3879685383
+gold/V=-10.1298720003
+Bowl/V=-13.3879685383
+jowl/V=-13.3879685383
+mowed/V=-13.3879685383
+vowed/V=-12.6948213578
+howls/V=-13.3879685383
+rowed/V=-13.3879685383
+would/V=-6.11974551718
+lowly/V=-13.3879685383
+Fold/V=-13.3879685383
+howled/V=-13.3879685383
+Cold/V=-13.3879685383
+bowls/V=-13.3879685383
+fowl/V=-13.3879685383
+Bold/V=-13.3879685383
+Could/V=-12.0016741772
+Gold/V=-10.8230191809
+Would/V=-10.9900732655
+World/V=-8.94531728184
+wold/V=-13.3879685383
+hold/V=-9.22908545498
+Told/V=-13.3879685383
+could/V=-7.34059635929
 uowld would
 474 1 Pichens
 Pickens
@@ -2877,16 +2877,16 @@ February
 February/V=-6.73124201416
 Februcary February
 480 1 reqriue
-require rewrite
-require/V=-10.0557640282
+rewrite require
 rewrite/V=-13.3879685383
+require/V=-10.0557640282
 reqriue require
 481 1 woul
-wool soul would foul
-wool/V=-13.3879685383
-soul/V=-13.3879685383
+would foul soul wool
 would/V=-6.11974551718
 foul/V=-13.3879685383
+soul/V=-13.3879685383
+wool/V=-13.3879685383
 woul would
 482 1 rTust
 rust
@@ -2897,15 +2897,15 @@ matures
 matures/V=-12.0016741772
 matureis matures
 484 1 SGAR
-SBA SAC S.A. SPA SCR SUGAR SA SWAO
-SBA/V=-13.3879685383
-SAC/V=-13.3879685383
-S.A./V=-13.3879685383
-SPA/V=-11.5962090691
-SCR/V=-12.2893562497
-SUGAR/V=-12.6948213578
+SA SWAO SPA SAC SCR S.A. SBA SUGAR
 SA/V=-10.6153798161
 SWAO/V=-13.3879685383
+SPA/V=-11.5962090691
+SAC/V=-13.3879685383
+SCR/V=-12.2893562497
+S.A./V=-13.3879685383
+SBA/V=-13.3879685383
+SUGAR/V=-12.6948213578
 SGAR SA
 485 1 Stoltinberg
 Stoltenberg
@@ -2925,50 +2925,50 @@ Worst/V=-13.3879685383
 World/V=-8.94531728184
 Worlt World
 489 1 raPis
-radii Mavis raise taxis ramps rafts rays rads radio rats basis races Paris ratios rags Maris rages rabid radish Nazis mais rain ranks radius rail dais racks rapes raid tapis Satis rapid ratio rakish Janis rails raids Davis rasps rains radios Mais rates
-radii/V=-13.3879685383
-Mavis/V=-13.3879685383
-raise/V=-8.84467375607
-taxis/V=-13.3879685383
-ramps/V=-13.3879685383
-rafts/V=-13.3879685383
-rays/V=-12.6948213578
-rads/V=-13.3879685383
-radio/V=-11.7785306259
-rats/V=-13.3879685383
-basis/V=-8.41123479591
-races/V=-13.3879685383
-Paris/V=-8.92206041968
+Satis rain raid ratios radio rasps races rates Mavis Maris rages rails radii rafts Nazis racks rapid radios rains tapis taxis mais rats ranks rays radius dais rapes raise rads rags Davis Janis raids Mais radish basis rabid rail ramps ratio Paris rakish
+Satis/V=-13.3879685383
+rain/V=-11.4420583893
+raid/V=-13.3879685383
 ratios/V=-12.0016741772
-rags/V=-13.3879685383
+radio/V=-11.7785306259
+rasps/V=-13.3879685383
+races/V=-13.3879685383
+rates/V=-6.69093429067
+Mavis/V=-13.3879685383
 Maris/V=-13.3879685383
 rages/V=-13.3879685383
-rabid/V=-13.3879685383
-radish/V=-13.3879685383
-Nazis/V=-13.3879685383
-mais/V=-13.3879685383
-rain/V=-11.4420583893
-ranks/V=-12.6948213578
-radius/V=-13.3879685383
-rail/V=-13.3879685383
-dais/V=-13.3879685383
-racks/V=-13.3879685383
-rapes/V=-13.3879685383
-raid/V=-13.3879685383
-tapis/V=-13.3879685383
-Satis/V=-13.3879685383
-rapid/V=-10.6799183372
-ratio/V=-10.1298720003
-rakish/V=-13.3879685383
-Janis/V=-13.3879685383
 rails/V=-12.2893562497
-raids/V=-13.3879685383
-Davis/V=-12.0016741772
-rasps/V=-13.3879685383
-rains/V=-13.3879685383
+radii/V=-13.3879685383
+rafts/V=-13.3879685383
+Nazis/V=-13.3879685383
+racks/V=-13.3879685383
+rapid/V=-10.6799183372
 radios/V=-12.0016741772
+rains/V=-13.3879685383
+tapis/V=-13.3879685383
+taxis/V=-13.3879685383
+mais/V=-13.3879685383
+rats/V=-13.3879685383
+ranks/V=-12.6948213578
+rays/V=-12.6948213578
+radius/V=-13.3879685383
+dais/V=-13.3879685383
+rapes/V=-13.3879685383
+raise/V=-8.84467375607
+rads/V=-13.3879685383
+rags/V=-13.3879685383
+Davis/V=-12.0016741772
+Janis/V=-13.3879685383
+raids/V=-13.3879685383
 Mais/V=-13.3879685383
-rates/V=-6.69093429067
+radish/V=-13.3879685383
+basis/V=-8.41123479591
+rabid/V=-13.3879685383
+rail/V=-13.3879685383
+ramps/V=-13.3879685383
+ratio/V=-10.1298720003
+Paris/V=-8.92206041968
+rakish/V=-13.3879685383
 raPis rates
 490 1 dsicuss
 discuss
@@ -2979,23 +2979,23 @@ against
 against/V=-7.04408810421
 agaenst against
 492 1 spport
-sport support
-sport/V=-12.0016741772
+support sport
 support/V=-8.86617996129
+sport/V=-12.0016741772
 spport support
 493 1 maerket
 market
 market/V=-6.55601497277
 maerket market
 495 1 Jaan
-Jana Juan Jan Joan Japan Jagan Jean
-Jana/V=-13.3879685383
-Juan/V=-12.6948213578
+Jan Jean Jana Japan Juan Jagan Joan
 Jan/V=-8.93362124208
-Joan/V=-13.3879685383
-Japan/V=-6.64273218885
-Jagan/V=-13.3879685383
 Jean/V=-12.0016741772
+Jana/V=-13.3879685383
+Japan/V=-6.64273218885
+Juan/V=-12.6948213578
+Jagan/V=-13.3879685383
+Joan/V=-13.3879685383
 Jaan Japan
 496 1 throegh
 through
@@ -3015,27 +3015,27 @@ INTERVENTION
 INTERVENTION/V=-10.8230191809
 INTERVNTION INTERVENTION
 501 1 oBard
-Heard bard hard Board heard Yard Hard beard award card lard ward Award guard Guard onward Beard yeard Ward board yard
-Heard/V=-13.3879685383
-bard/V=-13.3879685383
-hard/V=-9.3806353531
-Board/V=-9.3806353531
-heard/V=-12.2893562497
-Yard/V=-13.3879685383
-Hard/V=-12.0016741772
-beard/V=-13.3879685383
-award/V=-11.3085269967
-card/V=-10.1690927135
-lard/V=-13.3879685383
+ward Ward onward Heard Guard Board Beard Yard bard card board heard lard yeard hard guard Hard Award award beard yard
 ward/V=-11.4420583893
-Award/V=-13.3879685383
-guard/V=-13.3879685383
-Guard/V=-13.3879685383
-onward/V=-13.3879685383
-Beard/V=-13.3879685383
-yeard/V=-13.3879685383
 Ward/V=-11.5962090691
+onward/V=-13.3879685383
+Heard/V=-13.3879685383
+Guard/V=-13.3879685383
+Board/V=-9.3806353531
+Beard/V=-13.3879685383
+Yard/V=-13.3879685383
+bard/V=-13.3879685383
+card/V=-10.1690927135
 board/V=-7.85063427132
+heard/V=-12.2893562497
+lard/V=-13.3879685383
+yeard/V=-13.3879685383
+hard/V=-9.3806353531
+guard/V=-13.3879685383
+Hard/V=-12.0016741772
+Award/V=-13.3879685383
+award/V=-11.3085269967
+beard/V=-13.3879685383
 yard/V=-12.6948213578
 oBard board
 502 1 traeders
@@ -3061,31 +3061,31 @@ authorisations
 authorisations/V=-13.3879685383
 authorisatcions authorisations
 507 1 hwites
-writes bites hartes Cites hates whites hikes Writes cites sites hits boites suites hattes hires unites hides dites rites
-writes/V=-13.3879685383
-bites/V=-13.3879685383
-hartes/V=-13.3879685383
+Cites hires bites dites hits hikes rites cites Writes hates hides suites unites hattes whites hartes sites writes boites
 Cites/V=-13.3879685383
-hates/V=-13.3879685383
-whites/V=-12.6948213578
-hikes/V=-12.6948213578
-Writes/V=-13.3879685383
-cites/V=-12.6948213578
-sites/V=-13.3879685383
-hits/V=-12.6948213578
-boites/V=-13.3879685383
-suites/V=-13.3879685383
-hattes/V=-13.3879685383
 hires/V=-13.3879685383
-unites/V=-13.3879685383
-hides/V=-12.6948213578
+bites/V=-13.3879685383
 dites/V=-13.3879685383
+hits/V=-12.6948213578
+hikes/V=-12.6948213578
 rites/V=-13.3879685383
-hwites whites
+cites/V=-12.6948213578
+Writes/V=-13.3879685383
+hates/V=-13.3879685383
+hides/V=-12.6948213578
+suites/V=-13.3879685383
+unites/V=-13.3879685383
+hattes/V=-13.3879685383
+whites/V=-12.6948213578
+hartes/V=-13.3879685383
+sites/V=-13.3879685383
+writes/V=-13.3879685383
+boites/V=-13.3879685383
+hwites hits
 508 1 bdes
-bees beds bodes
-bees/V=-13.3879685383
+beds bees bodes
 beds/V=-13.3879685383
+bees/V=-13.3879685383
 bodes/V=-12.2893562497
 bdes bodes
 509 1 reporteda
@@ -3132,12 +3132,12 @@ Amadeus
 Amadeus/V=-12.6948213578
 Asadeum Amadeus
 519 1 diveo
-diver dives dive dived
-diver/V=-13.3879685383
-dives/V=-13.3879685383
-dive/V=-13.3879685383
+dived dives diver dive
 dived/V=-13.3879685383
-diveo diver
+dives/V=-13.3879685383
+diver/V=-13.3879685383
+dive/V=-13.3879685383
+diveo dived
 520 1 WOLWORTH
 WOOLWORTH
 WOOLWORTH/V=-10.9900732655
@@ -3164,12 +3164,12 @@ substantially
 substantially/V=-9.53782093662
 sudstantially substantially
 526 1 quot
-quit quok quote quo quota
+quote quit quok quota quo
+quote/V=-13.3879685383
 quit/V=-12.6948213578
 quok/V=-13.3879685383
-quote/V=-13.3879685383
-quo/V=-12.6948213578
 quota/V=-10.296926085
+quo/V=-12.6948213578
 quot quota
 526 1 non-quot
 non-quota
@@ -3241,14 +3241,14 @@ stockholders
 stockholders/V=-9.80444959988
 stockhouders stockholders
 545 1 sercive
-service servile coercive derive strive survive perceive
+service servile derive perceive coercive strive survive
 service/V=-9.18327591894
 servile/V=-13.3879685383
-coercive/V=-12.6948213578
 derive/V=-12.2893562497
+perceive/V=-12.6948213578
+coercive/V=-12.6948213578
 strive/V=-12.6948213578
 survive/V=-12.6948213578
-perceive/V=-12.6948213578
 sercive service
 546 1 Caltel
 Cartel
@@ -3260,18 +3260,18 @@ Fargo/V=-11.190743961
 sago/V=-13.3879685383
 Fago Fargo
 548 1 saple
-sale sample Maple sable staple maple
+sale maple Maple staple sable sample
 sale/V=-7.55315780127
-sample/V=-13.3879685383
-Maple/V=-13.3879685383
-sable/V=-13.3879685383
-staple/V=-11.7785306259
 maple/V=-13.3879685383
+Maple/V=-13.3879685383
+staple/V=-11.7785306259
+sable/V=-13.3879685383
+sample/V=-13.3879685383
 saple sale
 549 1 Presidenti
-Presidents President
-Presidents/V=-13.3879685383
+President Presidents
 President/V=-8.4753136526
+Presidents/V=-13.3879685383
 Presidenti President
 550 1 peacticr
 practice
@@ -3300,10 +3300,10 @@ dame/V=-13.3879685383
 damage/V=-10.9900732655
 damge damage
 557 1 suenoB
-Buenos Bueno
-Buenos/V=-13.3879685383
+Bueno Buenos
 Bueno/V=-13.3879685383
-suenoB Buenos
+Buenos/V=-13.3879685383
+suenoB Bueno
 558 1 rainwfall
 rainfall
 rainfall/V=-13.3879685383
@@ -3367,10 +3367,10 @@ compared
 compared/V=-7.29665865626
 comared compared
 573 1 oeassn
-reason season Reason
+reason Reason season
 reason/V=-9.39898449177
-season/V=-10.6799183372
 Reason/V=-13.3879685383
+season/V=-10.6799183372
 oeassn reason
 574 1 seeson
 season
@@ -3381,9 +3381,9 @@ areas
 areas/V=-9.22908545498
 aseas areas
 576 1 aretas
-areas arenas
-areas/V=-9.22908545498
+arenas areas
 arenas/V=-13.3879685383
+areas/V=-9.22908545498
 aretas areas
 577 1 Preparatin
 Preparation
@@ -3394,9 +3394,9 @@ figure
 figure/V=-8.60047679555
 fingure figure
 579 1 wnmeo
-women Cameo Romeo
-women/V=-11.4420583893
+Cameo women Romeo
 Cameo/V=-13.3879685383
+women/V=-11.4420583893
 Romeo/V=-13.3879685383
 wnmeo women
 580 1 unemploymnt
@@ -3404,19 +3404,19 @@ unemployment
 unemployment/V=-8.53593827442
 unemploymnt unemployment
 581 1 figurer
-figured figure figures
+figures figured figure
+figures/V=-7.54152976328
 figured/V=-12.6948213578
 figure/V=-8.60047679555
-figures/V=-7.54152976328
 figurer figures
 582 1 siguref
-Figure figured sigue Figures figures figure
+Figure figured figure Figures sigue figures
 Figure/V=-13.3879685383
 figured/V=-12.6948213578
-sigue/V=-13.3879685383
-Figures/V=-10.9030618885
-figures/V=-7.54152976328
 figure/V=-8.60047679555
+Figures/V=-10.9030618885
+sigue/V=-13.3879685383
+figures/V=-7.54152976328
 siguref figures
 583 1 imcrease
 increase
@@ -3427,21 +3427,21 @@ vacancies
 vacancies/V=-12.2893562497
 vacamcies vacancies
 585 1 figeru
-Niger finger Tigers fixers figger figure finer niger fiber fingers Tiger tiger fiery fibers
-Niger/V=-13.3879685383
-finger/V=-12.6948213578
-Tigers/V=-13.3879685383
-fixers/V=-13.3879685383
-figger/V=-13.3879685383
-figure/V=-8.60047679555
-finer/V=-13.3879685383
-niger/V=-13.3879685383
-fiber/V=-10.8230191809
-fingers/V=-13.3879685383
-Tiger/V=-13.3879685383
-tiger/V=-13.3879685383
+fiery fixers Tigers niger tiger fingers finer fiber Tiger fibers figure figger finger Niger
 fiery/V=-13.3879685383
+fixers/V=-13.3879685383
+Tigers/V=-13.3879685383
+niger/V=-13.3879685383
+tiger/V=-13.3879685383
+fingers/V=-13.3879685383
+finer/V=-13.3879685383
+fiber/V=-10.8230191809
+Tiger/V=-13.3879685383
 fibers/V=-13.3879685383
+figure/V=-8.60047679555
+figger/V=-13.3879685383
+finger/V=-12.6948213578
+Niger/V=-13.3879685383
 figeru figure
 586 1 Jucqaes
 Jacques
@@ -3511,11 +3511,11 @@ added
 added/V=-7.38161537873
 addad added
 601 1 quartr
-quarter quarts quartz quart
-quarter/V=-6.1683264982
+quarts quart quartz quarter
 quarts/V=-13.3879685383
-quartz/V=-13.3879685383
 quart/V=-13.3879685383
+quartz/V=-13.3879685383
+quarter/V=-6.1683264982
 quartr quarter
 602 1 sevred
 served severed
@@ -3532,9 +3532,9 @@ without
 without/V=-9.04416311648
 withomut without
 605 1 assetc
-assets asset
-assets/V=-8.20058273249
+asset assets
 asset/V=-9.55932714185
+assets/V=-8.20058273249
 assetc assets
 606 1 indeustry
 industry
@@ -3549,36 +3549,36 @@ petrochemical
 petrochemical/V=-10.7489112087
 petrocemical petrochemical
 608 1 marketr
-marker markets marketer market
-marker/V=-12.6948213578
-markets/V=-7.53864375839
+marketer markets market marker
 marketer/V=-12.6948213578
+markets/V=-7.53864375839
 market/V=-6.55601497277
+marker/V=-12.6948213578
 marketr market
 609 1 cpacity
 capacity
 capacity/V=-9.60377890442
 cpacity capacity
 610 1 producds
-products produces
-products/V=-7.68752496494
+produces products
 produces/V=-10.9030618885
+products/V=-7.68752496494
 producds products
 611 1 auiomobtle
 automobile
 automobile/V=-11.190743961
 auiomobtle automobile
 612 1 pices
-vices pines pieces picks prices pies pipes paces piles
-vices/V=-13.3879685383
+pines pies vices pipes prices picks piles paces pieces
 pines/V=-13.3879685383
-pieces/V=-12.6948213578
-picks/V=-12.6948213578
-prices/V=-7.1496439133
 pies/V=-13.3879685383
+vices/V=-13.3879685383
 pipes/V=-12.6948213578
-paces/V=-13.3879685383
+prices/V=-7.1496439133
+picks/V=-12.6948213578
 piles/V=-13.3879685383
+paces/V=-13.3879685383
+pieces/V=-12.6948213578
 pices prices
 613 1 couldn
 coulda coudn could
@@ -3591,9 +3591,9 @@ chemical
 chemical/V=-9.60377890442
 chemial chemical
 615 1 dollr
-dollar dolls doll
-dollar/V=-7.21002442428
+dolls dollar doll
 dolls/V=-13.3879685383
+dollar/V=-7.21002442428
 doll/V=-12.6948213578
 dollr dollar
 616 1 industiry
@@ -3605,9 +3605,9 @@ industry
 industry/V=-7.95424653478
 isduntry industry
 618 1 eorned
-horned earned
-horned/V=-13.3879685383
+earned horned
 earned/V=-8.61728391387
+horned/V=-13.3879685383
 eorned earned
 619 1 bruoght
 brought
@@ -3626,36 +3626,36 @@ restructuring
 restructuring/V=-8.40436191663
 sertructuring restructuring
 625 1 Unio
-Uno Union Unit
-Uno/V=-13.3879685383
-Union/V=-9.19831379631
+Unit Union Uno
 Unit/V=-10.2524743224
+Union/V=-9.19831379631
+Uno/V=-13.3879685383
 Unio Union
 626 1 powerhowuse
 powerhouse
 powerhouse/V=-12.6948213578
 powerhowuse powerhouse
 627 1 terning
-terming turning
-terming/V=-13.3879685383
+turning terming
 turning/V=-10.7489112087
+terming/V=-13.3879685383
 terning turning
 628 1 businesse
-business businesses
-business/V=-7.69087505183
+businesses business
 businesses/V=-8.96912793054
+business/V=-7.69087505183
 businesse business
 629 1 eventally
-evenutally eventually
-evenutally/V=-13.3879685383
+eventually evenutally
 eventually/V=-10.4975967804
+evenutally/V=-13.3879685383
 eventally eventually
 630 1 noncerc
-Concert concert concern Concern
-Concert/V=-13.3879685383
-concert/V=-13.3879685383
+concern Concern concert Concert
 concern/V=-9.29362397611
 Concern/V=-11.7785306259
+concert/V=-13.3879685383
+Concert/V=-13.3879685383
 noncerc concern
 631 1 induscry
 industry
@@ -3710,9 +3710,9 @@ includes
 includes/V=-6.81848711792
 incoludes includes
 644 1 tugusA
-august August
-august/V=-12.6948213578
+August august
 August/V=-8.72452944422
+august/V=-12.6948213578
 tugusA August
 645 1 Aprial
 April
@@ -3725,10 +3725,10 @@ sera/V=-13.3879685383
 shear/V=-13.3879685383
 shera shea
 647 1 eRuters
-eaters esters Reuters enters
-eaters/V=-13.3879685383
+esters Reuters eaters enters
 esters/V=-13.3879685383
 Reuters/V=-8.59217799274
+eaters/V=-13.3879685383
 enters/V=-13.3879685383
 eRuters Reuters
 648 1 interisted
@@ -3736,11 +3736,11 @@ interested
 interested/V=-10.3434461006
 interisted interested
 649 1 rebort
-resort reborn retort report
+resort reborn report retort
 resort/V=-11.190743961
 reborn/V=-13.3879685383
-retort/V=-13.3879685383
 report/V=-7.63857555243
+retort/V=-13.3879685383
 rebort report
 650 1 unaveilable
 unavailable
@@ -3793,20 +3793,20 @@ market
 market/V=-6.55601497277
 markeot market
 662 1 bffer
-offer Offer buffer
-offer/V=-8.67843833702
+Offer buffer offer
 Offer/V=-13.3879685383
 buffer/V=-13.3879685383
+offer/V=-8.67843833702
 bffer offer
 663 1 Londno
 London
 London/V=-9.3449172705
 Londno London
 664 1 Prics
-Prices Prick Price
+Price Prices Prick
+Price/V=-10.7489112087
 Prices/V=-10.296926085
 Prick/V=-13.3879685383
-Price/V=-10.7489112087
 Prics Prices
 665 1 sglline
 skyline saline selling
@@ -3819,18 +3819,18 @@ representing
 representing/V=-10.8230191809
 repesenting representing
 667 1 sslea
-soles sale shea Isles sole Flea sales Plea plea isle Isle
-soles/V=-13.3879685383
+sale Flea Isles Plea Isle plea sales sole isle shea soles
 sale/V=-7.55315780127
-shea/V=-13.3879685383
-Isles/V=-13.3879685383
-sole/V=-12.2893562497
 Flea/V=-13.3879685383
-sales/V=-6.94861816723
+Isles/V=-13.3879685383
 Plea/V=-13.3879685383
-plea/V=-12.6948213578
-isle/V=-13.3879685383
 Isle/V=-13.3879685383
+plea/V=-12.6948213578
+sales/V=-6.94861816723
+sole/V=-12.2893562497
+isle/V=-13.3879685383
+shea/V=-13.3879685383
+soles/V=-13.3879685383
 sslea sales
 668 1 nubmer
 number
@@ -3841,16 +3841,16 @@ marketing
 marketing/V=-9.31043109443
 marnetikg marketing
 670 1 Ivery
-every Ivory Every Avery
-every/V=-9.89146097687
+Ivory Every Avery every
 Ivory/V=-13.3879685383
 Every/V=-12.6948213578
 Avery/V=-11.3085269967
+every/V=-9.89146097687
 Ivery every
 671 1 meetingn
-meetings meeting
-meetings/V=-9.65029892005
+meeting meetings
 meeting/V=-7.57982604835
+meetings/V=-9.65029892005
 meetingn meeting
 672 1 sufply
 supply
@@ -3861,14 +3861,14 @@ Honduras
 Honduras/V=-13.3879685383
 Honduas Honduras
 674 1 maximm
-maxim maximum
-maxim/V=-13.3879685383
+maximum maxim
 maximum/V=-11.3085269967
+maxim/V=-13.3879685383
 maximm maximum
 675 1 proten
-protein proven proton
-protein/V=-13.3879685383
+proven protein proton
 proven/V=-12.0016741772
+protein/V=-13.3879685383
 proton/V=-13.3879685383
 proten proven
 676 1 inclde
@@ -3880,11 +3880,11 @@ laydays
 laydays/V=-13.3879685383
 laydsya laydays
 678 1 Offsre
-Offers Offshore Office Offer
+Offer Offers Offshore Office
+Offer/V=-13.3879685383
 Offers/V=-13.3879685383
 Offshore/V=-12.2893562497
 Office/V=-9.3806353531
-Offer/V=-13.3879685383
 Offsre Office
 679 1 decisuon
 decision
@@ -3912,10 +3912,10 @@ dimly/V=-13.3879685383
 diety/V=-13.3879685383
 diely dimly
 687 1 weich
-which Reich weigh
-which/V=-6.39771203784
+Reich weigh which
 Reich/V=-13.3879685383
 weigh/V=-12.6948213578
+which/V=-6.39771203784
 weich which
 688 1 irazBl
 brazil Brazil
@@ -3927,25 +3927,25 @@ After
 After/V=-9.92223263554
 Afer After
 690 1 ehret
-shred Three gret sheet exert threw threat fret three Karet eared Ahmet Threat erect thet ere egrets erred
-shred/V=-13.3879685383
-Three/V=-10.0206727083
-gret/V=-13.3879685383
-sheet/V=-9.62676842264
-exert/V=-13.3879685383
-threw/V=-13.3879685383
-threat/V=-10.3434461006
-fret/V=-13.3879685383
+three thet threat erect threw fret Ahmet Karet Threat egrets eared Three sheet shred erred ere gret exert
 three/V=-6.76523221439
-Karet/V=-13.3879685383
-eared/V=-13.3879685383
-Ahmet/V=-13.3879685383
-Threat/V=-12.2893562497
-erect/V=-12.6948213578
 thet/V=-13.3879685383
-ere/V=-13.3879685383
+threat/V=-10.3434461006
+erect/V=-12.6948213578
+threw/V=-13.3879685383
+fret/V=-13.3879685383
+Ahmet/V=-13.3879685383
+Karet/V=-13.3879685383
+Threat/V=-12.2893562497
 egrets/V=-13.3879685383
+eared/V=-13.3879685383
+Three/V=-10.0206727083
+sheet/V=-9.62676842264
+shred/V=-13.3879685383
 erred/V=-13.3879685383
+ere/V=-13.3879685383
+gret/V=-13.3879685383
+exert/V=-13.3879685383
 ehret three
 691 1 Exacluding
 Excluding
@@ -3978,24 +3978,24 @@ between
 between/V=-7.63222632475
 betwein between
 698 1 wheer
-Cheer wher sheer cheer Sheer where wheel
-Cheer/V=-13.3879685383
-wher/V=-13.3879685383
-sheer/V=-13.3879685383
-cheer/V=-13.3879685383
-Sheer/V=-13.3879685383
-where/V=-9.0704804248
+wheel Sheer wher Cheer where cheer sheer
 wheel/V=-13.3879685383
+Sheer/V=-13.3879685383
+wher/V=-13.3879685383
+Cheer/V=-13.3879685383
+where/V=-9.0704804248
+cheer/V=-13.3879685383
+sheer/V=-13.3879685383
 wheer where
 699 1 grnias
-grains grits grinds grins genius grips genial
+genial grins grips grinds genius grains grits
+genial/V=-13.3879685383
+grins/V=-13.3879685383
+grips/V=-13.3879685383
+grinds/V=-13.3879685383
+genius/V=-13.3879685383
 grains/V=-11.3085269967
 grits/V=-13.3879685383
-grinds/V=-13.3879685383
-grins/V=-13.3879685383
-genius/V=-13.3879685383
-grips/V=-13.3879685383
-genial/V=-13.3879685383
 grnias grains
 700 1 dastribution
 distribution
@@ -4006,15 +4006,15 @@ transport
 transport/V=-11.190743961
 transpot transport
 702 1 qusuee
-Musee queued queues
+queues Musee queued
+queues/V=-13.3879685383
 Musee/V=-13.3879685383
 queued/V=-13.3879685383
-queues/V=-13.3879685383
-qusuee Musee
+qusuee queues
 703 1 meetinge
-meetings meeting
-meetings/V=-9.65029892005
+meeting meetings
 meeting/V=-7.57982604835
+meetings/V=-9.65029892005
 meetinge meeting
 704 1 Finanical
 Financial
@@ -4058,11 +4058,11 @@ previous
 previous/V=-8.17303278073
 preveous previous
 714 1 shaer
-shaker share sheer shear
+shear shaker share sheer
+shear/V=-13.3879685383
 shaker/V=-13.3879685383
 share/V=-5.97339565698
 sheer/V=-13.3879685383
-shear/V=-13.3879685383
 shaer share
 715 1 annal
 annals annual
@@ -4107,10 +4107,10 @@ After
 After/V=-9.92223263554
 Aftyr After
 725 1 splat
-split slat spat
+spat split slat
+spat/V=-13.3879685383
 split/V=-7.38161537873
 slat/V=-13.3879685383
-spat/V=-13.3879685383
 splat split
 726 1 Agrimonc
 Agrimont
@@ -4158,9 +4158,9 @@ Datron
 Datron/V=-12.2893562497
 Detron Datron
 737 1 complected
-completed compleated
-completed/V=-9.39898449177
+compleated completed
 compleated/V=-13.3879685383
+completed/V=-9.39898449177
 complected completed
 738 1 appicable
 applicable
@@ -4172,16 +4172,16 @@ adopt/V=-10.9900732655
 about/V=-6.7121453167
 adout about
 740 1 rech
-reach rich retch Tech
-reach/V=-9.60377890442
-rich/V=-11.3085269967
+retch rich Tech reach
 retch/V=-13.3879685383
+rich/V=-11.3085269967
 Tech/V=-12.6948213578
+reach/V=-9.60377890442
 rech reach
 741 1 tenred
-tensed tended
-tensed/V=-13.3879685383
+tended tensed
 tended/V=-11.7785306259
+tensed/V=-13.3879685383
 tenred tended
 742 1 wteat
 wheat
@@ -4192,9 +4192,9 @@ amount
 amount/V=-8.91063172386
 amoun amount
 744 1 refect
-reflect defect reject
-reflect/V=-8.50516661575
+defect reflect reject
 defect/V=-13.3879685383
+reflect/V=-8.50516661575
 reject/V=-12.0016741772
 refect reflect
 745 1 liscdosed
@@ -4214,33 +4214,33 @@ Canadian
 Canadian/V=-8.31906433611
 Canadivan Canadian
 749 1 tadoy
-tansy tawny daddy lady badly Badly Savoy tangy madly talky Lady Maroy Daddy today tarry tasty Cady taffy tardy tally tidy tawdry Caddy sadly taboo teddy
-tansy/V=-13.3879685383
+tawny tasty tawdry Lady lady tally tidy today Daddy Caddy taboo badly tardy Maroy Badly talky daddy Cady teddy sadly tansy tarry madly taffy Savoy tangy
 tawny/V=-13.3879685383
-daddy/V=-13.3879685383
-lady/V=-13.3879685383
-badly/V=-10.9900732655
-Badly/V=-13.3879685383
-Savoy/V=-13.3879685383
-tangy/V=-13.3879685383
-madly/V=-13.3879685383
-talky/V=-13.3879685383
-Lady/V=-13.3879685383
-Maroy/V=-13.3879685383
-Daddy/V=-13.3879685383
-today/V=-7.33587936941
-tarry/V=-13.3879685383
 tasty/V=-13.3879685383
-Cady/V=-13.3879685383
-taffy/V=-13.3879685383
-tardy/V=-13.3879685383
+tawdry/V=-13.3879685383
+Lady/V=-13.3879685383
+lady/V=-13.3879685383
 tally/V=-12.0016741772
 tidy/V=-13.3879685383
-tawdry/V=-13.3879685383
+today/V=-7.33587936941
+Daddy/V=-13.3879685383
 Caddy/V=-13.3879685383
-sadly/V=-13.3879685383
 taboo/V=-12.6948213578
+badly/V=-10.9900732655
+tardy/V=-13.3879685383
+Maroy/V=-13.3879685383
+Badly/V=-13.3879685383
+talky/V=-13.3879685383
+daddy/V=-13.3879685383
+Cady/V=-13.3879685383
 teddy/V=-13.3879685383
+sadly/V=-13.3879685383
+tansy/V=-13.3879685383
+tarry/V=-13.3879685383
+madly/V=-13.3879685383
+taffy/V=-13.3879685383
+Savoy/V=-13.3879685383
+tangy/V=-13.3879685383
 tadoy today
 750 1 publishedn
 published
@@ -4260,10 +4260,10 @@ Strict/V=-13.3879685383
 Street/V=-10.1690927135
 Striet Street
 754 1 addd
-adds added add
-adds/V=-11.7785306259
+added add adds
 added/V=-7.38161537873
 add/V=-9.08390344513
+adds/V=-11.7785306259
 addd added
 755 1 aqcuisition
 acquisition aquisition
@@ -4271,9 +4271,9 @@ acquisition/V=-8.69662065611
 aquisition/V=-13.3879685383
 aqcuisition acquisition
 756 1 gegotiatinn
-negotiating negotiation
-negotiating/V=-10.3434461006
+negotiation negotiating
 negotiation/V=-11.3085269967
+negotiating/V=-10.3434461006
 gegotiatinn negotiating
 757 1 acquicitions
 acquisitions
@@ -4313,9 +4313,9 @@ record
 record/V=-7.16936841864
 recorb record
 766 1 enraings
-earnings engravings earrings endings
-earnings/V=-6.76257617033
+engravings earnings earrings endings
 engravings/V=-13.3879685383
+earnings/V=-6.76257617033
 earrings/V=-13.3879685383
 endings/V=-13.3879685383
 enraings earnings
@@ -4328,29 +4328,29 @@ Redbook
 Redbook/V=-12.2893562497
 Redbok Redbook
 770 1 valseu
-False valves valve valet valeur valley vases false values vase value valued
-False/V=-13.3879685383
-valves/V=-12.2893562497
-valve/V=-13.3879685383
-valet/V=-13.3879685383
-valeur/V=-13.3879685383
-valley/V=-13.3879685383
-vases/V=-13.3879685383
-false/V=-11.3085269967
+values value vase valley false False valued valet valve valves vases valeur
 values/V=-10.8230191809
-vase/V=-13.3879685383
 value/V=-8.1098538791
+vase/V=-13.3879685383
+valley/V=-13.3879685383
+false/V=-11.3085269967
+False/V=-13.3879685383
 valued/V=-10.8230191809
+valet/V=-13.3879685383
+valve/V=-13.3879685383
+valves/V=-12.2893562497
+vases/V=-13.3879685383
+valeur/V=-13.3879685383
 valseu value
 771 1 arbitragbr
 arbitrager
 arbitrager/V=-13.3879685383
 arbitragbr arbitrager
 772 1 taret
-tart target Karet
-tart/V=-13.3879685383
+target Karet tart
 target/V=-8.53593827442
 Karet/V=-13.3879685383
+tart/V=-13.3879685383
 taret target
 773 1 Frueauf
 Fruehauf
@@ -4425,15 +4425,15 @@ excessive
 excessive/V=-10.6153798161
 excessiv excessive
 791 1 wich
-Rich rich with wish which bich wick witch
-Rich/V=-13.3879685383
-rich/V=-11.3085269967
-with/V=-5.82788807331
+witch wish which Rich rich bich with wick
+witch/V=-13.3879685383
 wish/V=-11.0853834453
 which/V=-6.39771203784
+Rich/V=-13.3879685383
+rich/V=-11.3085269967
 bich/V=-13.3879685383
+with/V=-5.82788807331
 wick/V=-13.3879685383
-witch/V=-13.3879685383
 wich with
 792 1 vggressiae
 aggressive
@@ -4444,10 +4444,10 @@ prices
 prices/V=-7.1496439133
 priecs prices
 794 1 dessribec
-described describes describe
-described/V=-10.5547551943
-describes/V=-12.6948213578
+describe describes described
 describe/V=-13.3879685383
+describes/V=-12.6948213578
+described/V=-10.5547551943
 dessribec described
 795 1 manufactruing
 manufacturing
@@ -4458,35 +4458,35 @@ American
 American/V=-7.89080031304
 Amercan American
 797 1 fier
-flier finer fer fiber fir fire faier pier fiery
+fiery flier fer faier pier fir finer fire fiber
+fiery/V=-13.3879685383
 flier/V=-13.3879685383
-finer/V=-13.3879685383
 fer/V=-13.3879685383
-fiber/V=-10.8230191809
-fir/V=-13.3879685383
-fire/V=-10.8230191809
 faier/V=-13.3879685383
 pier/V=-13.3879685383
-fiery/V=-13.3879685383
-fier fiber
+fir/V=-13.3879685383
+finer/V=-13.3879685383
+fire/V=-10.8230191809
+fiber/V=-10.8230191809
+fier fire
 798 1 erthei
-either ether
-either/V=-9.98677115667
+ether either
 ether/V=-12.2893562497
+either/V=-9.98677115667
 erthei either
 799 1 poliyc
 policy
 policy/V=-7.85853945082
 poliyc policy
 800 1 shre
-shoe sure she shred sore shore share
+shoe shore shred share sore she sure
 shoe/V=-11.7785306259
-sure/V=-9.92223263554
-she/V=-9.95398133385
-shred/V=-13.3879685383
-sore/V=-12.6948213578
 shore/V=-13.3879685383
+shred/V=-13.3879685383
 share/V=-5.97339565698
+sore/V=-12.6948213578
+she/V=-9.95398133385
+sure/V=-9.92223263554
 shre share
 801 1 truckigg
 trucking
@@ -4546,23 +4546,23 @@ share
 share/V=-5.97339565698
 shrae share
 817 1 saler
-saber saver sale safer saner sales
-saber/V=-13.3879685383
-saver/V=-13.3879685383
-sale/V=-7.55315780127
+safer sale saver sales saner saber
 safer/V=-12.6948213578
-saner/V=-13.3879685383
+sale/V=-7.55315780127
+saver/V=-13.3879685383
 sales/V=-6.94861816723
+saner/V=-13.3879685383
+saber/V=-13.3879685383
 saler sales
 818 1 lsoses
-loses losses
-loses/V=-13.3879685383
+losses loses
 losses/V=-7.7460614674
+loses/V=-13.3879685383
 lsoses losses
 819 1 stakce
-stake stance
-stake/V=-9.3626168476
+stance stake
 stance/V=-10.3434461006
+stake/V=-9.3626168476
 stakce stake
 821 1 Spaish
 Spanish
@@ -4573,22 +4573,22 @@ Schaik
 Schaik/V=-12.0016741772
 Scmaik Schaik
 823 1 Girman
-German Gilman
-German/V=-8.35753061694
+Gilman German
 Gilman/V=-13.3879685383
+German/V=-8.35753061694
 Girman German
 824 1 whil
-while wil wail whir whirl whim whip Phil whit whiz
-while/V=-7.72848632258
-wil/V=-11.7785306259
-wail/V=-13.3879685383
-whir/V=-13.3879685383
-whirl/V=-13.3879685383
-whim/V=-13.3879685383
-whip/V=-12.2893562497
+Phil whir whiz whirl wail wil whit whip whim while
 Phil/V=-12.6948213578
-whit/V=-13.3879685383
+whir/V=-13.3879685383
 whiz/V=-13.3879685383
+whirl/V=-13.3879685383
+wail/V=-13.3879685383
+wil/V=-11.7785306259
+whit/V=-13.3879685383
+whip/V=-12.2893562497
+whim/V=-13.3879685383
+while/V=-7.72848632258
 whil while
 825 1 Hennekei
 Heineken
@@ -4611,19 +4611,19 @@ looking
 looking/V=-9.58130604856
 lookingn looking
 830 1 cssto
-gusto cito cysts caste custom castor cast coste casts canto costs cost
-gusto/V=-13.3879685383
+cito cost cast gusto custom castor canto costs coste casts caste cysts
 cito/V=-13.3879685383
-cysts/V=-13.3879685383
-caste/V=-13.3879685383
+cost/V=-8.11496897977
+cast/V=-11.5962090691
+gusto/V=-13.3879685383
 custom/V=-12.2893562497
 castor/V=-12.6948213578
-cast/V=-11.5962090691
-coste/V=-13.3879685383
-casts/V=-13.3879685383
 canto/V=-13.3879685383
 costs/V=-7.71464527116
-cost/V=-8.11496897977
+coste/V=-13.3879685383
+casts/V=-13.3879685383
+caste/V=-13.3879685383
+cysts/V=-13.3879685383
 cssto costs
 831 1 traditcional
 traditional
@@ -4685,10 +4685,10 @@ contents
 contents/V=-12.0016741772
 conetnts contents
 846 1 deails
-details devils deals
+details deals devils
 details/V=-9.80444959988
-devils/V=-13.3879685383
 deals/V=-10.4975967804
+devils/V=-13.3879685383
 deails details
 847 1 Committebe
 Committee
@@ -4733,14 +4733,14 @@ expected
 expected/V=-7.15159894813
 expedtec expected
 857 1 officrs
-officers offices
-officers/V=-11.0853834453
+offices officers
 offices/V=-10.8230191809
+officers/V=-11.0853834453
 officrs offices
 858 1 sutotanding
-outstanding Outstanding
-outstanding/V=-8.53593827442
+Outstanding outstanding
 Outstanding/V=-12.2893562497
+outstanding/V=-8.53593827442
 sutotanding outstanding
 859 1 corercts
 corrects
@@ -4768,48 +4768,48 @@ company/V=-6.0380948336
 command/V=-13.3879685383
 comyanp company
 866 1 shabre
-share sabre
-share/V=-5.97339565698
+sabre share
 sabre/V=-13.3879685383
+share/V=-5.97339565698
 shabre share
 867 1 Wallen
-Walle Wallin fallen Fallen
+Walle Fallen Wallin fallen
 Walle/V=-13.3879685383
+Fallen/V=-13.3879685383
 Wallin/V=-11.3085269967
 fallen/V=-9.98677115667
-Fallen/V=-13.3879685383
 Wallen fallen
 868 1 shar
-shag star sharp sear thar char share shear scar sham
-shag/V=-13.3879685383
-star/V=-12.6948213578
-sharp/V=-8.92206041968
-sear/V=-13.3879685383
-thar/V=-13.3879685383
-char/V=-13.3879685383
-share/V=-5.97339565698
-shear/V=-13.3879685383
+scar thar share sharp shag char sham sear star shear
 scar/V=-13.3879685383
+thar/V=-13.3879685383
+share/V=-5.97339565698
+sharp/V=-8.92206041968
+shag/V=-13.3879685383
+char/V=-13.3879685383
 sham/V=-13.3879685383
+sear/V=-13.3879685383
+star/V=-12.6948213578
+shear/V=-13.3879685383
 shar share
 869 1 copany
 company
 company/V=-6.0380948336
 copany company
 871 1 maket
-make makes maget market maker
-make/V=-8.21181880576
-makes/V=-10.1298720003
+maget makes make market maker
 maget/V=-13.3879685383
+makes/V=-10.1298720003
+make/V=-8.21181880576
 market/V=-6.55601497277
 maker/V=-10.4435295592
 maket market
 872 1 ihwch
-inch Which itch which
+inch which Which itch
 inch/V=-12.6948213578
+which/V=-6.39771203784
 Which/V=-11.7785306259
 itch/V=-13.3879685383
-which/V=-6.39771203784
 ihwch which
 873 1 marketsi
 markets
@@ -4844,9 +4844,9 @@ responsive
 responsive/V=-11.5962090691
 responsivve responsive
 882 1 phyaicsl
-physics physical
-physics/V=-13.3879685383
+physical physics
 physical/V=-12.6948213578
+physics/V=-13.3879685383
 phyaicsl physical
 883 1 companye
 company
@@ -4865,10 +4865,10 @@ details
 details/V=-9.80444959988
 datails details
 887 1 shodlu
-shoddy should shoals
-shoddy/V=-13.3879685383
+should shoals shoddy
 should/V=-7.63222632475
 shoals/V=-13.3879685383
+shoddy/V=-13.3879685383
 shodlu should
 888 1 udertook
 undertook
@@ -4903,26 +4903,26 @@ position
 position/V=-9.0704804248
 posiiton position
 896 1 aded
-aged awed abed aided add added
+aided added abed aged awed add
+aided/V=-11.0853834453
+added/V=-7.38161537873
+abed/V=-13.3879685383
 aged/V=-12.2893562497
 awed/V=-13.3879685383
-abed/V=-13.3879685383
-aided/V=-11.0853834453
 add/V=-9.08390344513
-added/V=-7.38161537873
 aded added
 897 1 Bowlinq
 Bowling
 Bowling/V=-12.6948213578
 Bowlinq Bowling
 898 1 leels
-feels peels heels Heels Reels levels
-feels/V=-11.4420583893
-peels/V=-13.3879685383
-heels/V=-13.3879685383
+Heels levels Reels heels peels feels
 Heels/V=-13.3879685383
-Reels/V=-13.3879685383
 levels/V=-8.43920864796
+Reels/V=-13.3879685383
+heels/V=-13.3879685383
+peels/V=-13.3879685383
+feels/V=-11.4420583893
 leels levels
 899 1 quaarter
 quarter
@@ -4953,26 +4953,26 @@ reported
 reported/V=-7.37425338229
 repoarted reported
 904 3 hodding
-rodding holding Nodding nodding Rodding
+rodding Nodding Rodding nodding holding
 rodding/V=-13.3879685383
-holding/V=-9.49614824022
 Nodding/V=-13.3879685383
-nodding/V=-13.3879685383
 Rodding/V=-13.3879685383
+nodding/V=-13.3879685383
+holding/V=-9.49614824022
 hodding holding
 904 3 companya
 company
 company/V=-6.0380948336
 companya company
 904 3 zraBil
-Grail trail brazil Brazil frail Frail Trail
-Grail/V=-13.3879685383
-trail/V=-13.3879685383
+Frail brazil trail Grail Trail Brazil frail
+Frail/V=-13.3879685383
 brazil/V=-13.3879685383
+trail/V=-13.3879685383
+Grail/V=-13.3879685383
+Trail/V=-13.3879685383
 Brazil/V=-8.42512390808
 frail/V=-13.3879685383
-Frail/V=-13.3879685383
-Trail/V=-13.3879685383
 zraBil Brazil
 905 2 inaterest
 interest
@@ -4983,13 +4983,13 @@ billion
 billion/V=-5.21919871466
 biluion billion
 906 3 whic
-chic whit whir whiz whim which whip
-chic/V=-13.3879685383
-whit/V=-13.3879685383
+whir whiz whim which chic whit whip
 whir/V=-13.3879685383
 whiz/V=-13.3879685383
 whim/V=-13.3879685383
 which/V=-6.39771203784
+chic/V=-13.3879685383
+whit/V=-13.3879685383
 whip/V=-12.2893562497
 whic which
 906 3 interst
@@ -5001,21 +5001,21 @@ February
 February/V=-6.73124201416
 Fibruary February
 907 3 Mirch
-March Birch Mitch birch
-March/V=-6.55601497277
+Birch Mitch birch March
 Birch/V=-13.3879685383
 Mitch/V=-13.3879685383
 birch/V=-13.3879685383
+March/V=-6.55601497277
 Mirch March
 907 3 Ecuadr
 Ecuador
 Ecuador/V=-10.1298720003
 Ecuadr Ecuador
 907 3 countr
-county country counter counts count
-county/V=-13.3879685383
+country counter county counts count
 country/V=-8.38402223239
 counter/V=-11.190743961
+county/V=-13.3879685383
 counts/V=-13.3879685383
 count/V=-13.3879685383
 countr country
@@ -5024,18 +5024,18 @@ Security
 Security/V=-10.8230191809
 Securitye Security
 908 3 enterist
-Interest interest entering entrust enters
+enters Interest interest entering entrust
+enters/V=-13.3879685383
 Interest/V=-9.51676752743
 interest/V=-6.90945889613
 entering/V=-11.4420583893
 entrust/V=-13.3879685383
-enters/V=-13.3879685383
 enterist interest
 908 3 receiverd
-receiver received receivers
-receiver/V=-13.3879685383
-received/V=-9.26083415329
+receivers received receiver
 receivers/V=-12.6948213578
+received/V=-9.26083415329
+receiver/V=-13.3879685383
 receiverd received
 909 2 Brzil
 Broil Brazil
@@ -5043,10 +5043,10 @@ Broil/V=-13.3879685383
 Brazil/V=-8.42512390808
 Brzil Brazil
 909 2 ratel
-rate rated rates
+rate rates rated
 rate/V=-6.46041063206
-rated/V=-12.2893562497
 rates/V=-6.69093429067
+rated/V=-12.2893562497
 ratel rate
 910 3 negotiativons
 negotiations
@@ -5069,9 +5069,9 @@ continuing
 continuing/V=-8.87710903182
 continuingn continuing
 911 3 advace
-advance advice
-advance/V=-10.9900732655
+advice advance
 advice/V=-12.6948213578
+advance/V=-10.9900732655
 advace advance
 912 3 foilefd
 foiled
@@ -5165,21 +5165,21 @@ Chancellor
 Chancellor/V=-9.92223263554
 Chancelilor Chancellor
 920 2 meeing
-geeing seeing Seeing meeting
-geeing/V=-13.3879685383
-seeing/V=-11.7785306259
+Seeing meeting seeing geeing
 Seeing/V=-13.3879685383
 meeting/V=-7.57982604835
+seeing/V=-11.7785306259
+geeing/V=-13.3879685383
 meeing meeting
 921 3 rinistems
-ministers Ministers
-ministers/V=-8.71513970387
+Ministers ministers
 Ministers/V=-10.9900732655
+ministers/V=-8.71513970387
 rinistems ministers
 921 3 Sevin
-Seven Levin hevin
-Seven/V=-10.1298720003
+Levin Seven hevin
 Levin/V=-13.3879685383
+Seven/V=-10.1298720003
 hevin/V=-13.3879685383
 Sevin Seven
 921 3 gatheru
@@ -5192,15 +5192,15 @@ proposed
 proposed/V=-8.8993321686
 pmoposed proposed
 922 2 woubd
-wound would
-wound/V=-13.3879685383
+would wound
 would/V=-6.11974551718
+wound/V=-13.3879685383
 woubd would
 923 3 phades
-Shades shades phases
+Shades phases shades
 Shades/V=-13.3879685383
-shades/V=-13.3879685383
 phases/V=-13.3879685383
+shades/V=-13.3879685383
 phades Shades
 923 3 disuptions
 disruptions
@@ -5224,81 +5224,81 @@ account
 account/V=-8.03611040486
 ccaount account
 925 3 Texis
-Texas Texts
-Texas/V=-9.08390344513
+Texts Texas
 Texts/V=-13.3879685383
+Texas/V=-9.08390344513
 Texis Texas
 925 3 daseb
-dales Cases Caleb dated Maser doses vase dame Based dash dares daises dosed base baser damsel dazed ease Base dashes damed Basel oases gases cases eased dare dared vases easel bases dashed Ease based dose case date Case Casey Vases cased dates
-dales/V=-13.3879685383
-Cases/V=-13.3879685383
-Caleb/V=-13.3879685383
-dated/V=-11.4420583893
-Maser/V=-13.3879685383
-doses/V=-13.3879685383
-vase/V=-13.3879685383
-dame/V=-13.3879685383
-Based/V=-10.9030618885
-dash/V=-13.3879685383
-dares/V=-13.3879685383
-daises/V=-13.3879685383
-dosed/V=-13.3879685383
-base/V=-8.43214148073
-baser/V=-13.3879685383
-damsel/V=-13.3879685383
-dazed/V=-13.3879685383
-ease/V=-9.55932714185
-Base/V=-10.4975967804
+dashes case damsel doses cased dales base Vases date Ease oases baser Caleb dashed bases based dosed ease dazed dash gases dared dates vase Casey Basel eased cases Based dares dated damed vases dame dare Maser Base easel Cases dose daises Case
 dashes/V=-13.3879685383
-damed/V=-13.3879685383
-Basel/V=-13.3879685383
-oases/V=-13.3879685383
-gases/V=-12.0016741772
-cases/V=-10.7489112087
-eased/V=-10.2524743224
-dare/V=-13.3879685383
-dared/V=-13.3879685383
-vases/V=-13.3879685383
-easel/V=-13.3879685383
-bases/V=-12.2893562497
-dashed/V=-12.2893562497
-Ease/V=-13.3879685383
-based/V=-8.41123479591
-dose/V=-13.3879685383
 case/V=-9.51676752743
-date/V=-9.0704804248
-Case/V=-13.3879685383
-Casey/V=-13.3879685383
-Vases/V=-13.3879685383
+damsel/V=-13.3879685383
+doses/V=-13.3879685383
 cased/V=-13.3879685383
+dales/V=-13.3879685383
+base/V=-8.43214148073
+Vases/V=-13.3879685383
+date/V=-9.0704804248
+Ease/V=-13.3879685383
+oases/V=-13.3879685383
+baser/V=-13.3879685383
+Caleb/V=-13.3879685383
+dashed/V=-12.2893562497
+bases/V=-12.2893562497
+based/V=-8.41123479591
+dosed/V=-13.3879685383
+ease/V=-9.55932714185
+dazed/V=-13.3879685383
+dash/V=-13.3879685383
+gases/V=-12.0016741772
+dared/V=-13.3879685383
 dates/V=-10.9030618885
+vase/V=-13.3879685383
+Casey/V=-13.3879685383
+Basel/V=-13.3879685383
+eased/V=-10.2524743224
+cases/V=-10.7489112087
+Based/V=-10.9030618885
+dares/V=-13.3879685383
+dated/V=-11.4420583893
+damed/V=-13.3879685383
+vases/V=-13.3879685383
+dame/V=-13.3879685383
+dare/V=-13.3879685383
+Maser/V=-13.3879685383
+Base/V=-10.4975967804
+easel/V=-13.3879685383
+Cases/V=-13.3879685383
+dose/V=-13.3879685383
+daises/V=-13.3879685383
+Case/V=-13.3879685383
 daseb based
 925 3 oned
-owed one owned ones
+owed one ones owned
 owed/V=-11.190743961
 one/V=-6.30541996898
-owned/V=-8.59217799274
 ones/V=-11.4420583893
+owned/V=-8.59217799274
 oned one
 926 3 cosmpany
 company
 company/V=-6.0380948336
 cosmpany company
 926 3 compareb
-compares compared compare
+compares compare compared
 compares/V=-9.55932714185
-compared/V=-7.29665865626
 compare/V=-11.4420583893
+compared/V=-7.29665865626
 compareb compared
 926 3 pryfits
 profits
 profits/V=-7.63539589951
 pryfits profits
 927 3 Unon
-Uno Union Upon
-Uno/V=-13.3879685383
+Union Upon Uno
 Union/V=-9.19831379631
 Upon/V=-13.3879685383
+Uno/V=-13.3879685383
 Unon Union
 927 3 receiied
 received
@@ -5321,9 +5321,9 @@ Texas
 Texas/V=-9.08390344513
 Texast Texas
 929 2 Deltia
-Delta Delia
-Delta/V=-12.2893562497
+Delia Delta
 Delia/V=-13.3879685383
+Delta/V=-12.2893562497
 Deltia Delta
 930 2 Althouh
 Although
@@ -5334,64 +5334,64 @@ reserves
 reserves/V=-7.98079676687
 reserevs reserves
 931 3 pnanled
-snarled enabled planned planed gnarled panted paneled planted paled
-snarled/V=-13.3879685383
-enabled/V=-11.0853834453
-planned/V=-9.0704804248
-planed/V=-13.3879685383
+gnarled planned paneled planed panted paled enabled planted snarled
 gnarled/V=-13.3879685383
-panted/V=-13.3879685383
+planned/V=-9.0704804248
 paneled/V=-13.3879685383
-planted/V=-13.3879685383
+planed/V=-13.3879685383
+panted/V=-13.3879685383
 paled/V=-13.3879685383
+enabled/V=-11.0853834453
+planted/V=-13.3879685383
+snarled/V=-13.3879685383
 pnanled planned
 931 3 yearc
-year years yeard yearn
+year yearn years yeard
 year/V=-5.27454189839
+yearn/V=-13.3879685383
 years/V=-7.64817562616
 yeard/V=-13.3879685383
-yearn/V=-13.3879685383
 yearc year
 931 3 Islanod
 Island
 Island/V=-11.0853834453
 Islanod Island
 932 3 spennidg
-spending spanning spinning
+spending spinning spanning
 spending/V=-8.55168663138
-spanning/V=-13.3879685383
 spinning/V=-13.3879685383
+spanning/V=-13.3879685383
 spennidg spending
 932 3 amouont
 amount
 amount/V=-8.91063172386
 amouont amount
 933 3 inUon
-into onion anion Union Anson union inborn Anton iron
-into/V=-7.78954657934
-onion/V=-13.3879685383
+anion Union into union iron onion Anson Anton inborn
 anion/V=-13.3879685383
 Union/V=-9.19831379631
-Anson/V=-13.3879685383
+into/V=-7.78954657934
 union/V=-10.6153798161
-inborn/V=-13.3879685383
-Anton/V=-13.3879685383
 iron/V=-10.6799183372
+onion/V=-13.3879685383
+Anson/V=-13.3879685383
+Anton/V=-13.3879685383
+inborn/V=-13.3879685383
 inUon into
 933 3 wouldr
-woulda would
-woulda/V=-13.3879685383
+would woulda
 would/V=-6.11974551718
+woulda/V=-13.3879685383
 wouldr would
 934 3 clarifidcation
 clarification
 clarification/V=-13.3879685383
 clarifidcation clarification
 934 3 chcnae
-change china chance
-change/V=-8.20618498804
-china/V=-12.2893562497
+chance china change
 chance/V=-9.80444959988
+china/V=-12.2893562497
+change/V=-8.20618498804
 chcnae change
 934 3 statemeunt
 statement
@@ -5423,9 +5423,9 @@ Trump
 Trump/V=-11.190743961
 Trumep Trump
 937 3 stocsk
-stock stocks
-stock/V=-6.71340714652
+stocks stock
 stocks/V=-9.29362397611
+stock/V=-6.71340714652
 stocsk stock
 938 3 indicwted
 indicted indicated
@@ -5449,9 +5449,9 @@ Coniston
 Coniston/V=-13.3879685383
 Conisnton Coniston
 940 3 juped
-jumped duped
-jumped/V=-10.5547551943
+duped jumped
 duped/V=-13.3879685383
+jumped/V=-10.5547551943
 juped jumped
 940 3 velumo
 volume vellum
@@ -5459,21 +5459,21 @@ volume/V=-8.92206041968
 vellum/V=-13.3879685383
 velumo volume
 940 3 shaes
-shoes shares shames shakes shapes shies shams shades
-shoes/V=-12.6948213578
-shares/V=-7.15159894813
+shames shapes shares shoes shakes shies shades shams
 shames/V=-13.3879685383
-shakes/V=-13.3879685383
 shapes/V=-13.3879685383
+shares/V=-7.15159894813
+shoes/V=-12.6948213578
+shakes/V=-13.3879685383
 shies/V=-13.3879685383
-shams/V=-13.3879685383
 shades/V=-13.3879685383
+shams/V=-13.3879685383
 shaes shares
 941 3 Unites
-United Units unites
-United/V=-7.55023809117
-Units/V=-12.2893562497
+unites Units United
 unites/V=-13.3879685383
+Units/V=-12.2893562497
+United/V=-7.55023809117
 Unites United
 941 3 cnsider
 insider consider
@@ -5485,28 +5485,28 @@ proposal
 proposal/V=-8.98124929107
 prlposao proposal
 942 3 tink
-link tin sink tiny Fink pink wink tint tank Pink think Rink tick mink
-link/V=-11.7785306259
-tin/V=-11.4420583893
-sink/V=-13.3879685383
-tiny/V=-12.6948213578
-Fink/V=-13.3879685383
-pink/V=-13.3879685383
-wink/V=-13.3879685383
-tint/V=-13.3879685383
-tank/V=-12.2893562497
+Pink Fink sink tank Rink tint pink link mink tiny wink tin think tick
 Pink/V=-13.3879685383
-think/V=-8.75323955011
+Fink/V=-13.3879685383
+sink/V=-13.3879685383
+tank/V=-12.2893562497
 Rink/V=-13.3879685383
-tick/V=-13.3879685383
+tint/V=-13.3879685383
+pink/V=-13.3879685383
+link/V=-11.7785306259
 mink/V=-13.3879685383
+tiny/V=-12.6948213578
+wink/V=-13.3879685383
+tin/V=-11.4420583893
+think/V=-8.75323955011
+tick/V=-13.3879685383
 tink think
 942 3 proposel
-propose proposes proposal proposed
-propose/V=-10.3922362648
-proposes/V=-11.7785306259
+proposal proposed propose proposes
 proposal/V=-8.98124929107
 proposed/V=-8.8993321686
+propose/V=-10.3922362648
+proposes/V=-11.7785306259
 proposel proposed
 942 3 reilistic
 realistic
@@ -5534,9 +5534,9 @@ attack
 attack/V=-11.4420583893
 atcatk attack
 945 3 adted
-acted added
-acted/V=-11.3085269967
+added acted
 added/V=-7.38161537873
+acted/V=-11.3085269967
 adted added
 945 3 servilce
 service servile
@@ -5544,9 +5544,9 @@ service/V=-9.18327591894
 servile/V=-13.3879685383
 servilce service
 945 3 mocpany
-company Company
-company/V=-6.0380948336
+Company company
 Company/V=-8.33172273299
+company/V=-6.0380948336
 mocpany company
 946 2 eoncerncd
 concerned
@@ -5585,9 +5585,9 @@ escalated
 escalated/V=-12.6948213578
 eslacated escalated
 949 3 valies
-varies valves values Yalies
-varies/V=-12.6948213578
+valves varies values Yalies
 valves/V=-12.2893562497
+varies/V=-12.6948213578
 values/V=-10.8230191809
 Yalies/V=-13.3879685383
 valies values
@@ -5600,18 +5600,18 @@ tubing
 tubing/V=-13.3879685383
 yubing tubing
 950 3 belive
-relive believe
-relive/V=-13.3879685383
+believe relive
 believe/V=-9.19831379631
+relive/V=-13.3879685383
 belive believe
 951 4 attractsed
 attracted
 attracted/V=-10.9900732655
 attractsed attracted
 951 4 sotck
-stock sock
-stock/V=-6.71340714652
+sock stock
 sock/V=-13.3879685383
+stock/V=-6.71340714652
 sotck stock
 951 4 actsed
 acted
@@ -5630,24 +5630,24 @@ investor
 investor/V=-10.7489112087
 investhor investor
 952 3 staae
-state stake stare stave stage stale
-state/V=-8.61728391387
-stake/V=-9.3626168476
-stare/V=-13.3879685383
-stave/V=-12.6948213578
-stage/V=-10.2524743224
+stale stave stake state stare stage
 stale/V=-13.3879685383
+stave/V=-12.6948213578
+stake/V=-9.3626168476
+state/V=-8.61728391387
+stare/V=-13.3879685383
+stage/V=-10.2524743224
 staae state
 953 2 sedonc
-second sedans sedan
-second/V=-7.93264742298
+sedans second sedan
 sedans/V=-13.3879685383
+second/V=-7.93264742298
 sedan/V=-13.3879685383
 sedonc second
 953 2 uninon
-union unison
-union/V=-10.6153798161
+unison union
 unison/V=-13.3879685383
+union/V=-10.6153798161
 uninon union
 954 2 attituode
 attitude
@@ -5663,9 +5663,9 @@ interesting
 interesting/V=-11.3085269967
 intersting interesting
 955 3 valies
-varies valves values Yalies
-varies/V=-12.6948213578
+valves varies values Yalies
 valves/V=-12.2893562497
+varies/V=-12.6948213578
 values/V=-10.8230191809
 Yalies/V=-13.3879685383
 valies values
@@ -5679,9 +5679,9 @@ reiterated/V=-10.5547551943
 retreated/V=-11.7785306259
 reterated reiterated
 957 2 earningc
-earnings earning
-earnings/V=-6.76257617033
+earning earnings
 earning/V=-11.0853834453
+earnings/V=-6.76257617033
 earningc earnings
 958 3 fitscal
 fiscal
@@ -5708,9 +5708,9 @@ Meinert
 Meinert/V=-11.7785306259
 Meinerot Meinert
 960 2 diveisions
-divisions diversions
-divisions/V=-10.9030618885
+diversions divisions
 diversions/V=-13.3879685383
+divisions/V=-10.9030618885
 diveisions divisions
 961 2 adedd
 added
@@ -5738,45 +5738,45 @@ Hartmarx
 Hartmarx/V=-11.7785306259
 aartmHrx Hartmarx
 963 3 etors
-stores editors etes errs esters Stops Story storms Store motors storm story Doors hors Stars doors stars store actors alors Odors boors ethos ears Moors eaters stops odors Alors errors ethers moors atoms stirs Motors enters tutors Stores
-stores/V=-9.39898449177
-editors/V=-13.3879685383
-etes/V=-13.3879685383
-errs/V=-13.3879685383
-esters/V=-13.3879685383
-Stops/V=-13.3879685383
-Story/V=-13.3879685383
-storms/V=-13.3879685383
-Store/V=-11.7785306259
+doors Stars atoms motors Moors storm enters story Doors Stops moors ears stars tutors odors stores etes hors boors Story ethos errors Motors Store errs Alors store eaters storms Odors Stores esters ethers actors alors stops editors stirs
+doors/V=-12.2893562497
+Stars/V=-13.3879685383
+atoms/V=-13.3879685383
 motors/V=-13.3879685383
+Moors/V=-13.3879685383
 storm/V=-12.2893562497
+enters/V=-13.3879685383
 story/V=-11.7785306259
 Doors/V=-13.3879685383
-hors/V=-13.3879685383
-Stars/V=-13.3879685383
-doors/V=-12.2893562497
+Stops/V=-13.3879685383
+moors/V=-13.3879685383
+ears/V=-13.3879685383
 stars/V=-13.3879685383
+tutors/V=-13.3879685383
+odors/V=-13.3879685383
+stores/V=-9.39898449177
+etes/V=-13.3879685383
+hors/V=-13.3879685383
+boors/V=-13.3879685383
+Story/V=-13.3879685383
+ethos/V=-13.3879685383
+errors/V=-12.6948213578
+Motors/V=-10.3434461006
+Store/V=-11.7785306259
+errs/V=-13.3879685383
+Alors/V=-13.3879685383
 store/V=-9.72440689221
+eaters/V=-13.3879685383
+storms/V=-13.3879685383
+Odors/V=-13.3879685383
+Stores/V=-10.5547551943
+esters/V=-13.3879685383
+ethers/V=-13.3879685383
 actors/V=-13.3879685383
 alors/V=-13.3879685383
-Odors/V=-13.3879685383
-boors/V=-13.3879685383
-ethos/V=-13.3879685383
-ears/V=-13.3879685383
-Moors/V=-13.3879685383
-eaters/V=-13.3879685383
 stops/V=-12.6948213578
-odors/V=-13.3879685383
-Alors/V=-13.3879685383
-errors/V=-12.6948213578
-ethers/V=-13.3879685383
-moors/V=-13.3879685383
-atoms/V=-13.3879685383
+editors/V=-13.3879685383
 stirs/V=-13.3879685383
-Motors/V=-10.3434461006
-enters/V=-13.3879685383
-tutors/V=-13.3879685383
-Stores/V=-10.5547551943
 etors stores
 964 2 iranIan
 Iranian
@@ -5799,9 +5799,9 @@ development
 development/V=-8.67843833702
 developmenat development
 966 3 delivry
-delivery delivre
-delivery/V=-10.0557640282
+delivre delivery
 delivre/V=-13.3879685383
+delivery/V=-10.0557640282
 delivry delivery
 966 3 Ornge
 Orange
@@ -5816,36 +5816,36 @@ largely
 largely/V=-9.16846083316
 largelyh largely
 968 2 aonetmry
-monetary Monetary
-monetary/V=-8.65177008994
+Monetary monetary
 Monetary/V=-9.69908908422
+monetary/V=-8.65177008994
 aonetmry monetary
 968 2 modaest
 modest
 modest/V=-9.72440689221
 modaest modest
 969 2 tfaer
-Offer tear Daer taper truer trader Baer Rafer after tiger tar tower toner offer titer thar After safer ther afar
-Offer/V=-13.3879685383
-tear/V=-13.3879685383
-Daer/V=-13.3879685383
-taper/V=-12.0016741772
-truer/V=-13.3879685383
+safer trader After Rafer offer titer tar ther Daer afar truer Offer Baer thar tiger tower taper after toner tear
+safer/V=-12.6948213578
 trader/V=-10.9900732655
-Baer/V=-13.3879685383
+After/V=-9.92223263554
 Rafer/V=-13.3879685383
-after/V=-6.68232944348
-tiger/V=-13.3879685383
-tar/V=-13.3879685383
-tower/V=-13.3879685383
-toner/V=-13.3879685383
 offer/V=-8.67843833702
 titer/V=-13.3879685383
-thar/V=-13.3879685383
-After/V=-9.92223263554
-safer/V=-12.6948213578
+tar/V=-13.3879685383
 ther/V=-13.3879685383
+Daer/V=-13.3879685383
 afar/V=-13.3879685383
+truer/V=-13.3879685383
+Offer/V=-13.3879685383
+Baer/V=-13.3879685383
+thar/V=-13.3879685383
+tiger/V=-13.3879685383
+tower/V=-13.3879685383
+taper/V=-12.0016741772
+after/V=-6.68232944348
+toner/V=-13.3879685383
+tear/V=-13.3879685383
 tfaer after
 970 3 aggrekgates
 aggregates
@@ -5856,17 +5856,17 @@ rather
 rather/V=-9.15386203374
 rathetr rather
 970 3 iurdng
-luring during During curing
-luring/V=-13.3879685383
+during luring During curing
 during/V=-8.07476255929
+luring/V=-13.3879685383
 During/V=-10.5547551943
 curing/V=-13.3879685383
 iurdng during
 971 2 Hrllee
-Heller Holley Vallee Hillel
+Vallee Heller Holley Hillel
+Vallee/V=-13.3879685383
 Heller/V=-12.0016741772
 Holley/V=-13.3879685383
-Vallee/V=-13.3879685383
 Hillel/V=-13.3879685383
 Hrllee Heller
 971 2 thedre
@@ -5888,10 +5888,10 @@ inflationary
 inflationary/V=-10.2524743224
 inflanionary inflationary
 973 2 sectr
-sector sect sects
-sector/V=-8.41123479591
-sect/V=-13.3879685383
+sects sect sector
 sects/V=-13.3879685383
+sect/V=-13.3879685383
+sector/V=-8.41123479591
 sectr sector
 974 3 returun
 return
@@ -5902,9 +5902,9 @@ stagflation
 stagflation/V=-13.3879685383
 stagflatiion stagflation
 974 3 resalt
-resale result
-resale/V=-10.6799183372
+result resale
 result/V=-8.12011037927
+resale/V=-10.6799183372
 resalt result
 975 2 disciplinaed
 disciplined
@@ -5935,78 +5935,78 @@ certainly
 certainly/V=-10.4435295592
 ceratainly certainly
 978 2 didea
-sided aide dines diva tides rider Gide sides dites aides Tide cider wider hide ride dimes dies wide widen died Medea dive idea dived fide aided Sides Vida video dined Idea Fidel bide rides tide dice dine dire Ride hides Judea Wide die dime diver diet diem Rider dives Wider Aida Widen side Side Aide
-sided/V=-12.6948213578
-aide/V=-10.9900732655
-dines/V=-13.3879685383
-diva/V=-13.3879685383
-tides/V=-13.3879685383
-rider/V=-13.3879685383
-Gide/V=-13.3879685383
-sides/V=-10.0921316723
-dites/V=-13.3879685383
-aides/V=-11.4420583893
-Tide/V=-13.3879685383
-cider/V=-13.3879685383
-wider/V=-11.3085269967
-hide/V=-13.3879685383
-ride/V=-12.0016741772
-dimes/V=-13.3879685383
-dies/V=-13.3879685383
-wide/V=-9.95398133385
-widen/V=-11.4420583893
-died/V=-13.3879685383
-Medea/V=-13.3879685383
-dive/V=-13.3879685383
-idea/V=-10.8230191809
-dived/V=-13.3879685383
-fide/V=-13.3879685383
-aided/V=-11.0853834453
-Sides/V=-13.3879685383
+Vida rides dites Wide bide tides tide Gide ride video dine dime hide died Fidel diet aided Side Idea sides Aida diver aides Judea dived Wider dimes dives Rider wide Widen diem dined dies hides Sides rider side die Aide dire dive fide Medea sided widen Ride Tide wider cider dines dice aide diva idea
 Vida/V=-13.3879685383
-video/V=-10.9030618885
-dined/V=-13.3879685383
-Idea/V=-13.3879685383
-Fidel/V=-13.3879685383
-bide/V=-13.3879685383
 rides/V=-13.3879685383
-tide/V=-12.6948213578
-dice/V=-13.3879685383
-dine/V=-13.3879685383
-dire/V=-13.3879685383
-Ride/V=-13.3879685383
-hides/V=-12.6948213578
-Judea/V=-13.3879685383
+dites/V=-13.3879685383
 Wide/V=-13.3879685383
-die/V=-13.3879685383
+bide/V=-13.3879685383
+tides/V=-13.3879685383
+tide/V=-12.6948213578
+Gide/V=-13.3879685383
+ride/V=-12.0016741772
+video/V=-10.9030618885
+dine/V=-13.3879685383
 dime/V=-12.2893562497
-diver/V=-13.3879685383
+hide/V=-13.3879685383
+died/V=-13.3879685383
+Fidel/V=-13.3879685383
 diet/V=-13.3879685383
-diem/V=-13.3879685383
-Rider/V=-13.3879685383
-dives/V=-13.3879685383
-Wider/V=-13.3879685383
-Aida/V=-13.3879685383
-Widen/V=-13.3879685383
-side/V=-10.0921316723
+aided/V=-11.0853834453
 Side/V=-12.0016741772
+Idea/V=-13.3879685383
+sides/V=-10.0921316723
+Aida/V=-13.3879685383
+diver/V=-13.3879685383
+aides/V=-11.4420583893
+Judea/V=-13.3879685383
+dived/V=-13.3879685383
+Wider/V=-13.3879685383
+dimes/V=-13.3879685383
+dives/V=-13.3879685383
+Rider/V=-13.3879685383
+wide/V=-9.95398133385
+Widen/V=-13.3879685383
+diem/V=-13.3879685383
+dined/V=-13.3879685383
+dies/V=-13.3879685383
+hides/V=-12.6948213578
+Sides/V=-13.3879685383
+rider/V=-13.3879685383
+side/V=-10.0921316723
+die/V=-13.3879685383
 Aide/V=-12.6948213578
+dire/V=-13.3879685383
+dive/V=-13.3879685383
+fide/V=-13.3879685383
+Medea/V=-13.3879685383
+sided/V=-12.6948213578
+widen/V=-11.4420583893
+Ride/V=-13.3879685383
+Tide/V=-13.3879685383
+wider/V=-11.3085269967
+cider/V=-13.3879685383
+dines/V=-13.3879685383
+dice/V=-13.3879685383
+aide/V=-10.9900732655
+diva/V=-13.3879685383
+idea/V=-10.8230191809
 didea wide
 978 2 expoats
 exports
 exports/V=-7.36937532384
 expoats exports
 979 3 trad
-trap trade Mrad toad brad triad grad tread Grad tray
-trap/V=-13.3879685383
-trade/V=-6.00896041071
-Mrad/V=-13.3879685383
-toad/V=-13.3879685383
-brad/V=-13.3879685383
-triad/V=-13.3879685383
-grad/V=-13.3879685383
+tread brad grad Grad trade triad trap toad Mrad tray
 tread/V=-13.3879685383
+brad/V=-13.3879685383
+grad/V=-13.3879685383
 Grad/V=-13.3879685383
+trade/V=-6.00896041071
+triad/V=-13.3879685383
+trap/V=-13.3879685383
+toad/V=-13.3879685383
+Mrad/V=-13.3879685383
 tray/V=-13.3879685383
 trad trade
 979 3 excledingey
@@ -6023,11 +6023,11 @@ properties
 properties/V=-9.26083415329
 properoties properties
 980 3 quartr
-quarter quarts quartz quart
-quarter/V=-6.1683264982
+quarts quart quartz quarter
 quarts/V=-13.3879685383
-quartz/V=-13.3879685383
 quart/V=-13.3879685383
+quartz/V=-13.3879685383
+quarter/V=-6.1683264982
 quartr quarter
 981 3 Eneergy
 Energy
@@ -6042,10 +6042,10 @@ partnership
 partnership/V=-9.98677115667
 partnersahip partnership
 982 3 ervenues
-Revenues avenues revenues
-Revenues/V=-10.0557640282
-avenues/V=-13.3879685383
+revenues avenues Revenues
 revenues/V=-8.0649585592
+avenues/V=-13.3879685383
+Revenues/V=-10.0557640282
 ervenues revenues
 982 3 totalfed
 totalled totaled
@@ -6057,14 +6057,14 @@ company
 company/V=-6.0380948336
 companay company
 983 3 porved
-pored proved
-pored/V=-13.3879685383
+proved pored
 proved/V=-11.0853834453
+pored/V=-13.3879685383
 porved proved
 983 3 barels
-barely barrels
-barely/V=-11.5962090691
+barrels barely
 barrels/V=-8.8993321686
+barely/V=-11.5962090691
 barels barrels
 983 3 cubi
 cube cubic
@@ -6148,9 +6148,9 @@ buildings/V=-12.0016741772
 building/V=-9.62676842264
 buildingk building
 991 2 bdown
-blown brown
-blown/V=-12.2893562497
+brown blown
 brown/V=-12.6948213578
+blown/V=-12.2893562497
 bdown blown
 991 2 orpgress
 Progress progress
@@ -6158,9 +6158,9 @@ Progress/V=-13.3879685383
 progress/V=-9.15386203374
 orpgress progress
 992 3 tremd
-trend tread
-trend/V=-9.31043109443
+tread trend
 tread/V=-13.3879685383
+trend/V=-9.31043109443
 tremd trend
 992 3 corrupat
 corrupt
@@ -6209,12 +6209,12 @@ trough/V=-12.6948213578
 trout/V=-13.3879685383
 troug trough
 996 3 planb
-plan plant plane plank plans
-plan/V=-8.05043045863
-plant/V=-9.24483381194
+plane plank plan plans plant
 plane/V=-11.7785306259
 plank/V=-13.3879685383
+plan/V=-8.05043045863
 plans/V=-8.30656417335
+plant/V=-9.24483381194
 planb plan
 997 2 adminiustrator
 administrator
@@ -6233,11 +6233,11 @@ estimates
 estimates/V=-9.11130241932
 edtimates estimates
 998 3 chicnek
-chimney chicken chines
+chines chimney chicken
+chines/V=-13.3879685383
 chimney/V=-13.3879685383
 chicken/V=-13.3879685383
-chines/V=-13.3879685383
-chicnek chimney
+chicnek chines
 998 3 terkeys
 turkeys
 turkeys/V=-13.3879685383
@@ -6247,31 +6247,31 @@ inspection
 inspection/V=-12.2893562497
 inspectieon inspection
 999 2 uopltry
-Poultry poultry
-Poultry/V=-12.6948213578
+poultry Poultry
 poultry/V=-12.6948213578
-uopltry Poultry
+Poultry/V=-12.6948213578
+uopltry poultry
 1000 3 eventuall
-eventual eventually
-eventual/V=-12.0016741772
+eventually eventual
 eventually/V=-10.4975967804
+eventual/V=-12.0016741772
 eventuall eventually
 1000 3 coul
-cool coal soul coup coil could foul
+cool foul coil coup coal soul could
 cool/V=-12.0016741772
+foul/V=-13.3879685383
+coil/V=-13.3879685383
+coup/V=-13.3879685383
 coal/V=-10.0557640282
 soul/V=-13.3879685383
-coup/V=-13.3879685383
-coil/V=-13.3879685383
 could/V=-7.34059635929
-foul/V=-13.3879685383
 coul could
 1000 3 miney
-mined mines mine money miner
+money mined miner mines mine
+money/V=-7.46907468406
 mined/V=-12.6948213578
+miner/V=-13.3879685383
 mines/V=-12.2893562497
 mine/V=-11.0853834453
-money/V=-7.46907468406
-miner/V=-13.3879685383
 miney money
 

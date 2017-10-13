@@ -51,7 +51,7 @@ def preprocessing(ngram):
         for words in sents[::]:  # use [::] to remove the continuous ';' ';'
             if (words in ['\'\'', '``', ',', '--', ';', ':', '(', ')', '&', '\'', '!', '?', '.']):  sents.remove(
                 words)
-        corpus_text.append(sents)  # [['Traffic', 'on'], ['That', 'added', 'traffic', 'at', 'toll', 'gates']]]
+        corpus_text.append(sents)  # [['Traffic', 'on'], ['That', 'added', 'traffic', 'at', 'edit_distancel', 'gates']]]
 
         # count the n-gram
         for n in range(1, ngram+2):  # only compute 1/2/3-gram
@@ -60,7 +60,7 @@ def preprocessing(ngram):
             else:
                 for i in range(n, len(sents) + 1):
                     gram = sents[i - n: i]  # ['richer', 'fuller', 'life']
-                    key = ' '.join(gram)  # richer fuller life
+                    key = ' '.join(gram)    # richer fuller life
                     if (key in gram_count):  # use dict's hash
                         gram_count[key] += 1
                     else:
@@ -109,9 +109,9 @@ def language_model(gram_count, V, data, ngram):   # given a sentence, predict th
 # edit distance
 END = '$'
 
-def make_trie(words):
+def make_trie(vocab):
     trie = {}
-    for word in words:
+    for word in vocab:
         t = trie
         for c in word:
             if c not in t: t[c] = {}
@@ -119,55 +119,26 @@ def make_trie(words):
         t[END] = {}
     return trie
 
-def check_fuzzy(trie, word, path='', tol=1):  # cost about 650s
-    if tol < 0:
+def get_candidate(trie, word, path='', edit_distance=1):  # cost about 650s
+    if edit_distance < 0:
         return set()
     elif word == '':
         return {path} if END in trie else set()
     else:
         ps = set()
         for k in trie:
-            tol1 = tol - 1 if k != word[0] else tol
-            ps |= check_fuzzy(trie[k], word[1:], path+k, tol1)
+            edit_distance1 = edit_distance - 1 if k != word[0] else edit_distance
+            ps |= get_candidate(trie[k], word[1:], path+k, edit_distance1)
             # 增加字母
             for c in ascii_lowercase:
-                ps |= check_fuzzy(trie[k], c+word[1:], path+k, tol1-1)
+                ps |= get_candidate(trie[k], c+word[1:], path+k, edit_distance1-1)
             # 删减字母
             if len(word) > 1:
-                ps |= check_fuzzy(trie[k], word[2:], path+k, tol1-1)
+                ps |= get_candidate(trie[k], word[2:], path+k, edit_distance1-1)
             # 交换字母
             if len(word) > 2:
-                ps |= check_fuzzy(trie[k], word[2]+word[1]+word[3:], path+k, tol1-1)
+                ps |= get_candidate(trie[k], word[2]+word[1]+word[3:], path+k, edit_distance1-1)
         return ps
-
-def check_iter(trie, word, tol=1):    # only cost 25s
-    que = deque([(trie, word, '', tol)])
-    while que:
-        trie, word, path, tol = que.popleft()
-        if word == '':
-            if END in trie:
-                yield path
-            # 词尾增加字母
-            if tol > 0:
-                que.extendleft((trie, k, path+k, tol-1)
-                               for k in trie.keys() if k != END)
-        else:
-            if word[0] in trie:
-                # 首字母匹配成功
-                que.appendleft((trie[word[0]], word[1:], path+word[0], tol))
-            # 无论首字母是否匹配成功，都如下处理
-            if tol > 0:
-                tol -= 1
-                for k in trie.keys() - {word[0], END}:
-                    # 用k替换余词首字母，进入trie[k]
-                    que.append((trie[k], word[1:], path+k, tol))
-                    # 用k作为增加的首字母，进入trie[k]
-                    que.append((trie[k], word, path+k, tol))
-                # 删除目标词首字母，保持所处结点位置trie
-                que.append((trie, word[1:], path, tol))
-                # 交换目标词前两个字母，保持所处结点位置trie
-                if len(word) > 1:
-                    que.append((trie, word[1]+word[0]+word[2:], path, tol))
 
 def channel_model(vocab, testdata, gram_count, vocab_corpus, trie, ngram):
     testpath = './testdata.txt'
@@ -188,10 +159,10 @@ def channel_model(vocab, testdata, gram_count, vocab_corpus, trie, ngram):
                 # resultfile.write(data[int(item[0]) - 1])
             else:
                 printfile.write(item[0] + ' ' + item[1] + ' ' + words + '\n')
-                if (list(check_fuzzy(trie, words, tol=1))):
-                    candidate_list = list(check_fuzzy(trie, words, tol=1))
+                if (list(get_candidate(trie, words, edit_distance=1))):
+                    candidate_list = list(get_candidate(trie, words, edit_distance=1))
                 else:
-                    candidate_list = list(check_fuzzy(trie, words, tol=2))
+                    candidate_list = list(get_candidate(trie, words, edit_distance=2))
                 printfile.write(' '.join(candidate_list) + '\n')
                 candi_proba = []
                 for candidate in candidate_list:
@@ -231,14 +202,14 @@ if __name__ == '__main__':
     start = time.time()
 
     print('Doing preprocessing, computing things ... Please wait ...')
-    vocab, testdata, gram_count, vocab_corpus = preprocessing(2)
+    vocab, testdata, gram_count, vocab_corpus = preprocessing(0)
     trie = make_trie(vocab)
 
     stop = time.time()
     printfile.write('Preprocessing time: ' + str(stop - start) + '\n')
 
     print('Doing Spell Correcting ...')
-    channel_model(vocab, testdata, gram_count, vocab_corpus, trie, 2)
+    channel_model(vocab, testdata, gram_count, vocab_corpus, trie, 0)
 
     eval()
     stop = time.time()
