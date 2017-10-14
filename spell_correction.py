@@ -119,35 +119,35 @@ def make_trie(vocab):
         t[END] = {}
     return trie
 
-def get_candidate(trie, word, tol=1):
-    que = deque([(trie, word, '', tol)])
+def get_candidate(trie, word, edit_distance=1):
+    que = deque([(trie, word, '', edit_distance)])
     while que:
-        trie, word, path, tol = que.popleft()
+        trie, word, path, edit_distance = que.popleft()
         if word == '':
             if END in trie:
                 yield path
             # 词尾增加字母
-            if tol > 0:
+            if edit_distance > 0:
                 for k in trie:
                     if k != END:
-                        que.appendleft((trie[k], '', path+k, tol-1))
+                        que.appendleft((trie[k], '', path+k, edit_distance-1))
         else:
             if word[0] in trie:
                 # 首字母匹配成功
-                que.appendleft((trie[word[0]], word[1:], path+word[0], tol))
+                que.appendleft((trie[word[0]], word[1:], path+word[0], edit_distance))
             # 无论首字母是否匹配成功，都如下处理
-            if tol > 0:
-                tol -= 1
+            if edit_distance > 0:
+                edit_distance -= 1
                 for k in trie.keys() - {word[0], END}:
                     # 用k替换余词首字母，进入trie[k]
-                    que.append((trie[k], word[1:], path+k, tol))
+                    que.append((trie[k], word[1:], path+k, edit_distance))
                     # 用k作为增加的首字母，进入trie[k]
-                    que.append((trie[k], word, path+k, tol))
+                    que.append((trie[k], word, path+k, edit_distance))
                 # 删除目标词首字母，保持所处结点位置trie
-                que.append((trie, word[1:], path, tol))
+                que.append((trie, word[1:], path, edit_distance))
                 # 交换目标词前两个字母，保持所处结点位置trie
                 if len(word) > 1:
-                    que.append((trie, word[1]+word[0]+word[2:], path, tol))
+                    que.append((trie, word[1]+word[0]+word[2:], path, edit_distance))
 
 def channel_model(vocab, testdata, gram_count, vocab_corpus, trie, ngram):
     testpath = './testdata.txt'
@@ -210,14 +210,14 @@ def eval():
 if __name__ == '__main__':
     start = time.time()
 
-    print('Doing preprocessing, computing things ... Please wait ...')
+    print('Doing preprocessing, computing things. Please wait...')
     vocab, testdata, gram_count, vocab_corpus = preprocessing(0)
     trie = make_trie(vocab)
 
     stop = time.time()
     printfile.write('Preprocessing time: ' + str(stop - start) + '\n')
 
-    print('Doing Spell Correcting ...')
+    print('Doing Spell Correcting...')
     channel_model(vocab, testdata, gram_count, vocab_corpus, trie, 0)
 
     eval()
