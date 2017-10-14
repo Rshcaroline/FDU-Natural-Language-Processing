@@ -1,0 +1,91 @@
+<head>
+<title>Natural Language Corpus Data: Beautiful Data</title>
+</head>
+
+<body>
+<div style="FLOAT:right">
+  <center>
+  <img src="http://covers.oreilly.com/images/9780596157111/cat.gif">
+  <br>
+  <a href="http://oreilly.com/catalog/9780596157111/">O'Reilly</a>
+  /
+  <a href="http://www.amazon.com/Beautiful-Data-Stories-Elegant-Solutions/dp/0596157118">Amazon</a> / <br>
+  <a href="http://books.google.com/books?id=zxNglqU1FKgC">Google Books</a>
+ </center>
+  </div>
+
+<h1>Natural Language Corpus Data: Beautiful Data</h1>
+
+
+This directory contains code and data to accompany the chapter <a href="ch14.pdf"><i>Natural Language Corpus Data</i></a>
+from the book <i><a href="http://oreilly.com/catalog/9780596157111/">Beautiful Data</a></i> (Segaran and Hammerbacher, 2009).
+If you like this you may also like: <a href="http://norvig.com/spell-correct.html"><i>How to Write a Spelling Corrector</i></a>.
+
+<p>
+Data files are derived from the <i>Google Web Trillion Word Corpus</i>,
+as <a
+href="http://googleresearch.blogspot.com/2006/08/all-our-n-gram-are-belong-to-you.html">described</a>
+by Thorsten Brants and Alex Franz, and <a href="http://tinyurl.com/ngrams">distributed</a> by the Linguistic
+Data Consortium.
+
+<p>
+ Code copyright (c) 2008-2009 by Peter Norvig. You are free to use this
+code under the <a
+ href="http://www.opensource.org/licenses/mit-license.php">MIT
+ license</a>.
+
+<p>To run this code, download either the <a href="ngrams.zip">zip
+file</a> (and unzip it) or all the files listed below. Then from a shell execute
+<tt>python -i ngrams.py</tt> (or start a Python IDE and import
+<tt>ngrams</tt>), and if you want to test if everything works, call
+<tt>test()</tt>.  Note that the <tt>hillclimbing</tt> function has a random
+component, so if you have bad luck it is possible that some of the tests will fail, even if everything is correctly installed.  (It is unlikely that they will fail twice in a row.)
+
+<p>
+<h2>Files for Download</h2>
+<table>
+  <tr><td align=right>4.8MB<td><a href="ngrams.zip">ngrams.zip</a><td>A zip file of all the files below. Get this <i>or</i> the files below.
+
+   <tr><td><td>&nbsp;
+
+  <tr><td align=right>0.7MB<td><a href="ch14.pdf">ch14.pdf</a><td>The chapter from the book.
+
+   <tr><td><td>&nbsp;
+
+
+  <tr><td align=right>0.0 MB<td><a href="ngrams.py">ngrams.py</a><td>The Python code for
+    everything in the chapter.
+  <tr><td align=right>0.0 MB<td><a href="ngrams-test.txt">ngrams-test.txt</a>&nbsp;&nbsp;<td>Unit tests; run by the Python function <tt>test()</tt>. 
+   <tr><td><td>&nbsp;
+  <tr><td align=right>4.9 MB<td><a href="count_1w.txt">count_1w.txt</a><td>The 1/3
+    million most frequent words, all lowercase, with counts. (Called
+    <tt>vocab_common</tt> in the chapter, but I changed file names here.)
+ <tr><td align=right>5.6 MB<td><a href="count_2w.txt">count_2w.txt</a><td>The 1/4 million
+  most frequent two-word (lowercase) bigrams, with counts.
+ <tr><td align=right>0.0 MB<td><a href="count_2l.txt">count_2l.txt</a><td>Counts for all
+   2-letter (lowercase) bigrams.
+ <tr><td align=right>0.2 MB<td><a href="count_3l.txt">count_3l.txt</a><td>Counts for all
+  3-letter (lowercase) trigrams.
+ <tr><td align=right>0.0 MB<td><a href="count_1edit.txt">count_1edit.txt</a><td>Counts for all
+  single-edit spelling correction edits, from the file <tt>spell-errors.txt</tt>.   
+ <tr><td align=right>0.5 MB<td><a href="spell-errors.txt">spell-errors.txt</a><td>A
+   collection of "right: wrong1, wrong2" spelling mistakes, collected
+   from <a
+   href="http://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings/For_machines">Wikipedia</a>
+   and <a href="http://www.dcs.bbk.ac.uk/~ROGER/corpora.html">Roger Mitton</a>.
+
+   <tr><td><td>&nbsp;
+
+<tr><td><td><td><i>The following files are not referenced in the chapter, but may be useful to you.</i>
+
+   <tr><td><td>&nbsp;
+
+   <tr><td align=right>0.3 MB<td><a href="count_big.txt">count_big.txt</a><td>This is a word count file for the <a href="../big.txt">big.txt</a> file from my <a href="../spell-correct.html">spell correction</a> article.
+   <tr><td align=right>3.0 MB<td><a href="sowpods.txt">sowpods.txt</a><td>The <a href="http://en.wikipedia.org/wiki/SOWPODS">SOWPODS</a> word list (267,750 words) -- used by Scrabble players (except in North America) and in other word games.
+   <tr><td align=right>1.9 MB<td><a href="TWL06,txt">TWL06.txt</a><td>The <a href="http://en.wikipedia.org/wiki/Official_Tournament_and_Club_Word_List">Tournament Word List</a> for North American Scrabble players (178,690 words).
+   <tr><td align=right>1.9 MB<td><a href="enable1.txt">enable1.txt</a><td>The <a href="http://code.google.com/p/dotnetperls-controls/downloads/detail?name=enable1.txt">ENABLE</a>  word list (172,819 words) -- another version used by word game players.  The "words with friends" app uses a variant of this.
+</table>
+<p>
+<hr>
+
+<a href="http://norvig.com"><i>Peter Norvig</i></a>, <i>8 July 2008</i>
