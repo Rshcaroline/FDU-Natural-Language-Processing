@@ -51,7 +51,7 @@ def preprocessing(ngram):
         for words in sents[::]:  # use [::] to remove the continuous ';' ';'
             if (words in ['\'\'', '``', ',', '--', ';', ':', '(', ')', '&', '\'', '!', '?', '.']):  sents.remove(
                 words)
-        corpus_text.append(sents)  # [['Traffic', 'on'], ['That', 'added', 'traffic', 'at', 'edit_distancel', 'gates']]]
+        # corpus_text.append(sents)  # [['Traffic', 'on'], ['That', 'added', 'traffic', 'at', 'edit_distancel', 'gates']]]
 
         # count the n-gram
         for n in range(1, ngram+2):  # only compute 1/2/3-gram
@@ -66,7 +66,13 @@ def preprocessing(ngram):
                     else:
                         gram_count[key] = 1
 
-        vocab_corpus = vocab_corpus + sents
+        vocab_corpus.extend(sents)
+
+    # For each token, increment by 1 for Laplace smoothing
+    for token in gram_count:
+        gram_count[token] += 1
+    gram_count['UNK']=0
+    vocab_corpus.extend(['UNK'])
 
     # print(len(vocab_corpus))
     # vocab_corpus = {}.fromkeys(vocab_corpus).keys()  # the vocabulary of corpus
@@ -83,20 +89,20 @@ def language_model(gram_count, V, data, ngram):   # given a sentence, predict th
 
             # add 1 smoothing
             if (keys in gram_count):
-                pi = (gram_count[keys] + 1) / (V + 1)  # UNKNOWN +1
+                pi = gram_count[keys] / V  # UNKNOWN +1
             else:
-                pi = 1 / (V + 1)
+                pi = 1 / V
 
             printfile.write(keys + '/V=' + str(np.log(pi)) + '\n')
             p.append(np.log(pi))
     else:
+        # backoff smoothing
         for i in range(ngram, len(data)):
             keym = ' '.join(data[i - ngram: i])
             keys = ' '.join(data[i - ngram: i + 1])
 
-            # add 1 smoothing
             if (keys in gram_count and keym in gram_count):
-                pi = (gram_count[keys] + 1) / (gram_count[keym] + V + 1)  # UNKNOWN +1
+                pi = gram_count[keys] / gram_count[keym]  # UNKNOWN +1
             else:
                 pi = 1 / (V + 1)
 
@@ -211,14 +217,14 @@ if __name__ == '__main__':
     start = time.time()
 
     print('Doing preprocessing, computing things. Please wait...')
-    vocab, testdata, gram_count, vocab_corpus = preprocessing(0)
+    vocab, testdata, gram_count, vocab_corpus = preprocessing(2)
     trie = make_trie(vocab)
 
     stop = time.time()
     printfile.write('Preprocessing time: ' + str(stop - start) + '\n')
 
     print('Doing Spell Correcting...')
-    channel_model(vocab, testdata, gram_count, vocab_corpus, trie, 0)
+    channel_model(vocab, testdata, gram_count, vocab_corpus, trie, 2)
 
     eval()
     stop = time.time()
