@@ -38,9 +38,9 @@ def preprocessing(ngram):
         testdata.append(item)
 
     # preprocessing the corpus and generate the count-file of n-gram
-    corpus_raw_text = brown.sents(categories=['news'])   # 'editorial', 'reviews'
-    # corpus_raw_text = reuters.sents(categories=['cpi', 'earn', 'fuel', 'gas', 'housing', 'income',
-                                                # 'trade', 'retail', 'jobs', 'instal-debt', 'interest'])
+    # corpus_raw_text = brown.sents(categories=['news'])   # 'editorial', 'reviews'
+    corpus_raw_text = reuters.sents(categories=['cpi', 'earn', 'fuel', 'gas', 'housing', 'income', 'trade', 'retail',
+                                                'instal-debt', 'interest', 'livestock', 'wheat', 'rubber', 'oilseed'])
     corpus_text = []
     gram_count = {}
     vocab_corpus = []
@@ -73,6 +73,12 @@ def preprocessing(ngram):
     # vocab_corpus = {}.fromkeys(vocab_corpus).keys()  # the vocabulary of corpus
     # print(len(vocab_corpus))
 
+    # For each token, increment by 1 for Laplace smoothing
+    for token in gram_count:
+        gram_count[token] += 1
+    gram_count['UNK']=0
+    vocab_corpus.extend(['UNK'])
+
     return vocab_list, testdata, gram_count, vocab_corpus, corpus_text
 
 def language_model(gram_count, V, data, ngram):   # given a sentence, predict the probability
@@ -84,24 +90,24 @@ def language_model(gram_count, V, data, ngram):   # given a sentence, predict th
 
             # add 1 smoothing
             if (keys in gram_count):
-                pi = (gram_count[keys] + 1) / (V + 1)  # UNKNOWN +1
+                pi = gram_count[keys] / V  # UNKNOWN +1
             else:
-                pi = 1 / (V + 1)
+                pi = 1 / V
 
-            printfile.write(keys + '/V=' + str(np.log(pi)) + '\n')
+            # printfile.write(keys + '/V=' + str(np.log(pi)) + '\n')
             p.append(np.log(pi))
     else:
+        # backoff smoothing
         for i in range(ngram, len(data)):
             keym = ' '.join(data[i - ngram: i])
             keys = ' '.join(data[i - ngram: i + 1])
 
-            # add 1 smoothing
             if (keys in gram_count and keym in gram_count):
-                pi = (gram_count[keys] + 1) / (gram_count[keym] + V + 1)  # UNKNOWN +1
+                pi = gram_count[keys] / gram_count[keym]  # UNKNOWN +1
             else:
-                pi = 1 / (V + 1)
+                pi = 1 / V
 
-            printfile.write(keys + '/' + keym + '=' + str(np.log(pi)) + '\n')
+            # printfile.write(keys + '/' + keym + '=' + str(np.log(pi)) + '\n')
             p.append(np.log(pi))
 
     prob = sum(p)
@@ -260,77 +266,47 @@ def loadConfusionMatrix():
     delmatrix=ast.literal_eval(data)
     return addmatrix, submatrix, revmatrix, delmatrix
 
-# def channel_model(vocab, testdata, gram_count, vocab_corpus, trie, ngram):
-#     testpath = './testdata.txt'
-#     testfile = open(testpath, 'r')
-#     data = []
-#     for line in testfile:
-#         item = line.split('\t')
-#         del item[1]
-#         data.append('\t'.join(item))
-#
-#     resultpath = './result.txt'
-#     resultfile = open(resultpath, 'w')
-#
-#     for item in testdata:
-#         for words in item[2][1:-1]:  # use [1:-1] to skip <s> and </s>
-#             if (words in vocab):
-#                 continue
-#                 # resultfile.write(data[int(item[0]) - 1])
-#             else:
-#                 printfile.write(item[0] + ' ' + item[1] + ' ' + words + '\n')
-#                 if (list(get_candidate(trie, words, edit_distance=1))):
-#                     candidate_list = list(get_candidate(trie, words, edit_distance=1))
-#                 else:
-#                     candidate_list = list(get_candidate(trie, words, edit_distance=2))
-#                 printfile.write(' '.join(candidate_list) + '\n')
-#                 candi_proba = []
-#                 for candidate in candidate_list:
-#                     if(ngram == 0):
-#                         candi_proba.append(
-#                             language_model(gram_count, len(vocab_corpus), [candidate], ngram))  # 0 = unigram, 1 = bigram
-#                     else:
-#                         word_index = item[2][1:-1].index(words)
-#                         phase = item[2][1:-1][(word_index - ngram): word_index] + [candidate]
-#                         # phase = ' '.join(phase)
-#                         printfile.write(' '.join(phase) + '\n')
-#                         candi_proba.append(
-#                             language_model(gram_count, len(vocab_corpus), phase, ngram))  # 0 = unigram, 1 = bigram
-#
-#                 index = candi_proba.index(max(candi_proba))
-#                 printfile.write(words + ' ' + candidate_list[index] + '\n')
-#                 data[int(item[0]) - 1] = data[int(item[0]) - 1].replace(words, candidate_list[index])
-#
-#         resultfile.write(data[int(item[0]) - 1])
-
 def channelModel(x,y, edit, corpus):
     """Method to calculate channel model probability for errors."""
-    V = 26*26
     corpus = ' '.join(corpus)
     x = x.lower()
     y = y.lower()
-    if x+y not in addmatrix and (x+y)[0:2] not in submatrix and x+y not in revmatrix \
-            and x+y not in delmatrix:
-        return 1/V
+
+    c = [chr(i) for i in range(97,123)]
+
     if edit == 'add':
+        V = sum(e for k, e in addmatrix.items())
+        if x+y not in addmatrix: return 1/V
         if x == '#':
-            if corpus.count(' ' + y) and addmatrix[x+y]:
-                return addmatrix[x + y] / corpus.count(' ' + y)
+            if addmatrix['#' + y] and addmatrix[x+y]:
+                return addmatrix[x + y] / addmatrix['#' + y]
             else: return 1 / V
         else:
-            return addmatrix[x + y] / corpus.count(x)
+            n = 0
+            for i in c:
+                n += submatrix[x + i]
+            return addmatrix[x + y] / n
     if edit == 'sub':
+        V = sum(e for k, e in submatrix.items())
+        if (x + y)[0:2] not in submatrix: return 1/V
         if submatrix[(x + y)[0:2]]:
-            return submatrix[(x + y)[0:2]] / corpus.count(y)
+            n = 0
+            for i in c:
+                n += submatrix[y[0]+i]
+            return submatrix[(x + y)[0:2]] / n
         else:
             return 1/V
     if edit == 'rev':
-        if corpus.count(x+y) and revmatrix[x + y]:
-            return revmatrix[x + y] / corpus.count(x + y)
+        V = sum(e for k, e in revmatrix.items())
+        if x + y not in revmatrix: return 1 / V
+        if revmatrix[y + x] and revmatrix[x + y]:
+            return revmatrix[x + y] / revmatrix[y + x]
         else: return 1/V
     if edit == 'del':
-        if corpus.count(x+y) and delmatrix:
-            return delmatrix[x + y] / corpus.count(x + y)
+        V = sum(e for k, e in delmatrix.items())
+        if x + y not in delmatrix: return 1 / V
+        if delmatrix[y + x] and delmatrix:
+            return delmatrix[x + y] / delmatrix[y + x]
         else: return delmatrix[x + y]/V
 
 def spell_correct(vocab, testdata, gram_count, vocab_corpus, corpus, trie, ngram):
@@ -351,20 +327,20 @@ def spell_correct(vocab, testdata, gram_count, vocab_corpus, corpus, trie, ngram
                 continue
                 # resultfile.write(data[int(item[0]) - 1])
             else:
-                printfile.write(item[0] + ' ' + item[1] + ' ' + words + '\n')
+                # printfile.write(item[0] + ' ' + item[1] + ' ' + words + '\n')
                 if (list(get_candidate(trie, words, edit_distance=1))):
                     candidate_list = list(get_candidate(trie, words, edit_distance=1))
                 else:
                     candidate_list = list(get_candidate(trie, words, edit_distance=2))
-                printfile.write(' '.join(candidate_list) + '\n')
+                # printfile.write(' '.join(candidate_list) + '\n')
                 candi_proba = []
                 for candidate in candidate_list:
                     if(ngram == 0):
                         edit = editType(candidate, words)
-                        print(candidate, ': ' , edit)
+                        # print(candidate, ': ' , edit)
                         if edit == None:
                             candi_proba.append(
-                                language_model(gram_count, len(vocab_corpus), [candidate],
+                                language_model(gram_count, len(gram_count), [candidate],
                                                ngram))  # 0 = unigram, 1 = bigram
                             continue
                         if edit[0] == "Insertion":
@@ -376,12 +352,16 @@ def spell_correct(vocab, testdata, gram_count, vocab_corpus, corpus, trie, ngram
                         if edit[0] == 'Substitution':
                             channel_p = channelModel(edit[3], edit[4], 'sub', corpus)
                         candi_proba.append(
-                            language_model(gram_count, len(vocab_corpus), [candidate],
-                                           ngram)*channel_p)  # 0 = unigram, 1 = bigra
-                        print(language_model(gram_count, len(vocab_corpus), [candidate], ngram)*np.log(channel_p))
+                            language_model(gram_count, len(gram_count), [candidate],
+                                           ngram) + np.log(channel_p) + np.log(0.3))  # 0 = unigram, 1 = bigra
+                        # print(language_model(gram_count, len(gram_count), [candidate], ngram) + np.log(channel_p))
                     else:
                         edit = editType(candidate, words)
-                        if edit == None: continue
+                        if edit == None:
+                            candi_proba.append(
+                                language_model(gram_count, len(gram_count), [candidate],
+                                               ngram))
+                            continue
                         if edit[0] == "Insertion":
                             channel_p = channelModel(edit[3][0], edit[3][1], 'add', corpus)
                         if edit[0] == 'Deletion':
@@ -390,14 +370,15 @@ def spell_correct(vocab, testdata, gram_count, vocab_corpus, corpus, trie, ngram
                             channel_p = channelModel(edit[4][0], edit[4][1], 'rev', corpus)
                         if edit[0] == 'Substitution':
                             channel_p = channelModel(edit[3], edit[4], 'sub', corpus)
+
                         word_index = item[2][1:-1].index(words)
                         phase = item[2][1:-1][(word_index - ngram): word_index] + [candidate]
-                        printfile.write(' '.join(phase) + '\n')
+                        # printfile.write(' '.join(phase) + '\n')
                         candi_proba.append(
-                            language_model(gram_count, len(vocab_corpus), phase, ngram)*channel_p)  # 0 = unigram, 1 = bigram
+                            language_model(gram_count, len(gram_count), phase, ngram) + np.log(channel_p))  # 0 = unigram, 1 = bigram
 
                 index = candi_proba.index(max(candi_proba))
-                printfile.write(words + ' ' + candidate_list[index] + '\n')
+                # printfile.write(words + ' ' + candidate_list[index] + '\n')
                 data[int(item[0]) - 1] = data[int(item[0]) - 1].replace(words, candidate_list[index])
 
         resultfile.write(data[int(item[0]) - 1])
@@ -415,7 +396,7 @@ def eval():
         resultset = set(nltk.word_tokenize(resultline))
         if ansset == resultset:
             count += 1
-    printfile.write("Accuracy is : %.2f%%" % (count * 1.00 / 10) + '\n')
+    print("Accuracy is : %.2f%%" % (count * 1.00 / 10) + '\n')
 
 if __name__ == '__main__':
     start = time.time()
@@ -426,7 +407,7 @@ if __name__ == '__main__':
     addmatrix, submatrix, revmatrix, delmatrix = loadConfusionMatrix()
 
     stop = time.time()
-    printfile.write('Preprocessing time: ' + str(stop - start) + '\n')
+    print('Preprocessing time: ' + str(stop - start) + '\n')
 
     print('Doing Spell Correcting...')
     spell_correct(vocab, testdata, gram_count, vocab_corpus, corpus, trie, 0)
@@ -434,5 +415,5 @@ if __name__ == '__main__':
     eval()
 
     stop = time.time()
-    printfile.write('Spell Correcting time: ' + str(stop - start) + '\n')
+    print('Spell Correcting time: ' + str(stop - start) + '\n')
 
