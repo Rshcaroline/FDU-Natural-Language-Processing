@@ -153,7 +153,8 @@ def get_candidate(trie, word, edit_distance=1):
                 if len(word) > 1:
                     que.append((trie, word[1]+word[0]+word[2:], path, edit_distance))
 
-def editType(candidate, word):  # "Method to calculate edit type for single edit errors."
+# Method to calculate edit type for single edit errors.
+def editType(candidate, word):
     edit = [False] * 4
     correct = ""
     error = ""
@@ -242,8 +243,8 @@ def editType(candidate, word):  # "Method to calculate edit type for single edit
     elif edit[3]:
         return "Reversal", correct, error, x, w
 
+# Method to load Confusion Matrix from external data file.
 def loadConfusionMatrix():
-    # """Method to load Confusion Matrix from external data file."""
     f=open('addconfusion.data', 'r')
     data=f.read()
     f.close
@@ -262,42 +263,43 @@ def loadConfusionMatrix():
     delmatrix=ast.literal_eval(data)
     return addmatrix, submatrix, revmatrix, delmatrix
 
-def channelModel(x,y, edit, corpus): # """Method to calculate channel model probability for errors."""
+# Method to calculate channel model probability for errors.
+def channelModel(x,y, edit, corpus):
     corpus_str = ' '.join(corpus)
     # print(corpus)
     if edit == 'add':
-        if x+y in addmatrix and corpus.count(' '+y) and corpus.count(x):
+        if x+y in addmatrix and corpus_str.count(' '+y) and corpus_str.count(x):
             if x == '#':
-                return (addmatrix[x+y] + 1)/corpus.count(' '+y)
+                return (addmatrix[x+y] + 1)/corpus_str.count(' '+y)
             else:
-                return (addmatrix[x+y] + 1)/corpus.count(x)
+                return (addmatrix[x+y] + 1)/corpus_str.count(x)
         else:
             return 1 / len(corpus)
     if edit == 'sub':
-        if (x+y)[0:2] in submatrix and corpus.count(y):
-            return (submatrix[(x+y)[0:2]] +1)/corpus.count(y)
+        if (x+y)[0:2] in submatrix and corpus_str.count(y):
+            return (submatrix[(x+y)[0:2]] +1)/corpus_str.count(y)
         elif (x+y)[0:2] in submatrix:
             return (submatrix[(x+y)[0:2]] +1)/len(corpus)
-        elif corpus.count(y):
-            return 1/corpus.count(y)
+        elif corpus_str.count(y):
+            return 1/corpus_str.count(y)
         else:
             return 1 / len(corpus)
     if edit == 'rev':
-        if x+y in revmatrix and corpus.count(x+y):
-            return (revmatrix[x+y] + 1)/corpus.count(x+y)
+        if x+y in revmatrix and corpus_str.count(x+y):
+            return (revmatrix[x+y] + 1)/corpus_str.count(x+y)
         elif x+y in revmatrix:
             return (revmatrix[x+y] + 1) / len(corpus)
-        elif corpus.count(x+y):
-            return 1 / corpus.count(x+y)
+        elif corpus_str.count(x+y):
+            return 1 / corpus_str.count(x+y)
         else:
             return 1 / len(corpus)
     if edit == 'del':
-        if x+y in delmatrix and corpus.count(x+y):
-            return (delmatrix[x+y] + 1)/corpus.count(x+y)
+        if x+y in delmatrix and corpus_str.count(x+y):
+            return (delmatrix[x+y] + 1)/corpus_str.count(x+y)
         elif x+y in delmatrix:
             return (delmatrix[x+y] + 1)/len(corpus)
-        elif corpus.count(x+y):
-            return 1/corpus.count(x+y)
+        elif corpus_str.count(x+y):
+            return 1/corpus_str.count(x+y)
         else:
             return 1 / len(corpus)
 
@@ -318,7 +320,7 @@ def spell_correct(vocab, testdata, gram_count, corpus, V, trie, ngram, lamd):
             if (words in vocab):
                 continue
             else:
-                printfile.write(item[0] + ' ' + item[1] + ' ' + words + '\n')
+                # printfile.write(item[0] + ' ' + item[1] + ' ' + words + '\n')
                 if (list(get_candidate(trie, words, edit_distance=1))):
                     candidate_list = list(get_candidate(trie, words, edit_distance=1))
                 else:
@@ -337,13 +339,13 @@ def spell_correct(vocab, testdata, gram_count, corpus, V, trie, ngram, lamd):
                                                ngram, lamd))
                             continue
                         if edit[0] == "Insertion":
-                            channel_p = channelModel(edit[3][0], edit[3][1], 'add', corpus)
+                            channel_p = np.log(channelModel(edit[3][0], edit[3][1], 'add', corpus))
                         if edit[0] == 'Deletion':
-                            channel_p = channelModel(edit[4][0], edit[4][1], 'del', corpus)
+                            channel_p = np.log(channelModel(edit[4][0], edit[4][1], 'del', corpus))
                         if edit[0] == 'Reversal':
-                            channel_p = channelModel(edit[4][0], edit[4][1], 'rev', corpus)
+                            channel_p = np.log(channelModel(edit[4][0], edit[4][1], 'rev', corpus))
                         if edit[0] == 'Substitution':
-                            channel_p = channelModel(edit[3], edit[4], 'sub', corpus)
+                            channel_p = np.log(channelModel(edit[3], edit[4], 'sub', corpus))
 
                         word_index = item[2][1:-1].index(words)
                         pre_phase = item[2][1:-1][(word_index - ngram): word_index] + [candidate]
@@ -361,30 +363,8 @@ def spell_correct(vocab, testdata, gram_count, corpus, V, trie, ngram, lamd):
 
         resultfile.write(data[int(item[0]) - 1])
 
-def eval():
-    anspath = './ans.txt'
-    resultpath = './result.txt'
-    ansfile = open(anspath, 'r')
-    resultfile = open(resultpath, 'r')
-    count = 0
-    for i in range(1000):
-        ansline = ansfile.readline().split('\t')[1]
-        ansset = set(nltk.word_tokenize(ansline))
-        resultline = resultfile.readline().split('\t')[1]
-        resultset = set(nltk.word_tokenize(resultline))
-        if ansset == resultset:
-            count += 1
-        # else:
-        #     print(i+1)
-        #     print(ansset)
-        #     print(resultset)
-    print("Accuracy is : %.2f%%" % (count * 1.00 / 10) + '\n')
-
 if __name__ == '__main__':
     start = time.time()
-
-    # cate = ['cpi', 'earn', 'fuel', 'gas', 'housing', 'income', 'trade', 'retail', 'instal-debt', 'interest', 'livestock',
-    #         'wheat', 'rubber', 'oilseed']
     cate = reuters.categories()
 
     print('Doing preprocessing, computing things. Please wait...')
@@ -394,10 +374,9 @@ if __name__ == '__main__':
 
     print('Doing Spell Correcting...')
 
-    lamd = 0.01
+    lamd = 0.01  # add-lambda smoothing
     spell_correct(vocab, testdata, gram_count, corpus_text, V, trie, 1, lamd)
     print(lamd)
-    eval()
 
     stop = time.time()
     print('Time: ' + str(stop - start) + '\n')
