@@ -45,31 +45,22 @@ def NewsGroup(news, train, test):
     test_group = []
     for k in range(0, len(test)):
         print('processing test ', k)
-        test_id = train[k][1].split(',')
+        test_id = test[k][1].split(',')
         test_content = []
         for item in news:
             for i in range(1, len(test_id)):
                 if int(item['id']) == int(test_id[i]):
                     test_content.extend(list(jieba.cut(item['content'], cut_all=True)))
-        test_group.append((test_content, train[k][0]))
+        test_group.append((test_content, test[k][0]))
 
     pickle.dump(train_group, open('/Users/caroline/news_group.txt', 'wb'))
     pickle.dump(test_group, open('/Users/caroline/test_group.txt', 'wb'))
 
     return train_group, test_group
 
-# feature extraction
-def TextFeatures(text):
-    features = {}
-    # features['last_word'] = text[-1]
-    features['first_word'] = text[0]
-    features['length'] = len(text)
-
-    return  features
-
 def PrepareSets(train_group, test_group):
-    random.shuffle(train_group)
 
+    random.shuffle(train_group)
     train_feature_sets = [(TextFeatures(text), label) for (text, label) in train_group]
     test_feature_sets = [(TextFeatures(text), label) for (text, label) in test_group]
     # train_set, test_set = train_feature_sets, test_feature_sets
@@ -81,26 +72,33 @@ if __name__ == '__main__':
     start = time.time()
 
     # load data
+    print('Loading...')
     news, train, test = IOTxt()
     train_group = pickle.load(open('/Users/caroline/news_group.txt', 'rb'))
     test_group = pickle.load(open('/Users/caroline/test_group.txt', 'rb'))
     # train_group, test_group = NewsGroup(news, train, test)
+    stop = time.time()
+    print('Loading TIME:', str(stop-start) + '\n')
 
     #prepare the training set and test set
     train_set, test_set = PrepareSets(train_group, test_group)
 
     # train a classifier
-    classifier = nltk.NaiveBayesClassifier.train(train_set)
+    print('Training...')
+    # classifier = nltk.NaiveBayesClassifier.train(train_set)
+    classifier = nltk.DecisionTreeClassifier.train(train_set)
+    stop = time.time()
+    print('Training TIME:', str(stop - start) + '\n')
 
     # test the classifier
+    print(nltk.classify.accuracy(classifier, test_set))
+    # print(classifier.show_most_informative_features(10))
+
     resultpath = './result.txt'
     resultfile = open(resultpath, 'w')
     for item in test_set:
         resultfile.write(classifier.classify(item[0]) + '\n')
     resultfile.close()
-
-    print(nltk.classify.accuracy(classifier, test_set))
-    print(classifier.show_most_informative_features(10))
 
     stop = time.time()
     print('TIME:', str(stop-start) + '\n')
