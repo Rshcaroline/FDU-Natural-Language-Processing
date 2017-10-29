@@ -58,6 +58,15 @@ def NewsGroup(news, train, test):
 
     return train_group, test_group
 
+# feature extraction
+def TextFeatures(text):
+    features = {}
+    # features['last_word'] = text[-1]
+    features['first_word'] = text[0]
+    features['length'] = len(text)
+
+    return  features
+
 def PrepareSets(train_group, test_group):
 
     random.shuffle(train_group)
