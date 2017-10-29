@@ -68,7 +68,6 @@ def TextFeatures(text):
     return  features
 
 def PrepareSets(train_group, test_group):
-
     random.shuffle(train_group)
     train_feature_sets = [(TextFeatures(text), label) for (text, label) in train_group]
     test_feature_sets = [(TextFeatures(text), label) for (text, label) in test_group]
@@ -94,22 +93,20 @@ if __name__ == '__main__':
 
     # train a classifier
     print('Training...')
-    # classifier = nltk.NaiveBayesClassifier.train(train_set)
-    classifier = nltk.DecisionTreeClassifier.train(train_set)
+    start = time.time()
+    classifier = nltk.NaiveBayesClassifier.train(train_set)
+    # classifier = nltk.DecisionTreeClassifier.train(train_set)
     stop = time.time()
     print('Training TIME:', str(stop - start) + '\n')
 
     # test the classifier
     print(nltk.classify.accuracy(classifier, test_set))
-    # print(classifier.show_most_informative_features(10))
+    print(classifier.show_most_informative_features(10))
 
     resultpath = './result.txt'
     resultfile = open(resultpath, 'w')
     for item in test_set:
         resultfile.write(classifier.classify(item[0]) + '\n')
     resultfile.close()
-
-    stop = time.time()
-    print('TIME:', str(stop-start) + '\n')
 
 
