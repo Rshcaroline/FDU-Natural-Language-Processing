@@ -2,5 +2,6 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/sentiment dict/正面情感词语（中文）.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentiment dict/正面情感词语（英文）.txt" charset="UTF-8" />
   </component>
 </project>

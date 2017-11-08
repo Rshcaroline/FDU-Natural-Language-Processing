@@ -65,6 +65,10 @@ def TextFeatures(text):
     features['first_word'] = text[0]
     features['length'] = len(text)
 
+    # fdist = nltk.FreqDist(text)
+    # keys = list(fdist.keys())[:5]
+    # features['most_common_word'] = ' '.join(keys)  # not hashable?
+
     return  features
 
 def PrepareSets(train_group, test_group):
@@ -88,8 +92,12 @@ if __name__ == '__main__':
     stop = time.time()
     print('Loading TIME:', str(stop-start) + '\n')
 
+    print('Preparing...')
+    start = time.time()
     #prepare the training set and test set
     train_set, test_set = PrepareSets(train_group, test_group)
+    stop = time.time()
+    print('Preparing TIME:', str(stop - start) + '\n')
 
     # train a classifier
     print('Training...')
