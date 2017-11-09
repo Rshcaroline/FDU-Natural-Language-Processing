@@ -2,47 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f878141-855a-4b58-9584-7e59d648510a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dict/degreeDict.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dict/notDict.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dict/sentiment_dict/情感词汇本体/read_sentiment_xls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dict/sentiment_dict/正面情感词语（中文）.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thoughts.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sentiment dict/情感词汇本体/情感词汇本体.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sentiment dict/正面情感词语（中文）.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/ThesaurusParser/Baidu/BaiduBdcitReader.java" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/ThesaurusParser/Baidu/BaiduBdcitReader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/ThesaurusParser/Baidu/BaiduBdict2Txt.java" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/ThesaurusParser/Baidu/BaiduBdict2Txt.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/ThesaurusParser/LICENSE" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/ThesaurusParser/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/ThesaurusParser/QQ/QQqpyd2Txt.java" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/ThesaurusParser/QQ/QQqpyd2Txt.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/ThesaurusParser/QQ/QQqpydReader.java" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/ThesaurusParser/QQ/QQqpydReader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/ThesaurusParser/README.md" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/ThesaurusParser/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/ThesaurusParser/Sogou/SogouScel2Txt.class" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/ThesaurusParser/Sogou/SogouScel2Txt.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/ThesaurusParser/Sogou/SogouScel2Txt.java" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/ThesaurusParser/Sogou/SogouScel2Txt.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/ThesaurusParser/Sogou/SougouScelMdel.class" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/ThesaurusParser/Sogou/SougouScelMdel.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/ThesaurusParser/Sogou/SougouScelReader.class" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/ThesaurusParser/Sogou/SougouScelReader.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/ThesaurusParser/Sogou/SougouScelReader.java" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/ThesaurusParser/Sogou/SougouScelReader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/read_finace.py" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/read_finace_xls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/股票基金词库大全.scel" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/股票基金词库大全.scel" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/股票基金词库大全.txt" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/股票基金词库大全.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/财经金融词汇大全【官方推荐】.scel" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/财经金融词汇大全.scel" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/财经金融词汇大全【官方推荐】.txt" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/财经金融词汇大全.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/金融词汇(英汉词典).txt" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/金融词汇(英汉词典).txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fiance_word_dict/金融词汇(英汉词典).xls" afterPath="$PROJECT_DIR$/dict/fiance_word_dict/金融词汇(英汉词典).xls" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment dict/主张词语（中文）.txt" afterPath="$PROJECT_DIR$/dict/sentiment_dict/主张词语（中文）.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment dict/主张词语（英文）.txt" afterPath="$PROJECT_DIR$/dict/sentiment_dict/主张词语（英文）.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment dict/情感词汇本体/情感词汇本体库说明文档.doc" afterPath="$PROJECT_DIR$/dict/sentiment_dict/情感词汇本体/情感词汇本体库说明文档.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment dict/正面情感词语（英文）.txt" afterPath="$PROJECT_DIR$/dict/sentiment_dict/正面情感词语（英文）.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment dict/正面评价词语（中文）.txt" afterPath="$PROJECT_DIR$/dict/sentiment_dict/正面评价词语（中文）.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment dict/正面评价词语（英文）.txt" afterPath="$PROJECT_DIR$/dict/sentiment_dict/正面评价词语（英文）.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment dict/程度级别词语（中文）.txt" afterPath="$PROJECT_DIR$/dict/sentiment_dict/程度级别词语（中文）.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment dict/程度级别词语（英文）.txt" afterPath="$PROJECT_DIR$/dict/sentiment_dict/程度级别词语（英文）.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment dict/负面情感词语（中文）.txt" afterPath="$PROJECT_DIR$/dict/sentiment_dict/负面情感词语（中文）.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment dict/负面情感词语（英文）.txt" afterPath="$PROJECT_DIR$/dict/sentiment_dict/负面情感词语（英文）.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment dict/负面评价词语（中文）.txt" afterPath="$PROJECT_DIR$/dict/sentiment_dict/负面评价词语（中文）.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sentiment dict/负面评价词语（英文）.txt" afterPath="$PROJECT_DIR$/dict/sentiment_dict/负面评价词语（英文）.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SentiScore.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thoughts.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dict/中文停用词表(1208个).txt" afterPath="$PROJECT_DIR$/dict/notWord.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result.txt" afterPath="$PROJECT_DIR$/result.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock prediction.py" afterPath="$PROJECT_DIR$/stock prediction.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dict/sentiment_dict/情感词汇本体/read_sentiment_xls.py" afterPath="$PROJECT_DIR$/dict/sentiment_dict/情感词汇本体/read_sentiment_xls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,7 +19,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/FDU_NLP_Stock_Market_Prediction$stock_prediction.coverage" NAME="stock prediction Coverage Results" MODIFIED="1510149308114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FDU_NLP_Stock_Market_Prediction$read_finace_dict.coverage" NAME="read_finace_dict Coverage Results" MODIFIED="1510141809043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FDU_NLP_Stock_Market_Prediction$read_sentiment_xls.coverage" NAME="read_sentiment_xls Coverage Results" MODIFIED="1510220412723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict/sentiment_dict/情感词汇本体" />
+    <SUITE FILE_PATH="coverage/FDU_NLP_Stock_Market_Prediction$read_sentiment_xls.coverage" NAME="read_sentiment_xls Coverage Results" MODIFIED="1510222375966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict/sentiment_dict/情感词汇本体" />
+    <SUITE FILE_PATH="coverage/FDU_NLP_Stock_Market_Prediction$thoughts.coverage" NAME="thoughts Coverage Results" MODIFIED="1510242576494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FDU_NLP_Stock_Market_Prediction$read_finace.coverage" NAME="read_finace Coverage Results" MODIFIED="1510142673697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fiance word dict" />
     <SUITE FILE_PATH="coverage/FDU_NLP_Stock_Market_Prediction$scorer.coverage" NAME="scorer Coverage Results" MODIFIED="1510149885149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -64,8 +30,8 @@
       <file leaf-file-name="stock prediction.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stock prediction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="55" column="45" lean-forward="true" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+            <state relative-caret-position="210">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="e#170#183#0" expanded="true" />
               </folding>
@@ -73,43 +39,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thoughts.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thoughts.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="read_sentiment_xls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="read_sentiment_xls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dict/sentiment_dict/情感词汇本体/read_sentiment_xls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+            <state relative-caret-position="436">
+              <caret line="70" column="24" lean-forward="true" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
               <folding>
-                <element signature="e#231#250#0" expanded="true" />
+                <element signature="e#236#255#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="正面情感词语（中文）.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dict/sentiment_dict/正面情感词语（中文）.txt">
+      <file leaf-file-name="SentiScore.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SentiScore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="degreeDict.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dict/degreeDict.txt">
+      <file leaf-file-name="pos_word.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dict/pos_word.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="79">
+              <caret line="8630" column="5" lean-forward="false" selection-start-line="8630" selection-start-column="5" selection-end-line="8630" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notWord.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dict/notWord.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -125,21 +91,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="中文停用词表(1208个).txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dict/中文停用词表(1208个).txt">
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+            <state relative-caret-position="510">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="负面情感词语（中文）.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dict/sentiment_dict/负面情感词语（中文）.txt">
+      <file leaf-file-name="news.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/news.txt">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="390">
+              <caret line="0" column="2044" lean-forward="false" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="2044" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="neg_word.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dict/neg_word.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            <state relative-caret-position="1552">
+              <caret line="7010" column="8" lean-forward="true" selection-start-line="7010" selection-start-column="8" selection-end-line="7010" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -155,8 +130,13 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.0</find>
+      <find>pos</find>
+    </findStrings>
     <replaceStrings>
       <replace />
+      <replace>neg</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -174,7 +154,6 @@
         <option value="$PROJECT_DIR$/result.txt" />
         <option value="$PROJECT_DIR$/fiance word dict/ThesaurusParser/Sogou/SogouScel2Txt.java" />
         <option value="$PROJECT_DIR$/fiance_word_dict/ThesaurusParser/Sogou/SogouScel2Txt.java" />
-        <option value="$PROJECT_DIR$/stock prediction.py" />
         <option value="$PROJECT_DIR$/dict/中文停用词表(1208个).txt" />
         <option value="$PROJECT_DIR$/dict/sentiment dict/主张词语（中文）.txt" />
         <option value="$PROJECT_DIR$/dict/sentiment dict/正面评价词语（中文）.txt" />
@@ -190,8 +169,11 @@
         <option value="$PROJECT_DIR$/dict/sentiment dict/degree_insufficiently.txt" />
         <option value="$PROJECT_DIR$/dict/sentiment dict/degree_extreme.txt" />
         <option value="$PROJECT_DIR$/dict/notDict.txt" />
-        <option value="$PROJECT_DIR$/thoughts.py" />
         <option value="$PROJECT_DIR$/dict/sentiment_dict/情感词汇本体/read_sentiment_xls.py" />
+        <option value="$PROJECT_DIR$/dict/pos_word.txt" />
+        <option value="$PROJECT_DIR$/dict/neg_word.txt" />
+        <option value="$PROJECT_DIR$/thoughts.py" />
+        <option value="$PROJECT_DIR$/stock prediction.py" />
       </list>
     </option>
   </component>
@@ -265,64 +247,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FDU-NLP-Stock-Market-Prediction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FDU-NLP-Stock-Market-Prediction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dict" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sentiment_dict" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FDU-NLP-Stock-Market-Prediction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FDU-NLP-Stock-Market-Prediction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dict" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sentiment_dict" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="情感词汇本体" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FDU-NLP-Stock-Market-Prediction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FDU-NLP-Stock-Market-Prediction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dict" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fiance_word_dict" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -358,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.read_sentiment_xls">
+  <component name="RunManager" selected="Python.thoughts">
     <configuration default="false" name="stock prediction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -430,6 +354,25 @@
       <module name="FDU-NLP-Stock-Market-Prediction" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict/sentiment_dict/情感词汇本体/read_sentiment_xls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="thoughts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FDU-NLP-Stock-Market-Prediction" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SentiScore.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -603,19 +546,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.read_finace_dict" />
       <item index="1" class="java.lang.String" itemvalue="Python.stock prediction" />
       <item index="2" class="java.lang.String" itemvalue="Python.scorer" />
       <item index="3" class="java.lang.String" itemvalue="Python.read_finace" />
       <item index="4" class="java.lang.String" itemvalue="Python.read_sentiment_xls" />
+      <item index="5" class="java.lang.String" itemvalue="Python.thoughts" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.read_sentiment_xls" />
-        <item index="1" class="java.lang.String" itemvalue="Python.scorer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.stock prediction" />
-        <item index="3" class="java.lang.String" itemvalue="Python.read_finace" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.thoughts" />
+        <item index="1" class="java.lang.String" itemvalue="Python.read_sentiment_xls" />
+        <item index="2" class="java.lang.String" itemvalue="Python.scorer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.stock prediction" />
+        <item index="4" class="java.lang.String" itemvalue="Python.read_finace" />
       </list>
     </recent_temporary>
   </component>
@@ -639,8 +584,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32356688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3987261" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25477707" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25477707" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27165064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -656,6 +601,27 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32356688" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3987261" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27165064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -668,34 +634,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dict/sentiment_dict/正面情感词语（英文）.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dict/sentiment_dict/正面情感词语（中文）.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dict/sentiment_dict/正面评价词语（中文）.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/train.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -787,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fiance word dict/read_finace_dict.py" />
     <entry file="file://$PROJECT_DIR$/dict/fiance_word_dict/ThesaurusParser/Sogou/SougouScelReader.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -856,13 +787,6 @@
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-266">
-          <caret line="1" column="512" lean-forward="false" selection-start-line="1" selection-start-column="512" selection-end-line="1" selection-end-column="512" />
         </state>
       </provider>
     </entry>
@@ -954,22 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dict/notDict.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dict/degreeDict.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dict/sentiment_dict/正面评价词语（中文）.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-23603">
@@ -994,14 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dict/中文停用词表(1208个).txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dict/sentiment_dict/正面情感词语（中文）.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1010,31 +910,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stock prediction.py">
+    <entry file="file://$PROJECT_DIR$/dict/sentiment_dict/情感词汇本体/sentiment_word_xlsx.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="55" column="45" lean-forward="true" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
-          <folding>
-            <element signature="e#170#183#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thoughts.py">
+    <entry file="file://$PROJECT_DIR$/dict/degreeDict.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        <state relative-caret-position="75">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict/sentiment_dict/情感词汇本体/neg_word.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict/notWord.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict/notDict.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict/neg_word.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1552">
+          <caret line="7010" column="8" lean-forward="true" selection-start-line="7010" selection-start-column="8" selection-end-line="7010" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dict/sentiment_dict/情感词汇本体/read_sentiment_xls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        <state relative-caret-position="436">
+          <caret line="70" column="24" lean-forward="true" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
           <folding>
-            <element signature="e#231#250#0" expanded="true" />
+            <element signature="e#236#255#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="390">
+          <caret line="0" column="2044" lean-forward="false" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="2044" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict/pos_word.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="8630" column="5" lean-forward="false" selection-start-line="8630" selection-start-column="5" selection-end-line="8630" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock prediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#170#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SentiScore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

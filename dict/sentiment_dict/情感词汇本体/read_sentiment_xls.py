@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time    : 2017/11/8 下午7:52
+# @Time    : 2017/11/9 下午7:52
 # @Author  : Shihan Ran
 # @Site    : 
-# @File    : read_finace.py
+# @File    : read_sentiment_xls.py
 # @Software: PyCharm
 
 # this .py is aimed to read "情感词汇.xlsx"
@@ -71,13 +71,15 @@ def main():
 if __name__=="__main__":
     # main()
 
-    resultpath = './sentiment_word_xlsx.txt'
-    resultfile = open(resultpath, 'w')
+    pospath = './pos_word.txt'
+    negpath = './neg_word.txt'
+    posfile = open(pospath, 'w')
+    negfile = open(negpath, 'w')
 
     tables = excel_table_byindex()
     for row in tables:
-        print(row)
-        # print(row['情感分类'],row['强度'],row['极性'])
-        # resultfile.write(row['中文翻译'] + '\n')
+        if int(row['极性']) == 2: negfile.write(str(row['词语']) + ',' + str(row['强度']) + '\n')
+        else: posfile.write(str(row['词语']) + ',' + str(row['强度']) + '\n')
 
-    resultfile.close()
+    posfile.close()
+    negfile.close()

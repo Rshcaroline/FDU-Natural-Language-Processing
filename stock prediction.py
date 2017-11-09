@@ -12,6 +12,7 @@ import nltk
 import random
 import time
 import pickle
+import SentiScore
 
 # read txt files
 def IOTxt():
@@ -67,8 +68,13 @@ def TextFeatures(text):
     features['first_word'] = text[0]
     features['length'] = len(text)
 
-    for word in word_features:
-        features['contain({})'.format(word)] = (word in text_word)
+    # for word in word_features:
+    #     features['contain({})'.format(word)] = (word in text_word)
+
+    pos_dict, neg_dict, not_dict, degree_dict = LoadDict()
+    sent = Sent2Word(text)
+    pos_word, neg_word, not_word, degree_word = LocateSpecialWord(pos_dict, neg_dict, not_dict, degree_dict, sent)
+    score = ScoreSent(pos_word, neg_word, not_word, degree_word, sent)
 
     return  features
 
@@ -98,11 +104,12 @@ if __name__ == '__main__':
     start = time.time()
 
     # find the most common word as features
-    document = []
-    for (text, label) in train_group:
-        document.extend(text)
-    fdist = nltk.FreqDist(document)
-    word_features = list(fdist)[:2000]
+    # 55%
+    # document = []
+    # for (text, label) in train_group:
+    #     document.extend(text)
+    # fdist = nltk.FreqDist(document)
+    # word_features = list(fdist)[:2000]
 
     # divide the data set into training set and testing set
     # train_set, test_set = PrepareSets(train_group, test_group)
