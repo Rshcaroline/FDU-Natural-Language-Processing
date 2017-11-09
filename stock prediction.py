@@ -32,9 +32,9 @@ def IOTxt():
 # preprocess train and test set, along with their labels, get group news together
 def NewsGroup(news, train, test):
     train_group = []
-    for k in range(0, len(train)):
+    for k in range(0, len(train)):   # train[k] = -1	44374,44416,2913537,2913541
         print('Processing train ', k)
-        train_id = train[k][1].split(',')
+        train_id = train[k][1].split(',')  # train[k][1].split(',') = [44374,44416,2913537,2913541]
         train_content = []
         for item in news:
             for i in range(1, len(train_id)):
@@ -60,14 +60,15 @@ def NewsGroup(news, train, test):
 
 # feature extraction
 def TextFeatures(text):
+    text_word = set(text)
+
     features = {}
     # features['last_word'] = text[-1]
     features['first_word'] = text[0]
     features['length'] = len(text)
 
-    # fdist = nltk.FreqDist(text)
-    # keys = list(fdist.keys())[:5]
-    # features['most_common_word'] = ' '.join(keys)  # not hashable?
+    for word in word_features:
+        features['contain({})'.format(word)] = (word in text_word)
 
     return  features
 
@@ -87,15 +88,25 @@ if __name__ == '__main__':
     print('Loading...')
     news, train, test = IOTxt()
     train_group = pickle.load(open('/Users/caroline/news_group.txt', 'rb'))
-    test_group = pickle.load(open('/Users/caroline/test_group.txt', 'rb'))
+    # test_group = pickle.load(open('/Users/caroline/test_group.txt', 'rb'))
     # train_group, test_group = NewsGroup(news, train, test)
     stop = time.time()
     print('Loading TIME:', str(stop-start) + '\n')
 
+    # prepare the training set and test set
     print('Preparing...')
     start = time.time()
-    #prepare the training set and test set
-    train_set, test_set = PrepareSets(train_group, test_group)
+
+    # find the most common word as features
+    document = []
+    for (text, label) in train_group:
+        document.extend(text)
+    fdist = nltk.FreqDist(document)
+    word_features = list(fdist)[:2000]
+
+    # divide the data set into training set and testing set
+    # train_set, test_set = PrepareSets(train_group, test_group)
+    train_set, test_set = PrepareSets(train_group[1000:], train_group[:1000])
     stop = time.time()
     print('Preparing TIME:', str(stop - start) + '\n')
 
@@ -111,10 +122,10 @@ if __name__ == '__main__':
     print(nltk.classify.accuracy(classifier, test_set))
     print(classifier.show_most_informative_features(10))
 
-    resultpath = './result.txt'
-    resultfile = open(resultpath, 'w')
-    for item in test_set:
-        resultfile.write(classifier.classify(item[0]) + '\n')
-    resultfile.close()
+    # resultpath = './result.txt'
+    # resultfile = open(resultpath, 'w')
+    # for item in test_set:
+    #     resultfile.write(classifier.classify(item[0]) + '\n')
+    # resultfile.close()
 
 
