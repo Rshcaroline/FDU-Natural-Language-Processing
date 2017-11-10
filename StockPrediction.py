@@ -24,28 +24,24 @@ def TextFeatures(text):
     n = len(text)/2  # 有n篇news:[[title],[content]]
 
     features = {}
-    features['first_word'] = text[0]
-    features['length'] = len(text)
     features['news_num'] = n
 
     # find the mean sentiment score for title and content
     title_score = []
-    for title in [2*i for i in range(0,n)]:   # [0,2,4,6,...]
+    for title in [2*i for i in range(0,int(n))]:   # [0,2,4,6,...]
         pos_word, neg_word, not_word, degree_word = SentiScore.\
             LocateSpecialWord(pos_dict, neg_dict, not_dict, degree_dict, text[title])
         title_score.append(SentiScore.ScoreSent(pos_word, neg_word, not_word, degree_word, text[title]))
     features['title_score'] = np.mean(title_score)
-    print(title_score)
 
     content_score = []
-    for content in [2*i+1 for i in range(0,n)]:   # [1,3,5,7,...]
+    for content in [2*i+1 for i in range(0,int(n))]:   # [1,3,5,7,...]
         pos_word, neg_word, not_word, degree_word = SentiScore.\
             LocateSpecialWord(pos_dict, neg_dict, not_dict, degree_dict, text[content])
         content_score.append(SentiScore.ScoreSent(pos_word, neg_word, not_word, degree_word, text[content]))
     features['content_score'] = np.mean(content_score)
-    print(content_score)
 
-    return  features
+    return features
 
 def PrepareSets(train_group, test_group):
     random.shuffle(train_group)
@@ -61,8 +57,8 @@ if __name__ == '__main__':
 
     # load data
     print('Loading...')
-    train_group = pickle.load(open('/Users/caroline/news_group.pkl', 'r'))
-    test_group = pickle.load(open('/Users/caroline/test_group.pkl', 'r'))
+    train_group = pickle.load(open('/Users/caroline/news_group.pkl', 'rb'))
+    test_group = pickle.load(open('/Users/caroline/test_group.pkl', 'rb'))
     stop = time.time()
     print('Loading TIME:', str(stop-start) + '\n')
 

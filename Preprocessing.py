@@ -13,6 +13,7 @@
 import codecs
 import pickle
 import time
+import SentiScore
 
 # read txt files
 def IOTxt():
@@ -42,7 +43,7 @@ def NewsGroup(news, train, test):
                 if int(item['id']) == int(train_id[i]):  # don't use item['id'] == int(news_id[i]) because it's string
                     train_content.append(SentiScore.Sent2Word(item['title']))
                     train_content.append(SentiScore.Sent2Word(item['content']))
-        train_group.extend((train_content, train[k][0]))  # news + label ([[title1],[content1],[title2],[content2]],'+1')
+        train_group.extend([(train_content, train[k][0])])  # news + label ([[title1],[content1],[title2],[content2]],'+1')
 
     test_group = []
     for k in range(0, len(test)):
@@ -54,10 +55,10 @@ def NewsGroup(news, train, test):
                 if int(item['id']) == int(test_id[i]):
                     test_content.extend(SentiScore.Sent2Word(item['title']))
                     test_content.extend(SentiScore.Sent2Word(item['content']))
-        test_group.append((test_content, test[k][0]))
+        test_group.extend([(test_content, test[k][0])])
 
-    pickle.dump(train_group, open('/Users/caroline/news_group.pkl', 'w'))
-    pickle.dump(test_group, open('/Users/caroline/test_group.pkl', 'w'))
+    pickle.dump(train_group, open('/Users/caroline/news_group.pkl', 'wb'))
+    pickle.dump(test_group, open('/Users/caroline/test_group.pkl', 'wb'))
 
     return train_group, test_group
 
