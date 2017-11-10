@@ -85,47 +85,45 @@ def ScoreSent(pos_word, neg_word, not_word, degree_word, words):
    not_locs = list(not_word.keys())
    degree_locs = list(degree_word.keys())
 
-   senloc=-1  # 已检测到多少词
+   posloc=-1  # 已检测到多少词
+   negloc=-1
 
    # 遍历句中所有单词words，i为单词绝对位置
    for i in range(0,len(words)):
        # 如果该词为积极词
        if i in pos_locs:
            # loc为情感词位置列表的序号
-           senloc += 1
+           posloc += 1
            # 直接添加该情感词分数
-           # print(words[i])
-           # print(score, W * float(pos_word[i]))
            score += W * float(pos_word[i])
 
-           if senloc < len(pos_locs)-1:
+           if posloc < len(pos_locs)-1:
                # 判断该情感词与下一情感词之间是否有否定词或程度副词
                # j为绝对位置
                # print(pos_locs)
-               for j in range(pos_locs[senloc], pos_locs[senloc+1]):
+               for j in range(pos_locs[posloc], pos_locs[posloc+1]):
                    # 如果有否定词
                    if j in not_locs:
-                      # print('not', words[j])
                       W *= -1
                    # 如果有程度副词
                    elif j in degree_locs:
                       # print('degree', words[j])
                       W *= degree_word[j]
-                   else:
-                       W = 1
+                   # else:
+                   #     W *= 1
 
        elif i in neg_word:
           # loc为情感词位置列表的序号
-          senloc += 1
+          negloc += 1
           # 直接添加该情感词分数
           # print(i)
           # print(score, W * float(neg_word[i]))
           score += (-1) * W * float(neg_word[i])
 
-          if senloc < len(neg_locs) - 1:
+          if negloc < len(neg_locs) - 1:
              # 判断该情感词与下一情感词之间是否有否定词或程度副词
              # j为绝对位置
-             for j in range(neg_locs[senloc], neg_locs[senloc + 1]):
+             for j in range(neg_locs[negloc], neg_locs[negloc + 1]):
                 # 如果有否定词
                 if j in not_locs:
                    # print('not', words[j])
@@ -134,12 +132,11 @@ def ScoreSent(pos_word, neg_word, not_word, degree_word, words):
                 elif j in degree_locs:
                    # print('degree', words[j])
                    W *= degree_word[j]
-                else:
-                    W = 1
+                # else:
+                #     W = 1
 
    # print(numpy.sign(score)*numpy.log(abs(score)))
    return numpy.sign(score)
-
 
 # pos_dict, neg_dict, not_dict, degree_dict = LoadDict()
 #

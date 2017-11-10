@@ -47,7 +47,6 @@ def PrepareSets(train_group, test_group):
     random.shuffle(train_group)
     train_feature_sets = [(TextFeatures(text), label) for (text, label) in train_group]
     test_feature_sets = [(TextFeatures(text), label) for (text, label) in test_group]
-    # train_set, test_set = train_feature_sets, test_feature_sets
 
     return train_feature_sets, test_feature_sets
 
