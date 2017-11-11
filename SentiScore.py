@@ -65,12 +65,16 @@ def LocateSpecialWord(pos_dict, neg_dict, not_dict, degree_dict, sent):
    for index, word in enumerate(sent):
       if word in pos_dict:
          pos_word[index] = pos_dict[word]
+         print('pos', word)
       elif word in neg_dict:
          neg_word[index] = neg_dict[word]
+         print('neg', word)
       elif word in not_dict:
          not_word[index] = -1
+         print('not', word)
       elif word in degree_dict:
          degree_word[index] = degree_dict[word]
+         print('degree', word)
 
    return pos_word, neg_word, not_word, degree_word
 
@@ -109,10 +113,10 @@ def ScoreSent(pos_word, neg_word, not_word, degree_word, words):
                    elif j in degree_locs:
                       # print('degree', words[j])
                       W *= degree_word[j]
-                   # else:
-                   #     W *= 1
+           #         # else:
+           #         #     W *= 1
 
-       elif i in neg_word:
+       elif i in neg_locs:
           # loc为情感词位置列表的序号
           negloc += 1
           # 直接添加该情感词分数
@@ -132,11 +136,11 @@ def ScoreSent(pos_word, neg_word, not_word, degree_word, words):
                 elif j in degree_locs:
                    # print('degree', words[j])
                    W *= degree_word[j]
-                # else:
-                #     W = 1
+          #       # else:
+          #       #     W = 1
 
    # print(numpy.sign(score)*numpy.log(abs(score)))
-   return numpy.sign(score)
+   return score
 
 # pos_dict, neg_dict, not_dict, degree_dict = LoadDict()
 #
