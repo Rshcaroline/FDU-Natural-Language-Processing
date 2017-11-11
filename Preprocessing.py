@@ -53,8 +53,8 @@ def NewsGroup(news, train, test):
         for item in news:
             for i in range(1, len(test_id)):
                 if int(item['id']) == int(test_id[i]):
-                    test_content.extend(SentiScore.Sent2Word(item['title']))
-                    test_content.extend(SentiScore.Sent2Word(item['content']))
+                    test_content.append(SentiScore.Sent2Word(item['title']))
+                    test_content.append(SentiScore.Sent2Word(item['content']))
         test_group.extend([(test_content, test[k][0])])
 
     pickle.dump(train_group, open('/Users/caroline/news_group.pkl', 'wb'))

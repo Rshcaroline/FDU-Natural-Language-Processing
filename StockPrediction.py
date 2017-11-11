@@ -18,35 +18,31 @@ import SentiScore
 
 pos_dict, neg_dict, not_dict, degree_dict = SentiScore.LoadDict()
 
-# feature extraction
-def TextFeatures(text):
-    global pos_dict, neg_dict, not_dict, degree_dict
-    n = len(text)/2  # 有n篇news:[[title],[content]]
-
+def TextFeatures(text, k):
     features = {}
-    features['news_num'] = n
+    # features['length'] = sum([len(w) for w in text])
 
-    # find the mean sentiment score for title and content
-    title_score = []
-    for title in [2*i for i in range(0,int(n))]:   # [0,2,4,6,...]
-        pos_word, neg_word, not_word, degree_word = SentiScore.\
-            LocateSpecialWord(pos_dict, neg_dict, not_dict, degree_dict, text[title])
-        title_score.append(SentiScore.ScoreSent(pos_word, neg_word, not_word, degree_word, text[title]))
-    features['title_score'] = np.mean(title_score)
+    n = len(text)/2
+    for title in [2 * i for i in range(0, int(n))]:  # [0,2,4,6,...]
+        for word in text[title]:
+            if word in pos_dict:
+                features[word] = k
+            elif word in neg_dict:
+                features[word] = -k
 
-    content_score = []
-    for content in [2*i+1 for i in range(0,int(n))]:   # [1,3,5,7,...]
-        pos_word, neg_word, not_word, degree_word = SentiScore.\
-            LocateSpecialWord(pos_dict, neg_dict, not_dict, degree_dict, text[content])
-        content_score.append(SentiScore.ScoreSent(pos_word, neg_word, not_word, degree_word, text[content]))
-    features['content_score'] = np.mean(content_score)
+    for content in [2 * i + 1 for i in range(0, int(n))]:  # [1,3,5,7,...]
+        for word in text[content]:
+            if word in pos_dict:
+                features[word] = 1
+            elif word in neg_dict:
+                features[word] = -1
 
     return features
 
-def PrepareSets(train_group, test_group):
+def PrepareSets(train_group, test_group, k):
     random.shuffle(train_group)
-    train_feature_sets = [(TextFeatures(text), label) for (text, label) in train_group]
-    test_feature_sets = [(TextFeatures(text), label) for (text, label) in test_group]
+    test_feature_sets = [(TextFeatures(text, k), label) for (text, label) in test_group]
+    train_feature_sets = [(TextFeatures(text ,k), label) for (text, label) in train_group]
 
     return train_feature_sets, test_feature_sets
 
@@ -64,7 +60,7 @@ if __name__ == '__main__':
     # prepare the training set and test set
     print('Preparing...')
     start = time.time()
-    train_set, test_set = PrepareSets(train_group, test_group)
+    train_set, test_set = PrepareSets(train_group, test_group, 2)
     stop = time.time()
     print('Preparing TIME:', str(stop - start) + '\n')
 
@@ -78,7 +74,7 @@ if __name__ == '__main__':
 
     # test the classifier
     print(nltk.classify.accuracy(classifier, test_set))
-    print(classifier.show_most_informative_features(10))
+    print(classifier.show_most_informative_features(50))
 
     resultpath = './result.txt'
     resultfile = open(resultpath, 'w')

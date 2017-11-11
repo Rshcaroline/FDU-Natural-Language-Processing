@@ -15,6 +15,7 @@ def loadDataSet():#数据格式
                  ['stop', 'posting', 'stupid', 'worthless', 'garbage'],
                  ['mr', 'licks', 'ate', 'my', 'steak', 'how', 'to', 'stop', 'him'],
                  ['quit', 'buying', 'worthless', 'dog', 'food', 'stupid']]
+
     classVec = [0,1,0,1,0,1]#1 侮辱性文字 ， 0 代表正常言论
     return postingList,classVec
 

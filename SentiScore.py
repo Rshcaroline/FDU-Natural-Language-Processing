@@ -65,16 +65,16 @@ def LocateSpecialWord(pos_dict, neg_dict, not_dict, degree_dict, sent):
    for index, word in enumerate(sent):
       if word in pos_dict:
          pos_word[index] = pos_dict[word]
-         print('pos', word)
+         # print('pos', word)
       elif word in neg_dict:
          neg_word[index] = neg_dict[word]
-         print('neg', word)
+         # print('neg', word)
       elif word in not_dict:
          not_word[index] = -1
-         print('not', word)
+         # print('not', word)
       elif word in degree_dict:
          degree_word[index] = degree_dict[word]
-         print('degree', word)
+         # print('degree', word)
 
    return pos_word, neg_word, not_word, degree_word
 
@@ -101,18 +101,18 @@ def ScoreSent(pos_word, neg_word, not_word, degree_word, words):
            # 直接添加该情感词分数
            score += W * float(pos_word[i])
 
-           if posloc < len(pos_locs)-1:
-               # 判断该情感词与下一情感词之间是否有否定词或程度副词
-               # j为绝对位置
-               # print(pos_locs)
-               for j in range(pos_locs[posloc], pos_locs[posloc+1]):
-                   # 如果有否定词
-                   if j in not_locs:
-                      W *= -1
-                   # 如果有程度副词
-                   elif j in degree_locs:
-                      # print('degree', words[j])
-                      W *= degree_word[j]
+           # if posloc < len(pos_locs)-1:
+           #     # 判断该情感词与下一情感词之间是否有否定词或程度副词
+           #     # j为绝对位置
+           #     # print(pos_locs)
+           #     for j in range(pos_locs[posloc], pos_locs[posloc+1]):
+           #         # 如果有否定词
+           #         if j in not_locs:
+           #            W *= -1
+           #         # 如果有程度副词
+           #         elif j in degree_locs:
+           #            # print('degree', words[j])
+           #            W *= degree_word[j]
            #         # else:
            #         #     W *= 1
 
@@ -124,23 +124,23 @@ def ScoreSent(pos_word, neg_word, not_word, degree_word, words):
           # print(score, W * float(neg_word[i]))
           score += (-1) * W * float(neg_word[i])
 
-          if negloc < len(neg_locs) - 1:
-             # 判断该情感词与下一情感词之间是否有否定词或程度副词
-             # j为绝对位置
-             for j in range(neg_locs[negloc], neg_locs[negloc + 1]):
-                # 如果有否定词
-                if j in not_locs:
-                   # print('not', words[j])
-                   W *= -1
-                # 如果有程度副词
-                elif j in degree_locs:
-                   # print('degree', words[j])
-                   W *= degree_word[j]
+          # if negloc < len(neg_locs) - 1:
+          #    # 判断该情感词与下一情感词之间是否有否定词或程度副词
+          #    # j为绝对位置
+          #    for j in range(neg_locs[negloc], neg_locs[negloc + 1]):
+          #       # 如果有否定词
+          #       if j in not_locs:
+          #          # print('not', words[j])
+          #          W *= -1
+          #       # 如果有程度副词
+          #       elif j in degree_locs:
+          #          # print('degree', words[j])
+          #          W *= degree_word[j]
           #       # else:
           #       #     W = 1
 
    # print(numpy.sign(score)*numpy.log(abs(score)))
-   return score
+   return numpy.sign(score)
 
 # pos_dict, neg_dict, not_dict, degree_dict = LoadDict()
 #
