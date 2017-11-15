@@ -10,7 +10,9 @@
 
 import numpy as np
 import math
-import nltk, nltk.classify.util, nltk.metrics
+import nltk
+import nltk.classify.util
+import  nltk.metrics
 import random
 import time
 import pickle
@@ -24,51 +26,21 @@ from sklearn.naive_bayes import MultinomialNB, BernoulliNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-pos_dict, neg_dict, not_dict, degree_dict = SentiScore.LoadDict()
+# pos_dict, neg_dict, not_dict, degree_dict = SentiScore.LoadDict()
 
-# # to find the score of sentiment
-# def SentiFeatures(text, k):
-#     pos, neg = [0, 0]
-#     n = len(text) / 2  # 有n篇news:[[title],[content]]
-#     global pos_dict, neg_dict, not_dict, degree_dict
-#
-#     title_score = []
-#     for title in [2 * i for i in range(0, int(n))]:  # [0,2,4,6,...]
-#         pos_word, neg_word, not_word, degree_word = SentiScore. \
-#             LocateSpecialWord(pos_dict, neg_dict, not_dict, degree_dict,
-#                               sorted(set(text[title]), key=text[title].index))
-#         title_score.append(SentiScore.ScoreSent(pos_word, neg_word, not_word, degree_word,
-#                                                 sorted(set(text[title]), key=text[title].index)))
-#         pos = len(pos_word) * k
-#         neg = len(neg_word) * k
-#     TitleScore = round(np.mean(title_score)) * k
-#
-#     content_score = []
-#     for content in [2 * i + 1 for i in range(0, int(n))]:  # [1,3,5,7,...]
-#         pos_word, neg_word, not_word, degree_word = SentiScore. \
-#             LocateSpecialWord(pos_dict, neg_dict, not_dict, degree_dict,
-#                               sorted(set(text[content]), key=text[content].index))
-#         content_score.append(SentiScore.ScoreSent(pos_word, neg_word, not_word, degree_word,
-#                                                   sorted(set(text[content]), key=text[content].index)))
-#         pos += len(pos_word)
-#         neg += len(neg_word) + len(not_dict)
-#     ContentScore = round(np.mean(content_score))
-#
-#     PosWord = round(pos / (10 * n))
-#     NegWord = round(neg / (10 * n))
-#
-#     return n, TitleScore, ContentScore, PosWord, NegWord
-#
-# # feature extraction
-# def TextFeatures(text, k):
-#
-#     features = {}
-#     # features['length'] = sum([len(w) for w in text])
-#
-#     features['news_num'], features['title_score'], features['content_score'], \
-#     features['pos_word'], features['neg_word'] = SentiFeatures(text,k)
-#
-#     return features
+pos_words = open('./pos_word.txt').readlines()
+pos_dict = {}
+for w in pos_words:
+  word = w.strip()
+  pos_dict[word] = 1
+
+neg_words = open('./neg_word.txt').readlines()
+neg_dict = {}
+for w in neg_words:
+  word =  w.strip()
+  neg_dict[word] = 1
+
+freq_dict = pickle.load(open('./dict/freqDict1000.pkl', 'rb'))
 
 # find the best weight that title should take
 def FindTitleWeight(train_group):
@@ -109,8 +81,11 @@ def TextFeatures(text, k):
     # features['length'] = sum([len(w) for w in text])
 
     n = len(text)/2
+
     for title in [2 * i for i in range(0, int(n))]:  # [0,2,4,6,...]
         for word in text[title]:
+            # if word in freq_dict:
+            #     features[word] = True
             if word in pos_dict:
                 features[word] = k
             elif word in neg_dict:
@@ -118,6 +93,8 @@ def TextFeatures(text, k):
 
     for content in [2 * i + 1 for i in range(0, int(n))]:  # [1,3,5,7,...]
         for word in text[content]:
+            # if word in freq_dict:
+            #     features[word] = True
             if word in pos_dict:
                 features[word] = 1
             elif word in neg_dict:
@@ -147,15 +124,15 @@ def SingleFold(train_group, k=4):
     cutoff = int(math.floor(len(train_group) * 3 / 4))
     train_set, test_set = PrepareSets(train_group[cutoff:], train_group[:cutoff], k)
 
-    classifier_list = ['NaiveBayes', 'Maximum Entropy', 'BernoulliNB', 'LogisticRegression', 'SVC', 'LinearSVC',
-                       'NuSVC', 'DecisionTree']
+    classifier_list = ['NaiveBayes', 'BernoulliNB', 'LogisticRegression', 'SVC', 'LinearSVC',
+                       'NuSVC'] # 'Maximum Entropy', 'DecisionTree'
     for cl in classifier_list:
         if cl == 'NaiveBayes':
             print('Training...')
             classifier = nltk.NaiveBayesClassifier.train(train_set)
-        elif cl == 'Maximum Entropy':
-            print('Training...')
-            classifier = nltk.MaxentClassifier.train(train_set, 'GIS', trace=0)
+        # elif cl == 'Maximum Entropy':
+        #     print('Training...')
+        #     classifier = nltk.MaxentClassifier.train(train_set, 'GIS', trace=0)
         elif cl == 'BernoulliNB':
             classifier = SklearnClassifier(BernoulliNB())
             print('Training...')
@@ -172,13 +149,13 @@ def SingleFold(train_group, k=4):
             classifier = SklearnClassifier(LinearSVC())
             print('Training...')
             classifier.train(train_set)
-        elif cl == 'NuSVC':
+        else:
             classifier = SklearnClassifier(NuSVC())
             print('Training...')
             classifier.train(train_set)
-        else:
-            print('Training...')
-            classifier = nltk.DecisionTreeClassifier.train(train_set)
+        # else:
+        #     print('Training...')
+        #     classifier = nltk.DecisionTreeClassifier.train(train_set)
 
         # print(classifier.show_most_informative_features(10))
 
@@ -203,6 +180,8 @@ def SingleFold(train_group, k=4):
         precision = TP / (TP + FP)
         F1 = 2 * precision * recall / (precision + recall)
 
+        pickle.dump(classifier, open('./'+cl+'.pkl', 'wb'))
+
         print('')
         print('---------------------------------------')
         print('SINGLE FOLD RESULT ' + '(' + cl + ')')
@@ -226,6 +205,7 @@ def CrossValidation(train_group, n=5):
         precision = []
         recall = []
         F1 = []
+        classifier = SklearnClassifier(NuSVC())
 
         for i in range(n):
             testing_this_round = train_group[i * subset_size:][:subset_size]
@@ -285,6 +265,8 @@ def CrossValidation(train_group, n=5):
             precision.append(TP / (TP + FP))
             F1.append(2 * (TP / (TP + FP)) * (TP / (TP + FN)) / (TP / (TP + FP)) + (TP / (TP + FN)))
 
+        pickle.dump(classifier, open('./'+cl+'.pkl', 'wb'))
+
         print('')
         print('---------------------------------------')
         print('N-FOLD CROSS VALIDATION RESULT ' + '(' + cl + ')')
@@ -293,6 +275,7 @@ def CrossValidation(train_group, n=5):
         print('precision', np.mean(precision))
         print('recall', np.mean(recall))
         print('f-measure', np.mean(F1))
+        print('\n')
 
 if __name__ == '__main__':
 

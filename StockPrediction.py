@@ -17,22 +17,28 @@ import pickle
 import SentiScore
 
 pos_dict, neg_dict, not_dict, degree_dict = SentiScore.LoadDict()
+freq_dict = pickle.load(open('./dict/freqDict1000.pkl', 'rb'))
 
 def TextFeatures(text, k):
     features = {}
     # features['length'] = sum([len(w) for w in text])
 
     n = len(text)/2
+
     for title in [2 * i for i in range(0, int(n))]:  # [0,2,4,6,...]
         for word in text[title]:
-            if word in pos_dict:
+            if word in freq_dict:
+                features[word] = k
+            elif word in pos_dict:
                 features[word] = k
             elif word in neg_dict:
                 features[word] = -k
 
     for content in [2 * i + 1 for i in range(0, int(n))]:  # [1,3,5,7,...]
         for word in text[content]:
-            if word in pos_dict:
+            if word in freq_dict:
+                features[word] = 1
+            elif word in pos_dict:
                 features[word] = 1
             elif word in neg_dict:
                 features[word] = -1
@@ -67,14 +73,14 @@ if __name__ == '__main__':
     # train a classifier
     print('Training...')
     start = time.time()
-    classifier = nltk.NaiveBayesClassifier.train(train_set)
-    # classifier = nltk.DecisionTreeClassifier.train(train_set)
+    # classifier = nltk.NaiveBayesClassifier.train(train_set)
+    classifier = pickle.load(open('./NaiveBayes.pkl','rb'))
     stop = time.time()
     print('Training TIME:', str(stop - start) + '\n')
 
     # test the classifier
-    print(nltk.classify.accuracy(classifier, test_set))
-    print(classifier.show_most_informative_features(50))
+    # print(nltk.classify.accuracy(classifier, test_set))
+    # print(classifier.show_most_informative_features(10))
 
     resultpath = './result.txt'
     resultfile = open(resultpath, 'w')

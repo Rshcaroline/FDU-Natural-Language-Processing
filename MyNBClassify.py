@@ -8,7 +8,7 @@
 
 import numpy
 
-def loadDataSet():#数据格式
+def loadDataSet():  # 数据格式
     postingList=[['my', 'dog', 'has', 'flea', 'problems', 'help', 'please'],
                  ['maybe', 'not', 'take', 'him', 'to', 'dog', 'park', 'stupid'],
                  ['my', 'dalmation', 'is', 'so', 'cute', 'I', 'love', 'him'],
@@ -16,16 +16,16 @@ def loadDataSet():#数据格式
                  ['mr', 'licks', 'ate', 'my', 'steak', 'how', 'to', 'stop', 'him'],
                  ['quit', 'buying', 'worthless', 'dog', 'food', 'stupid']]
 
-    classVec = [0,1,0,1,0,1]#1 侮辱性文字 ， 0 代表正常言论
+    classVec = [0,1,0,1,0,1]  #1 侮辱性文字 ， 0 代表正常言论
     return postingList,classVec
 
-def createVocabList(dataSet):#创建词汇表
+def createVocabList(dataSet): #创建词汇表
     vocabSet = set([])
     for document in dataSet:
         vocabSet = vocabSet | set(document) #创建并集
     return list(vocabSet)
 
-def bagOfWord2VecMN(vocabList,inputSet):#根据词汇表，讲句子转化为向量
+def bagOfWord2VecMN(vocabList,inputSet): #根据词汇表，讲句子转化为向量
     returnVec = [0]*len(vocabList)
     for word in inputSet:
         if word in vocabList:

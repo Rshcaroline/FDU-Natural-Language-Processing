@@ -1,0 +1,47 @@
+---------------------------------------
+N-FOLD CROSS VALIDATION RESULT (NaiveBayes)
+---------------------------------------
+accuracy: 0.665660377358
+precision 0.853613882249
+recall 0.691359024772
+f-measure 2.07407707432
+
+---------------------------------------
+N-FOLD CROSS VALIDATION RESULT (BernoulliNB)
+---------------------------------------
+accuracy: 0.629685534591
+precision 0.686417160524
+recall 0.717341330162
+f-measure 2.15202399049
+
+---------------------------------------
+N-FOLD CROSS VALIDATION RESULT (LogisticRegression)
+---------------------------------------
+accuracy: 0.671949685535
+precision 0.804762295994
+recall 0.714072711164
+f-measure 2.14221813349
+
+---------------------------------------
+N-FOLD CROSS VALIDATION RESULT (SVC)
+---------------------------------------
+accuracy: 0.65786163522
+precision 0.759967774794
+recall 0.717165169565
+f-measure 2.15149550869
+
+---------------------------------------
+N-FOLD CROSS VALIDATION RESULT (LinearSVC)
+---------------------------------------
+accuracy: 0.657610062893
+precision 0.759760876564
+recall 0.716970500889
+f-measure 2.15091150267
+
+---------------------------------------
+N-FOLD CROSS VALIDATION RESULT (NuSVC)
+---------------------------------------
+accuracy: 0.673333333333
+precision 0.817258413265
+recall 0.71069501244
+f-measure 2.13208503732
