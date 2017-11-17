@@ -1,0 +1,107 @@
+---------------------------------------
+N-FOLD CROSS VALIDATION RESULT (NaiveBayes)
+---------------------------------------
+accuracy: 0.660628930818
+precision 0.703748250074
+recall 0.803675698668
+f-measure 2.411027096
+
+
+Training BernoulliNB 0 fold
+Testing...
+Training BernoulliNB 1 fold
+Testing...
+Training BernoulliNB 2 fold
+Testing...
+Training BernoulliNB 3 fold
+Testing...
+Training BernoulliNB 4 fold
+Testing...
+
+---------------------------------------
+N-FOLD CROSS VALIDATION RESULT (BernoulliNB)
+---------------------------------------
+accuracy: 0.632327044025
+precision 0.715922717768
+recall 0.69592755357
+f-measure 2.08778266071
+
+
+Training LogisticRegression 0 fold
+Testing...
+Training LogisticRegression 1 fold
+Testing...
+Training LogisticRegression 2 fold
+Testing...
+Training LogisticRegression 3 fold
+Testing...
+Training LogisticRegression 4 fold
+Testing...
+
+---------------------------------------
+N-FOLD CROSS VALIDATION RESULT (LogisticRegression)
+---------------------------------------
+accuracy: 0.664150943396
+precision 0.705033417528
+recall 0.809107472748
+f-measure 2.42732241824
+
+
+Training SVC 0 fold
+Testing...
+Training SVC 1 fold
+Testing...
+Training SVC 2 fold
+Testing...
+Training SVC 3 fold
+Testing...
+Training SVC 4 fold
+Testing...
+
+---------------------------------------
+N-FOLD CROSS VALIDATION RESULT (SVC)
+---------------------------------------
+accuracy: 0.537987421384
+precision 0.655748130074
+recall 0.569504661917
+f-measure 1.70851398575
+
+
+Training LinearSVC 0 fold
+Testing...
+Training LinearSVC 1 fold
+Testing...
+Training LinearSVC 2 fold
+Testing...
+Training LinearSVC 3 fold
+Testing...
+Training LinearSVC 4 fold
+Testing...
+
+---------------------------------------
+N-FOLD CROSS VALIDATION RESULT (LinearSVC)
+---------------------------------------
+accuracy: 0.575094339623
+precision 0.645127347577
+recall 0.759600497857
+f-measure 2.27880149357
+
+
+Training NuSVC 0 fold
+Testing...
+Training NuSVC 1 fold
+Testing...
+Training NuSVC 2 fold
+Testing...
+Training NuSVC 3 fold
+Testing...
+Training NuSVC 4 fold
+Testing...
+
+---------------------------------------
+N-FOLD CROSS VALIDATION RESULT (NuSVC)
+---------------------------------------
+accuracy: 0.618113207547
+precision 0.663056837435
+recall 0.808930774758
+f-measure 2.42679232428

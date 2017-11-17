@@ -19,8 +19,8 @@ f.close()
 
 n = len(true_value)
 TP = len([i for i in range(n) if true_value[i] == '+1' and predictions[i] == '+1'])
-FN = len([i for i in range(n) if true_value[i] == '-1' and predictions[i] == '+1'])
-FP = len([i for i in range(n) if true_value[i] == '+1' and predictions[i] == '-1'])
+FN = len([i for i in range(n) if true_value[i] == '+1' and predictions[i] == '-1'])
+FP = len([i for i in range(n) if true_value[i] == '-1' and predictions[i] == '+1'])
 TN = len([i for i in range(n) if true_value[i] == '-1' and predictions[i] == '-1'])
 
 recall = TP/(TP+FN)

@@ -26,7 +26,6 @@ fdist = nltk.FreqDist(document)
 word_features = list(fdist)[:2000]
 
 
-
 # text_word = set(text)
 # for word in word_features:
 #     features['contain({})'.format(word)] = (word in text_word)

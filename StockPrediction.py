@@ -16,8 +16,20 @@ import multiprocessing
 import pickle
 import SentiScore
 
-pos_dict, neg_dict, not_dict, degree_dict = SentiScore.LoadDict()
+# pos_dict, neg_dict, not_dict, degree_dict = SentiScore.LoadDict()
 freq_dict = pickle.load(open('./dict/freqDict1000.pkl', 'rb'))
+
+pos_words = open('./pos_word.txt').readlines()
+pos_dict = {}
+for w in pos_words:
+  word = w.strip()
+  pos_dict[word] = 1
+
+neg_words = open('./neg_word.txt').readlines()
+neg_dict = {}
+for w in neg_words:
+  word =  w.strip()
+  neg_dict[word] = 1
 
 def TextFeatures(text, k):
     features = {}
@@ -27,18 +39,18 @@ def TextFeatures(text, k):
 
     for title in [2 * i for i in range(0, int(n))]:  # [0,2,4,6,...]
         for word in text[title]:
-            if word in freq_dict:
-                features[word] = k
-            elif word in pos_dict:
+            # if word in freq_dict:
+            #     features[word] = k
+            if word in pos_dict:
                 features[word] = k
             elif word in neg_dict:
                 features[word] = -k
 
     for content in [2 * i + 1 for i in range(0, int(n))]:  # [1,3,5,7,...]
         for word in text[content]:
-            if word in freq_dict:
-                features[word] = 1
-            elif word in pos_dict:
+            # if word in freq_dict:
+            #     features[word] = 1
+            if word in pos_dict:
                 features[word] = 1
             elif word in neg_dict:
                 features[word] = -1
@@ -74,7 +86,7 @@ if __name__ == '__main__':
     print('Training...')
     start = time.time()
     # classifier = nltk.NaiveBayesClassifier.train(train_set)
-    classifier = pickle.load(open('./NaiveBayes.pkl','rb'))
+    classifier = pickle.load(open('./NuSVC.pkl','rb'))
     stop = time.time()
     print('Training TIME:', str(stop - start) + '\n')
 

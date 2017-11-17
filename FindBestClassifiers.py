@@ -12,44 +12,44 @@ import numpy as np
 import math
 import nltk
 import nltk.classify.util
-import  nltk.metrics
+import nltk.metrics
 import random
 import time
 import pickle
 import SentiScore
-import collections
 import matplotlib.pyplot as plt
-
 from nltk.classify.scikitlearn import SklearnClassifier
 from sklearn.svm import SVC, LinearSVC, NuSVC
 from sklearn.naive_bayes import MultinomialNB, BernoulliNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-# pos_dict, neg_dict, not_dict, degree_dict = SentiScore.LoadDict()
+pos_dict, neg_dict, not_dict, degree_dict = SentiScore.LoadDict()
+freq_dict = pickle.load(open('./dict/freqDict2000.pkl', 'rb'))
 
-pos_words = open('./pos_word.txt').readlines()
-pos_dict = {}
-for w in pos_words:
-  word = w.strip()
-  pos_dict[word] = 1
-
-neg_words = open('./neg_word.txt').readlines()
-neg_dict = {}
-for w in neg_words:
-  word =  w.strip()
-  neg_dict[word] = 1
-
-freq_dict = pickle.load(open('./dict/freqDict1000.pkl', 'rb'))
-
-# find the best weight that title should take
 def FindTitleWeight(train_group):
+    """Find the best weight that title should take
+
+    Intuitively we think title is much more important than content, 
+    hence I give title a weight as k, and during iteration, I save every weight's accuracy
+    into an array and plot (weights, accuracy), then I’ll find the most suitable weight.
+
+    Args:
+        train_group: The original training set contains all the news related with the stock and its label. 
+            For example:
+            ([[title1],[content1],[title2],[content2],...],'+1')
+
+    Returns:
+        It doesn't return things, instead it plots the result.
+
+    """
     NaBayAcc = []
     BernoulliNBAcc = []
     LogisticRegressionAcc = []
     SVCAcc = []
     LinearSVCAcc = []
     NuSVCAcc = []
+
     for k in range(1,10):
         # divide the data set into training set and testing set
         random.shuffle(train_group)
@@ -67,42 +67,126 @@ def FindTitleWeight(train_group):
         LinearSVCAcc.append(ClassAccuracy(LinearSVC(), train_set, test_set))
         NuSVCAcc.append(ClassAccuracy(NuSVC(), train_set, test_set))
 
-    plt.plot(list(range(0, 10)), NaBayAcc, label='NaiveBayes')
-    plt.plot(list(range(0, 10)),BernoulliNBAcc, label='BernoulliNB')
-    plt.plot(list(range(0, 10)),LinearSVCAcc, label='LogisticRegression')
-    plt.plot(list(range(0, 10)),SVCAcc, label='SVC')
-    plt.plot(list(range(0, 10)),LinearSVCAcc, label='LinearSVC')
-    plt.plot(list(range(0, 10)),NuSVCAcc, label='NuSVC')
+    # print(NaBayAcc, BernoulliNBAcc, LinearSVCAcc, SVCAcc, LinearSVCAcc, NuSVCAcc)
+
+    plt.plot(list(range(1, 10)), NaBayAcc, label='NaiveBayes')
+    plt.plot(list(range(1, 10)),BernoulliNBAcc, label='BernoulliNB')
+    plt.plot(list(range(1, 10)),LogisticRegressionAcc, label='LogisticRegression')
+    plt.plot(list(range(1, 10)),SVCAcc, label='SVC')
+    plt.plot(list(range(1, 10)),LinearSVCAcc, label='LinearSVC')
+    plt.plot(list(range(1, 10)),NuSVCAcc, label='NuSVC')
     plt.legend()  # make legend
+    plt.xlabel('Weights')
+    plt.ylabel('Accuracy')
     plt.show()
 
+
+def SentiFeatures(text, k):
+    """To find the sentiment score of news corresponding to a stock
+
+    Retrieves rows pertaining to the given keys from the Table instance
+    represented by big_table.  Silly things may happen if
+    other_silly_variable is not None.
+
+    Args:
+        text: An array of title and content of news related to a stock.
+            For example:
+                [[title1],[content1],[title2],[content2],...]
+        k: Title's weight
+
+    Returns:
+        n: How many news are related to this particular stock
+        TitleScore: Compute the average sentiment score of title
+        ContentScore: Compute the average sentiment score of content
+        PosWord: The number of positive words in text
+        NegWord: The number of negative words in text
+    """
+
+    pos, neg = [0, 0]
+    n = len(text) / 2  # 有n篇news:[[title],[content]]
+    global pos_dict, neg_dict, not_dict, degree_dict
+
+    title_score = []
+    for title in [2 * i for i in range(0, int(n))]:  # [0,2,4,6,...]
+        pos_word, neg_word, not_word, degree_word = SentiScore. \
+            LocateSpecialWord(pos_dict, neg_dict, not_dict, degree_dict,
+                              sorted(set(text[title]), key=text[title].index))
+        title_score.append(SentiScore.ScoreSent(pos_word, neg_word, not_word, degree_word,
+                                                sorted(set(text[title]), key=text[title].index)))
+        pos = len(pos_word) * k
+        neg = len(neg_word) * k
+    TitleScore = round(sum(title_score)/len(title_score)) * k
+
+    content_score = []
+    for content in [2 * i + 1 for i in range(0, int(n))]:  # [1,3,5,7,...]
+        pos_word, neg_word, not_word, degree_word = SentiScore. \
+            LocateSpecialWord(pos_dict, neg_dict, not_dict, degree_dict,
+                              sorted(set(text[content]), key=text[content].index))
+        content_score.append(SentiScore.ScoreSent(pos_word, neg_word, not_word, degree_word,
+                                                  sorted(set(text[content]), key=text[content].index)))
+        pos += len(pos_word)
+        neg += len(neg_word) + len(not_dict)
+    ContentScore = round(sum(content_score)/len(content_score))
+
+    PosWord = round(pos / (10 * n))
+    NegWord = round(neg / (10 * n))
+
+    return n, TitleScore, ContentScore, PosWord, NegWord
+
 def TextFeatures(text, k):
+    """To extract features from text
+
+    The features are the followings:
+        The frequency of most common words
+        The appearance of positive and negative words
+        The existence of Not words and degree words
+        The number of news related to this stock
+        The number of sentiment words
+        The average length of news
+
+    Args:
+        text: An array of title and content of news related to a stock.
+            For example:
+                [[title1],[content1],[title2],[content2],...]
+        k: Title's weight
+
+    Returns:
+        n: How many news are related to this particular stock
+        TitleScore: Compute the average sentiment score of title
+        ContentScore: Compute the average sentiment score of content
+        PosWord: The number of positive words in text
+        NegWord: The number of negative words in text
+    """
+
     features = {}
+
+    # features['news_num'], features['title_score'], features['content_score'], \
+    # features['pos_word'], features['neg_word'] = SentiFeatures(text, k)
     # features['length'] = sum([len(w) for w in text])
 
     n = len(text)/2
 
     for title in [2 * i for i in range(0, int(n))]:  # [0,2,4,6,...]
         for word in text[title]:
-            # if word in freq_dict:
-            #     features[word] = True
-            if word in pos_dict:
-                features[word] = k
-            elif word in neg_dict:
-                features[word] = -k
+            if word in freq_dict:
+                features[word] = True
+            # if word in pos_dict:
+            #     features[word] = k
+            # elif word in neg_dict:
+            #     features[word] = -k
 
     for content in [2 * i + 1 for i in range(0, int(n))]:  # [1,3,5,7,...]
         for word in text[content]:
-            # if word in freq_dict:
-            #     features[word] = True
-            if word in pos_dict:
-                features[word] = 1
-            elif word in neg_dict:
-                features[word] = -1
+            if word in freq_dict:
+                features[word] = True
+            # if word in pos_dict:
+            #     features[word] = 1
+            # elif word in neg_dict:
+            #     features[word] = -1
 
     return features
 
-def PrepareSets(train_group, test_group,k=4):
+def PrepareSets(train_group, test_group, k=8):
     # random.shuffle(train_group)
     train_feature_sets = [(TextFeatures(text, k), label) for (text, label) in train_group]
     test_feature_sets = [(TextFeatures(text, k), label) for (text, label) in test_group]
@@ -117,7 +201,7 @@ def ClassAccuracy(classifier, train_set, test_set):
     pred = classifier.classify_many([features for (features, label) in test_set]) # 对开发测试集的数据进行分类，给出预测的标签
     return accuracy_score([label for (features, label) in test_set], pred) # 对比分类预测结果和人工标注的正确结果，给出分类器准确度
 
-def SingleFold(train_group, k=4):
+def SingleFold(train_group, k=8):
     # prepare the training set and test set
     print('Preparing...')
     random.shuffle(train_group)
@@ -169,9 +253,9 @@ def SingleFold(train_group, k=4):
             if label == '+1' and observed == '+1':
                 TP += 1
             elif label == '-1' and observed == '+1':
-                FN += 1
-            elif label == '+1' and observed == '-1':
                 FP += 1
+            elif label == '+1' and observed == '-1':
+                FN += 1
             elif label == '-1' and observed == '-1':
                 TN += 1
 
@@ -254,9 +338,9 @@ def CrossValidation(train_group, n=5):
                 if label == '+1' and observed == '+1':
                     TP += 1
                 elif label == '-1' and observed == '+1':
-                    FN += 1
-                elif label == '+1' and observed == '-1':
                     FP += 1
+                elif label == '+1' and observed == '-1':
+                    FN += 1
                 elif label == '-1' and observed == '-1':
                     TN += 1
 
@@ -287,4 +371,7 @@ if __name__ == '__main__':
     stop = time.time()
     print('Loading TIME:', str(stop-start) + '\n')
 
-    CrossValidation(train_group)
+    SingleFold(train_group)
+    # CrossValidation(train_group)
+
+    # FindTitleWeight(train_group)
