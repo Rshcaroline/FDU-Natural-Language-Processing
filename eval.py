@@ -41,5 +41,5 @@ def evaluation(para):
     print("recall: ",round(recall,4))
     print("F1: ",round(F1,4))
 
-evaluation('trigger')
+# evaluation('trigger')
 evaluation('argument')
