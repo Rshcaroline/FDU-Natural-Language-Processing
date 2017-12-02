@@ -339,7 +339,7 @@ if __name__ == '__main__':
     recall = []
     F1 = []
 
-    lamd = [1/pow(10, i) for i in np.arange(1, 10)]
+    lamd = [1/pow(10, i) for i in np.arange(1, 20)]
 
     for i in lamd:
         Hmm = HMM("argument", i)
