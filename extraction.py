@@ -346,7 +346,7 @@ if __name__ == '__main__':
         Hmm.test()
         acc, ty, prec, rec, F = Hmm.evaluation()
         accuracy.append(acc)
-        type_correct.append(ty)
+        type_correct.append(t)
         precision.append(prec)
         recall.append(rec)
         F1.append(F)
