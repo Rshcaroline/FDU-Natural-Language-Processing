@@ -89,15 +89,15 @@ class HMM(object):
                 li = word.strip().split()
                 sent.append(li[1])
             else:
-                for i in range(1, len(sent)):
-                    if sent[i-1] in transition:
-                        if sent[i] in transition[sent[i-1]]:
-                            transition[sent[i-1]][sent[i]] += 1
+                for i in range(2, len(sent)):
+                    if ' '.join(sent[i-2:i]) in transition:
+                        if sent[i] in transition[' '.join(sent[i-2:i])]:
+                            transition[' '.join(sent[i-2:i])][sent[i]] += 1
                         else:
-                            transition[sent[i-1]][sent[i]] = 1
+                            transition[' '.join(sent[i-2:i])][sent[i]] = 1
                     else:
-                        transition[sent[i-1]] = {}
-                        transition[sent[i-1]][sent[i]] = 1
+                        transition[' '.join(sent[i-2:i])] = {}
+                        transition[' '.join(sent[i-2:i])][sent[i]] = 1
 
                 sent = []
 
@@ -205,14 +205,42 @@ class HMM(object):
         V = [{}]         # the probability table of path, V[time][state] = probability
         path = {}        # Intermediate variable, to present which hidden state it is
 
-        for y in states:         # initialize (t = 0)
+        for y in states:         # initialize (t = 0,1)
             if obs[0] in emit_p[y]:
                 V[0][y] = np.log(start_p[y]) + np.log(emit_p[y][obs[0]])
             else:
                 V[0][y] = np.log(start_p[y]) + np.log(emit_p[y]['UNK'])
             path[y] = [y]
 
-        for t in range(1, len(obs)):       # begin viterbi algorithm
+        V.append({})
+        newpath = {}
+
+        for y in states:
+            p = []
+            for y0 in states:
+                ybar = ' '.join([y, y0])
+                if ybar in trans_p:
+                    if y in trans_p[ybar] and obs[1] in emit_p[y]:
+                        p.append(V[0][y0] + np.log(trans_p[ybar][y]) + np.log(emit_p[y][obs[1]]))
+                    elif y in trans_p[ybar]:
+                        p.append(V[0][y0] + np.log(trans_p[ybar][y]) + np.log(emit_p[y]['UNK']))
+                    else:
+                        p.append(V[0][y0] + np.log(trans_p[ybar]['UNK']) + np.log(emit_p[y]['UNK']))
+                else:
+                    if obs[1] in emit_p[y]:
+                        p.append(V[0][y0] + np.log(np.exp(-13)) + np.log(emit_p[y][obs[1]]))
+                    else:
+                        p.append(V[0][y0] + np.log(np.exp(-13)) + np.log(emit_p[y]['UNK']))
+            (prob, state) = (max(p), states[p.index(max(p))])
+
+            V[1][y] = prob
+            # find the most possible path to have state y now
+            newpath[y] = path[state] + [y]
+
+        # update path
+        path = newpath
+
+        for t in range(2, len(obs)):       # begin viterbi algorithm
             V.append({})
             newpath = {}
 
@@ -221,12 +249,19 @@ class HMM(object):
                 # find the max p
                 p = []
                 for y0 in states:
-                    if y in trans_p[y0] and obs[t] in emit_p[y]:
-                        p.append(V[t - 1][y0] + np.log(trans_p[y0][y]) + np.log(emit_p[y][obs[t]]))
-                    elif y in trans_p[y0]:
-                        p.append(V[t - 1][y0] + np.log(trans_p[y0][y]) + np.log(emit_p[y]['UNK']))
+                    ybar = ' '.join([y, y0])
+                    if ybar in trans_p:
+                        if y in trans_p[ybar] and obs[1] in emit_p[y]:
+                            p.append(V[0][y0] + np.log(trans_p[ybar][y]) + np.log(emit_p[y][obs[1]]))
+                        elif y in trans_p[ybar]:
+                            p.append(V[0][y0] + np.log(trans_p[ybar][y]) + np.log(emit_p[y]['UNK']))
+                        else:
+                            p.append(V[0][y0] + np.log(trans_p[ybar]['UNK']) + np.log(emit_p[y]['UNK']))
                     else:
-                        p.append(V[t - 1][y0] + np.log(trans_p[y0]['UNK']) + np.log(emit_p[y]['UNK']))
+                        if obs[1] in emit_p[y]:
+                            p.append(V[0][y0] + np.log(np.exp(-13)) + np.log(emit_p[y][obs[1]]))
+                        else:
+                            p.append(V[0][y0] + np.log(np.exp(-13)) + np.log(emit_p[y]['UNK']))
                 (prob, state) = (max(p), states[p.index(max(p))])
 
                 V[t][y] = prob
@@ -280,6 +315,7 @@ class HMM(object):
                 extraction.extend(extra)
                 sent = []
 
+        # write results to file
         f = codecs.open(self.parameter + '_result.txt', 'w', 'utf8')
         i = 0
         for word in result:
@@ -333,9 +369,9 @@ class HMM(object):
         return round(accuracy, 4), round(type_correct / TP, 4), round(precision, 4), round(recall, 4), round(F1, 4)
 
 if __name__ == '__main__':
-    Hmm = HMM("trigger", 1/pow(10, 7))
+    Hmm = HMM("trigger", 0.001)
     Hmm.test()
-    acc, ty, prec, rec, F = Hmm.evaluation()
+    print(Hmm.evaluation())
 
     # accuracy = []
     # type_correct = []
@@ -346,7 +382,7 @@ if __name__ == '__main__':
     # lamd = [1/pow(10, i) for i in np.arange(1, 20)]
     #
     # for i in lamd:
-    #     Hmm = HMM("argument", i)
+    #     Hmm = HMM("trigger", i)
     #     Hmm.test()
     #     acc, ty, prec, rec, F = Hmm.evaluation()
     #     accuracy.append(acc)

@@ -1,5 +1,6 @@
 =====trigger labeling result=====
-type_correct:  0.8367
+accuracy:  0.8204
+type_correct:  0.835
 precision:  0.3036
 recall:  0.8584
 F1:  0.4485
@@ -109,8 +110,8 @@ F1:  0.4485
 机场	O	O
 南方航空公司	O	T_Movement
 的	O	O
-波音	O	T_Justice
-777	O	O
+波音	O	O
+777	O	T_Justice
 飞机	O	O
 在	O	O
 跑道	O	O
@@ -221,8 +222,8 @@ F1:  0.4485
 佛州	O	O
 选举	O	O
 结果	O	O
-置	O	O
-疑案	O	T_Justice
+置	O	T_Justice
+疑案	O	O
 提出	O	O
 的	O	O
 上诉	O	T_Justice
@@ -231,8 +232,8 @@ F1:  0.4485
 一个多	O	T_Movement
 小时	O	O
 的	O	O
-听众	T_Justice	T_Justice
-会上	O	O
+听众	T_Justice	O
+会上	O	T_Justice
 ，	O	O
 佛州	O	O
 最高法院	O	O
@@ -304,8 +305,8 @@ F1:  0.4485
 佛州	O	O
 选举	O	O
 结果	O	O
-置	O	O
-疑案	O	T_Justice
+置	O	T_Justice
+疑案	O	O
 提出	O	O
 的	O	O
 上诉	T_Justice	T_Justice
@@ -450,8 +451,8 @@ F1:  0.4485
 台湾	O	O
 领导人	O	O
 以	O	O
-民族大义	O	T_Justice
-为重	O	O
+民族大义	O	O
+为重	O	T_Justice
 ，	O	O
 在	O	O
 一个	O	O
@@ -1021,8 +1022,8 @@ F1:  0.4485
 以便	O	O
 详细	O	T_Justice
 阅读	O	O
-对苏	O	O
-伽金	O	T_Justice
+对苏	O	T_Justice
+伽金	O	O
 的	O	O
 指控	T_Justice	T_Justice
 苏	O	O
@@ -1111,8 +1112,8 @@ F1:  0.4485
 播音室	O	T_Justice
 警察	O	O
 以及	O	O
-中央情报部	O	T_Justice
-门	O	O
+中央情报部	O	O
+门	O	T_Justice
 的	O	O
 人员	O	O
 星期三	O	T_Justice
@@ -1127,8 +1128,8 @@ F1:  0.4485
 电台	O	O
 警察	O	O
 以及	O	O
-中央情报部	O	T_Justice
-门	O	O
+中央情报部	O	O
+门	O	T_Justice
 的	O	O
 人员	O	O
 星期三	O	T_Justice
@@ -1363,8 +1364,8 @@ F1:  0.4485
 人	O	O
 星期一	O	T_Movement
 的	O	O
-百万	O	T_Justice
-家庭	O	O
+百万	O	O
+家庭	O	T_Justice
 大	O	O
 游行	T_Conflict	T_Conflict
 ，	O	O
@@ -1991,8 +1992,8 @@ F1:  0.4485
 华盛顿	O	O
 ，	O	O
 将	O	O
-一头	O	O
-羊栓	O	T_Justice
+一头	O	T_Justice
+羊栓	O	O
 在	O	O
 了	O	O
 白宫	O	O
@@ -3124,8 +3125,8 @@ w	O	T_Justice
 ８	O	O
 年	O	O
 ，	O	O
-大沽	O	T_Justice
-船坞	O	O
+大沽	O	O
+船坞	O	T_Justice
 成为	T_Transaction	O
 北洋军阀	O	T_Justice
 曹锟	O	O
@@ -3333,8 +3334,8 @@ w	O	T_Justice
 判决	T_Justice	O
 捐给	T_Transaction	T_Transaction
 新加坡	O	O
-慈怀	O	T_Justice
-理事会	O	O
+慈怀	O	O
+理事会	O	T_Justice
 ，	O	O
 让	O	O
 该	O	O
@@ -3370,8 +3371,8 @@ TheMethodistHospiceFellowship	O	T_Justice
 ，	O	O
 50	O	O
 辆	O	O
-越野	O	T_Justice
-脚车	O	O
+越野	O	O
+脚车	O	T_Justice
 队伍	O	O
 将	O	O
 从	O	O
@@ -3388,8 +3389,8 @@ TheMethodistHospiceFellowship	O	T_Justice
 良木园	O	O
 酒店	O	O
 、	O	O
-索美塞	O	T_Justice
-地铁站	O	O
+索美塞	O	O
+地铁站	O	T_Justice
 、	O	O
 白沙	O	T_Justice
 浮	O	O
@@ -3674,8 +3675,8 @@ B	O	T_Justice
 举办	O	T_Justice
 “	O	O
 两地	O	O
-合唱	O	O
-交流会	O	T_Justice
+合唱	O	T_Justice
+交流会	O	O
 ”	O	O
 ，	O	O
 欢迎	O	O
@@ -3747,8 +3748,8 @@ B	O	T_Justice
 穷	O	T_Justice
 15	O	O
 年	O	O
-努力	O	O
-明查暗访	O	T_Justice
+努力	O	T_Justice
+明查暗访	O	O
 了	O	O
 数千	O	O
 人	O	O
@@ -3762,8 +3763,8 @@ B	O	T_Justice
 两名	O	O
 涉及	O	O
 策划	O	O
-炸毁	O	O
-印度航空公司	O	T_Justice
+炸毁	O	T_Justice
+印度航空公司	O	O
 一架	O	O
 客机	O	O
 的	O	O
@@ -3774,8 +3775,8 @@ B	O	T_Justice
 星期五	O	O
 被捕	T_Justice	T_Justice
 的	O	O
-两人	O	O
-马力克	O	T_Justice
+两人	O	T_Justice
+马力克	O	O
 （	O	O
 53	O	T_Justice
 岁	O	O
@@ -3793,8 +3794,8 @@ B	O	T_Justice
 被控	O	O
 蓄意谋杀	O	T_Justice
 、	O	O
-串谋	O	O
-谋杀	O	T_Justice
+串谋	O	T_Justice
+谋杀	O	O
 、	O	O
 企图	O	O
 谋杀	O	T_Justice
@@ -4035,8 +4036,8 @@ B	O	T_Justice
 秘鲁	O	O
 藤森	O	O
 总统	O	O
-上周三	O	T_Justice
-亲自出马	O	O
+上周三	O	O
+亲自出马	O	T_Justice
 ，	O	O
 对	O	O
 蒙特	O	O
@@ -4060,8 +4061,8 @@ B	O	T_Justice
 司令	O	O
 任命	T_Personnel	T_Personnel
 原	O	O
-内政部长	O	T_Justice
-查孔	O	O
+内政部长	O	O
+查孔	O	T_Justice
 接替	O	O
 陆军	O	T_Justice
 上将	O	O
@@ -4082,8 +4083,8 @@ B	O	T_Justice
 司令	O	O
 拉莫斯	O	T_Movement
 接替	O	O
-伊瓦	O	T_Justice
-塞纳	O	O
+伊瓦	O	O
+塞纳	O	T_Justice
 少将	O	O
 出任	T_Personnel	T_Personnel
 海军	O	O
@@ -4307,8 +4308,8 @@ B	O	T_Justice
 重返	T_Movement	T_Movement
 我们	O	O
 不会	O	O
-终止	O	T_Justice
-起义	T_Conflict	O
+终止	O	O
+起义	T_Conflict	T_Justice
 ，	O	O
 我们	O	O
 会	O	O
@@ -4342,8 +4343,8 @@ B	O	T_Justice
 以军	O	O
 在	O	O
 耶路撒冷	O	O
-东城	O	T_Justice
-东北边	O	O
+东城	O	O
+东北边	O	T_Justice
 的	O	O
 约旦河西岸	O	O
 希马村	O	T_Justice
@@ -4549,8 +4550,8 @@ B	O	T_Justice
 那儿	O	T_Movement
 的	O	O
 临时	O	O
-殡仪馆	O	T_Justice
-挤满	O	O
+殡仪馆	O	O
+挤满	O	T_Justice
 了	O	O
 前往	T_Movement	T_Movement
 认尸	O	O
@@ -4658,8 +4659,8 @@ B	O	T_Justice
 日	O	O
 ，	O	O
 证券公司	O	O
-OngandCompany	O	O
-私人	O	T_Justice
+OngandCompany	O	T_Justice
+私人	O	O
 有限公司	O	O
 入禀	T_Justice	T_Justice
 法庭	O	O
@@ -4770,8 +4771,8 @@ OngandCompany	O	O
 开枪	T_Conflict	T_Conflict
 卡萨	O	T_Movement
 地带	O	O
-克	O	T_Justice
-法尔	O	O
+克	O	O
+法尔	O	T_Justice
 ·	O	O
 达罗	O	T_Justice
 姆	O	O
@@ -4806,8 +4807,8 @@ OngandCompany	O	O
 阿曼	O	O
 卡萨	O	T_Movement
 地带	O	O
-克	O	T_Justice
-法尔	O	O
+克	O	O
+法尔	O	T_Justice
 ·	O	O
 达罗	O	T_Justice
 姆	O	O
@@ -4834,8 +4835,8 @@ OngandCompany	O	O
 杀死	O	T_Justice
 一名	O	O
 以色列	O	O
-陆军	O	O
-中士	O	T_Justice
+陆军	O	T_Justice
+中士	O	O
 和	O	O
 打伤	O	T_Justice
 两名	O	O
@@ -4883,8 +4884,8 @@ OngandCompany	O	O
 守卫	O	O
 卡萨	O	T_Justice
 地带	O	O
-克	O	O
-法尔	O	T_Justice
+克	O	T_Justice
+法尔	O	O
 ·	O	O
 达罗	O	T_Justice
 姆	O	O
@@ -5138,8 +5139,8 @@ KirkKerkorian	O	T_Justice
 在	O	O
 审理	O	T_Justice
 一起	O	O
-纠众	O	O
-伤人	O	T_Justice
+纠众	O	T_Justice
+伤人	O	O
 的	O	O
 上诉	T_Justice	T_Justice
 时	O	O
@@ -5246,8 +5247,8 @@ KirkKerkorian	O	T_Justice
 几个	O	O
 角落	O	T_Justice
 等候	O	O
-杰逊	O	O
-到来	O	T_Justice
+杰逊	O	T_Justice
+到来	O	O
 ，	O	O
 准备	O	O
 突袭	T_Conflict	T_Justice
@@ -5586,8 +5587,8 @@ KirkKerkorian	O	T_Justice
 该州	O	O
 的	O	O
 25	O	O
-张	O	O
-选举人	O	T_Justice
+张	O	T_Justice
+选举人	O	O
 票	O	O
 ，	O	O
 成为	T_Personnel	O
@@ -5883,8 +5884,8 @@ D1	O	T_Justice
 我	O	O
 在	O	O
 与	O	O
-阳阳	O	T_Justice
-妈妈	O	O
+阳阳	O	O
+妈妈	O	T_Justice
 的	O	O
 电话	T_Contact	T_Contact
 沙里夫	O	T_Movement
@@ -6081,8 +6082,8 @@ D1	O	T_Justice
 发生	O	O
 在	O	O
 同	O	O
-巴布亚新几内亚	O	T_Justice
-接壤	O	O
+巴布亚新几内亚	O	O
+接壤	O	T_Justice
 的	O	O
 印尼	O	O
 领土	O	O
@@ -6286,8 +6287,8 @@ D1	O	T_Justice
 被	O	O
 转入	O	T_Justice
 普通	O	O
-源流	O	O
-课程	O	T_Justice
+源流	O	T_Justice
+课程	O	O
 时	O	O
 ，	O	O
 第一个	O	O
@@ -6764,8 +6765,8 @@ SmithKlineBeecham	O	T_Justice
 赖昌星	O	O
 ，	O	O
 于	O	O
-星期五	O	T_Justice
-被判	O	O
+星期五	O	O
+被判	O	T_Justice
 继续	O	O
 关押	T_Justice	O
 在	O	O
@@ -6967,8 +6968,8 @@ SmithKlineBeecham	O	T_Justice
 3	O	O
 时事	O	T_Justice
 发黄	O	O
-克竞	O	O
-楼案	O	T_Justice
+克竞	O	T_Justice
+楼案	O	O
 中	O	O
 两名	O	O
 女	O	O
@@ -7043,8 +7044,8 @@ SmithKlineBeecham	O	T_Justice
 3	O	O
 时事	O	T_Justice
 发黄	O	O
-克竞	O	O
-楼案	O	T_Justice
+克竞	O	T_Justice
+楼案	O	O
 中	O	O
 两名	O	O
 女	O	O
@@ -7080,8 +7081,8 @@ SmithKlineBeecham	O	T_Justice
 3	O	O
 时事	O	T_Justice
 发黄	O	O
-克竞	O	O
-楼案	O	T_Justice
+克竞	O	T_Justice
+楼案	O	O
 中	O	O
 两名	O	O
 女	O	O
@@ -7134,8 +7135,8 @@ SmithKlineBeecham	O	T_Justice
 在	O	O
 图书馆	O	T_Justice
 新翼	O	O
-低	O	O
-座	O	T_Justice
+低	O	T_Justice
+座	O	O
 1	O	O
 楼	O	O
 女厕	O	T_Justice
@@ -7227,8 +7228,8 @@ JuanManuelAlvarez	O	T_Justice
 附带	O	O
 提到	O	T_Justice
 「	O	O
-特殊	O	O
-状况	O	T_Justice
+特殊	O	T_Justice
+状况	O	O
 」	O	O
 ，	O	O
 表示	O	O
@@ -7352,8 +7353,8 @@ JuanManuelAlvarez	O	T_Justice
 加州	O	O
 法律	O	O
 ，	O	O
-不管	O	T_Justice
-有意	O	O
+不管	O	O
+有意	O	T_Justice
 或	O	O
 无意	O	T_Justice
 杀害	T_Life	O
@@ -7364,8 +7365,8 @@ JuanManuelAlvarez	O	T_Justice
 加州	O	O
 法律	O	O
 ，	O	O
-不管	O	T_Justice
-有意	O	O
+不管	O	O
+有意	O	T_Justice
 或	O	O
 无意	O	T_Justice
 杀害	O	O
@@ -7484,8 +7485,8 @@ GMT	O	O
 :	O	O
 30	O	O
 (	O	O
-0130	O	O
-GMT	O	T_Justice
+0130	O	T_Justice
+GMT	O	O
 )	O	O
 到达	O	T_Movement
 台北	O	O
@@ -7510,8 +7511,8 @@ GMT	O	T_Justice
 :	O	O
 30	O	O
 (	O	O
-0130	O	O
-GMT	O	T_Justice
+0130	O	T_Justice
+GMT	O	O
 )	O	O
 到达	T_Movement	T_Movement
 台北	O	O
@@ -8021,8 +8022,8 @@ YAGOO	O	O
 的	O	O
 捐款	T_Transaction	T_Transaction
 数额	O	O
-直线	O	T_Justice
-上升	O	O
+直线	O	O
+上升	O	T_Justice
 ，	O	O
 据说	O	O
 已	O	O
