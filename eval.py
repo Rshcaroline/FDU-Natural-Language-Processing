@@ -8,6 +8,7 @@
 #                 Each line contains {word  real_label predict_label}
 import codecs
 
+
 def evaluation(para):
     f = codecs.open(para+'_result.txt', 'r', 'utf8')
     result = f.readlines()

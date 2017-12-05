@@ -412,14 +412,48 @@ class CRF(object):
                 continue
         f.close()
 
+    def evaluation(self):
+        f = codecs.open(self.parameter + '_result.txt', 'r', 'utf8')
+        result = f.readlines()
+        f.close()
+
+        TP, FP, TN, FN, type_correct, sum = 0, 0, 0, 0, 0, 0
+
+        for word in result:
+            if word.strip():
+                sum += 1
+                li = word.strip().split()
+                if li[2] != 'O' and li[3] != 'O':
+                    TP += 1
+                    if li[2] == li[3]:
+                        type_correct += 1
+                if li[2] != 'O' and li[3] == 'O':
+                    FN += 1
+                if li[2] == 'O' and li[3] != 'O':
+                    FP += 1
+                if li[2] == 'O' and li[3] == 'O':
+                    TN += 1
+
+        recall = TP / (TP + FN)
+        precision = TP / (TP + FP)
+        accuracy = (TP + TN) / sum
+        F1 = 2 * precision * recall / (precision + recall)
+
+        print('=====' + self.parameter + ' labeling result=====')
+        print("accuracy: ", round(accuracy, 4))
+        print("type_correct: ", round(type_correct / TP, 4))
+        print("precision: ", round(precision, 4))
+        print("recall: ", round(recall, 4))
+        print("F1: ", round(F1, 4))
+
 
 if __name__ == '__main__':
-    # Crf = CRF("trigger")
-    # Crf.preprocess()
+    Crf = CRF("trigger")
+    Crf.evaluation()
 
-    Hmm = HMM("trigger")
-    Hmm.test()
-    acc, ty, prec, rec, F = Hmm.evaluation()
+    # Hmm = HMM("trigger")
+    # Hmm.test()
+    # acc, ty, prec, rec, F = Hmm.evaluation()
 
     # accuracy = []
     # type_correct = []
