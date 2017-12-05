@@ -9,10 +9,13 @@
 
 import codecs
 import numpy as np
+import jieba.posseg as pseg
+from nltk import SimpleGoodTuringProbDist, FreqDist
 import matplotlib.pyplot as plt
 
+
 class HMM(object):
-    def __init__(self, para, lamd):
+    def __init__(self, para, lamd=1/pow(10, 7)):
         """
         This function is for initializing the HMM class
         
@@ -53,9 +56,7 @@ class HMM(object):
         states = {}
         start_probability = {}
         transition = {}
-        transition_probability = {}
         emission = {}
-        emission_probability = {}
 
         for word in result:
             if word.strip():  # is not a blank line
@@ -103,8 +104,16 @@ class HMM(object):
 
         states = tuple(states.keys())
 
+        emission_probability, transition_probability = self.add_lamd_smoothing(states, emission, transition)
+        # emission_probability, transition_probability = self.good_turing_smoothing(emission, transition)
+
+        return states, start_probability, transition_probability, emission_probability
+
+    def add_lamd_smoothing(self, states, emission, transition):
         # doing probability calculation using add-lambda smoothing
         lamd = self.lamd
+        transition_probability = {}
+        emission_probability = {}
 
         for key in emission:
             n = sum(emission[key].values())
@@ -112,8 +121,8 @@ class HMM(object):
 
             for word in emission[key]:
                 appear = emission[key][word]
-                emission_probability[key][word] = (appear + lamd) / (n + lamd*len(states))
-            emission_probability[key]['UNK'] = lamd / (n + lamd*len(states))
+                emission_probability[key][word] = (appear + lamd) / (n + lamd * len(states))
+            emission_probability[key]['UNK'] = lamd / (n + lamd * len(states))
 
         for key in transition:
             n = sum(transition[key].values())
@@ -121,10 +130,24 @@ class HMM(object):
 
             for word in transition[key]:
                 appear = transition[key][word]
-                transition_probability[key][word] = (appear + lamd) / (n + lamd*len(states))
-            transition_probability[key]['UNK'] = lamd / (n + lamd*len(states))
+                transition_probability[key][word] = (appear + lamd) / (n + lamd * len(states))
+            transition_probability[key]['UNK'] = lamd / (n + lamd * len(states))
 
-        return states, start_probability, transition_probability, emission_probability
+        return emission_probability, transition_probability
+
+    def good_turing_smoothing(self, emission, transition):
+        transition_probability = {}
+        emission_probability = {}
+
+        for key in emission:
+            fd = FreqDist(emission[key])
+            emission_probability[key] = SimpleGoodTuringProbDist(fd)
+
+        for key in transition:
+            fd = FreqDist(transition[key])
+            transition_probability[key] = SimpleGoodTuringProbDist(fd)
+
+        return emission_probability, transition_probability
 
     def print_dptable(self, V):
         """
@@ -287,6 +310,7 @@ class HMM(object):
                 f.writelines(word.strip() + '\t' + extraction[i] + '\n')
                 i += 1
             else:
+                f.writelines('\n')
                 continue
         f.close()
 
@@ -332,8 +356,68 @@ class HMM(object):
 
         return round(accuracy, 4), round(type_correct / TP, 4), round(precision, 4), round(recall, 4), round(F1, 4)
 
+
+class CRF(object):
+    def __init__(self, para):
+        """
+        This function is for initializing the HMM class
+
+        :param 
+                para: the parameter to decide which sequence type you are labelling
+                    it should be 'argument' or 'trigger'
+                lamd: using add lambda smoothing for pabability calculation
+        :return: 
+        """
+        self.parameter = para
+
+    def preprocess(self):
+        """
+        This function will use jieba to turn train file from 
+            售	O                    售	n	O
+            台	A_Buyer    into      台	v	A_Buyer
+            台	A_Buyer              台	ns	A_Buyer
+        
+        :return: 
+        """
+        f = codecs.open(self.parameter + '_test.txt', 'r', 'utf8')
+        result = f.readlines()
+        f.close()
+
+        # use jieba to give every token a flag
+        sent = ''
+        flag = []
+        count = 0
+        for word in result:
+            if word.strip():  # is not a blank line
+                li = word.strip().split()
+                sent += li[0]
+            else:
+                words = pseg.cut(sent)
+                for w in words:
+                    flag.append(w.flag)
+            count += 1
+            print(count)
+
+        # write the flag to file so that we can use crf template
+        f = codecs.open(self.parameter + '_test_jieba.txt', 'w', 'utf8')
+        i = 0
+        for word in result:
+            if word.strip():  # is not a blank line
+                w = word.strip().split()[0]
+                tp = word.strip().split()[1]
+                f.writelines(w + '\t' + flag[i] + '\t' + tp + '\n')
+                i += 1
+            else:
+                f.writelines('\n')
+                continue
+        f.close()
+
+
 if __name__ == '__main__':
-    Hmm = HMM("trigger", 1/pow(10, 7))
+    # Crf = CRF("trigger")
+    # Crf.preprocess()
+
+    Hmm = HMM("trigger")
     Hmm.test()
     acc, ty, prec, rec, F = Hmm.evaluation()
 
