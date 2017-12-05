@@ -25,6 +25,21 @@ class HMM(object):
         self.parameter = para
         self.lamd = lamd
 
+    def count_sent(self):
+        f = codecs.open(self.parameter + '_train.txt', 'r', 'utf8')
+        result = f.readlines()
+        f.close()
+
+        count = 0
+
+        for word in result:
+            if word.strip():  # is not a blank line
+                continue
+            else:
+                count += 1
+
+        return count
+
     def train(self):
         """
         This function is for pre-processing, read train txt file and do probability calculation
@@ -50,37 +65,49 @@ class HMM(object):
         result = f.readlines()
         f.close()
 
+        count = self.count_sent()
+
         states = {}
         start_probability = {}
-        transition = {}
-        transition_probability = {}
+        transition1 = {}
+        transition2 = {}
+        transition1_probability = {}
+        transition2_probability = {}
         emission = {}
         emission_probability = {}
 
+        begin = 1
         for word in result:
             if word.strip():  # is not a blank line
-                li = word.strip().split()  # li = ["权益", "A_Org"]
+                if begin:
+                    li = word.strip().split()  # li = ["权益", "A_Org"]
 
-                # prepare states
-                if li[1] in states:
-                    states[li[1]] += 1
-                else:
-                    states[li[1]] = 1
-
-                # prepare start_probability
-                n = sum(states.values())
-                for key in states:
-                    start_probability[key] = states[key] / n
-
-                # prepare emission set for further probability calculation
-                if li[1] in emission:
-                    if li[0] in emission[li[1]]:
-                        emission[li[1]][li[0]] += 1
+                    # prepare states
+                    if li[1] in states:
+                        states[li[1]] += 1
                     else:
+                        states[li[1]] = 1
+
+                    # prepare emission set for further probability calculation
+                    if li[1] in emission:
+                        if li[0] in emission[li[1]]:
+                            emission[li[1]][li[0]] += 1
+                        else:
+                            emission[li[1]][li[0]] = 1
+                    else:
+                        emission[li[1]] = {}
                         emission[li[1]][li[0]] = 1
-                else:
-                    emission[li[1]] = {}
-                    emission[li[1]][li[0]] = 1
+
+                    begin = 0
+            else:
+                begin = 1
+
+        # states['<s>'] = self.count_sent()
+
+        # prepare start_probability
+        n = sum(states.values())
+        for key in states:
+            start_probability[key] = states[key] / n
 
         # prepare transition set for further probability calculation
         sent = []
@@ -89,19 +116,36 @@ class HMM(object):
                 li = word.strip().split()
                 sent.append(li[1])
             else:
-                for i in range(2, len(sent)):
-                    if ' '.join(sent[i-2:i]) in transition:
-                        if sent[i] in transition[' '.join(sent[i-2:i])]:
-                            transition[' '.join(sent[i-2:i])][sent[i]] += 1
+                for i in range(1, len(sent)):
+                    if sent[i-1] in transition1:
+                        if sent[i] in transition1[sent[i-1]]:
+                            transition1[sent[i-1]][sent[i]] += 1
                         else:
-                            transition[' '.join(sent[i-2:i])][sent[i]] = 1
+                            transition1[sent[i-1]][sent[i]] = 1
                     else:
-                        transition[' '.join(sent[i-2:i])] = {}
-                        transition[' '.join(sent[i-2:i])][sent[i]] = 1
+                        transition1[sent[i-1]] = {}
+                        transition1[sent[i-1]][sent[i]] = 1
 
                 sent = []
 
-        states = tuple(states.keys())
+        # prepare transition set for further probability calculation
+        sent = ['<s>']
+        for word in result:
+            if word.strip():  # is not a blank line
+                li = word.strip().split()
+                sent.append(li[1])
+            else:
+                for i in range(2, len(sent)):
+                    if ' '.join(sent[i - 2:i]) in transition2:
+                        if sent[i] in transition2[' '.join(sent[i - 2:i])]:
+                            transition2[' '.join(sent[i - 2:i])][sent[i]] += 1
+                        else:
+                            transition2[' '.join(sent[i - 2:i])][sent[i]] = 1
+                    else:
+                        transition2[' '.join(sent[i - 2:i])] = {}
+                        transition2[' '.join(sent[i - 2:i])][sent[i]] = 1
+
+                sent = ['<s>']
 
         # doing probability calculation using add-lambda smoothing
         lamd = self.lamd
@@ -115,14 +159,39 @@ class HMM(object):
                 emission_probability[key][word] = (appear + lamd) / (n + lamd*len(states))
             emission_probability[key]['UNK'] = lamd / (n + lamd*len(states))
 
-        for key in transition:
-            n = sum(transition[key].values())
-            transition_probability[key] = {}
+        for key in transition1:
+            n = sum(transition1[key].values())
+            transition1_probability[key] = {}
 
-            for word in transition[key]:
-                appear = transition[key][word]
-                transition_probability[key][word] = (appear + lamd) / (n + lamd*len(states))
-            transition_probability[key]['UNK'] = lamd / (n + lamd*len(states))
+            for word in transition1[key]:
+                appear = transition1[key][word]
+                transition1_probability[key][word] = appear / n
+
+        for key in transition2:
+            n = sum(transition2[key].values())
+            transition2_probability[key] = {}
+
+            for word in transition2[key]:
+                appear = transition2[key][word]
+                transition2_probability[key][word] = appear / n
+
+        transition_probability = {}
+        lamd1 = 0.3
+        lamd2 = 0.3
+        lamd3 = 1 - lamd1 - lamd2
+
+        for key in transition2_probability:
+            transition_probability[key] = {}
+            for word in transition2_probability[key]:
+                if word in transition1_probability[key.split(' ')[1]]:
+                    p = lamd1*transition2_probability[key][word] + lamd2*transition1_probability[key.split(' ')[1]][word] + \
+                        lamd3*start_probability[word]
+                else:
+                    p = lamd1*transition2_probability[key][word] + lamd3*states[word]
+                transition_probability[key][word] = p
+            transition_probability[key]['UNK'] = np.exp(-6)
+
+        states = tuple(states.keys())
 
         return states, start_probability, transition_probability, emission_probability
 
@@ -205,11 +274,21 @@ class HMM(object):
         V = [{}]         # the probability table of path, V[time][state] = probability
         path = {}        # Intermediate variable, to present which hidden state it is
 
-        for y in states:         # initialize (t = 0,1)
+        # for y in states:         # initialize (t = 0,1)
+        #     # if obs[0] in emit_p[y]:
+        #     if '<s> ' + y in start_p:
+        #         V[0][y] = np.log(start_p['<s> ' + y])   # + np.log(emit_p[y][obs[0]])
+        #     else:
+        #         V[0][y] = np.log(np.exp(-6))
+        #     # else:
+        #     #     V[0][y] = np.log(start_p[y]) + np.log(emit_p[y]['UNK'])
+        #     path[y] = [y]
+
+        for y in states:         # initialize (t = 0)
             if obs[0] in emit_p[y]:
-                V[0][y] = np.log(start_p[y]) + np.log(emit_p[y][obs[0]])
+                V[0]['<s> ' + y] = np.log(start_p[y]) + np.log(emit_p[y][obs[0]])
             else:
-                V[0][y] = np.log(start_p[y]) + np.log(emit_p[y]['UNK'])
+                V[0]['<s> ' + y] = np.log(start_p[y]) + np.log(emit_p[y]['UNK'])
             path[y] = [y]
 
         V.append({})
@@ -218,22 +297,22 @@ class HMM(object):
         for y in states:
             p = []
             for y0 in states:
-                ybar = ' '.join([y, y0])
+                ybar = '<s> '+ y0
                 if ybar in trans_p:
                     if y in trans_p[ybar] and obs[1] in emit_p[y]:
-                        p.append(V[0][y0] + np.log(trans_p[ybar][y]) + np.log(emit_p[y][obs[1]]))
+                        p.append(V[0][ybar] + np.log(trans_p[ybar][y]) + np.log(emit_p[y][obs[1]]))
                     elif y in trans_p[ybar]:
-                        p.append(V[0][y0] + np.log(trans_p[ybar][y]) + np.log(emit_p[y]['UNK']))
+                        p.append(V[0][ybar] + np.log(trans_p[ybar][y]) + np.log(emit_p[y]['UNK']))
                     else:
-                        p.append(V[0][y0] + np.log(trans_p[ybar]['UNK']) + np.log(emit_p[y]['UNK']))
+                        p.append(V[0][ybar] + np.log(trans_p[ybar]['UNK']) + np.log(emit_p[y]['UNK']))
                 else:
                     if obs[1] in emit_p[y]:
-                        p.append(V[0][y0] + np.log(np.exp(-13)) + np.log(emit_p[y][obs[1]]))
+                        p.append(V[0][ybar] + np.log(np.exp(-6)) + np.log(emit_p[y][obs[1]]))
                     else:
-                        p.append(V[0][y0] + np.log(np.exp(-13)) + np.log(emit_p[y]['UNK']))
-            (prob, state) = (max(p), states[p.index(max(p))])
+                        p.append(V[0][ybar] + np.log(np.exp(-6)) + np.log(emit_p[y]['UNK']))
 
-            V[1][y] = prob
+            (prob, state) = (max(p), states[p.index(max(p))])
+            V[1][state + ' ' + y] = prob
             # find the most possible path to have state y now
             newpath[y] = path[state] + [y]
 
@@ -250,21 +329,27 @@ class HMM(object):
                 p = []
                 for y0 in states:
                     ybar = ' '.join([y, y0])
-                    if ybar in trans_p:
+                    if ybar in trans_p and ybar in V[t-1]:
                         if y in trans_p[ybar] and obs[1] in emit_p[y]:
-                            p.append(V[0][y0] + np.log(trans_p[ybar][y]) + np.log(emit_p[y][obs[1]]))
+                            p.append(V[t-1][ybar] + np.log(trans_p[ybar][y]) + np.log(emit_p[y][obs[1]]))
                         elif y in trans_p[ybar]:
-                            p.append(V[0][y0] + np.log(trans_p[ybar][y]) + np.log(emit_p[y]['UNK']))
+                            print(V[t-1])
+                            p.append(V[t-1][ybar] + np.log(trans_p[ybar][y]) + np.log(emit_p[y]['UNK']))
                         else:
-                            p.append(V[0][y0] + np.log(trans_p[ybar]['UNK']) + np.log(emit_p[y]['UNK']))
+                            p.append(V[t-1][ybar] + np.log(trans_p[ybar]['UNK']) + np.log(emit_p[y]['UNK']))
+                    elif ybar in V[t-1]:
+                        if obs[1] in emit_p[y]:
+                            p.append(V[t-1][ybar] + np.log(np.exp(-6)) + np.log(emit_p[y][obs[1]]))
+                        else:
+                            p.append(V[t-1][ybar] + np.log(np.exp(-6)) + np.log(emit_p[y]['UNK']))
                     else:
                         if obs[1] in emit_p[y]:
-                            p.append(V[0][y0] + np.log(np.exp(-13)) + np.log(emit_p[y][obs[1]]))
+                            p.append(np.log(np.exp(-6)) + np.log(np.exp(-6)) + np.log(emit_p[y][obs[1]]))
                         else:
-                            p.append(V[0][y0] + np.log(np.exp(-13)) + np.log(emit_p[y]['UNK']))
+                            p.append(np.log(np.exp(-6)) + np.log(np.exp(-6)) + np.log(emit_p[y]['UNK']))
                 (prob, state) = (max(p), states[p.index(max(p))])
 
-                V[t][y] = prob
+                V[t][state + ' ' + y] = prob
                 # find the most possible path to have state y now
                 newpath[y] = path[state] + [y]
 
@@ -370,6 +455,7 @@ class HMM(object):
 
 if __name__ == '__main__':
     Hmm = HMM("trigger", 0.001)
+    # Hmm.train()
     Hmm.test()
     print(Hmm.evaluation())
 

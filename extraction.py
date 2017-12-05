@@ -15,10 +15,10 @@ import matplotlib.pyplot as plt
 
 
 class HMM(object):
-    def __init__(self, para, lamd=1/pow(10, 7)):
+    def __init__(self, para, lamd=1 / pow(10, 7)):
         """
         This function is for initializing the HMM class
-        
+
         :param 
                 para: the parameter to decide which sequence type you are labelling
                     it should be 'argument' or 'trigger'
@@ -34,16 +34,16 @@ class HMM(object):
         :param: 
         :return: 
                 states = ('Rainy', 'Sunny')
-                
+
                 observations = ('walk', 'shop', 'clean')
-                
+
                 start_probability = {'Rainy': 0.6, 'Sunny': 0.4} 
-                   
+
                 transition_probability = {
                     'Rainy': {'Rainy': 0.7, 'Sunny': 0.3},
                     'Sunny': {'Rainy': 0.4, 'Sunny': 0.6},
                 }  
-                
+
                 emission_probability = {
                     'Rainy': {'walk': 0.1, 'shop': 0.4, 'clean': 0.5},
                     'Sunny': {'walk': 0.6, 'shop': 0.3, 'clean': 0.1},
@@ -54,7 +54,7 @@ class HMM(object):
         f.close()
 
         states = {}
-        start_probability = {}
+        start = {}
         transition = {}
         emission = {}
 
@@ -69,9 +69,9 @@ class HMM(object):
                     states[li[1]] = 1
 
                 # prepare start_probability
-                n = sum(states.values())
-                for key in states:
-                    start_probability[key] = states[key] / n
+                # n = sum(states.values())
+                # for key in states:
+                #     start_probability[key] = states[key] / n
 
                 # prepare emission set for further probability calculation
                 if li[1] in emission:
@@ -85,31 +85,41 @@ class HMM(object):
 
         # prepare transition set for further probability calculation
         sent = []
+        begin = 1
         for word in result:
             if word.strip():  # is not a blank line
                 li = word.strip().split()
                 sent.append(li[1])
+                if begin:
+                    if li[1] in start:
+                        start[li[1]] += 1
+                    else:
+                        start[li[1]] = 1
+                else:
+                    begin = 0
             else:
                 for i in range(1, len(sent)):
-                    if sent[i-1] in transition:
-                        if sent[i] in transition[sent[i-1]]:
-                            transition[sent[i-1]][sent[i]] += 1
+                    if sent[i - 1] in transition:
+                        if sent[i] in transition[sent[i - 1]]:
+                            transition[sent[i - 1]][sent[i]] += 1
                         else:
-                            transition[sent[i-1]][sent[i]] = 1
+                            transition[sent[i - 1]][sent[i]] = 1
                     else:
-                        transition[sent[i-1]] = {}
-                        transition[sent[i-1]][sent[i]] = 1
+                        transition[sent[i - 1]] = {}
+                        transition[sent[i - 1]][sent[i]] = 1
 
                 sent = []
+                begin = 1
 
         states = tuple(states.keys())
 
-        emission_probability, transition_probability = self.add_lamd_smoothing(states, emission, transition)
+        emission_probability, transition_probability, start_probability = \
+            self.add_lamd_smoothing(states, emission, transition, start)
         # emission_probability, transition_probability = self.good_turing_smoothing(emission, transition)
 
         return states, start_probability, transition_probability, emission_probability
 
-    def add_lamd_smoothing(self, states, emission, transition):
+    def add_lamd_smoothing(self, states, emission, transition, start):
         # doing probability calculation using add-lambda smoothing
         lamd = self.lamd
         transition_probability = {}
@@ -133,7 +143,17 @@ class HMM(object):
                 transition_probability[key][word] = (appear + lamd) / (n + lamd * len(states))
             transition_probability[key]['UNK'] = lamd / (n + lamd * len(states))
 
-        return emission_probability, transition_probability
+        start_probability = {}
+        n = sum(start.values())
+        for key in start:
+            start_probability[key] = (start[key] + lamd) / (n + lamd * len(states))
+        for key in states:
+            if key in start:
+                continue
+            else:
+                start_probability[key] = lamd / (n + lamd * len(states))
+
+        return emission_probability, transition_probability, start_probability
 
     def good_turing_smoothing(self, emission, transition):
         transition_probability = {}
@@ -181,19 +201,19 @@ class HMM(object):
                 start_p: the start probability (t=0)
                 trans_p: the transition probability between hidden state
                 emit_p: the emission probability from hidden state to observation
-                
+
                 e.g.:
                     states = ('O', 'T_Business', 'T_Personnel', 'T_Conflict', 'T_Movement', 'T_Life', 
                               'T_Contact', 'T_Transaction', 'T_Justice')
-                              
+
                     observations = ('6', '位', '人文', '学者', '将', '首次', '赴', '南极', '长城站')
-                    
+
                     start_probability = {'O': 0.9263421190173972, 'T_Business': 0.00485328156499664, 
                                          'T_Personnel': 0.005114612110804152, 'T_Conflict': 0.011573209885761219, 
                                          'T_Movement': 0.017957141790487567, 'T_Life': 0.010415888897185097, 
                                          'T_Contact': 0.00608526842380348, 'T_Transaction': 0.0054506085268423805, 
                                          'T_Justice': 0.012207869782722317}
-                                         
+
                     transition_probability = {
                         'O': {'O': 0.9223477022587288, 'T_Business': 0.005241130097686756, ...}, 
                         'T_Personnel': {'O': 0.9999111199991112, 'UNK': 1.1110000111100001e-05}, 
@@ -204,7 +224,7 @@ class HMM(object):
                         'T_Contact': {'O': 0.9998857289777029, 'UNK': 1.4283877787141654e-05}, 
                         'T_Transaction': {'O': 0.9999101214483929, 'UNK': 1.1234818950892606e-05}, 
                         'T_Justice': {'O': 0.9999487209071273, 'UNK': 6.409886609105885e-06}}
-            
+
                     emission_probability = {
                         'O': {'跨': 8.0643181969587e-05, '党派': 0.00012094462223424818, ...},
                         'T_Personnel': {'就任': 0.06569641410418293, '解职': 0.00730608938098957, ...},
@@ -219,23 +239,23 @@ class HMM(object):
         :return:
                 prob: the highest probability of sequence labelling
                 path[state]: the most possible label list
-                
+
                 e.g.:['全国', '男女老少', '捐款']
                     prob = -33.015523580417472,
                     path['T_Transaction'] = ['O', 'O', 'T_Transaction']
         """
 
-        V = [{}]         # the probability table of path, V[time][state] = probability
-        path = {}        # Intermediate variable, to present which hidden state it is
+        V = [{}]  # the probability table of path, V[time][state] = probability
+        path = {}  # Intermediate variable, to present which hidden state it is
 
-        for y in states:         # initialize (t = 0)
+        for y in states:  # initialize (t = 0)
             if obs[0] in emit_p[y]:
                 V[0][y] = np.log(start_p[y]) + np.log(emit_p[y][obs[0]])
             else:
                 V[0][y] = np.log(start_p[y]) + np.log(emit_p[y]['UNK'])
             path[y] = [y]
 
-        for t in range(1, len(obs)):       # begin viterbi algorithm
+        for t in range(1, len(obs)):  # begin viterbi algorithm
             V.append({})
             newpath = {}
 
@@ -376,7 +396,7 @@ class CRF(object):
             售	O                    售	n	O
             台	A_Buyer    into      台	v	A_Buyer
             台	A_Buyer              台	ns	A_Buyer
-        
+
         :return: 
         """
         f = codecs.open(self.parameter + '_test.txt', 'r', 'utf8')
@@ -448,12 +468,12 @@ class CRF(object):
 
 
 if __name__ == '__main__':
-    Crf = CRF("trigger")
-    Crf.evaluation()
+    # Crf = CRF("trigger")
+    # Crf.evaluation()
 
-    # Hmm = HMM("trigger")
-    # Hmm.test()
-    # acc, ty, prec, rec, F = Hmm.evaluation()
+    Hmm = HMM("argument")
+    Hmm.test()
+    acc, ty, prec, rec, F = Hmm.evaluation()
 
     # accuracy = []
     # type_correct = []
