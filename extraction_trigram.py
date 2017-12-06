@@ -321,7 +321,7 @@ class HMM(object):
                 # find the max p
                 p = []
                 for y0 in states:
-                    ybar = ' '.join(path[y][-2:])
+                    ybar = ' '.join(path[y0][-2:])
                     if ybar in trans_p:
                         if y in trans_p[ybar] and obs[t] in emit_p[y]:
                             p.append(V[t-1][y0] + np.log(trans_p[ybar][y]) + np.log(emit_p[y][obs[t]]))
@@ -441,34 +441,6 @@ class HMM(object):
         return round(accuracy, 4), round(type_correct / TP, 4), round(precision, 4), round(recall, 4), round(F1, 4)
 
 if __name__ == '__main__':
-    # Hmm = HMM("argument", 0.001)
-    # Hmm.test()
-    # print(Hmm.evaluation())
-
-    accuracy = []
-    type_correct = []
-    precision = []
-    recall = []
-    F1 = []
-
-    lamd = [1/pow(10, i) for i in np.arange(1, 20)]
-
-    for i in lamd:
-        Hmm = HMM("trigger", i)
-        Hmm.test()
-        acc, ty, prec, rec, F = Hmm.evaluation()
-        accuracy.append(acc)
-        type_correct.append(ty)
-        precision.append(prec)
-        recall.append(rec)
-        F1.append(F)
-
-    plt.xlabel("Lambda")
-    plt.ylabel("Evaluation")
-    plt.plot(lamd, accuracy, label="accuracy")
-    plt.plot(lamd, type_correct, label="type_correct")
-    plt.plot(lamd, precision, label="precision")
-    plt.plot(lamd, recall, label="recall")
-    plt.plot(lamd, F1, label="F1")
-    plt.legend()
-    plt.show()
+    Hmm = HMM("trigger", 0.001)
+    Hmm.test()
+    print(Hmm.evaluation())

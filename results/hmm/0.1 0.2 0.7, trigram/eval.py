@@ -37,10 +37,11 @@ def evaluation(para):
     F1 = 2 * precision * recall/(precision+recall)
 
     print('====='+para+' labeling result=====')
+    print("accuracy: ", round(accuracy, 4))
     print("type_correct: ", round(type_correct/TP, 4))
     print("precision: ",round(precision, 4))
     print("recall: ",round(recall,4))
     print("F1: ",round(F1,4))
 
-# evaluation('trigger')
-evaluation('argument')
+evaluation('trigger')
+# evaluation('argument')
