@@ -145,7 +145,7 @@ class HMM():
             count[(s[-2][1], s[-1][1], 'STOP')] += 1
 
         # smoothing coefficients
-        l1, l2, l3 = 0.4, 0.2, 0.4
+        l1, l2, l3 = 0.1, 0.1, 0.8
         # MLE
         for x in vocab:
             for s in tags:
