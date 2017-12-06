@@ -11,7 +11,6 @@ import codecs
 import numpy as np
 import jieba.posseg as pseg
 from nltk import SimpleGoodTuringProbDist, FreqDist
-import matplotlib.pyplot as plt
 
 
 class HMM(object):
@@ -468,37 +467,6 @@ class CRF(object):
 
 
 if __name__ == '__main__':
-    # Crf = CRF("trigger")
-    # Crf.evaluation()
-
-    Hmm = HMM("argument")
+    Hmm = HMM("trigger", 0.01)
     Hmm.test()
     acc, ty, prec, rec, F = Hmm.evaluation()
-
-    # accuracy = []
-    # type_correct = []
-    # precision = []
-    # recall = []
-    # F1 = []
-    #
-    # lamd = [1/pow(10, i) for i in np.arange(1, 20)]
-    #
-    # for i in lamd:
-    #     Hmm = HMM("argument", i)
-    #     Hmm.test()
-    #     acc, ty, prec, rec, F = Hmm.evaluation()
-    #     accuracy.append(acc)
-    #     type_correct.append(ty)
-    #     precision.append(prec)
-    #     recall.append(rec)
-    #     F1.append(F)
-    #
-    # plt.xlabel("Lambda")
-    # plt.ylabel("Evaluation")
-    # plt.plot(lamd, accuracy, label="accuracy")
-    # plt.plot(lamd, type_correct, label="type_correct")
-    # plt.plot(lamd, precision, label="precision")
-    # plt.plot(lamd, recall, label="recall")
-    # plt.plot(lamd, F1, label="F1")
-    # plt.legend()
-    # plt.show()
