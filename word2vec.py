@@ -1,8 +1,10 @@
+# This file is used to build your word2vec model , including calculation of your cost and gradient.
+
 import numpy as np
 import random
 
 from gradcheck import gradcheck_naive
-from gradcheck import sigmoid ### sigmoid function can be used in the following codes
+from gradcheck import sigmoid   ### sigmoid function can be used in the following codes
 
 def softmax(x):
     """

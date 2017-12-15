@@ -1,3 +1,6 @@
+# This file is used to complete the sentiment analysis mission.
+# Your work is to find the best hyper parameter and regularization parameter.
+
 import matplotlib.pyplot as plt
 from sgd import load_saved_params, sgd
 from softmaxreg import softmaxRegression, getSentenceFeature, accuracy, softmax_wrapper
@@ -18,7 +21,7 @@ nWords = len(tokens)
 
 # Load the word vectors we trained earlier 
 _, wordVectors0, _ = load_saved_params()
-wordVectors = (wordVectors0[:nWords,:] + wordVectors0[nWords:,:])
+wordVectors = (wordVectors0[:nWords, :] + wordVectors0[nWords:, :])
 dimVectors = wordVectors.shape[1]
 
 # Load the train set

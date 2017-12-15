@@ -1,3 +1,4 @@
+# This file is used to run stochastic gradient descent.
 # Save parameters every a few SGD iterations as fail-safe
 SAVE_PARAMS_EVERY = 1000
 

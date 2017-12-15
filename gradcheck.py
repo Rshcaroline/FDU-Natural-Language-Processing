@@ -1,3 +1,5 @@
+# This file is used to check whether your grad is right or not.
+
 import numpy as np
 import random
 from scipy.special import expit

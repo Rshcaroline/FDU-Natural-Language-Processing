@@ -1,7 +1,9 @@
+# Train your own word vectors and visualize it.
+# This file can be edited if you want to change the hyperparameter for better performance
+
 import matplotlib.pyplot as plt
 from sgd import *
 from word2vec import *
-
 from data_utils import *
 
 # Reset the random seed to make sure that everyone gets the same results

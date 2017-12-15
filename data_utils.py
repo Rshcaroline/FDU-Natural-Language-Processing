@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# This file is used to read data from our dataset.
 
 import pickle
 import numpy as np
 import os
 import random
+
 
 class StanfordSentiment:
     def __init__(self, path=None, tablesize = 1000000):

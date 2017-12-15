@@ -1,3 +1,6 @@
+# This file is used to train a softmax regression model, and the softmax regression part is given.
+# Your work is to implement the feature extraction part.
+
 import random
 import numpy as np
 from data_utils import *
