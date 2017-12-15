@@ -1,0 +1,116 @@
+import random
+import numpy as np
+from data_utils import *
+from gradcheck import gradcheck_naive
+from sgd import load_saved_params
+
+def softmax(x):
+    """
+    Compute the softmax function for each row of the input x.
+    It is crucial that this function is optimized for speed because
+    it will be used frequently in later code.
+    You might find numpy functions np.exp, np.sum, np.reshape,
+    np.max, and numpy broadcasting useful for this task. (numpy
+    broadcasting documentation:
+    http://docs.scipy.org/doc/numpy/user/basics.broadcasting.html)
+    """
+    assert len(x.shape) <= 2
+    y = np.exp(x - np.max(x, axis=len(x.shape) - 1, keepdims=True))
+    normalization = np.sum(y, axis=len(x.shape) - 1, keepdims=True)
+    return np.divide(y, normalization)
+
+def getSentenceFeature(tokens, wordVectors, sentence):
+    """ Obtain the sentence feature for sentiment analysis by averaging its word vectors """
+    # Implement computation for the sentence features given a sentence.                                                       
+    
+    # Inputs:                                                         
+    # - tokens: a dictionary that maps words to their indices in    
+    #          the word vector list                                
+    # - wordVectors: word vectors (each row) for all tokens                
+    # - sentence: a list of words in the sentence of interest 
+
+    # Output:                                                         
+    # - sentVector: feature vector for the sentence    
+    
+    sentVector = np.zeros((wordVectors.shape[1],))
+    
+    ### YOUR CODE HERE
+    raise NotImplementedError
+    ### END YOUR CODE
+    
+    return sentVector
+
+def softmaxRegression(features, labels, weights, regularization = 0.0, nopredictions = False):
+    """ Softmax Regression """
+    # Implement softmax regression with weight regularization.        
+    
+    # Inputs:                                                         
+    # - features: feature vectors, each row is a feature vector     
+    # - labels: labels corresponding to the feature vectors         
+    # - weights: weights of the regressor                           
+    # - regularization: L2 regularization constant                  
+    
+    # Output:                                                         
+    # - cost: cost of the regressor                                 
+    # - grad: gradient of the regressor cost with respect to its    
+    #        weights                                               
+    # - pred: label predictions of the regressor (you might find    
+    #        np.argmax helpful)  
+    
+    prob = softmax(features.dot(weights))
+    if len(features.shape) > 1:
+        N = features.shape[0]
+    else:
+        N = 1
+    # A vectorized implementation of    1/N * sum(cross_entropy(x_i, y_i)) + 1/2*|w|^2
+    cost = np.sum(-np.log(prob[range(N), labels])) / N 
+    cost += 0.5 * regularization * np.sum(weights ** 2)
+    labels_onehot = np.zeros_like(prob)
+    labels_onehot[range(N), labels] = 1.0
+    grad = 1.0 / N * np.dot(features.T, prob - labels_onehot) + regularization * weights
+    pred = np.argmax(prob, axis=len(prob.shape) - 1)
+    if nopredictions:
+        return cost, grad
+    else:
+        return cost, grad, pred
+
+def accuracy(y, yhat):
+    """ Precision for classifier """
+    assert(y.shape == yhat.shape)
+    return np.sum(y == yhat) * 100.0 / y.size
+
+def softmax_wrapper(features, labels, weights, regularization = 0.0):
+    cost, grad, _ = softmaxRegression(features, labels, weights, 
+        regularization)
+    return cost, grad
+
+def sanity_check():
+    """
+    Run python softmaxreg.py.
+    """
+    random.seed(314159)
+    np.random.seed(265)
+
+    dataset = StanfordSentiment()
+    tokens = dataset.tokens()
+    nWords = len(tokens)
+
+    _, wordVectors0, _ = load_saved_params()
+    wordVectors = (wordVectors0[:nWords,:] + wordVectors0[nWords:,:])
+    dimVectors = wordVectors.shape[1]
+
+    dummy_weights = 0.1 * np.random.randn(dimVectors, 5)
+    dummy_features = np.zeros((10, dimVectors))
+    dummy_labels = np.zeros((10,), dtype=np.int32)    
+    for i in range(10):
+        words, dummy_labels[i] = dataset.getRandomTrainSentence()
+        dummy_features[i, :] = getSentenceFeature(tokens, wordVectors, words)
+    print("==== Gradient check for softmax regression ====")
+    gradcheck_naive(lambda weights: softmaxRegression(dummy_features,
+        dummy_labels, weights, 1.0, nopredictions = True), dummy_weights)
+
+    print("\n===Results ===")
+    print(softmaxRegression(dummy_features, dummy_labels, dummy_weights, 1.0))
+
+if __name__ == "__main__":
+    sanity_check()
