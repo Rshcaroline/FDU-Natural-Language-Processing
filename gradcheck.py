@@ -4,11 +4,14 @@ import numpy as np
 import random
 from scipy.special import expit
 
+
 def sigmoid(x):
     return expit(x)
 
+
 def sigmoid_grad(f):
     return f - f * f
+
 
 def gradcheck_naive(f, x):
     """
@@ -19,7 +22,7 @@ def gradcheck_naive(f, x):
 
     rndstate = random.getstate()
     random.setstate(rndstate)
-    fx, grad = f(x)  # Evaluate function value at original point
+    fx, grad = f(x)    # Evaluate function value at original point
 
     y = np.copy(x)
     # Iterate over all indexes in x
@@ -36,17 +39,20 @@ def gradcheck_naive(f, x):
             fy, _ = f(y)
             y[ix] = x[ix]
             numgrad = (fy - fx) / h
+            # print(fx)
+            # print(fy)
             if fx != fy:
                 reldiff = min(reldiff, abs(numgrad - grad[ix]) / max((1.0, abs(numgrad), abs(grad[ix]))))
         if reldiff > 1e-5:
             print("Gradient check failed.")
             print("First gradient error found at index %s" % str(ix))
+            print(grad[ix])
+            print(numgrad)
             print("Your gradient: %f \t Numerical gradient: %f" % (grad[ix], numgrad))
             return
         it.iternext()  # Step to next dimension
 
     print("Gradient check passed!")
-
 
 
 def sanity_check():
