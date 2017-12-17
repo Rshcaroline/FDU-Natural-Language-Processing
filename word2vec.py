@@ -74,7 +74,7 @@ def softmaxCostAndGradient(predicted, target, outputVectors, dataset):
     u_w = outputVectors
 
     p = softmax(np.dot(u_w, v_c))
-    cost = np.log(p)
+    cost = -np.sum(target*np.log(p), axis=len(np.dot(p, u_w).shape) - 1, keepdims=True)
     gradPred = u_o - np.sum(np.dot(p, u_w), axis=len(np.dot(p, u_w).shape) - 1, keepdims=True)
     grad = v_c
     ### END YOUR CODE
@@ -100,7 +100,8 @@ def negSamplingCostAndGradient(predicted, target, outputVectors, dataset,
     # raise NotImplementedError
     u_o = outputVectors[target, :]
     v_c = predicted
-    u_k = outputVectors[dataset.sampleTokenIdx, :]
+    index = [dataset.sampleTokenIdx for i in range(K)]
+    u_k = outputVectors[index, :]
 
     sigma1 = sigmoid(np.dot(u_o, v_c))
     sigma2 = sigmoid(-np.dot(u_k, v_c))
@@ -206,7 +207,7 @@ def test_word2vec():
     random.seed(31415)
     np.random.seed(9265)
     dummy_vectors = normalizeRows(np.random.randn(10,3))
-    dummy_tokens = dict([("a",0), ("b",1), ("c",2),("d",3),("e",4)])
+    dummy_tokens = dict([("a", 0), ("b", 1), ("c", 2), ("d", 3), ("e", 4)])
     print("==== Gradient check for skip-gram ====")
     gradcheck_naive(lambda vec: word2vec_sgd_wrapper(skipgram, dummy_tokens, vec, dataset, 5), dummy_vectors)
     gradcheck_naive(lambda vec: word2vec_sgd_wrapper(skipgram, dummy_tokens, vec, dataset, 5, negSamplingCostAndGradient), dummy_vectors)
