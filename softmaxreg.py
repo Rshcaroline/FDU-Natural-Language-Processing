@@ -7,6 +7,7 @@ from data_utils import *
 from gradcheck import gradcheck_naive
 from sgd import load_saved_params
 
+
 def softmax(x):
     """
     Compute the softmax function for each row of the input x.
@@ -22,6 +23,7 @@ def softmax(x):
     normalization = np.sum(y, axis=len(x.shape) - 1, keepdims=True)
     return np.divide(y, normalization)
 
+
 def getSentenceFeature(tokens, wordVectors, sentence):
     """ Obtain the sentence feature for sentiment analysis by averaging its word vectors """
     # Implement computation for the sentence features given a sentence.                                                       
@@ -35,13 +37,17 @@ def getSentenceFeature(tokens, wordVectors, sentence):
     # Output:                                                         
     # - sentVector: feature vector for the sentence    
     
-    sentVector = np.zeros((wordVectors.shape[1],))
+    # sentVector = np.zeros((wordVectors.shape[1],))
     
     ### YOUR CODE HERE
-    raise NotImplementedError
+    # raise NotImplementedError
+
+    index = [tokens[word] for word in sentence]
+    return np.mean(wordVectors[index, :], axis=1)     # by row
+
     ### END YOUR CODE
-    
-    return sentVector
+    # return sentVector
+
 
 def softmaxRegression(features, labels, weights, regularization = 0.0, nopredictions = False):
     """ Softmax Regression """

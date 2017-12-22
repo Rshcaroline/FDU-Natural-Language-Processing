@@ -3,10 +3,12 @@
 import numpy as np
 import random
 import sklearn.preprocessing
+import time
 
 from gradcheck import gradcheck_naive
 from gradcheck import sigmoid   ### sigmoid function can be used in the following codes
 
+timeReco = []
 
 def softmax(x):
     """
@@ -32,7 +34,20 @@ def normalizeRows(x):
     
     ### YOUR CODE HERE
     # raise NotImplementedError
+
+    ### Method1: I write a function by myself and used "for" loop
+    ### average time: 0.000484943389893s
+
+    # for i in range(len(x)):
+    #     x[i, :] = x[i, :]/np.sqrt(np.sum(x[i, :]*x[i, :]))
+    # return x
+
+    ### Method2: I searched some information and used a package
+    ### average time: 0.000205039978027s
+    ### Amazing! It has saved us 60% time!
+
     return sklearn.preprocessing.normalize(x, norm='l2')
+
     ### END YOUR CODE
 
 
@@ -74,10 +89,19 @@ def softmaxCostAndGradient(predicted, target, outputVectors, dataset):
     v_c = predicted
     u_w = outputVectors
 
-    p = softmax(np.dot(u_w, v_c))      # yhat = p(o|c)ß
+    p = softmax(np.dot(u_w, v_c))      # yhat = p(o|c)
     cost = -np.log(p[target])          # CE = - log(yhat)
-
     gradPred = - u_o + np.dot(p, outputVectors)        # the gradient with respect to v_c
+
+    ### Method1:
+    ### average time: 6.01028216279e-05s
+    # grad = np.zeros([p.shape[0], predicted.shape[0]])
+    # for i in range(p.shape[0]):
+    #     grad[i, :] = predicted * p[i]
+
+    ### Method2:
+    ### average time: 4.65352400599e-05s
+    ### Amazing! It has saved us 33% time!
     grad = np.outer(p, predicted)                      # the gradient with respect to u_w (and w!=o)
     grad[target, :] -= predicted                       # pay attention to the grad of target word o
 
@@ -103,27 +127,59 @@ def negSamplingCostAndGradient(predicted, target, outputVectors, dataset,
     ### YOUR CODE HERE
     # raise NotImplementedError
 
-    indexes = [dataset.sampleTokenIdx() for k in range(K)]    # generate sample indexes
+    ### Method1: A slow and inefficient method using "for" loop
+    ### average time: 0.000195302985752s
+
+    # indices = [dataset.sampleTokenIdx() for k in range(K)]    # generate sample indexes
+    #
+    # u_o = outputVectors[target, :]           # target means "o" here     # notice the array is stored by row
+    # v_c = predicted
+    #
+    # sigma1 = sigmoid(np.dot(u_o, v_c))
+    # cost = -np.log(sigma1)                   # neg-sample cost
+    # gradPred = u_o * (sigma1 - 1)            # the gradient with respect to v_c
+    # grad = np.zeros(outputVectors.shape)     # initialize grad
+    #
+    # for i in range(K):
+    #     u_k = outputVectors[indices[i], :]
+    #     sigma2 = sigmoid(-np.dot(u_k, v_c))
+    #     cost = cost - np.log(sigma2)
+    #     gradPred = gradPred + u_k * (1 - sigma2)            # the gradient with respect to v_c
+    #     grad[indices[i]] += v_c * (1 - sigma2)              # the gradient with respect to u_k (and k!=o)
+    #
+    # grad[target, :] = grad[target, :] + v_c * (sigma1 - 1)          # pay attention to the grad of target word o
+
+    indices = [dataset.sampleTokenIdx() for k in range(K)]    # generate sample indexes
 
     u_o = outputVectors[target, :]           # target means "o" here     # notice the array is stored by row
     v_c = predicted
+    u_k = outputVectors[indices, :]
 
     sigma1 = sigmoid(np.dot(u_o, v_c))
-    cost = -np.log(sigma1)                   # neg-sample cost
-    gradPred = u_o * (sigma1 - 1)            # the gradient with respect to v_c
-    grad = np.zeros(outputVectors.shape)     # initialize grad
+    sigma2 = sigmoid(-np.dot(u_k, v_c))
+    grad = np.zeros(outputVectors.shape)
 
+    cost = -np.log(sigma1) - np.sum(np.log(sigma2))                  # neg-sample cost
+    gradPred = u_o * (sigma1 - 1) + np.dot((1 - sigma2).T, u_k)      # the gradient with respect to v_c
+
+    ### Method2: Tring to use some matrix operating to replace "for" loop
+    ### average time: 0.000179892113867s
+    ### Keep going! It only saved us about 10% time!
+    # for i in range(K):
+    #     grad[indices[i], :] += v_c * (1 - sigma2)[i]
+
+    ### Method3: using np.outer!
+    ### average time: 0.000135194817627s
+    ### Amazing! It has saved us about 30% time!
+    temp = np.outer(1 - sigma2, v_c)
     for i in range(K):
-        u_k = outputVectors[indexes[i], :]
-        sigma2 = sigmoid(-np.dot(u_k, v_c))
-        cost = cost - np.log(sigma2)
-        gradPred = gradPred + u_k * (1 - sigma2)            # the gradient with respect to v_c
-        grad[indexes[i]] += v_c * (1 - sigma2)              # the gradient with respect to u_k (and k!=o)
+        grad[indices[i], :] += temp[i]
 
-    grad[target, :] = grad[target, :] + v_c * (sigma1 - 1)          # pay attention to the grad of target word o
+    # grad[indices, :] += np.tile(v_c, [len(sigma2), 1]) * (1 - sigma2)[:, None]
+    grad[target, :] += v_c * (sigma1 - 1)          # pay attention to the grad of target word o
 
     ### END YOUR CODE
-    
+
     return cost, gradPred, grad
 
 
@@ -231,6 +287,4 @@ def test_word2vec():
 if __name__ == "__main__":
     # test_normalize_rows()
     test_word2vec()
-
-    # data = np.array([[3.0, 4.0], [1, 2]])
-    # print(softmax(data))
+    print("time: \t", np.mean(timeReco), "s")
