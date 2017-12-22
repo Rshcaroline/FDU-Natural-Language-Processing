@@ -69,16 +69,17 @@ def softmaxCostAndGradient(predicted, target, outputVectors, dataset):
     
     ### YOUR CODE HERE
     # raise NotImplementedError
-    u_o = outputVectors[target, :]
+
+    u_o = outputVectors[target, :]     # target means "o" here     # notice the array is stored by row
     v_c = predicted
     u_w = outputVectors
 
-    p = softmax(np.dot(u_w, v_c))      # yhat = p(o|c)
+    p = softmax(np.dot(u_w, v_c))      # yhat = p(o|c)ß
     cost = -np.log(p[target])          # CE = - log(yhat)
 
-    gradPred = - u_o + np.dot(outputVectors.T, p)       # the gradient with respect to v_c
-    grad = np.outer(p, predicted)                       # the gradient with respect to u_w
-    grad[target, :] = grad[target, :] - predicted
+    gradPred = - u_o + np.dot(p, outputVectors)        # the gradient with respect to v_c
+    grad = np.outer(p, predicted)                      # the gradient with respect to u_w (and w!=o)
+    grad[target, :] -= predicted                       # pay attention to the grad of target word o
 
     ### END YOUR CODE
     
@@ -102,24 +103,24 @@ def negSamplingCostAndGradient(predicted, target, outputVectors, dataset,
     ### YOUR CODE HERE
     # raise NotImplementedError
 
-    indexes = [dataset.sampleTokenIdx() for k in range(K)]
+    indexes = [dataset.sampleTokenIdx() for k in range(K)]    # generate sample indexes
 
-    u_o = outputVectors[target, :]
+    u_o = outputVectors[target, :]           # target means "o" here     # notice the array is stored by row
     v_c = predicted
 
     sigma1 = sigmoid(np.dot(u_o, v_c))
-
-    cost = -np.log(sigma1)
-    gradPred = u_o * (sigma1 - 1)
-    grad = np.zeros(outputVectors.shape)
-    grad[target, :] = grad[target, :] + v_c * (sigma1 - 1)
+    cost = -np.log(sigma1)                   # neg-sample cost
+    gradPred = u_o * (sigma1 - 1)            # the gradient with respect to v_c
+    grad = np.zeros(outputVectors.shape)     # initialize grad
 
     for i in range(K):
         u_k = outputVectors[indexes[i], :]
         sigma2 = sigmoid(-np.dot(u_k, v_c))
         cost = cost - np.log(sigma2)
-        gradPred = gradPred - u_k * (sigma2 - 1)
-        grad[indexes[i]] = grad[indexes[i]] - v_c * (sigma2 - 1)
+        gradPred = gradPred + u_k * (1 - sigma2)            # the gradient with respect to v_c
+        grad[indexes[i]] += v_c * (1 - sigma2)              # the gradient with respect to u_k (and k!=o)
+
+    grad[target, :] = grad[target, :] + v_c * (sigma1 - 1)          # pay attention to the grad of target word o
 
     ### END YOUR CODE
     
@@ -153,15 +154,15 @@ def skipgram(currentWord, C, contextWords, tokens, inputVectors, outputVectors,
     # raise NotImplementedError
 
     cost = 0
-    gradIn = np.zeros(inputVectors.shape)
-    gradOut = np.zeros(outputVectors.shape)
-    predicted = inputVectors[tokens[currentWord], :]
+    gradIn = np.zeros(inputVectors.shape)                 # the gradient with respect to the v_c
+    gradOut = np.zeros(outputVectors.shape)               # the gradient with respect to all the other word vectors
+    predicted = inputVectors[tokens[currentWord], :]      # v_c
 
     for i in contextWords:
         target = tokens[i]
         cost_each, gradPred_each, grad_each = word2vecCostAndGradient(predicted, target, outputVectors, dataset)
         cost = cost + cost_each
-        gradIn[tokens[currentWord], :] += gradPred_each
+        gradIn[tokens[currentWord], :] += gradPred_each         # we sum all the grad with respect to v_c
         gradOut += grad_each
 
     ### END YOUR CODE
