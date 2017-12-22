@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# This file is used to read data from our dataset.
 
 import pickle
 import numpy as np
 import os
 import random
-
 
 class StanfordSentiment:
     def __init__(self, path=None, tablesize = 1000000):
@@ -60,7 +58,7 @@ class StanfordSentiment:
                     first = False
                     continue
 
-                splitted = line.strip().split()[1:]
+                splitted = line.encode('latin1').decode("utf8").strip().split()[1:]
                 # Deal with some peculiar encoding issues with this file
                 # sentences += [[w.lower().decode("utf-8").encode('latin1') for w in splitted]]
                 sentences += [[w.lower() for w in splitted]]
@@ -146,10 +144,10 @@ class StanfordSentiment:
         for i in range(self.numSentences()):
             sentence = sentences[i]
             full_sent = " ".join(sentence).replace('-lrb-', '(').replace('-rrb-', ')')
-            print('full_sent',full_sent)
-            print('dictionary_full_sent',dictionary[full_sent])
+            # print('full_sent',full_sent)
+            # print('dictionary_full_sent',dictionary[full_sent])
             sent_labels[i] = labels[dictionary[full_sent]]
-        print('sent_labels',sent_labels)
+        # print('sent_labels', sent_labels)
         self._sent_labels = sent_labels
         return self._sent_labels
 

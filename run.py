@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 from sgd import *
 from word2vec import *
 from data_utils import *
+import time
+
+start = time.time()
 
 # Reset the random seed to make sure that everyone gets the same results
 random.seed(314)
@@ -26,7 +29,7 @@ wordVectors = np.concatenate(((np.random.rand(nWords, dimVectors) - .5) / \
 wordVectors0 = sgd(
     lambda vec: word2vec_sgd_wrapper(skipgram, tokens, vec, dataset, C, 
     	negSamplingCostAndGradient), 
-    wordVectors, 0.3, 40000, None, True, PRINT_EVERY=10)
+    wordVectors, 0.3, 40000, None, True, PRINT_EVERY=10)   # 40000
 print("sanity check: cost at convergence should be around or below 10")
 
 # sum the input and output word vectors
@@ -44,7 +47,9 @@ visualizeVecs = wordVectors[visualizeIdx, :]
 temp = (visualizeVecs - np.mean(visualizeVecs, axis=0))
 covariance = 1.0 / len(visualizeIdx) * temp.T.dot(temp)
 U,S,V = np.linalg.svd(covariance)
-coord = temp.dot(U[:,0:2]) 
+coord = temp.dot(U[:,0:2])
+
+print("time: \t", time.time() - start, "s")
 
 for i in range(len(visualizeWords)):
     plt.text(coord[i,0], coord[i,1], visualizeWords[i], 

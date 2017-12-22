@@ -43,7 +43,7 @@ def getSentenceFeature(tokens, wordVectors, sentence):
     # raise NotImplementedError
 
     index = [tokens[word] for word in sentence]
-    return np.mean(wordVectors[index, :], axis=1)     # by row
+    return np.mean(wordVectors[index, :], axis=0)     # by row
 
     ### END YOUR CODE
     # return sentVector

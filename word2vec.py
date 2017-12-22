@@ -45,7 +45,6 @@ def normalizeRows(x):
     ### Method2: I searched some information and used a package
     ### average time: 0.000205039978027s
     ### Amazing! It has saved us 60% time!
-
     return sklearn.preprocessing.normalize(x, norm='l2')
 
     ### END YOUR CODE
@@ -127,14 +126,13 @@ def negSamplingCostAndGradient(predicted, target, outputVectors, dataset,
     ### YOUR CODE HERE
     # raise NotImplementedError
 
+    indices = [dataset.sampleTokenIdx() for k in range(K)]    # generate sample indexes
+
+    u_o = outputVectors[target, :]           # target means "o" here     # notice the array is stored by row
+    v_c = predicted
+
     ### Method1: A slow and inefficient method using "for" loop
     ### average time: 0.000195302985752s
-
-    # indices = [dataset.sampleTokenIdx() for k in range(K)]    # generate sample indexes
-    #
-    # u_o = outputVectors[target, :]           # target means "o" here     # notice the array is stored by row
-    # v_c = predicted
-    #
     # sigma1 = sigmoid(np.dot(u_o, v_c))
     # cost = -np.log(sigma1)                   # neg-sample cost
     # gradPred = u_o * (sigma1 - 1)            # the gradient with respect to v_c
@@ -149,10 +147,6 @@ def negSamplingCostAndGradient(predicted, target, outputVectors, dataset,
     #
     # grad[target, :] = grad[target, :] + v_c * (sigma1 - 1)          # pay attention to the grad of target word o
 
-    indices = [dataset.sampleTokenIdx() for k in range(K)]    # generate sample indexes
-
-    u_o = outputVectors[target, :]           # target means "o" here     # notice the array is stored by row
-    v_c = predicted
     u_k = outputVectors[indices, :]
 
     sigma1 = sigmoid(np.dot(u_o, v_c))
@@ -175,7 +169,9 @@ def negSamplingCostAndGradient(predicted, target, outputVectors, dataset,
     for i in range(K):
         grad[indices[i], :] += temp[i]
 
+    ### Method4: I tried to avoid "for" loop, howerever I failed. :(
     # grad[indices, :] += np.tile(v_c, [len(sigma2), 1]) * (1 - sigma2)[:, None]
+
     grad[target, :] += v_c * (sigma1 - 1)          # pay attention to the grad of target word o
 
     ### END YOUR CODE
@@ -287,4 +283,4 @@ def test_word2vec():
 if __name__ == "__main__":
     # test_normalize_rows()
     test_word2vec()
-    print("time: \t", np.mean(timeReco), "s")
+    # print("time: \t", np.mean(timeReco), "s")
