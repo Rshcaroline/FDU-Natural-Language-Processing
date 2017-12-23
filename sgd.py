@@ -83,7 +83,7 @@ def sgd(f, x0, step, iterations, postprocessing = None, useSaved = False, PRINT_
                 expcost = cost
             else:
                 expcost = .95 * expcost + .05 * cost
-            print("iter %d: %f" % (iter, expcost))
+            # print("iter %d: %f" % (iter, expcost))
         
         if iter % SAVE_PARAMS_EVERY == 0 and useSaved:
             save_params(iter, x)

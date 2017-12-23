@@ -9,9 +9,10 @@ from data_utils import *
 
 # Try different regularizations and pick the best!
 # NOTE: fill in one more "your code here" below before running!
-REGULARIZATION = None   # Assign a list of floats in the block below
+# REGULARIZATION = None   # Assign a list of floats in the block below
 ### YOUR CODE HERE
-#raise NotImplementedError
+# raise NotImplementedError
+REGULARIZATION = [1/np.power(10, i) for i in range(1, 10)]
 ### END YOUR CODE
 
 # Load the dataset
@@ -48,7 +49,8 @@ for regularization in REGULARIZATION:
     random.seed(3141)
     np.random.seed(59265)
     weights = np.random.randn(dimVectors, 5)
-    print("Training for reg=%f" % regularization )
+    # print("Training for reg=%f" % regularization )
+    print("Training for reg =", regularization )     # to show the small float
 
     # We will do batch optimization
     weights = sgd(lambda weights: softmax_wrapper(trainFeatures, trainLabels, 
@@ -80,11 +82,15 @@ for result in results:
 print()
 
 # Pick the best regularization parameters
-BEST_REGULARIZATION = None
-BEST_WEIGHTS = None
+# BEST_REGULARIZATION = None
+# BEST_WEIGHTS = None
 
 ### YOUR CODE HERE 
-#raise NotImplementedError
+# raise NotImplementedError
+DEV = [results[i]["dev"] for i in range(len(results))]
+BEST_INDEX = DEV.index(max(DEV))
+BEST_REGULARIZATION = results[BEST_INDEX]["reg"]
+BEST_WEIGHTS = results[BEST_INDEX]["weights"]
 ### END YOUR CODE
 
 # Test your findings on the test set

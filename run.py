@@ -1,6 +1,12 @@
 # Train your own word vectors and visualize it.
 # This file can be edited if you want to change the hyperparameter for better performance
 
+# iter 39980: 9.585129
+# iter 39990: 9.570875
+# iter 40000: 9.582065
+# sanity check: cost at convergence should be around or below 10
+# time: 	 10496.522208929062s = 2.9h
+
 import matplotlib.pyplot as plt
 from sgd import *
 from word2vec import *
@@ -25,38 +31,38 @@ C = 5
 random.seed(31415)
 np.random.seed(9265)
 wordVectors = np.concatenate(((np.random.rand(nWords, dimVectors) - .5) / \
-	dimVectors, np.zeros((nWords, dimVectors))), axis=0)
+                              dimVectors, np.zeros((nWords, dimVectors))), axis=0)
 wordVectors0 = sgd(
-    lambda vec: word2vec_sgd_wrapper(skipgram, tokens, vec, dataset, C, 
-    	negSamplingCostAndGradient), 
-    wordVectors, 0.3, 40000, None, True, PRINT_EVERY=10)   # 40000
+    lambda vec: word2vec_sgd_wrapper(skipgram, tokens, vec, dataset, C,
+                                     negSamplingCostAndGradient),
+    wordVectors, 0.3, 40000, None, True, PRINT_EVERY=10)  # 40000
 print("sanity check: cost at convergence should be around or below 10")
 
 # sum the input and output word vectors
-wordVectors = (wordVectors0[:nWords,:] + wordVectors0[nWords:,:])
+wordVectors = (wordVectors0[:nWords, :] + wordVectors0[nWords:, :])
 
 # Visualize the word vectors you trained
 _, wordVectors0, _ = load_saved_params()
-wordVectors = (wordVectors0[:nWords,:] + wordVectors0[nWords:,:])
-visualizeWords = ["the", "a", "an", ",", ".", "?", "!", "``", "''", "--", 
-	"good", "great", "cool", "brilliant", "wonderful", "well", "amazing",
-	"worth", "sweet", "enjoyable", "boring", "bad", "waste", "dumb", 
-	"annoying"]
+wordVectors = (wordVectors0[:nWords, :] + wordVectors0[nWords:, :])
+visualizeWords = ["the", "a", "an", ",", ".", "?", "!", "``", "''", "--",
+                  "good", "great", "cool", "brilliant", "wonderful", "well", "amazing",
+                  "worth", "sweet", "enjoyable", "boring", "bad", "waste", "dumb",
+                  "annoying"]
 visualizeIdx = [tokens[word] for word in visualizeWords]
 visualizeVecs = wordVectors[visualizeIdx, :]
 temp = (visualizeVecs - np.mean(visualizeVecs, axis=0))
 covariance = 1.0 / len(visualizeIdx) * temp.T.dot(temp)
-U,S,V = np.linalg.svd(covariance)
-coord = temp.dot(U[:,0:2])
+U, S, V = np.linalg.svd(covariance)
+coord = temp.dot(U[:, 0:2])
 
 print("time: \t", time.time() - start, "s")
 
 for i in range(len(visualizeWords)):
-    plt.text(coord[i,0], coord[i,1], visualizeWords[i], 
-    	bbox=dict(facecolor='green', alpha=0.1))
-    
-plt.xlim((np.min(coord[:,0]), np.max(coord[:,0])))
-plt.ylim((np.min(coord[:,1]), np.max(coord[:,1])))
+    plt.text(coord[i, 0], coord[i, 1], visualizeWords[i],
+             bbox=dict(facecolor='green', alpha=0.1))
+
+plt.xlim((np.min(coord[:, 0]), np.max(coord[:, 0])))
+plt.ylim((np.min(coord[:, 1]), np.max(coord[:, 1])))
 
 plt.savefig('word_vectors.png')
 plt.show()

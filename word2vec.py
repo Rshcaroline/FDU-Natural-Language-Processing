@@ -169,7 +169,8 @@ def negSamplingCostAndGradient(predicted, target, outputVectors, dataset,
     for i in range(K):
         grad[indices[i], :] += temp[i]
 
-    ### Method4: I tried to avoid "for" loop, howerever I failed. :(
+    ### Method4: I tried to avoid "for" loop, however I failed. :(
+    ### because there are replicate values in indices, hence we can't update them once
     # grad[indices, :] += np.tile(v_c, [len(sigma2), 1]) * (1 - sigma2)[:, None]
 
     grad[target, :] += v_c * (sigma1 - 1)          # pay attention to the grad of target word o
