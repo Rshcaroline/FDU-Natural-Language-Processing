@@ -94,15 +94,15 @@ def softmaxCostAndGradient(predicted, target, outputVectors, dataset):
 
     ### Method1:
     ### average time: 6.01028216279e-05s
-    # grad = np.zeros([p.shape[0], predicted.shape[0]])
+    # grad = np.zeros([p.shape[0], v_c.shape[0]])
     # for i in range(p.shape[0]):
-    #     grad[i, :] = predicted * p[i]
+    #     grad[i, :] = v_c * p[i]
 
     ### Method2:
     ### average time: 4.65352400599e-05s
     ### Amazing! It has saved us 33% time!
-    grad = np.outer(p, predicted)                      # the gradient with respect to u_w (and w!=o)
-    grad[target, :] -= predicted                       # pay attention to the grad of target word o
+    grad = np.outer(p, v_c)                      # the gradient with respect to u_w (and w!=o)
+    grad[target, :] -= v_c                       # pay attention to the grad of target word o
 
     ### END YOUR CODE
     
@@ -156,7 +156,7 @@ def negSamplingCostAndGradient(predicted, target, outputVectors, dataset,
     cost = -np.log(sigma1) - np.sum(np.log(sigma2))                  # neg-sample cost
     gradPred = u_o * (sigma1 - 1) + np.dot((1 - sigma2).T, u_k)      # the gradient with respect to v_c
 
-    ### Method2: Tring to use some matrix operating to replace "for" loop
+    ### Method2: Trying to use some matrix operating to replace "for" loop
     ### average time: 0.000179892113867s
     ### Keep going! It only saved us about 10% time!
     # for i in range(K):

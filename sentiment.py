@@ -12,6 +12,7 @@ from data_utils import *
 # REGULARIZATION = None   # Assign a list of floats in the block below
 ### YOUR CODE HERE
 # raise NotImplementedError
+# Notice! REGULARIZATION should be between 0 and 1.
 REGULARIZATION = [1/np.power(10, i) for i in range(1, 10)]
 ### END YOUR CODE
 
@@ -113,6 +114,6 @@ plt.xscale('log')
 plt.xlabel("regularization")
 plt.ylabel("accuracy")
 plt.legend(['train', 'dev'], loc='upper left')
-plt.savefig("reg_acc.png")
+plt.savefig("C=9 dim=30 reg_acc.png")
 plt.show()
 

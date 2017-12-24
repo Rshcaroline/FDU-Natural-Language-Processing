@@ -1,12 +1,6 @@
 # Train your own word vectors and visualize it.
 # This file can be edited if you want to change the hyperparameter for better performance
 
-# iter 39980: 9.585129
-# iter 39990: 9.570875
-# iter 40000: 9.582065
-# sanity check: cost at convergence should be around or below 10
-# time: 	 10496.522208929062s = 2.9h
-
 import matplotlib.pyplot as plt
 from sgd import *
 from word2vec import *
@@ -22,10 +16,10 @@ tokens = dataset.tokens()
 nWords = len(tokens)
 
 # We are going to train 10-dimensional vectors for this assignment
-dimVectors = 10
+dimVectors = 30
 
 # Context size
-C = 5
+C = 9
 
 # Reset the random seed to make sure that everyone gets the same results
 random.seed(31415)
@@ -64,5 +58,5 @@ for i in range(len(visualizeWords)):
 plt.xlim((np.min(coord[:, 0]), np.max(coord[:, 0])))
 plt.ylim((np.min(coord[:, 1]), np.max(coord[:, 1])))
 
-plt.savefig('word_vectors.png')
+plt.savefig("C=" + str(C) + " dim=" + str(dimVectors) + ' word_vectors.png')
 plt.show()
