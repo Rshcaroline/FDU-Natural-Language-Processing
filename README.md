@@ -47,8 +47,13 @@ This is my fourth project of NLP class.
 
 - This file is used to train a softmax regression model, and the softmax regression part is given. Your work is to implement the feature extraction part. 
 
+## word2vec sentiment analysis.pdf
+
+- my project report
+
 ## word2vec.py
 
 - This file is used to build your word2vec model , including 
 
   calculation of your cost and gradient. 
+
