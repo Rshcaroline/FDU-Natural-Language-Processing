@@ -5,7 +5,7 @@ This is my fourth project of NLP class.
 
 - this is the given assignment pdf file, we just follow the guide to implement our project.
 
-##Assignment04 Solution
+## Assignment04 Solution
 
 - this is my solution to *Assignment04*, which contains my derived cost function and gradient.
 
