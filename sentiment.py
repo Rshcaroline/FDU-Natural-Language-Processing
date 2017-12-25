@@ -114,6 +114,6 @@ plt.xscale('log')
 plt.xlabel("regularization")
 plt.ylabel("accuracy")
 plt.legend(['train', 'dev'], loc='upper left')
-plt.savefig("C=9 dim=30 reg_acc.png")
+plt.savefig("reg_acc.png")
 plt.show()
 

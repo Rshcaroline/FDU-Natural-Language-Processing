@@ -8,18 +8,18 @@ import numpy as np
 import os.path as op
 import pickle
 
-path = "C=9 dim=30 "
+# path = "C=9 dim=30 "
 
 def load_saved_params():
     """ A helper function that loads previously saved parameters and resets iteration start """
     st = 0
-    for f in glob.glob(path + "saved_params_*.npy"):
+    for f in glob.glob("saved_params_*.npy"):
         iter = int(op.splitext(op.basename(f))[0].split("_")[2])
         if (iter > st):
             st = iter
             
     if st > 0:
-        with open(path + "saved_params_%d.npy" % st, "rb") as f:
+        with open("saved_params_%d.npy" % st, "rb") as f:
             params = pickle.load(f)
             state = pickle.load(f)
         return st, params, state
@@ -27,7 +27,7 @@ def load_saved_params():
         return st, None, None
     
 def save_params(iter, params):
-    with open(path + "saved_params_%d.npy" % iter, "wb") as f:
+    with open("saved_params_%d.npy" % iter, "wb") as f:
         pickle.dump(params, f)
         pickle.dump(random.getstate(), f)
 

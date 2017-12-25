@@ -16,10 +16,10 @@ tokens = dataset.tokens()
 nWords = len(tokens)
 
 # We are going to train 10-dimensional vectors for this assignment
-dimVectors = 30
+dimVectors = 10
 
 # Context size
-C = 9
+C = 5
 
 # Reset the random seed to make sure that everyone gets the same results
 random.seed(31415)
