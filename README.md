@@ -53,7 +53,5 @@ This is my fourth project of NLP class.
 
 ## word2vec.py
 
-- This file is used to build your word2vec model , including 
-
-  calculation of your cost and gradient. 
+- This file is used to build your word2vec model , including calculation of your cost and gradient. 
 
