@@ -2,8 +2,13 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
+<<<<<<< HEAD
       <webServer id="94df4b57-2e9c-4b2a-8663-839823d27f25" name="lab" url="http://10.88.3.60">
         <fileTransfer host="10.88.3.60" port="1502" accessType="SFTP">
+=======
+      <webServer id="629aa69e-ed67-43c8-a835-1106beb93d1a" name="lab" url="http://10.88.3.60">
+        <fileTransfer host="10.88.3.60" port="1502" rootFolder="/home/shran" accessType="SFTP">
+>>>>>>> word2vec
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
