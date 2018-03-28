@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="4f878141-855a-4b58-9584-7e59d648510a" name="Default" comment="" />
+=======
+    <list default="true" id="cd23477f-46de-4669-8d6c-c194470a836b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/count_1edit.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/holbrook-tagged-dev.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/holbrook-tagged-train.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/edit_distance.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/find repeat word.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngrams/TWL06.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngrams/ch14-old.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngrams/ch14.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngrams/count_1edit.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngrams/count_1w.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngrams/count_2l.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngrams/count_2w.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngrams/count_3l.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngrams/count_big.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngrams/enable1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngrams/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngrams/ngrams-test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngrams/ngrams.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ngrams/sowpods.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/88%.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/88.2%.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/88.3%.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/92%.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/spell_correction.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/spell_correction_92%.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/print.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/CustomLanguageModel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/Datum.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/EditModel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/HolbrookCorpus.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/LaplaceBigramLanguageModel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/LaplaceUnigramLanguageModel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/Sentence.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/SpellCorrect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/SpellingResult.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/StupidBackoffLanguageModel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/UniformLanguageModel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/UnigramLanguageModel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/shared_submit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/submit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spellcorrect" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spelling-correction.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eval.py" afterPath="$PROJECT_DIR$/eval.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result.txt" afterPath="$PROJECT_DIR$/result.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spell_correction.py" afterPath="$PROJECT_DIR$/spell_correction.py" />
+    </list>
+>>>>>>> spell_correction
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,6 +61,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/FDU_NLP_Stock_Market_Prediction$MyNBClassify.coverage" NAME="MyNBClassify Coverage Results" MODIFIED="1510897555086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FDU_NLP_Stock_Market_Prediction$stock_prediction.coverage" NAME="stock prediction Coverage Results" MODIFIED="1510887880076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FDU_NLP_Stock_Market_Prediction$FindClassifiers.coverage" NAME="FindClassifiers Coverage Results" MODIFIED="1510889872341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -37,6 +89,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf />
+=======
+    <SUITE FILE_PATH="coverage/FDU_NLP_Spell_Correction$edit_distance.coverage" NAME="edit_distance Coverage Results" MODIFIED="1507945826011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FDU_NLP_Spell_Correction$spell_correction_85_.coverage" NAME="spell_correction_85% Coverage Results" MODIFIED="1508205935056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FDU_NLP_Spell_Correction$spell_correction__2_.coverage" NAME="spell_correction (2) Coverage Results" MODIFIED="1508212212953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FDU_NLP_Spell_Correction$SpellCorrect.coverage" NAME="SpellCorrect Coverage Results" MODIFIED="1507984875450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/FDU_NLP_Spell_Correction$spell_correction__1_.coverage" NAME="spell_correction (1) Coverage Results" MODIFIED="1508205700908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FDU_NLP_Spell_Correction$spellcorrect.coverage" NAME="spellcorrect Coverage Results" MODIFIED="1507982944871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spellcorrect" />
+    <SUITE FILE_PATH="coverage/FDU_NLP_Spell_Correction$spell_correction.coverage" NAME="spell_correction Coverage Results" MODIFIED="1508037269021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FDU_NLP_Spell_Correction$eval.coverage" NAME="eval Coverage Results" MODIFIED="1508213152204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="result.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/result.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eval.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eval.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spell_correction.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spell_correction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1397">
+              <caret line="250" column="18" lean-forward="false" selection-start-line="250" selection-start-column="18" selection-end-line="250" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> spell_correction
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,6 +144,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>.0</find>
       <find>pos</find>
       <find>title</find>
@@ -65,6 +163,43 @@
       <replace />
       <replace>neg</replace>
       <replace>content</replace>
+=======
+      <find>item[2]</find>
+      <find>vocab</find>
+      <find>', '</find>
+      <find>'s</find>
+      <find>don</find>
+      <find>I would</find>
+      <find>could</find>
+      <find>check_fuzzy</find>
+      <find>get_candidate</find>
+      <find>check_iter</find>
+      <find>tol</find>
+      <find>item</find>
+      <find>sc.</find>
+      <find>self.</find>
+      <find>NP[candidate]</find>
+      <find>channel_p</find>
+      <find>append(</find>
+      <find>print</find>
+      <find>language_model</find>
+      <find>r''</find>
+      <find>language</find>
+      <find>corpus</find>
+      <find>printfile</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>data</replace>
+      <replace>vocab_corpus</replace>
+      <replace />
+      <replace>get_candidate</replace>
+      <replace>edit_distance</replace>
+      <replace>candidate</replace>
+      <replace>channel_p</replace>
+      <replace>p[candidate]</replace>
+      <replace>print(</replace>
+      <replace>corpus_str</replace>
+>>>>>>> spell_correction
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -73,6 +208,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/NaiveBayesClassifier/65% 77% 60% 71%.txt" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/sentiment dict/正面情感词语（中文）.txt" />
@@ -123,6 +259,28 @@
         <option value="$PROJECT_DIR$/MyNBClassify.py" />
         <option value="$PROJECT_DIR$/Prediction.py" />
         <option value="$PROJECT_DIR$/result.txt" />
+=======
+        <option value="$PROJECT_DIR$/corpus.txt" />
+        <option value="$PROJECT_DIR$/testdata.txt" />
+        <option value="$PROJECT_DIR$/repeat.txt" />
+        <option value="$PROJECT_DIR$/reuters_iter_unigram.txt" />
+        <option value="$PROJECT_DIR$/brown_fuzzy_unigram.txt" />
+        <option value="$PROJECT_DIR$/reuters_iter_bigram.txt" />
+        <option value="$PROJECT_DIR$/reuters_fuzzy_unigram.txt" />
+        <option value="$PROJECT_DIR$/edit_distance.py" />
+        <option value="$PROJECT_DIR$/spellcorrect/spellcorrect.py" />
+        <option value="$PROJECT_DIR$/spellcorrect/ngram.py" />
+        <option value="$PROJECT_DIR$/python/SpellCorrect.py" />
+        <option value="$PROJECT_DIR$/spell_correction_cm.py" />
+        <option value="$PROJECT_DIR$/spell_correction_85%.py" />
+        <option value="$PROJECT_DIR$/output/spell_correction_88%.py" />
+        <option value="$PROJECT_DIR$/spell_correction_88%.py" />
+        <option value="$PROJECT_DIR$/print.txt" />
+        <option value="$PROJECT_DIR$/result.txt" />
+        <option value="$PROJECT_DIR$/spell_correction_92%.py" />
+        <option value="$PROJECT_DIR$/spell_correction.py" />
+        <option value="$PROJECT_DIR$/eval.py" />
+>>>>>>> spell_correction
       </list>
     </option>
   </component>
@@ -133,6 +291,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="44" />
     <option name="y" value="23" />
     <option name="width" value="1396" />
@@ -155,6 +314,13 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+    <option name="x" value="47" />
+    <option name="y" value="23" />
+    <option name="width" value="1393" />
+    <option name="height" value="877" />
+  </component>
+>>>>>>> spell_correction
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -174,11 +340,19 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="FDU-NLP-Stock-Market-Prediction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FDU-NLP-Stock-Market-Prediction" />
+=======
+              <option name="myItemId" value="FDU-NLP-Spell-Correction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FDU-NLP-Spell-Correction" />
+>>>>>>> spell_correction
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -189,6 +363,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.CSS" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -203,6 +378,24 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dict/sentiment_dict/情感词汇本体" />
+=======
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/output" />
+      <recent name="$PROJECT_DIR$" />
+>>>>>>> spell_correction
     </key>
   </component>
   <component name="RunDashboard">
@@ -217,8 +410,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.scorer">
     <configuration default="false" name="stock prediction" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.eval">
+    <configuration default="false" name="spell_correction" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> spell_correction
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -229,15 +427,25 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <module name="FDU-NLP-Stock-Market-Prediction" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prediction.py" />
+=======
+      <module name="FDU-NLP-Spell-Correction" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spell_correction_cm.py" />
+>>>>>>> spell_correction
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="Preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="spell_correction_85%" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> spell_correction
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -248,15 +456,25 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <module name="FDU-NLP-Stock-Market-Prediction" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Preprocessing.py" />
+=======
+      <module name="FDU-NLP-Spell-Correction" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/output/spell_correction_92%.py" />
+>>>>>>> spell_correction
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="FindClassifiers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> spell_correction
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -267,15 +485,25 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <module name="FDU-NLP-Stock-Market-Prediction" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prediction.py" />
+=======
+      <module name="FDU-NLP-Spell-Correction" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eval.py" />
+>>>>>>> spell_correction
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="scorer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="spell_correction (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> spell_correction
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -286,15 +514,25 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <module name="FDU-NLP-Stock-Market-Prediction" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scorer.py" />
+=======
+      <module name="FDU-NLP-Spell-Correction" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/output/spell_correction.py" />
+>>>>>>> spell_correction
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="MyNBClassify" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="spell_correction (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> spell_correction
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -305,9 +543,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <module name="FDU-NLP-Stock-Market-Prediction" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyNBClassify.py" />
+=======
+      <module name="FDU-NLP-Spell-Correction" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spell_correction.py" />
+>>>>>>> spell_correction
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -324,7 +568,11 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <module name="FDU-NLP-Stock-Market-Prediction" />
+=======
+      <module name="FDU-NLP-Spell-Correction" />
+>>>>>>> spell_correction
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="TARGET" value="" />
       <option name="SETTINGS_FILE" value="" />
@@ -358,7 +606,11 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <module name="FDU-NLP-Stock-Market-Prediction" />
+=======
+      <module name="FDU-NLP-Spell-Correction" />
+>>>>>>> spell_correction
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
@@ -372,7 +624,11 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <module name="FDU-NLP-Stock-Market-Prediction" />
+=======
+      <module name="FDU-NLP-Spell-Correction" />
+>>>>>>> spell_correction
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
@@ -388,7 +644,11 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <module name="FDU-NLP-Stock-Market-Prediction" />
+=======
+      <module name="FDU-NLP-Spell-Correction" />
+>>>>>>> spell_correction
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
@@ -406,7 +666,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+<<<<<<< HEAD
       <module name="FDU-NLP-Stock-Market-Prediction" />
+=======
+      <module name="FDU-NLP-Spell-Correction" />
+>>>>>>> spell_correction
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -434,7 +698,11 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <module name="FDU-NLP-Stock-Market-Prediction" />
+=======
+      <module name="FDU-NLP-Spell-Correction" />
+>>>>>>> spell_correction
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -454,7 +722,11 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <module name="FDU-NLP-Stock-Market-Prediction" />
+=======
+      <module name="FDU-NLP-Spell-Correction" />
+>>>>>>> spell_correction
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
@@ -462,6 +734,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="read_finace_dict" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -496,6 +769,22 @@
         <item index="2" class="java.lang.String" itemvalue="Python.FindClassifiers" />
         <item index="3" class="java.lang.String" itemvalue="Python.stock prediction" />
         <item index="4" class="java.lang.String" itemvalue="Python.Preprocessing" />
+=======
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.spell_correction" />
+      <item index="1" class="java.lang.String" itemvalue="Python.spell_correction_85%" />
+      <item index="2" class="java.lang.String" itemvalue="Python.eval" />
+      <item index="3" class="java.lang.String" itemvalue="Python.spell_correction (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.spell_correction (2)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.eval" />
+        <item index="1" class="java.lang.String" itemvalue="Python.spell_correction (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.spell_correction_85%" />
+        <item index="3" class="java.lang.String" itemvalue="Python.spell_correction (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.spell_correction" />
+>>>>>>> spell_correction
       </list>
     </recent_temporary>
   </component>
@@ -504,11 +793,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="4f878141-855a-4b58-9584-7e59d648510a" name="Default" comment="" />
       <created>1509176238376</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509176238376</updated>
+=======
+      <changelist id="cd23477f-46de-4669-8d6c-c194470a836b" name="Default" comment="" />
+      <created>1507449376447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1507449376447</updated>
+>>>>>>> spell_correction
     </task>
     <servers />
   </component>
@@ -522,6 +819,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="44" y="23" width="1396" height="877" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21270311" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -565,6 +863,32 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
+=======
+    <frame x="47" y="23" width="1393" height="877" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38598725" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3057325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34267515" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938564" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29607698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+>>>>>>> spell_correction
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -574,25 +898,55 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+<<<<<<< HEAD
       <option name="time" value="26" />
+=======
+      <option name="time" value="6" />
+>>>>>>> spell_correction
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Dict/fiance_word_dict/财经金融词汇大全.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12822">
+=======
+    <entry file="file://$PROJECT_DIR$/output/reuters_fuzzy_unigram.txt" />
+    <entry file="file://$PROJECT_DIR$/output/85%.txt" />
+    <entry file="file://$PROJECT_DIR$/output/reuters_iter_bigram.txt" />
+    <entry file="file://$PROJECT_DIR$/output/reuters_fuzzy_trigram.txt" />
+    <entry file="file://$PROJECT_DIR$/output/brown_fuzzy_unigram.txt" />
+    <entry file="file://$PROJECT_DIR$/output/reuters_fuzzy_unigram.txt" />
+    <entry file="file://$PROJECT_DIR$/output/reuters_fuzzy_bigram.txt" />
+    <entry file="file://$PROJECT_DIR$/output/reuters_iter_unigram.txt" />
+    <entry file="file://$PROJECT_DIR$/spellcorrect/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/spellcorrect/delconfusion.data" />
+    <entry file="file://$PROJECT_DIR$/spellcorrect/dictionary.data" />
+    <entry file="file://$PROJECT_DIR$/spellcorrect/addconfusion.data" />
+    <entry file="file://$PROJECT_DIR$/delconfusion.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+>>>>>>> spell_correction
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Dict/fiance_word_dict/股票基金词库大全.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-210505">
+=======
+    <entry file="file://$PROJECT_DIR$/spellcorrect/corpus.data" />
+    <entry file="file://$PROJECT_DIR$/subconfusion.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+>>>>>>> spell_correction
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Dict/fiance_word_dict/金融词汇(英汉词典).txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8392">
@@ -772,19 +1126,168 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="31" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="31" />
+=======
+    <entry file="file://$PROJECT_DIR$/ngrams/ngrams.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/HolbrookCorpus.py" />
+    <entry file="file://$PROJECT_DIR$/python/Sentence.py" />
+    <entry file="file://$PROJECT_DIR$/python/LaplaceBigramLanguageModel.py" />
+    <entry file="file://$PROJECT_DIR$/python/LaplaceUnigramLanguageModel.py" />
+    <entry file="file://$PROJECT_DIR$/python/StupidBackoffLanguageModel.py" />
+    <entry file="file://$PROJECT_DIR$/testdata.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="948" column="41" lean-forward="true" selection-start-line="948" selection-start-column="41" selection-end-line="948" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find repeat word.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ans.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="101" lean-forward="false" selection-start-line="0" selection-start-column="101" selection-end-line="0" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/85.4%.txt" />
+    <entry file="file://$PROJECT_DIR$/spellcorrect/ngram.py" />
+    <entry file="file://$PROJECT_DIR$/addconfusion.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spellcorrect/spellerrors.data" />
+    <entry file="file://$PROJECT_DIR$/output/85.8%.txt" />
+    <entry file="file://$PROJECT_DIR$/output/88.2%.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spell-errors.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/88%.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2025">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/88.3%.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/CustomLanguageModel.py" />
+    <entry file="file://$PROJECT_DIR$/python/EditModel.py" />
+    <entry file="file://$PROJECT_DIR$/python/SpellCorrect.py" />
+    <entry file="file://$PROJECT_DIR$/spell_correction_cm.py" />
+    <entry file="file://$PROJECT_DIR$/spellcorrect/spellcorrect.py" />
+    <entry file="file://$PROJECT_DIR$/revconfusion.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spellcorrect/README.md" />
+    <entry file="file://$PROJECT_DIR$/output/92%.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/93.1%.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="514" column="29" lean-forward="false" selection-start-line="514" selection-start-column="29" selection-end-line="514" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="74" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/print.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/spell_correction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="264" column="99" lean-forward="false" selection-start-line="264" selection-start-column="42" selection-end-line="264" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/spell_correction_92%.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="339" column="46" lean-forward="false" selection-start-line="339" selection-start-column="46" selection-end-line="339" selection-end-column="46" />
+>>>>>>> spell_correction
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Preprocessing.py" />
     <entry file="file://$PROJECT_DIR$/result.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+=======
+    <entry file="file://$PROJECT_DIR$/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> spell_correction
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/news.txt">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="320">
@@ -804,18 +1307,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+=======
+    <entry file="file://$PROJECT_DIR$/spell_correction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1397">
+          <caret line="250" column="18" lean-forward="false" selection-start-line="250" selection-start-column="18" selection-end-line="250" selection-end-column="18" />
+>>>>>>> spell_correction
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/result.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5209">
           <caret line="2326" column="1" lean-forward="false" selection-start-line="2326" selection-start-column="1" selection-end-line="2326" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+>>>>>>> spell_correction
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Prediction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17160">
@@ -826,5 +1343,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> spell_correction
   </component>
 </project>
